@@ -2424,3 +2424,25 @@ body {
   color: #f87171;
 }
 
+/* Clickable Macro Tags & Pulse Highlight */
+code[data-macro], .clickable-macro {
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+code[data-macro]:hover, .clickable-macro:hover {
+  filter: brightness(1.25);
+  text-decoration: underline;
+  box-shadow: 0 0 8px rgba(96, 165, 250, 0.4);
+}
+
+@keyframes macroPulse {
+  0% { transform: scale(1); box-shadow: 0 0 0 0 rgba(245, 158, 11, 0.6); border-color: #f59e0b; }
+  50% { transform: scale(1.02); box-shadow: 0 0 0 12px rgba(245, 158, 11, 0); border-color: #f59e0b; }
+  100% { transform: scale(1); box-shadow: 0 0 0 0 rgba(245, 158, 11, 0); }
+}
+
+.script-card.highlight-pulse {
+  animation: macroPulse 1.2s ease-in-out 2;
+  border-color: #f59e0b !important;
+}
+

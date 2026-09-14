@@ -1821,9 +1821,69 @@ document.addEventListener('DOMContentLoaded', () => {
   // Expose globally for inline onchange
   window.renderSlaDashboard = renderSlaDashboard;
 
-  // Render inicial
-  renderSlaDashboard('mes_atual');
-  loadSlaReportData();
+  // --------------------------------------------------------
+  // CLICKABLE MACRO TAGS (SCROLL & PULSE HIGHLIGHT)
+  // --------------------------------------------------------
+  function navigateToMacroScript(macroText) {
+    if (!macroText) return;
+    const cleanMacro = macroText.trim().replace(/^#/, '');
+
+    let targetCard = null;
+    document.querySelectorAll('.script-card').forEach(card => {
+      const macroSpan = card.querySelector('.macro-code');
+      const box = card.querySelector('.script-box');
+      if (macroSpan && macroSpan.textContent.replace(/^#/, '').trim() === cleanMacro) {
+        targetCard = card;
+      } else if (box && box.id && box.id.replace(/^script-/, '') === cleanMacro) {
+        targetCard = card;
+      }
+    });
+
+    if (!targetCard) return;
+
+    // Switch tab if needed
+    const tabParent = targetCard.closest('.tab-pane');
+    if (tabParent) {
+      const tabId = tabParent.id.replace('tab-', '');
+      switchTab(tabId);
+      window.location.hash = tabId;
+    }
+
+    // Reset filter chips to 'all'
+    const filterChips = document.querySelectorAll('.filter-chip');
+    filterChips.forEach(c => {
+      if (c.getAttribute('data-filter') === 'all') c.classList.add('active');
+      else c.classList.remove('active');
+    });
+
+    document.querySelectorAll('.script-card').forEach(c => c.style.display = 'flex');
+
+    // Smooth scroll and pulse highlight
+    setTimeout(() => {
+      targetCard.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      targetCard.classList.remove('highlight-pulse');
+      void targetCard.offsetWidth; // trigger reflow
+      targetCard.classList.add('highlight-pulse');
+
+      setTimeout(() => {
+        targetCard.classList.remove('highlight-pulse');
+      }, 2500);
+    }, 150);
+  }
+
+  // Bind click handler to all code tags containing '#'
+  document.querySelectorAll('code, .macro-code-tag').forEach(el => {
+    const text = el.textContent.trim();
+    if (text.startsWith('#')) {
+      el.setAttribute('data-macro', text);
+      el.classList.add('clickable-macro');
+      el.title = `Clique para ir direto ao script ${text}`;
+      el.addEventListener('click', (e) => {
+        e.preventDefault();
+        navigateToMacroScript(text);
+      });
+    }
+  });
 
 });
 
