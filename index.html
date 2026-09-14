@@ -91,14 +91,6 @@
             </div>
           </a>
 
-          <a href="#professores" class="nav-item" data-tab="professores">
-            <span class="nav-icon">🎾</span>
-            <div class="nav-text">
-              <strong>Professores & Clima</strong>
-              <small>Chuva, Feriados e Reposição</small>
-            </div>
-          </a>
-
           <a href="#limpeza" class="nav-item" data-tab="limpeza">
             <span class="nav-icon">📋</span>
             <div class="nav-text">
@@ -492,6 +484,72 @@ Segue a chave PIX oficial da academia:
 Caso faça via PIX, por gentileza enviar o comprovante por aqui para darmos baixa no sistema! 🎾</div>
           </article>
 
+          <!-- SCRIPT 13: CANCELAMENTO POR CHUVA -->
+          <article class="script-card" data-category="regras" data-keywords="chuva cancelamento tempestade goteira risco aviso emergência">
+            <div class="script-card-header">
+              <div class="script-meta">
+                <span class="script-tag tag-urgent">Urgente</span>
+                <span class="macro-code">#aviso-chuva</span>
+              </div>
+              <button class="btn-copy" data-target="script-chuva">
+                <span class="copy-icon">📋</span> Copiar Comunicado
+              </button>
+            </div>
+            <h4>Cancelamento por Fortes Chuvas ou Risco Estrutural</h4>
+            <p class="script-context"><strong>Quando usar:</strong> Disparo para turmas do dia quando houver alagamento no entorno, goteiras ou risco elétrico.</p>
+            <div class="script-box" id="script-chuva">⚠️ COMUNICADO IMPORTANTE - MONTREAL TÊNIS CLUBE ⚠️
+
+Devido às fortes chuvas e para garantir a total segurança de alunos e professores, as atividades e aulas de hoje ([Data]) estão suspensas a partir das [Horário].
+
+🗓️ Sobre sua aula de hoje: Fique tranquilo(a)! Essa aula será devidamente reposta. A nossa secretaria entrará em contato para agendar o melhor dia de reposição com o seu professor.
+
+Agradecemos a compreensão de todos. Havendo dúvidas, estamos à disposição! 🙏🌧️</div>
+          </article>
+
+          <!-- SCRIPT 14: FERIADOS OFICIAIS -->
+          <article class="script-card" data-category="regras" data-keywords="feriado aula compensacao 5 semanas gratuidade grade">
+            <div class="script-card-header">
+              <div class="script-meta">
+                <span class="script-tag tag-rule">Regra Oficial</span>
+                <span class="macro-code">#regra-feriado</span>
+              </div>
+              <button class="btn-copy" data-target="script-feriado">
+                <span class="copy-icon">📋</span> Copiar Script
+              </button>
+            </div>
+            <h4>Feriados Oficiais (Compensação pelos Meses de 5 Aulas)</h4>
+            <p class="script-context"><strong>Quando usar:</strong> Quando o aluno pergunta se haverá aula no feriado ou se terá reposição.</p>
+            <div class="script-box" id="script-feriado">Olá, [Nome]! Nos feriados oficiais nosso complexo opera em horário especial e não temos aulas regulares de treinamento.
+
+🎾 Sobre a aula do feriado:
+No tênis adotamos o sistema padrão de compensação de calendário: ao longo do ano, vários meses possuem 5 semanas de treino e você faz 5 aulas pagando o valor fixo de 4 (sem nenhuma cobrança adicional). Por conta dessa gratuidade nos meses de 5 aulas, os feriados oficiais já estão devidamente compensados na grade anual.
+
+Caso queira jogar no feriado de forma recreativa com amigos, as quadras ficam disponíveis para locação avulsa com desconto especial para alunos! 🏆</div>
+          </article>
+
+          <!-- SCRIPT 15: REPOSIÇÃO POR FALTA DO ALUNO -->
+          <article class="script-card" data-category="regras" data-keywords="reposicao falta aviso previo 24h ausencia remarcar">
+            <div class="script-card-header">
+              <div class="script-meta">
+                <span class="script-tag tag-rule">Regra Oficial</span>
+                <span class="macro-code">#regra-reposicao</span>
+              </div>
+              <button class="btn-copy" data-target="script-reposicao">
+                <span class="copy-icon">📋</span> Copiar Script
+              </button>
+            </div>
+            <h4>Regra de Reposição por Falta do Aluno (Aviso Prévio 24h)</h4>
+            <p class="script-context"><strong>Quando usar:</strong> Aluno avisa com antecedência que não poderá comparecer à aula.</p>
+            <div class="script-box" id="script-reposicao">Olá, [Nome]! Obrigado por nos avisar com antecedência. 🙏
+
+Já registrei sua ausência aqui no sistema e avisei o professor [Nome].
+
+📌 Como funciona a reposição:
+Como você nos avisou com antecedência (mínimo de 24h), você tem direito a agendar uma aula de reposição dentro do prazo de 30 dias.
+
+Você prefere fazer essa reposição em qual dia da próxima semana? Já verifico uma turma compatível para você!</div>
+          </article>
+
         </div>
       </section>
 
@@ -841,91 +899,7 @@ Caso faça via PIX, por gentileza enviar o comprovante por aqui para darmos baix
       </section>
 
       <!-- ============================================== -->
-      <!-- TAB 5: PROFESSORES, CLIMA & REPOSIÇÕES -->
-      <!-- ============================================== -->
-      <section id="tab-professores" class="tab-pane">
-        <div class="section-header">
-          <div class="section-title-wrap">
-            <span class="section-badge badge-prof">Pilar 4</span>
-            <h2>Comunicação com Professores, Clima & Reposições</h2>
-            <p>Protocolos de cancelamento por chuva, compensação de feriados e aviso prévio de ausências.</p>
-          </div>
-        </div>
-
-        <div class="scripts-grid">
-          
-          <!-- SCRIPT CHUVA -->
-          <article class="script-card" data-category="professores">
-            <div class="script-card-header">
-              <div class="script-meta">
-                <span class="script-tag tag-urgent">Urgente</span>
-                <span class="macro-code">#aviso-chuva</span>
-              </div>
-              <button class="btn-copy" data-target="script-chuva">
-                <span class="copy-icon">📋</span> Copiar Comunicado
-              </button>
-            </div>
-            <h4>Cancelamento por Fortes Chuvas ou Risco Estrutural</h4>
-            <p class="script-context"><strong>Quando usar:</strong> Disparo para turmas do dia quando houver alagamento no entorno, goteiras ou risco elétrico.</p>
-            <div class="script-box" id="script-chuva">⚠️ COMUNICADO IMPORTANTE - MONTREAL TÊNIS CLUBE ⚠️
-
-Devido às fortes chuvas e para garantir a total segurança de alunos e professores, as atividades e aulas de hoje ([Data]) estão suspensas a partir das [Horário].
-
-🗓️ Sobre sua aula de hoje: Fique tranquilo(a)! Essa aula será devidamente reposta. A nossa secretaria entrará em contato para agendar o melhor dia de reposição com o seu professor.
-
-Agradecemos a compreensão de todos. Havendo dúvidas, estamos à disposição! 🙏🌧️</div>
-          </article>
-
-          <!-- SCRIPT FERIADOS (COMPENSAÇÃO CORRETA) -->
-          <article class="script-card" data-category="professores">
-            <div class="script-card-header">
-              <div class="script-meta">
-                <span class="script-tag tag-rule">Regra Oficial</span>
-                <span class="macro-code">#regra-feriado</span>
-              </div>
-              <button class="btn-copy" data-target="script-feriado">
-                <span class="copy-icon">📋</span> Copiar Script
-              </button>
-            </div>
-            <h4>Feriados Oficiais (Compensação pelos Meses de 5 Aulas)</h4>
-            <p class="script-context"><strong>Quando usar:</strong> Quando o aluno pergunta se haverá aula no feriado ou se terá reposição.</p>
-            <div class="script-box" id="script-feriado">Olá, [Nome]! Nos feriados oficiais nosso complexo opera em horário especial e não temos aulas regulares de treinamento.
-
-🎾 Sobre a aula do feriado:
-No tênis adotamos o sistema padrão de compensação de calendário: ao longo do ano, vários meses possuem 5 semanas de treino e você faz 5 aulas pagando o valor fixo de 4 (sem nenhuma cobrança adicional). Por conta dessa gratuidade nos meses de 5 aulas, os feriados oficiais já estão devidamente compensados na grade anual.
-
-Caso queira jogar no feriado de forma recreativa com amigos, as quadras ficam disponíveis para locação avulsa com desconto especial para alunos! 🏆</div>
-          </article>
-
-          <!-- SCRIPT REPOSIÇÃO ALUNO -->
-          <article class="script-card" data-category="professores">
-            <div class="script-card-header">
-              <div class="script-meta">
-                <span class="script-tag tag-rule">Regra Oficial</span>
-                <span class="macro-code">#regra-reposicao</span>
-              </div>
-              <button class="btn-copy" data-target="script-reposicao">
-                <span class="copy-icon">📋</span> Copiar Script
-              </button>
-            </div>
-            <h4>Regra de Reposição por Falta do Aluno (Aviso Prévio 24h)</h4>
-            <p class="script-context"><strong>Quando usar:</strong> Aluno avisa com antecedência que não poderá comparecer à aula.</p>
-            <div class="script-box" id="script-reposicao">Olá, [Nome]! Obrigado por nos avisar com antecedência. 🙏
-
-Já registrei sua ausência aqui no sistema e avisei o professor [Nome].
-
-📌 Como funciona a reposição:
-Como você nos avisou com antecedência (mínimo de 24h), você tem direito a agendar uma aula de reposição dentro do prazo de 30 dias.
-
-Você prefere fazer essa reposição em qual dia da próxima semana? Já verifico uma turma compatível para você!</div>
-          </article>
-
-        </div>
-      </section>
-
-      <!-- ============================================== -->
-      <!-- ============================================== -->
-      <!-- TAB 6: ROTINAS INTERNAS & CHECKLISTS POR TURNO -->
+      <!-- TAB: ROTINAS INTERNAS & CHECKLISTS POR TURNO -->
       <!-- ============================================== -->
       <section id="tab-limpeza" class="tab-pane">
         <div class="section-header">
