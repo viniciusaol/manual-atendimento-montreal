@@ -91,7 +91,7 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   // --------------------------------------------------------
-  // 2.1 INLINE SCRIPT EDITING & LOCALSTORAGE PERSISTENCE
+  // 2.1 INLINE SCRIPT EDITING & DUAL PERSISTENCE (LOCAL + SUPABASE)
   // --------------------------------------------------------
   const SCRIPTS_STORAGE_KEY = 'montreal_custom_scripts_v1';
 
@@ -108,27 +108,104 @@ document.addEventListener('DOMContentLoaded', () => {
     localStorage.setItem(SCRIPTS_STORAGE_KEY, JSON.stringify(data));
   }
 
+  async function syncCustomScriptToSupabase(scriptId, text) {
+    const payload = {
+      date_key: '2000-01-01',
+      task_id: `script_${scriptId}`,
+      task_desc: text || '',
+      shift: 'custom_script',
+      is_completed: !!text,
+      completed_at: new Date().toISOString()
+    };
+    try {
+      await fetch(`${SUPABASE_REST_URL}?on_conflict=date_key,task_id`, {
+        method: 'POST',
+        headers: {
+          'apikey': SUPABASE_ANON_KEY,
+          'Authorization': `Bearer ${SUPABASE_ANON_KEY}`,
+          'Content-Type': 'application/json',
+          'Prefer': 'resolution=merge-duplicates'
+        },
+        body: JSON.stringify(payload)
+      });
+    } catch (err) {
+      console.warn('Erro ao sincronizar script no Supabase:', err);
+    }
+  }
+
+  async function loadRemoteCustomScripts() {
+    try {
+      const res = await fetch(`${SUPABASE_REST_URL}?date_key=eq.2000-01-01&select=*`, {
+        headers: {
+          'apikey': SUPABASE_ANON_KEY,
+          'Authorization': `Bearer ${SUPABASE_ANON_KEY}`
+        }
+      });
+      if (res.ok) {
+        const rows = await res.json();
+        if (Array.isArray(rows) && rows.length > 0) {
+          const localData = loadSavedCustomScripts();
+          let updated = false;
+          rows.forEach(r => {
+            if (r.task_id && r.task_id.startsWith('script_')) {
+              const scriptId = r.task_id.replace('script_', '');
+              if (r.is_completed && r.task_desc) {
+                localData[scriptId] = r.task_desc;
+                updated = true;
+              } else if (!r.is_completed) {
+                delete localData[scriptId];
+                updated = true;
+              }
+            }
+          });
+          if (updated) {
+            saveCustomScripts(localData);
+            applyAllCustomScripts(localData);
+          }
+        }
+      }
+    } catch (e) {
+      // Fallback silencioso
+    }
+  }
+
+  function applyAllCustomScripts(customScripts) {
+    document.querySelectorAll('.script-card').forEach(card => {
+      const scriptBox = card.querySelector('.script-box');
+      if (!scriptBox) return;
+
+      const scriptId = scriptBox.id;
+      if (!scriptBox.hasAttribute('data-default-text')) {
+        scriptBox.setAttribute('data-default-text', scriptBox.innerText.trim());
+      }
+
+      const scriptMeta = card.querySelector('.script-meta');
+      if (customScripts[scriptId]) {
+        scriptBox.innerText = customScripts[scriptId];
+        if (scriptMeta && !scriptMeta.querySelector('.tag-edited')) {
+          const badge = document.createElement('span');
+          badge.className = 'script-tag tag-edited';
+          badge.textContent = 'Personalizado';
+          scriptMeta.appendChild(badge);
+        }
+      } else {
+        const defaultText = scriptBox.getAttribute('data-default-text');
+        if (defaultText) scriptBox.innerText = defaultText;
+        const badge = scriptMeta ? scriptMeta.querySelector('.tag-edited') : null;
+        if (badge) badge.remove();
+      }
+    });
+  }
+
   const customScripts = loadSavedCustomScripts();
+  applyAllCustomScripts(customScripts);
+  loadRemoteCustomScripts();
 
   document.querySelectorAll('.script-card').forEach(card => {
     const scriptBox = card.querySelector('.script-box');
     if (!scriptBox) return;
 
     const scriptId = scriptBox.id;
-    // Save original default text
-    scriptBox.setAttribute('data-default-text', scriptBox.innerText.trim());
-
-    // Apply custom text if exists
-    const scriptMeta = card.querySelector('.script-meta');
-    if (customScripts[scriptId]) {
-      scriptBox.innerText = customScripts[scriptId];
-      if (scriptMeta && !scriptMeta.querySelector('.tag-edited')) {
-        const badge = document.createElement('span');
-        badge.className = 'script-tag tag-edited';
-        badge.textContent = 'Personalizado';
-        scriptMeta.appendChild(badge);
-      }
-    }
 
     // Wrap header actions and add Edit button
     const header = card.querySelector('.script-card-header');
@@ -190,6 +267,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const newText = scriptBox.innerText.trim();
       customScripts[scriptId] = newText;
       saveCustomScripts(customScripts);
+      syncCustomScriptToSupabase(scriptId, newText);
 
       scriptBox.removeAttribute('contenteditable');
       scriptBox.classList.remove('editing');
@@ -222,6 +300,7 @@ document.addEventListener('DOMContentLoaded', () => {
         scriptBox.innerText = defaultText;
         delete customScripts[scriptId];
         saveCustomScripts(customScripts);
+        syncCustomScriptToSupabase(scriptId, '');
 
         scriptBox.removeAttribute('contenteditable');
         scriptBox.classList.remove('editing');
