@@ -1,0 +1,1325 @@
+[
+  {
+    "cid": 6068,
+    "contact": "Kaique Ambrosio Guerios",
+    "labels": [
+      "pré-inscrito",
+      "aluno"
+    ],
+    "length": 10,
+    "transcript": [
+      "[CLIENTE]: Salve, sim fiquei sabendo hj de manhã \nNão vou ficar individual, vou aproveitar e deixar a terça livre.",
+      "[SISTEMA]: Atendimento || Montreal Tênis Clube: adicionou pré-inscrito, aluno",
+      "[CLIENTE]: O parceiro é da terça feira né",
+      "[CLIENTE]: Não da segunda",
+      "[SECRETARIA]: Parceiro de segunda, o Gabriel… \nSobre o de terça, não nos comunicou",
+      "[CLIENTE]: O André me comunicou hj que vai sair",
+      "[CLIENTE]: O granado tbm?",
+      "[SECRETARIA]: Certo o André, não passou nada.\n\nGranado estará mês em viajem...",
+      "[CLIENTE]: Vou verificar, já informo aí",
+      "[SECRETARIA]: OK!"
+    ]
+  },
+  {
+    "cid": 5859,
+    "contact": "~Breno",
+    "labels": [
+      "interessado",
+      "recebeu_formulário"
+    ],
+    "length": 20,
+    "transcript": [
+      "[SECRETARIA]: Seu interesse seria na aulas? Conte um pouco mais…\\\nEstou a disposição!",
+      "[SISTEMA]: Atribuído a Atendimento | Montreal Tênis Clube: por Sistema de Automação",
+      "[SECRETARIA]: Como posso lhe ajudar? Você esta procurando por treinos individuais, duplas, trio, equipe, kids ou reserva mensal? \n\nQuais são os seus dias e horários preferidos?",
+      "[SECRETARIA]: Olá Breno, tudo bem? \\\nTem interesse em dar continuidade nas aulas de tênis? \\\n \\\nFico a disposição para poder lhe ajudar com qualquer dúvida. \\\n \\\nAbs!!",
+      "[CLIENTE]: Sim",
+      "[CLIENTE]: gostaria de fazer aula",
+      "[CLIENTE]: em grupo eu teria que achar as pessoas ou ja tem grupo que eu possa participar?",
+      "[SECRETARIA]: Olá, Breno! Tudo bem?",
+      "[SECRETARIA]: Para entendermos melhor o seu nível de jogo e conseguirmos te encaixar nas aulas, treinos e grupos ideais, poderia nos responder algumas perguntas rápidas?\n\n• Você já é tenista?\\\n• Há quanto tempo joga tênis?\\\n• Já participou de algum torneio de federação ou torneio interno?\\\n• Qual classe/categoria costuma jogar?\\\n• Em torneios internos, qual categoria já disputou?\\\n• Costuma jogar simples, dupla ou ambos?\\\n• Atualmente joga com frequência? Quantas vezes por semana?\n\nObrigado! 😊",
+      "[SISTEMA]: Atendimento | Montreal Tênis Clube: adicionou recebeu_formulário",
+      "[CLIENTE]: totalmente iniciante",
+      "[SECRETARIA]: Quais são os seus dias e horários preferidos?",
+      "[SECRETARIA]: nós ajudamos a montar teu grupo, com mesmo nivel",
+      "[CLIENTE]: cara qualquer um",
+      "[CLIENTE]: queria ver de fazer pelomenos 2 vezes na semana",
+      "[CLIENTE]: Bacana, e caso eu me desenvolva rapido por ex voces trocam de grupo por conta , como que funciona?",
+      "[SECRETARIA]: Sim, o professor faz está avaliação.",
+      "[CLIENTE]: Top",
+      "[CLIENTE]: No caso material eu teria que comprar, a raquete pelomenos ? como funciona?",
+      "[CLIENTE]: tem os valores certinho?"
+    ]
+  },
+  {
+    "cid": 5351,
+    "contact": "Kaique Ambrosio Guerios",
+    "labels": [
+      "aluno",
+      "pré-inscrito"
+    ],
+    "length": 5,
+    "transcript": [
+      "[SECRETARIA]: Olá, Kaique! 🎾✨\n\nEsperamos que tenha feito uma ótima partida na sua locação hoje na Montreal Tênis! 🏆\n\nComo foi sua experiência em nossas quadras? Sua opinião é fundamental para continuarmos melhorando. Deixe seu comentário no Google, leva menos de 1 minuto! 👇\n\n🔗 https://alertas.montrealtenis.com.br/review.html\n\nTe esperamos em breve para o próximo jogo! 🚀",
+      "[SISTEMA]: Conversa foi marcada como resolvida por Atendimento || Montreal Tênis Clube:",
+      "[SISTEMA]: Atendimento || Montreal Tênis Clube: adicionou aluno, pré-inscrito",
+      "[SECRETARIA]: Olá! Devido às fortes chuvas e às condições estruturais, precisaremos cancelar todas as aulas de hoje, pensando na segurança e no bem-estar de todos.\r\n\r\nPedimos desculpas pelo imprevisto e agradecemos a compreensão de vocês. Amanhã, retornaremos com as atividades normalmente. 🙏",
+      "[SECRETARIA]: Olá!\r\n\r\nSeu parceiro de treino da segunda feira, deu uma pausa nos treinos este mês.\r\n\r\nPassamos para plano individual de segunda, ate encontrar uma dupla, pode ser?"
+    ]
+  },
+  {
+    "cid": 6063,
+    "contact": "Marcelo Woich",
+    "labels": [
+      "pré-inscrito",
+      "interessado"
+    ],
+    "length": 13,
+    "transcript": [
+      "[CLIENTE]: Boa tarde",
+      "[SISTEMA]: Atendimento || Montreal Tênis Clube: adicionou pré-inscrito, interessado",
+      "[CLIENTE]: Tem quadra para locação no próximo sábado às 14h?",
+      "[SECRETARIA]: Olá, tudo bem?",
+      "[SECRETARIA]: Temos simm!!",
+      "[SECRETARIA]: Segue link para baixar nosso app e fazer cadastro, isso facilitará sua inclusão nos grupos e será através dele que o aluno irá fazer toda a gestão de sua aula, locação - se puder baixar: \\\n \\\nAndroid: <https://play.google.com/store/apps/details?id=es.tpc.matchpoint.appclient.montrealtenisclube>\n\nIOS: <https://apps.apple.com/us/app/montreal-tenis-clube/id6764062641>",
+      "[CLIENTE]: Dessa veznposso reservar por aqui?",
+      "[CLIENTE]: Dessa vez posso reservar por aqui?\n\n✏️ [Mensagem editada]",
+      "[SECRETARIA]: Marcelo, para reservas de quadra seria mediante a pagamento diretamente pelo app. \n\nCaso esteja com dificuldades para acessar o app me informe que já verifico o que podemos fazer.",
+      "[CLIENTE]: Ok",
+      "[CLIENTE]: Qual o valor da hora?",
+      "[SECRETARIA]: Locação - Aluno **R$ 90,00 /h**\n\nLocação - Não Aluno **R$ 100,00 /h**",
+      "[SECRETARIA]: Conseguiu cadastrar no app? \n\n\\\n\\"
+    ]
+  },
+  {
+    "cid": 6059,
+    "contact": "~Karina",
+    "labels": [
+      "interessado"
+    ],
+    "length": 7,
+    "transcript": [
+      "[SISTEMA]: Atendimento || Montreal Tênis Clube: adicionou interessado",
+      "[CLIENTE]: [image]",
+      "[CLIENTE]: 🗑️ [ Mensagem deletada ]",
+      "[CLIENTE]: [image]",
+      "[SECRETARIA]: Olá, Karina! \n\nMuito obrigado!!",
+      "[SECRETARIA]: Deu baixa, aqui no aluno ?",
+      "[SECRETARIA]: Como ela acertou pelo app, não apareceu aqui pra mim, foi automático"
+    ]
+  },
+  {
+    "cid": 5450,
+    "contact": "~Jade Oliveira",
+    "labels": [
+      "interessado"
+    ],
+    "length": 20,
+    "transcript": [
+      "[SECRETARIA]: Bom dia, Jade! Tudo bem?",
+      "[SECRETARIA]: Vou cancelar aqui.\n\nGostaria de agendar sua aula de reposição?",
+      "[CLIENTE]: Pode ser na segunda que vem.",
+      "[SECRETARIA]: Vou verificar disponibilidade com o professor Leandro e te comunico",
+      "[CLIENTE]: Ok",
+      "[SECRETARIA]: Isso aqui ja acertou?",
+      "[SISTEMA]: Conversa foi marcada como resolvida por João Assunção | Montreal Tênis Clube:",
+      "[SISTEMA]: Conversa foi reaberta por João Assunção | Montreal Tênis Clube:",
+      "[SECRETARIA]: Bom dia! Já foi enviado para o Leandro, aguardo retorno.",
+      "[SECRETARIA]: essa aula de reposição foi marcada?",
+      "[SECRETARIA]: Olá, Jade! Podemos dar sequência?",
+      "[CLIENTE]: Oi",
+      "[CLIENTE]: Pode cancelar",
+      "[CLIENTE]: [image]",
+      "[CLIENTE]: Cai e rompi ligamentos do pé",
+      "[SECRETARIA]: Que pena, Jade! Desejamos que você fique bem e tenha uma boa recuperação. \n\nQualquer coisa estamos a disposição.",
+      "[CLIENTE]: Obrigada",
+      "[SECRETARIA]: Esta mensagem foi excluída",
+      "[SECRETARIA]: Esta mensagem foi excluída",
+      "[SECRETARIA]: Tá bem, já avisei o Leandro"
+    ]
+  },
+  {
+    "cid": 5051,
+    "contact": "~Lucas",
+    "labels": [
+      "recebeu_formulário",
+      "interessado"
+    ],
+    "length": 20,
+    "transcript": [
+      "[CLIENTE]: Boa tarde, tudo bem e você?",
+      "[SECRETARIA]: Tudo bemm",
+      "[SECRETARIA]: Para qual dia gostaria de reservar seu horário?",
+      "[CLIENTE]: Tem na sexta 17:00 ou 18:00",
+      "[CLIENTE]: ?",
+      "[SECRETARIA]: Lucas a sua busca é  para alterar o horário do seu treino, correto?",
+      "[CLIENTE]: Pode ser, eu tinha perguntando sobre um estorno do valor, mas como ele disse que não é possível eu queria ver um novo horário que desse certo",
+      "[SECRETARIA]: Ok! vamos ajustar a sua disponibilidade , teria por enquanto na sexta as 17 ou 18h, correto?",
+      "[CLIENTE]: Ou quinta 17:00-18:00 também",
+      "[SECRETARIA]: Na quinta ás 18h ficaria bom pra você?",
+      "[CLIENTE]: Fica sim",
+      "[SECRETARIA]: como fico pra arrumar aula pra ele?",
+      "[SECRETARIA]: Bom dia, Lucas! Tudo bem? \n\nPodemos dar sequência?",
+      "[CLIENTE]: Bom dia, tudo bem e você?",
+      "[CLIENTE]: Podemos sim",
+      "[SECRETARIA]: Entramos em contato com a prof Leciane para verificar disponibilidade de uma aula de reposição pra você. Assim que ela passar o dia eu entro em contato com você.",
+      "[CLIENTE]: Beleza",
+      "[SECRETARIA]: Oii, tudo bem? \n\nLucas na quarta as 19h, seria possível?",
+      "[SECRETARIA]: essa aula de reposição foi marcada com ele?",
+      "[SECRETARIA]: Olá, Lucas! Podemos dar sequência?"
+    ]
+  },
+  {
+    "cid": 5857,
+    "contact": "rafael  berger",
+    "labels": [
+      "recebeu_formulário"
+    ],
+    "length": 20,
+    "transcript": [
+      "[CLIENTE]: Procuro por trios ou duplas.\nSegunda: 17:00 ou 18:00\nQuarta:18:00\nQuinta: qualquer horário da tarde acima das 15:00\nSexta: qualquer horário da tarde acima das 15:00",
+      "[CLIENTE]: Procuro fazer duas vezes na semana",
+      "[CLIENTE]: Tudo bem, seria possível fazer alguma aula experimental?",
+      "[SECRETARIA]: Para você conhecer é possível comprar uma aula avulsa.\n\nCaso você goste da aula, da nossa estrutura, e decida continuar, descontamos esse valor pago da aula avulsa da 1 mensalidade e continua para os meses seguintes o valor da mensalidade normal.\n\nSe você decidir não continuar, fica somente o valor dessa aula avulsa.",
+      "[CLIENTE]: Qual o valor?",
+      "[SECRETARIA]: Para você conhecer é possível comprar uma aula avulsa.\n\nCaso você goste da aula, da nossa estrutura, e decida continuar, descontamos esse valor pago da aula avulsa da 1 mensalidade e continua para os meses seguintes o valor da mensalidade normal.\n\nSe você decidir não continuar, fica somente o valor dessa aula avulsa.",
+      "[CLIENTE]: Qual o valor da aula avulsa?",
+      "[CLIENTE]: Se tiver algum horário hoje pra fazer essa aula, eu consigo",
+      "[SECRETARIA]: Olá! Seria aula em dupla ou trio?",
+      "[CLIENTE]: O que tiver no horário das 17:00 ou 18:00",
+      "[SECRETARIA]: Para entendermos melhor o seu nível de jogo e conseguirmos te encaixar nas aulas, treinos e grupos ideais, poderia nos responder algumas perguntas rápidas?\n\n• Você já é tenista?\\\n• Há quanto tempo joga tênis?\\\n• Já participou de algum torneio de federação ou torneio interno?\\\n• Qual classe/categoria costuma jogar?\\\n• Em torneios internos, qual categoria já disputou?\\\n• Costuma jogar simples, dupla ou ambos?\\\n• Atualmente joga com frequência? Quantas vezes por semana?\n\nObrigado! 😊",
+      "[SISTEMA]: Atendimento | Montreal Tênis Clube: adicionou recebeu_formulário",
+      "[CLIENTE]: Já jogo Tennis faz 1 ano e 3 meses\nNão participei de torneios\nJogo simples\n2 vezes na semana",
+      "[SECRETARIA]: Legal, Rafael! Para aula em dupla avulsa ficaria a R$ 130,00",
+      "[SECRETARIA]: Segue link para baixar nosso app e fazer cadastro, isso facilitará sua inclusão nos grupos e será através dele que o aluno irá fazer toda a gestão de sua aula, locação - se puder baixar: \\\n \\\nAndroid: <https://play.google.com/store/apps/details?id=es.tpc.matchpoint.appclient.montrealtenisclube>\n\nIOS: <https://apps.apple.com/us/app/montreal-tenis-clube/id6764062641>",
+      "[CLIENTE]: Ok, mas os horários que eu passei tem disponibilidade?",
+      "[SECRETARIA]: Acredito que tenha sim, Rafael! Só vamos verificar disponibilidade de turmas para te encaixar e entramos em contato.",
+      "[SECRETARIA]: isso já foi acertado com ele?",
+      "[SECRETARIA]: Bom dia, Vinicius. \n\nEstava aguardando com os profs alguma turma para encaixar ele.",
+      "[SECRETARIA]: Bom dia, Rafael! Tudo bem?"
+    ]
+  },
+  {
+    "cid": 5760,
+    "contact": "~Roberto Borges",
+    "labels": [
+      "interessado"
+    ],
+    "length": 13,
+    "transcript": [
+      "[CLIENTE]: Olá, achei o site da Montreal Tênis tenho interesse em saber mais detalhes",
+      "[SECRETARIA]: Olá, tudo bem?\\\nObrigado pelo interesse!\\\n\\\nA Montreal é um complexo de tênis que oferece locações, aulas com professores e reservas mensais para jogar com seus amigos!\n\n\\\n**São 04 quadras de saibro totalmente cobertas.**\\\n\\\nVou lhe mandar nossa tabela de valores.",
+      "[SISTEMA]: Sistema de Automação adicionou interessado",
+      "[SECRETARIA]: Seu interesse seria na aulas? Conte um pouco mais…\\\nEstou a disposição!",
+      "[SISTEMA]: Atribuído a Atendimento | Montreal Tênis Clube: por Sistema de Automação",
+      "[CLIENTE]: Sim, queria saber os valores",
+      "[CLIENTE]: Já vi na tabela ali acima",
+      "[SECRETARIA]: Olá, Roberto! Tudo bem?",
+      "[SECRETARIA]: Como posso lhe ajudar? Você esta procurando por treinos individuais, duplas, trio, equipe, kids ou reserva mensal? \n\nQuais são os seus dias e horários preferidos?",
+      "[SECRETARIA]: Bom dia, Roberto\n\n!\n\nPodemos dar sequência?",
+      "[CLIENTE]: Bom dia. Não entendi.",
+      "[SECRETARIA]: Vc tem mais alguma duvida sobre as aulas de tênis? \\\nGostaria de iniciar?",
+      "[CLIENTE]: Já tirei minhas dúvidas. Quando decidir farei contato. Obrigado!"
+    ]
+  },
+  {
+    "cid": 5634,
+    "contact": "~Araldo",
+    "labels": [
+      "recebeu_formulário"
+    ],
+    "length": 20,
+    "transcript": [
+      "[SISTEMA]: Atendimento | Montreal Tênis Clube: adicionou recebeu_formulário",
+      "[CLIENTE]: Não, sou iniciante\n“Jogo” há cerca de 8 meses\nNunca participei de torneios ou campeonatos \nIniciante\nSempre joguei simples\nJogo entre 2-3x na semana, com baixo nível de intensidade e normalmente com minha noiva",
+      "[SECRETARIA]: Araldo, fazendo um breve resumo. Seria aula para você e sua esposa em dupla ou grupo nível iniciante. Correto? Em qualquer dia da semana após 18h15 2x na semana?",
+      "[CLIENTE]: Correto \n1 ou 2x na semana",
+      "[SECRETARIA]: Vou verificar disponibilidade de grupos e te comunico, Araldo.",
+      "[SECRETARIA]: Por gentileza, consegue fazer o registro no app?",
+      "[SECRETARIA]: Segue link para baixar nosso app e fazer cadastro, isso facilitará sua inclusão nos grupos e será através dele que o aluno irá fazer toda a gestão de sua aula, locação - se puder baixar: \\\n \\\nAndroid: <https://play.google.com/store/apps/details?id=es.tpc.matchpoint.appclient.montrealtenisclube>\n\nIOS: <https://apps.apple.com/us/app/montreal-tenis-clube/id6764062641>",
+      "[SECRETARIA]: Bom dia, Araldo! Tudo bem? \n\nConseguiu fazer seu registro no app?",
+      "[CLIENTE]: Buenas \nNão vi a msg antes!",
+      "[CLIENTE]: Cadastro feito",
+      "[SECRETARIA]: Olá! Terça as 20h, possível?",
+      "[CLIENTE]: Bom dia \nEssa aula experimental tem valor? Como funciona? \nFicou um pouco vaga a informação",
+      "[SECRETARIA]: Bom dia, Araldo! Tudo bem?",
+      "[SECRETARIA]: Para você conhecer é possível comprar uma aula avulsa.\n\nCaso você goste da aula, da nossa estrutura, e decida continuar, descontamos esse valor pago da aula avulsa da 1 mensalidade e continua para os meses seguintes o valor da mensalidade normal.\n\nSe você decidir não continuar, fica somente o valor dessa aula avulsa.",
+      "[CLIENTE]: compro ela pelo app?",
+      "[SECRETARIA]: Sim sim, assim que você realizar seu cadastro já estará disponível no nosso app.",
+      "[SECRETARIA]: Segue link para baixar nosso app e fazer cadastro, isso facilitará sua inclusão nos grupos e será através dele que o aluno irá fazer toda a gestão de sua aula, locação - se puder baixar: \\\n \\\nAndroid: <https://play.google.com/store/apps/details?id=es.tpc.matchpoint.appclient.montrealtenisclube>\n\nIOS: <https://apps.apple.com/us/app/montreal-tenis-clube/id6764062641>",
+      "[SECRETARIA]: essa aula foi agendada?",
+      "[SECRETARIA]: Bom dia, Araldo! Tudo bem? Podemos dar sequência?",
+      "[SECRETARIA]: Conseguiu cadastrar no nosso app?"
+    ]
+  },
+  {
+    "cid": 6029,
+    "contact": "~OMAR DARWICHE",
+    "labels": [
+      "interessado"
+    ],
+    "length": 19,
+    "transcript": [
+      "[SISTEMA]: Sistema de Automação adicionou interessado",
+      "[SECRETARIA]: Seu interesse seria na aulas? Conte um pouco mais…\\\nEstou a disposição!",
+      "[SISTEMA]: Atribuído a Atendimento | Montreal Tênis Clube: por Sistema de Automação",
+      "[CLIENTE]: Boa noite",
+      "[CLIENTE]: Gostaria de fazer aula",
+      "[SECRETARIA]: Olá, boa noite! Tudo bem?",
+      "[CLIENTE]: Esse valor individual de 720 é uma aula semanal ?",
+      "[SECRETARIA]: Isso, 1x por semana.",
+      "[CLIENTE]: e tem o desconto dos 12% para os horários da 10 as 15 ?",
+      "[SECRETARIA]: Isso mesmo, Omar",
+      "[SECRETARIA]: Podemos dar sequencia?",
+      "[SECRETARIA]: Olá Omar, tudo bem? \\\nGostaria de iniciar seu treino individual? \\\n \\\nQualquer duvida só me chamar por aqui. \\\nAbs!",
+      "[CLIENTE]: Bom dia",
+      "[CLIENTE]: Fica um pouco caro pra mim no momento",
+      "[CLIENTE]: Mas agradeço",
+      "[SECRETARIA]: Nao teria interesse nas aulas em grupo? \\\nElas são em 4 pessoas no total. \\\n \\\nTem um valor mais em conta dai. \\\nSão bem dinâmicas, com jogos entre os alunos, situação de jogo. \\\n \\\nE a gente colocar participantes de um mesmo nivel. \\\n \\\nOq acha?",
+      "[CLIENTE]: Nunca fiz aula em grupo",
+      "[CLIENTE]: Quais os horários teria ?",
+      "[SECRETARIA]: a gente tenta montar o grupo a partir da sua disponibilidade. \\\nVc quer manter o horario entre 10 e 15hrs?"
+    ]
+  },
+  {
+    "cid": 5917,
+    "contact": "Roberto Belloti",
+    "labels": [
+      "recebeu_formulário"
+    ],
+    "length": 18,
+    "transcript": [
+      "[SECRETARIA]: Boa tarde, tudo bem? \r\n\r\nSomos da Montreal Tênis Clube e recebemos seu interesse nas aulas conosco!\r\n\r\nQual seria a dúvida?",
+      "[SISTEMA]: Atendimento | Montreal Tênis Clube: atribuiu a si mesmo essa conversa",
+      "[CLIENTE]: Gostaria de informações sobre turmas às quintas e também disponibilidade para locação de horário fixo ( por exemplo quintas às 19:00)",
+      "[SECRETARIA]: Locações mensalistas conseguimos deixar nas sextas, sábados e domingos no momento!",
+      "[SECRETARIA]: Para entendermos melhor o seu nível de jogo e conseguirmos te encaixar nas aulas, treinos e grupos ideais, poderia nos responder algumas perguntas rápidas?\n\n• Você já é tenista?\\\n• Há quanto tempo joga tênis?\\\n• Já participou de algum torneio de federação ou torneio interno?\\\n• Qual classe/categoria costuma jogar?\\\n• Em torneios internos, qual categoria já disputou?\\\n• Costuma jogar simples, dupla ou ambos?\\\n• Atualmente joga com frequência? Quantas vezes por semana?\n\nObrigado! 😊",
+      "[SISTEMA]: Atendimento | Montreal Tênis Clube: adicionou recebeu_formulário",
+      "[CLIENTE]: Sim jogo a 10 anos, tenho 55 anos\nParticipei de torneios internos de clubes\nCategoria C e B\nSomente simples \nJogo de duas a três vezes por semana",
+      "[SECRETARIA]: OK, estou verificando os grupos e vendo em qual conseguimos encaixar no seu nível",
+      "[SECRETARIA]: Vamos ter uma vaga na quinta as 20h, possivel?",
+      "[SECRETARIA]: Olá Roberto, tudo bem? \\\nAinda tem interesse nas aulas de tênis? \\\n \\\nFicamos a disposição caso tenha qualquer dúvida. \\\nAbs!!",
+      "[CLIENTE]: Bom dia, desculpe não responder. Pretendo no sábado dar uma passada para ver e na sequência decidir. Obrigado",
+      "[CLIENTE]: Como faço.para.locar horário? Por gentileza",
+      "[SECRETARIA]: temos no app, por lá consegue verificar a disponibilidade de horário e efetuar a reserva.",
+      "[SECRETARIA]: Segue link para baixar nosso app e fazer cadastro, isso facilitará sua inclusão nos grupos e será através dele que o aluno irá fazer toda a gestão de sua aula, locação - se puder baixar: \\\n \\\nAndroid: <https://play.google.com/store/apps/details?id=es.tpc.matchpoint.appclient.montrealtenisclube>\n\nIOS: <https://apps.apple.com/us/app/montreal-tenis-clube/id6764062641>",
+      "[CLIENTE]: Feito. Obrigado",
+      "[SECRETARIA]: Te esperamos por aqui!! \\\nAbs!",
+      "[CLIENTE]: 👍 [ reação ]",
+      "[SISTEMA]: Conversa foi marcada como resolvida por Atendimento | Montreal Tênis Clube:"
+    ]
+  },
+  {
+    "cid": 6057,
+    "contact": "~Thiago Fonseca",
+    "labels": [
+      "recebeu_formulário",
+      "aluno"
+    ],
+    "length": 4,
+    "transcript": [
+      "[CLIENTE]: Bom dia, tudo bem?\nOk, tenho aula hoje 17/h com a Leciane e vou um pouco antes para poder pagar ok",
+      "[SISTEMA]: Atendimento || Montreal Tênis Clube: adicionou recebeu_formulário, aluno",
+      "[SECRETARIA]: Fechouu, muito obrigada!",
+      "[SISTEMA]: Conversa foi marcada como resolvida por Atendimento || Montreal Tênis Clube:"
+    ]
+  },
+  {
+    "cid": 6050,
+    "contact": "~Felipe Amorim",
+    "labels": [
+      "interessado"
+    ],
+    "length": 11,
+    "transcript": [
+      "[CLIENTE]: Olá, achei o site da Montreal Tênis tenho interesse em saber mais detalhes",
+      "[SECRETARIA]: Olá, tudo bem?\\\nObrigado pelo interesse!\\\n\\\nA Montreal é um complexo de tênis que oferece locações, aulas com professores e reservas mensais para jogar com seus amigos!\n\n\\\n**São 04 quadras de saibro totalmente cobertas.**\\\n\\\nVou lhe mandar nossa tabela de valores.",
+      "[SISTEMA]: Sistema de Automação adicionou interessado",
+      "[SECRETARIA]: Seu interesse seria na aulas? Conte um pouco mais…\\\nEstou a disposição!",
+      "[SISTEMA]: Atribuído a Atendimento | Montreal Tênis Clube: por Sistema de Automação",
+      "[CLIENTE]: Tem quadra para locação para esse sábado as 7:00?",
+      "[SECRETARIA]: Olá, tudo bem? Temos ás 10h, pode ser?",
+      "[CLIENTE]: Oi, acabei de agendar pelo site de voces as 7 mesmo. Peguei a quadra 4, se puder confirmar que meu agendamento deu certo. \n\nObrigado.",
+      "[SECRETARIA]: Tá certinho sim, Felipe! \n\nMuito obrigado!",
+      "[CLIENTE]: 👍🏻 [ reação ]",
+      "[SISTEMA]: Conversa foi marcada como resolvida por Atendimento || Montreal Tênis Clube:"
+    ]
+  },
+  {
+    "cid": 6038,
+    "contact": "~Leana Ganassin",
+    "labels": [
+      "mensalista",
+      "pré-inscrito",
+      "aluno"
+    ],
+    "length": 20,
+    "transcript": [
+      "[SISTEMA]: Atendimento || Montreal Tênis Clube: adicionou mensalista, pré-inscrito, aluno",
+      "[CLIENTE]: Eu só perguntei",
+      "[CLIENTE]: Aliás, eu cheguei até a apagar a msg",
+      "[CLIENTE]: Pode voltar a quadra pra gente.\nTenho uma amiga que vai.",
+      "[SECRETARIA]: Leana, me confirma qual seria o horário no dia 06 por gentileza?",
+      "[CLIENTE]: Nosso horário é das 10h às 12h",
+      "[SECRETARIA]: Temos esse horário disponível na quadra 1 no domingo. Para reservas é mediante a pagamento direto pelo app. Consegue reservar diretamente pelo app?",
+      "[CLIENTE]: Você não está entendendo.\nNós temos quadra fixa no domingo.\nE acabei de receber um email dizendo que vocês cancelaram a minha reserva.\nEstou apenas pedindo para retornar a quadra pra gente.",
+      "[CLIENTE]: [image]",
+      "[CLIENTE]: Aparece o valor de 200 reais, esse valor será isento né?!",
+      "[CLIENTE]: Cancelada novamente",
+      "[SECRETARIA]: Já ajustei pra você, consegue dar uma olhadinha?",
+      "[SECRETARIA]: Agora não está cobrando",
+      "[CLIENTE]: Deu certo!!",
+      "[CLIENTE]: Mas agora está dizendo que não foi renovado",
+      "[CLIENTE]: [image]",
+      "[SECRETARIA]: Mas tá certinho, Leana! Verifiquei que as quadras estão fixas nos próximos domingos, caso queira confirmar.",
+      "[CLIENTE]: [audio]",
+      "[SECRETARIA]: Fechou haha, imagina!",
+      "[SISTEMA]: Conversa foi marcada como resolvida por Atendimento || Montreal Tênis Clube:"
+    ]
+  },
+  {
+    "cid": 6067,
+    "contact": "Thatiabe",
+    "labels": [
+      "aluno"
+    ],
+    "length": 5,
+    "transcript": [
+      "[SISTEMA]: Atendimento || Montreal Tênis Clube: adicionou aluno",
+      "[CLIENTE]: > Montreal Tênis Clube\n> *Atendimento | Montreal Tênis Clube:*\n> Olá! Devido às fortes chuvas e às condições estruturais, precisaremos cancelar todas as aulas de hoje, pensando na segurança e no bem-estar de todos.\n>\n> Pedimos desculpas pelo imprevisto e agradecemos a compreensão de vocês. Amanhã, retornaremos com as atividades normalmente. 🙏\n\n---\n\n**Reply:**\n👍 Reagiu a uma mensagem",
+      "[CLIENTE]: Oii, tudo bem?\nQueria saber como funciona quando tem feriado no dia da aula, a gente conseguem remarcar?",
+      "[SECRETARIA]: Olá!\nNo feriado, não temos reposição… \nSeria compensação pelos meses que tem 5 treinos, mas sao efetuado pagamento de 4",
+      "[CLIENTE]: Entendi a lógica, e para esse mês entendo que seria pela aula a mais do mês passado, mas em Outubro a gente só teria 3 aulas e nos outros meses 4 aulas"
+    ]
+  },
+  {
+    "cid": 6062,
+    "contact": "~felipe bordignon",
+    "labels": [
+      "aluno"
+    ],
+    "length": 8,
+    "transcript": [
+      "[CLIENTE]: boa tarde",
+      "[SISTEMA]: Atendimento || Montreal Tênis Clube: adicionou aluno",
+      "[SECRETARIA]: Olá, Felipe! Tudo bem? \n\nComo posso ajudar?",
+      "[CLIENTE]: queria ver se tem horario livre hoje pra antecipar a aula de sexta",
+      "[SECRETARIA]: Vou verificar com o Leandro e já te falo, tudo bem?",
+      "[CLIENTE]: ta bom obg",
+      "[SECRETARIA]: Passa msg para Leandro entra em contato com ele.\n\ne avisa que passou para Leandro.\n\n\\\nlembre que não travamos a quadra para reposição  a partir das 18h, reposição somente dentro de grupo existente.",
+      "[SECRETARIA]: Felipe, hoje não temos quadra disponível, amanhã ás 21h você consegue?"
+    ]
+  },
+  {
+    "cid": 6051,
+    "contact": "~Carlos Herlander",
+    "labels": [
+      "aluno"
+    ],
+    "length": 3,
+    "transcript": [
+      "[CLIENTE]: Bom dia, obg",
+      "[SISTEMA]: Atendimento || Montreal Tênis Clube: adicionou aluno",
+      "[SISTEMA]: Conversa foi marcada como resolvida por Atendimento || Montreal Tênis Clube:"
+    ]
+  },
+  {
+    "cid": 6025,
+    "contact": "Matheus  Paranhos",
+    "labels": [
+      "aluno"
+    ],
+    "length": 8,
+    "transcript": [
+      "[CLIENTE]: Boa tarde",
+      "[SISTEMA]: Atendimento || Montreal Tênis Clube: adicionou aluno",
+      "[CLIENTE]: Tudo bem?",
+      "[CLIENTE]: Consigo levar uma pessoa para fazer aula experimental hoje 19:00?",
+      "[CLIENTE]: Sou aluno do Leandro bonete",
+      "[SECRETARIA]: Olá, Matheus! Tudo bem?",
+      "[SECRETARIA]: Para você conhecer é possível comprar uma aula avulsa.\n\nCaso você goste da aula, da nossa estrutura, e decida continuar, descontamos esse valor pago da aula avulsa da 1 mensalidade e continua para os meses seguintes o valor da mensalidade normal.\n\nSe você decidir não continuar, fica somente o valor dessa aula avulsa.",
+      "[SISTEMA]: Conversa foi marcada como resolvida por Atendimento || Montreal Tênis Clube:"
+    ]
+  },
+  {
+    "cid": 6049,
+    "contact": "~Leo Donoso",
+    "labels": [
+      "aluno"
+    ],
+    "length": 3,
+    "transcript": [
+      "[SECRETARIA]: [Aviso Automático] 🤖\n\nOlá, Leonardo! Encontramos quadras livres compatíveis com suas preferências:\n\n📅 *Sexta-feira (04/09)*:\n🎾 *07:00 - 08:00*: Quadra 02\n\n\nQuer garantir o seu jogo? Reserve agora mesmo pelo app da Montreal! 📲\n\n_(Caso não queira mais receber estes avisos, responda SAIR)_",
+      "[SISTEMA]: Conversa foi marcada como resolvida por Atendimento || Montreal Tênis Clube:",
+      "[SISTEMA]: Atendimento || Montreal Tênis Clube: adicionou aluno"
+    ]
+  },
+  {
+    "cid": 6047,
+    "contact": "~Enzo Guerra",
+    "labels": [
+      "aluno"
+    ],
+    "length": 3,
+    "transcript": [
+      "[SECRETARIA]: [Aviso Automático] 🤖\n\nOlá, Enzo! Encontramos quadras livres compatíveis com suas preferências:\n\n📅 *Sexta-feira (04/09)*:\n🎾 *07:00 - 08:00*: Quadra 02\n\n\nQuer garantir o seu jogo? Reserve agora mesmo pelo app da Montreal! 📲\n\n_(Caso não queira mais receber estes avisos, responda SAIR)_",
+      "[SISTEMA]: Conversa foi marcada como resolvida por Atendimento || Montreal Tênis Clube:",
+      "[SISTEMA]: Atendimento || Montreal Tênis Clube: adicionou aluno"
+    ]
+  },
+  {
+    "cid": 5882,
+    "contact": "~Haimon Andraus",
+    "labels": [
+      "aluno"
+    ],
+    "length": 5,
+    "transcript": [
+      "[CLIENTE]: É da grande. 8 ne?",
+      "[SISTEMA]: Atendimento || Montreal Tênis Clube: adicionou aluno",
+      "[CLIENTE]: [image]",
+      "[SECRETARIA]: Isso, obrigadaa!",
+      "[SISTEMA]: Conversa foi marcada como resolvida por João Assunção | Montreal Tênis Clube:"
+    ]
+  },
+  {
+    "cid": 5974,
+    "contact": "~Carlos Herlander",
+    "labels": [
+      "aluno"
+    ],
+    "length": 6,
+    "transcript": [
+      "[CLIENTE]: Bom dia, lembrando que hj não consigo fazer aula.",
+      "[SISTEMA]: Atendimento || Montreal Tênis Clube: adicionou aluno",
+      "[CLIENTE]: Consegue ver se consigo repor na quinta por favor",
+      "[SECRETARIA]: Bom dia, tudo bem! Aviso o prof. João",
+      "[SECRETARIA]: Carlos, por enquanto a equipe de quinta esta completa, surgindo desistência te comunico.",
+      "[SISTEMA]: Conversa foi marcada como resolvida por João Assunção | Montreal Tênis Clube:"
+    ]
+  },
+  {
+    "cid": 5881,
+    "contact": "~felipe bordignon",
+    "labels": [
+      "aluno"
+    ],
+    "length": 20,
+    "transcript": [
+      "[CLIENTE]: esqueci de encaminhar na sexta",
+      "[CLIENTE]: queria ver contigo se tem algum horário disponível pra remarcar a aula de sexta dessa semana",
+      "[CLIENTE]: pq vou viajar e não é vou estar aí",
+      "[CLIENTE]: do trio no caso, algum horário depois das 18 de preferência",
+      "[SECRETARIA]: Olá, bom dia!\n\nMuito obrigado!!",
+      "[SECRETARIA]: Vou verificar com o Prof Leandro e te comunico",
+      "[CLIENTE]: beleza obrigado",
+      "[SECRETARIA]: Hoje você consegue ás 20h?",
+      "[CLIENTE]: tem horário amanhã?",
+      "[CLIENTE]: hoje não consigo",
+      "[SECRETARIA]: Já verifico com o Prof",
+      "[CLIENTE]: bom dia",
+      "[SECRETARIA]: Bom dia, tudo bem?",
+      "[SECRETARIA]: Como posso ajudar?",
+      "[CLIENTE]: teria horário hoje pra trocar a aula?",
+      "[SECRETARIA]: Devido ao clima de ontem, tivemos imprevisto na quadra, consigo te informar até umas 10h se conseguiremos fazer a troca da aula hoje",
+      "[CLIENTE]: ta bom",
+      "[SECRETARIA]: Você quer antecipar a aula de sexta agora, isso?",
+      "[CLIENTE]: isso",
+      "[SISTEMA]: Conversa foi marcada como resolvida por João Assunção | Montreal Tênis Clube:"
+    ]
+  },
+  {
+    "cid": 6035,
+    "contact": "~Lucca",
+    "labels": [
+      "aluno"
+    ],
+    "length": 4,
+    "transcript": [
+      "[CLIENTE]: Opa perdão",
+      "[SISTEMA]: Atendimento || Montreal Tênis Clube: adicionou aluno",
+      "[CLIENTE]: > Montreal Tênis Clube\n> *Atendimento | Montreal Tênis Clube:*\n> Lucca, vamos manter o horário das 19h, ok?\n\n---\n\n**Reply:**\nTudo bem",
+      "[SISTEMA]: Conversa foi marcada como resolvida por João Assunção | Montreal Tênis Clube:"
+    ]
+  },
+  {
+    "cid": 6031,
+    "contact": "~Carlos Herlander",
+    "labels": [
+      "aluno"
+    ],
+    "length": 3,
+    "transcript": [
+      "[SECRETARIA]: Olá, Carlos! 🎾✨\n\nEsperamos que esteja curtindo bastante suas aulas na Montreal Tênis! 🏆\n\nA sua evolução e satisfação são muito importantes para nós. Poderia dedicar 1 minutinho para nos avaliar no Google? Sua opinião ajuda muito o clube e os nossos professores! 💛\n\n🔗 https://alertas.montrealtenis.com.br/review.html\n\nMuito obrigado e bons treinos! 🚀",
+      "[SISTEMA]: Conversa foi marcada como resolvida por Atendimento || Montreal Tênis Clube:",
+      "[SISTEMA]: Atendimento || Montreal Tênis Clube: adicionou aluno"
+    ]
+  },
+  {
+    "cid": 6022,
+    "contact": "Eluir  Runt",
+    "labels": [
+      "aluno"
+    ],
+    "length": 8,
+    "transcript": [
+      "[CLIENTE]: Olá boa tarde, tudo bem?\nQueria ver contigo certinho ali, pois não vou fazer mais a aula...vou dar uma segurada, assim que conseguir retorno!",
+      "[SISTEMA]: Atendimento || Montreal Tênis Clube: adicionou aluno",
+      "[CLIENTE]: Como que fazemos?",
+      "[SECRETARIA]: Olá, Eluir! Tudo bem e você? \n\nSeria o cancelamento permanente?",
+      "[CLIENTE]: Por hora sim! Quando eu conseguir vejo se temos outra turma",
+      "[SECRETARIA]: Olá, Eluir! \n\nJá realizamos o cancelamento aqui, qualquer dúvida estamos a disposição!",
+      "[CLIENTE]: Obrigado",
+      "[SISTEMA]: Conversa foi marcada como resolvida por Atendimento | Montreal Tênis Clube:"
+    ]
+  },
+  {
+    "cid": 5902,
+    "contact": "~Ani",
+    "labels": [
+      "aluno"
+    ],
+    "length": 18,
+    "transcript": [
+      "[CLIENTE]: Cintia, saí meio correndo que eu sou muuuuito medrosa com chuva",
+      "[SISTEMA]: Atendimento || Montreal Tênis Clube: adicionou matchmaker, interessado",
+      "[CLIENTE]: Inclusive poderia passar uma mensagem para o professor Leandro? Ele deve ter achado que eu sou meio doida KKK",
+      "[CLIENTE]: Comprovante da aula de hoje 🙏☺️",
+      "[SECRETARIA]: Oi, Ani! \n\nHahaha relaxa, ficamos assustados com essa chuva repentina também. KKKKK",
+      "[SECRETARIA]: Mando simm, o que achou da aula?",
+      "[CLIENTE]: KKKKKK e alerta da Defesa Civil ainda, a gente já fica 👀",
+      "[CLIENTE]: Obrigada por compreender",
+      "[CLIENTE]: Muito boa! Gostei bastante da forma do professor de explicar o movimento, as correções, os exercícios, muito didático \n\nE da paciência do professor, inclusive com as bolas que iam nele coitado KKK",
+      "[SECRETARIA]: Exato! KKKKK",
+      "[SECRETARIA]: Kkkkkk mas é assim mesmo no começo. Kkkk\n\nE você pretende continuar conosco na Segunda mesmo horário?",
+      "[CLIENTE]: Sim, pretendo sim!",
+      "[SECRETARIA]: Boa tarde Ani, tudo bem? \n\nJá fizemos sua matrícula para suas aulas na segunda-feira das 13h as 14h",
+      "[SECRETARIA]: Segue nosso termo de adesão para seu conhecimento e registro de aceite: \\\n \\\nLink: https://webhooks.vxautomation.com.br/webhook/termo-adesao-montreal",
+      "[SISTEMA]: Atendimento | Montreal Tênis Clube: removeu interessado",
+      "[SISTEMA]: Atendimento | Montreal Tênis Clube: removeu matchmaker",
+      "[SISTEMA]: Atendimento | Montreal Tênis Clube: adicionou aluno",
+      "[SISTEMA]: Conversa foi marcada como resolvida por Atendimento | Montreal Tênis Clube:"
+    ]
+  },
+  {
+    "cid": 3550,
+    "contact": "~Lucca",
+    "labels": [
+      "aluno"
+    ],
+    "length": 8,
+    "transcript": [
+      "[CLIENTE]: Olá tudo bem",
+      "[SISTEMA]: Atendimento || Montreal Tênis Clube: adicionou aluno",
+      "[CLIENTE]: Poderia me passar o número da leciane",
+      "[SECRETARIA]: Olá, tudo sim e com você ?",
+      "[SECRETARIA]: 4185367580",
+      "[SISTEMA]: Conversa foi marcada como resolvida por Atendimento | Montreal Tênis Clube:",
+      "[SECRETARIA]: Esta mensagem foi excluída",
+      "[SECRETARIA]: Lucca, vamos manter o horário das 19h, ok?"
+    ]
+  },
+  {
+    "cid": 5979,
+    "contact": "~Juliana  Palone",
+    "labels": [
+      "aluno"
+    ],
+    "length": 8,
+    "transcript": [
+      "[SISTEMA]: Atendimento || Montreal Tênis Clube: adicionou aluno",
+      "[CLIENTE]: [image]",
+      "[CLIENTE]: Bom dia! Segue o comprovante de pagamento referente às aulas da Vivian Palone ☝🏼",
+      "[SECRETARIA]: Bom dia, muito obrigado!",
+      "[SISTEMA]: Conversa foi marcada como resolvida por Atendimento | Montreal Tênis Clube:",
+      "[CLIENTE]: ❤️ [ reação ]",
+      "[SISTEMA]: O sistema reabriu a conversa devido a uma nova mensagem recebida.",
+      "[SISTEMA]: Conversa foi marcada como resolvida por Atendimento | Montreal Tênis Clube:"
+    ]
+  },
+  {
+    "cid": 3262,
+    "contact": "Angela Machado",
+    "labels": [
+      "pré-inscrito",
+      "aluno",
+      "pendente_formação"
+    ],
+    "length": 4,
+    "transcript": [
+      "[SECRETARIA]: Olá, Ângela! 🎾✨\n\nEsperamos que esteja curtindo bastante suas aulas na Montreal Tênis! 🏆\n\nA sua evolução e satisfação são muito importantes para nós. Poderia dedicar 1 minutinho para nos avaliar no Google? Sua opinião ajuda muito o clube e os nossos professores! 💛\n\n🔗 https://alertas.montrealtenis.com.br/review.html\n\nMuito obrigado e bons treinos! 🚀",
+      "[SISTEMA]: Conversa foi marcada como resolvida por Atendimento || Montreal Tênis Clube:",
+      "[SISTEMA]: Atendimento || Montreal Tênis Clube: adicionou pré-inscrito, aluno, pendente_formação",
+      "[SECRETARIA]: Bom Dia \r\n\r\nTreino confirmado, amanha as 14h."
+    ]
+  },
+  {
+    "cid": 5898,
+    "contact": "Oriana C Zardo",
+    "labels": [
+      "pendente_formação",
+      "aluno",
+      "recebeu_formulário",
+      "pré-inscrito"
+    ],
+    "length": 6,
+    "transcript": [
+      "[CLIENTE]: Ola, essa semana nao vou conseguir ir nas aulas, hoje e amanhã ok..obrigada",
+      "[SISTEMA]: Atendimento || Montreal Tênis Clube: adicionou pendente_formação, aluno, recebeu_formulário, pré-inscrito",
+      "[SECRETARIA]: Olá, obrigada por avisar.",
+      "[CLIENTE]: Amanhã também ok",
+      "[SECRETARIA]: Ok, obrigada por avisar",
+      "[SISTEMA]: Conversa foi marcada como resolvida por Atendimento || Montreal Tênis Clube:"
+    ]
+  },
+  {
+    "cid": 6043,
+    "contact": "Ramon Grenteski Ouais Santos",
+    "labels": [
+      "pré-inscrito",
+      "aluno",
+      "pendente_formação"
+    ],
+    "length": 3,
+    "transcript": [
+      "[SECRETARIA]: [Aviso Automático] 🤖\n\nOlá, Ramon! Encontramos quadras livres compatíveis com suas preferências:\n\n📅 *Sexta-feira (04/09)*:\n🎾 *17:00 - 18:00*: Quadra 04\n🎾 *18:00 - 19:00*: Quadra 01, Quadra 02, Quadra 03 e Quadra 04\n\n\nQuer garantir o seu jogo? Reserve agora mesmo pelo app da Montreal! 📲\n\n_(Caso não queira mais receber estes avisos, responda SAIR)_",
+      "[SISTEMA]: Conversa foi marcada como resolvida por Atendimento || Montreal Tênis Clube:",
+      "[SISTEMA]: Atendimento || Montreal Tênis Clube: adicionou pré-inscrito, aluno, pendente_formação"
+    ]
+  },
+  {
+    "cid": 6020,
+    "contact": "Renata Bueno",
+    "labels": [
+      "pré-inscrito",
+      "aluno",
+      "pendente_formação"
+    ],
+    "length": 5,
+    "transcript": [
+      "[CLIENTE]: Hoje a aula ta confirmada né?",
+      "[SISTEMA]: Atendimento || Montreal Tênis Clube: adicionou pré-inscrito, aluno, pendente_formação",
+      "[SECRETARIA]: Oi, Renata! Tudo bem? \n\nEstá sim, ás 18h na quadra 1.",
+      "[CLIENTE]: Show",
+      "[SISTEMA]: Conversa foi marcada como resolvida por Atendimento | Montreal Tênis Clube:"
+    ]
+  },
+  {
+    "cid": 5992,
+    "contact": "Amália Pasetto Baki",
+    "labels": [
+      "pré-inscrito",
+      "aluno",
+      "pendente_formação"
+    ],
+    "length": 3,
+    "transcript": [
+      "[SECRETARIA]: [Aviso Automático] 🤖\n\nOlá, Amália! Encontramos quadras livres compatíveis com suas preferências:\n\n📅 *Quarta-feira (02/09)*:\n🎾 *20:00 - 21:00*: Quadra 02\n\n\nQuer garantir o seu jogo? Reserve agora mesmo pelo app da Montreal! 📲\n\n_(Caso não queira mais receber estes avisos, responda SAIR)_",
+      "[SISTEMA]: Conversa foi marcada como resolvida por Atendimento || Montreal Tênis Clube:",
+      "[SISTEMA]: Atendimento || Montreal Tênis Clube: adicionou pré-inscrito, aluno, pendente_formação"
+    ]
+  },
+  {
+    "cid": 5990,
+    "contact": "~Eduardo Fontoura",
+    "labels": [
+      "interessado",
+      "pendente_formação"
+    ],
+    "length": 3,
+    "transcript": [
+      "[SECRETARIA]: [Aviso Automático] 🤖\n\nOlá, Eduardo! Encontramos quadras livres compatíveis com suas preferências:\n\n📅 *Quarta-feira (02/09)*:\n🎾 *20:00 - 21:00*: Quadra 02\n\n\nQuer garantir o seu jogo? Reserve agora mesmo pelo app da Montreal! 📲\n\n_(Caso não queira mais receber estes avisos, responda SAIR)_",
+      "[SISTEMA]: Conversa foi marcada como resolvida por Atendimento || Montreal Tênis Clube:",
+      "[SISTEMA]: Atendimento || Montreal Tênis Clube: adicionou interessado, pendente_formação"
+    ]
+  },
+  {
+    "cid": 5988,
+    "contact": "Michele Tomimori",
+    "labels": [
+      "pendente_formação",
+      "pré-inscrito",
+      "aluno"
+    ],
+    "length": 3,
+    "transcript": [
+      "[SECRETARIA]: [Aviso Automático] 🤖\n\nOlá, Michele! Encontramos quadras livres compatíveis com suas preferências:\n\n📅 *Quarta-feira (02/09)*:\n🎾 *20:00 - 21:00*: Quadra 02\n\n\nQuer garantir o seu jogo? Reserve agora mesmo pelo app da Montreal! 📲\n\n_(Caso não queira mais receber estes avisos, responda SAIR)_",
+      "[SISTEMA]: Conversa foi marcada como resolvida por Atendimento || Montreal Tênis Clube:",
+      "[SISTEMA]: Atendimento || Montreal Tênis Clube: adicionou pendente_formação, pré-inscrito, aluno"
+    ]
+  },
+  {
+    "cid": 5925,
+    "contact": "~juniornovack",
+    "labels": [
+      "pendente_formação",
+      "aluno",
+      "recebeu_formulário"
+    ],
+    "length": 4,
+    "transcript": [
+      "[CLIENTE]: aula canceladas mesmo?",
+      "[SISTEMA]: Atendimento || Montreal Tênis Clube: adicionou pendente_formação, aluno, recebeu_formulário",
+      "[SECRETARIA]: Infelizmente sim!",
+      "[SISTEMA]: Conversa foi marcada como resolvida por João Assunção | Montreal Tênis Clube:"
+    ]
+  },
+  {
+    "cid": 5969,
+    "contact": "Ramon Grenteski Ouais Santos",
+    "labels": [
+      "pendente_formação",
+      "pré-inscrito",
+      "aluno"
+    ],
+    "length": 3,
+    "transcript": [
+      "[CLIENTE]: 👊🏽👊🏽",
+      "[SISTEMA]: Atendimento || Montreal Tênis Clube: adicionou pendente_formação, pré-inscrito, aluno",
+      "[SISTEMA]: Conversa foi marcada como resolvida por Atendimento | Montreal Tênis Clube:"
+    ]
+  },
+  {
+    "cid": 5966,
+    "contact": "Jana Grenteski Ouais Santos",
+    "labels": [
+      "pendente_formação",
+      "pré-inscrito",
+      "aluno"
+    ],
+    "length": 5,
+    "transcript": [
+      "[CLIENTE]: Claro gente… sem problemas, fiquem tranquilos… espero que esteja tudo bem por aí…",
+      "[SISTEMA]: Atendimento || Montreal Tênis Clube: adicionou pendente_formação, pré-inscrito, aluno",
+      "[SECRETARIA]: Obrigado Janaa",
+      "[CLIENTE]: ❤️ [ reação ]",
+      "[SISTEMA]: Conversa foi marcada como resolvida por Atendimento | Montreal Tênis Clube:"
+    ]
+  },
+  {
+    "cid": 6036,
+    "contact": "~Joao Assunção",
+    "labels": [
+      "sócio",
+      "recebeu_formulário",
+      "professor"
+    ],
+    "length": 20,
+    "transcript": [
+      "[SECRETARIA]: Ok, já alterei",
+      "[SECRETARIA]: João, sabe a Leana? Ela disse que não era pra cancelar a reserva de domingo",
+      "[CLIENTE]: [audio]",
+      "[CLIENTE]: [audio]",
+      "[CLIENTE]: [audio]",
+      "[CLIENTE]: Deu certo o casal ?",
+      "[SECRETARIA]: Sim, já pagaram e incluí ele nas aulas de quarta ás 08h",
+      "[CLIENTE]: [audio]",
+      "[SECRETARIA]: 32734646000199 - CNJ \r\n\r\nR$ 134,00",
+      "[CLIENTE]: O que é esta ?",
+      "[SECRETARIA]: A chave do papel que chegou ontemm",
+      "[SECRETARIA]: chave pix kk",
+      "[CLIENTE]: Ok",
+      "[CLIENTE]: [image]",
+      "[SECRETARIA]: João, da pendência de hoje ficou a **Edna Bittencourt**. Pelo que verifiquei na conversa, ela fazia aula em trio, mas o trio acabou se desencontrando de horário, certo? A gente ofereceu a possibilidade de encaixar em uma nova turma ou fazer aula individual às quartas, às 14h, mas ela prefere continuar em dupla ou trio. Então ficou pendente verificar com quem conseguimos montar uma dupla pra ela.\n\nO Robson disse que queria verificar a disponibilidade com você. Eu atribuí a conversa lá pra você, caso queira dar uma olhada.",
+      "[CLIENTE]: Ok!! Edna faz um resumo, e coloca etiqueta Make \n\nRobson já falei com ele",
+      "[CLIENTE]: [audio]",
+      "[SECRETARIA]: Oii, mando sim",
+      "[SECRETARIA]: Guilherme machado?",
+      "[CLIENTE]: Aluno das 20h na segunda"
+    ]
+  },
+  {
+    "cid": 6066,
+    "contact": "Rodrigo Assunção",
+    "labels": [
+      "recebeu_formulário",
+      "professor",
+      "interessado"
+    ],
+    "length": 3,
+    "transcript": [
+      "[CLIENTE]: A blz muito obrigado",
+      "[SISTEMA]: Atendimento || Montreal Tênis Clube: adicionou recebeu_formulário, professor, interessado",
+      "[SISTEMA]: Conversa foi marcada como resolvida por João Assunção | Montreal Tênis Clube:"
+    ]
+  },
+  {
+    "cid": 6019,
+    "contact": "Rodrigo Assunção",
+    "labels": [
+      "interessado",
+      "recebeu_formulário",
+      "professor"
+    ],
+    "length": 7,
+    "transcript": [
+      "[CLIENTE]: Isso essa mesmo",
+      "[SISTEMA]: Atendimento || Montreal Tênis Clube: adicionou interessado, recebeu_formulário, professor",
+      "[CLIENTE]: As 16",
+      "[SECRETARIA]: Eu avisei o João que ela não vinha hoje. :c \n\nAchei que fosse aluna só dele, me desculpe.",
+      "[SECRETARIA]: Ela não vai vir hoje, ela avisou mesmo ontem",
+      "[SISTEMA]: Conversa foi marcada como resolvida por João Assunção | Montreal Tênis Clube:",
+      "[SECRETARIA]: Oii, chegou encomenda pra você"
+    ]
+  },
+  {
+    "cid": 6058,
+    "contact": "~Tati Araujo",
+    "labels": [
+      "professor"
+    ],
+    "length": 11,
+    "transcript": [
+      "[CLIENTE]: Oi, \nQual a porcentagem de desconto pra familiares?",
+      "[SISTEMA]: Atendimento || Montreal Tênis Clube: adicionou professor",
+      "[SECRETARIA]: Plano Família\n\n2 membros: 5% | + de 2 membros: 7%",
+      "[CLIENTE]: Ok",
+      "[CLIENTE]: E o valor da aula em grupo?",
+      "[CLIENTE]: 🗑️ [ Mensagem deletada ]",
+      "[CLIENTE]: Beleza",
+      "[CLIENTE]: Obrigada",
+      "[SECRETARIA]: Grupo (4 alunos)**R$ 335,00**",
+      "[SECRETARIA]: Por nada",
+      "[SISTEMA]: Conversa foi marcada como resolvida por Atendimento | Montreal Tênis Clube:"
+    ]
+  },
+  {
+    "cid": 6061,
+    "contact": "~Leandro Bonete",
+    "labels": [
+      "professor"
+    ],
+    "length": 3,
+    "transcript": [
+      "[CLIENTE]: Não vou verificar",
+      "[SISTEMA]: Atendimento || Montreal Tênis Clube: adicionou professor",
+      "[SECRETARIA]: Oiii kk\n\nFelipe Bordignon quer saber se consegue antecipar a aula para hoje, é possível?"
+    ]
+  },
+  {
+    "cid": 6026,
+    "contact": "~Leandro Bonete",
+    "labels": [
+      "professor"
+    ],
+    "length": 10,
+    "transcript": [
+      "[SISTEMA]: Atendimento || Montreal Tênis Clube: adicionou professor",
+      "[CLIENTE]: [audio]",
+      "[SECRETARIA]: Oii",
+      "[SECRETARIA]: Segue link para baixar nosso app e fazer cadastro, isso facilitará sua inclusão nos grupos e será através dele que o aluno irá fazer toda a gestão de sua aula, locação - se puder baixar: \\\n \\\nAndroid: <https://play.google.com/store/apps/details?id=es.tpc.matchpoint.appclient.montrealtenisclube>\n\nIOS: <https://apps.apple.com/us/app/montreal-tenis-clube/id6764062641>",
+      "[SECRETARIA]: Segue nossa tabela base de valores de aula, mensalista e locação:",
+      "[SECRETARIA]: **Descontos: **\n\n* Teremos valores diferenciados para aulas entre os horários das 10hrs as 15hrs\n\n* Descontos se por frequência maior\n\n* Descontos caso tenham mais membros diretos da família (mesmo responsável financeiro) fazendo aula conosco",
+      "[SECRETARIA]: São 04 quadras totalmente cobertas!",
+      "[SECRETARIA]: Leandro, esse Matheus você consegue dar aula quando pra ele?",
+      "[SISTEMA]: Conversa foi marcada como resolvida por João Assunção | Montreal Tênis Clube:",
+      "[SECRETARIA]: Oi, Leandro. \r\n\r\nLembra da Jade? Ela quer fazer uma aula de reposição, consegue enviar uma mensagem pra ela para vocês marcarem? Obrigada!"
+    ]
+  },
+  {
+    "cid": 6016,
+    "contact": "~Tati Araujo",
+    "labels": [
+      "professor"
+    ],
+    "length": 9,
+    "transcript": [
+      "[CLIENTE]: Amanhã",
+      "[SISTEMA]: Atendimento || Montreal Tênis Clube: adicionou professor",
+      "[CLIENTE]: Maria as 9h",
+      "[SECRETARIA]: aula de reposição?",
+      "[CLIENTE]: Não, vai antecipar a que tem as 10h",
+      "[CLIENTE]: Ou 11h 🤔",
+      "[CLIENTE]: Vai vir antes só",
+      "[SECRETARIA]: Ah simmm, ajustei aqui",
+      "[SISTEMA]: Conversa foi marcada como resolvida por João Assunção | Montreal Tênis Clube:"
+    ]
+  },
+  {
+    "cid": 6034,
+    "contact": "Leciane Silva",
+    "labels": [
+      "professor"
+    ],
+    "length": 10,
+    "transcript": [
+      "[CLIENTE]: Oieee acho que sim, ele confirmou?",
+      "[SISTEMA]: Atendimento || Montreal Tênis Clube: adicionou professor",
+      "[CLIENTE]: > Montreal Tênis Clube\n> *Atendimento | Montreal Tênis Clube:*\n> vinicius vem as 18h\n\n---\n\n**Reply:**\nÉ isso né? 😅",
+      "[SECRETARIA]: Ola !\nProf e Thiago vai fazer as 17h, isso?",
+      "[CLIENTE]: Isso",
+      "[CLIENTE]: Com a Ana também",
+      "[CLIENTE]: Ele pediu para antecipar pq tem evento",
+      "[SECRETARIA]: Ok",
+      "[CLIENTE]: 😃 [ reação ]",
+      "[SISTEMA]: Conversa foi marcada como resolvida por João Assunção | Montreal Tênis Clube:"
+    ]
+  },
+  {
+    "cid": 6017,
+    "contact": "~Joao Assunção",
+    "labels": [
+      "recebeu_formulário",
+      "sócio",
+      "professor"
+    ],
+    "length": 19,
+    "transcript": [
+      "[CLIENTE]: [audio]",
+      "[CLIENTE]: [audio]",
+      "[SECRETARIA]: Ás 18h lotado também, temos ás 21h",
+      "[SECRETARIA]: João, o aluno do Leandro pediu para fazer registro e pagamento diretamente pelo app. Já enviei aqui pra ele",
+      "[SECRETARIA]: Estavam com pressa",
+      "[SECRETARIA]: Ele vai fechar mesmo, só pediu pra eu verificar os horários",
+      "[SECRETARIA]: Na sexta temos ás 18h, João",
+      "[CLIENTE]: [audio]",
+      "[CLIENTE]: [audio]",
+      "[SECRETARIA]: Tá bem, ela tá livre até as 16h, já travei aqui",
+      "[CLIENTE]: [audio]",
+      "[CLIENTE]: [audio]",
+      "[SECRETARIA]: vou apagarrr",
+      "[CLIENTE]: Luz",
+      "[CLIENTE]: [audio]",
+      "[SECRETARIA]: Aqui tá 5%",
+      "[SECRETARIA]: isso é 5% + adicional de 5%",
+      "[SECRETARIA]: Segue nosso termo de adesão para seu conhecimento e registro de aceite: \\\n\\\nLink: https://webhooks.vxautomation.com.br/webhook/termo-mensalista",
+      "[SISTEMA]: Conversa foi marcada como resolvida por João Assunção | Montreal Tênis Clube:"
+    ]
+  },
+  {
+    "cid": 5913,
+    "contact": "Leciane Silva",
+    "labels": [
+      "professor"
+    ],
+    "length": 20,
+    "transcript": [
+      "[SECRETARIA]: Bele, to esperando a resposta deles",
+      "[SECRETARIA]: eu tambémmmm",
+      "[CLIENTE]: Beleee",
+      "[CLIENTE]: 😂 [ reação ]",
+      "[SECRETARIA]: Thomas ok",
+      "[SECRETARIA]: Prof, então fica \n\nas 17h - thiago e ana \n\nas 18h - lucca, luisa (não confirmaram ainda) e thomas",
+      "[CLIENTE]: Beleza!!!",
+      "[CLIENTE]: Combinadooo",
+      "[CLIENTE]: Acabo mais cedo 😅",
+      "[SECRETARIA]: vai dar boaa 😅\n\nesperar os irmãos responderem",
+      "[CLIENTE]: Uhuuuu",
+      "[SECRETARIA]: proffff",
+      "[SECRETARIA]: mudança de planos kkkk",
+      "[SECRETARIA]: vinicius vem as 18h",
+      "[SECRETARIA]: mantem as 19h",
+      "[SECRETARIA]: o grupo",
+      "[CLIENTE]: Uhuuuu",
+      "[CLIENTE]: Beleza 🤣🤣",
+      "[SISTEMA]: Conversa foi marcada como resolvida por Atendimento | Montreal Tênis Clube:",
+      "[SECRETARIA]: Olá, Leciane! Tudo bem? Amanhã tá certinho a aula do Vinicius ás 18h?"
+    ]
+  },
+  {
+    "cid": 5509,
+    "contact": "~Simão",
+    "labels": [
+      "interessado",
+      "recebeu_formulário",
+      "matchmaker"
+    ],
+    "length": 20,
+    "transcript": [
+      "[SISTEMA]: Atendimento | Montreal Tênis Clube: adicionou recebeu_formulário",
+      "[CLIENTE]: Sim, jogo a exatamente 1 ano, já participei e já venci categoria D, costumo joga simples, jogo 2 vezes por semana",
+      "[SECRETARIA]: Podemos adicionar você numa dupla as 21h na segunda-feira.\n\nPossível?",
+      "[CLIENTE]: tem que ser no máximo às 20",
+      "[CLIENTE]: se não tiver turma 19 ou 20 acho que infelizmente não consigo",
+      "[SECRETARIA]: Poderia ser em grupo?",
+      "[CLIENTE]: trio no máximo",
+      "[SECRETARIA]: Resumo: treino em dupla ou trio. na segunda, quarta ou sexta, das 19h as 20h.",
+      "[SISTEMA]: Atendimento | Montreal Tênis Clube: adicionou matchmaker",
+      "[SECRETARIA]: nao como ficou isso",
+      "[SECRETARIA]: Bom dia, Simão!\n\nPodemos dar sequência?",
+      "[SECRETARIA]: Bom dia, Simão!\n\nPodemos dar sequência?",
+      "[CLIENTE]: Bom dia, sim",
+      "[SECRETARIA]: Fazendo um breve resumo, Simão\n\nSeria aula em dupla ou trio, preferencialmente na parte da noite, e já possui experiencia com o Tênis, certinho?",
+      "[CLIENTE]: Exatamente",
+      "[SECRETARIA]: João, consegue encaixar ele em alguma turma? Ele já possui experiencia",
+      "[SECRETARIA]: Esta mensagem foi excluída",
+      "[SECRETARIA]: Simão de segunda a quinta as 19h, vamos ter grupo, treino bem dinamito, podemos dar sequencia?",
+      "[CLIENTE]: isso é trio ou quarteto?",
+      "[CLIENTE]: tem como fazer uma aula experimental pra conhecer a academia/professor?"
+    ]
+  },
+  {
+    "cid": 5863,
+    "contact": "Edina Bitcur",
+    "labels": [
+      "aluno",
+      "recebeu_formulário",
+      "matchmaker"
+    ],
+    "length": 13,
+    "transcript": [
+      "[CLIENTE]: Bom dia, tudo bem?\nTenho disponibilidade na quarta à tarde mesmo. Fico no aguardo",
+      "[SISTEMA]: Atendimento || Montreal Tênis Clube: adicionou aluno, recebeu_formulário",
+      "[SECRETARIA]: Bom dia, tudo bem e você?\n\nReformulando, você gostaria de agendar para quarta a sua aula?",
+      "[CLIENTE]: Por enquanto não farei aula individual",
+      "[SECRETARIA]: isso aqui é oq? nao entendi. Precisa agendar aula de resposição?",
+      "[SECRETARIA]: Olá, Edina! Tudo bem?",
+      "[CLIENTE]: Bom dia! Tudo bem e com você?",
+      "[SECRETARIA]: Tudo bem também! Na quarta ás 14h ficaria bom para você?",
+      "[CLIENTE]: Para individual ou terei dupla?",
+      "[SECRETARIA]: Tudo bem também!",
+      "[SECRETARIA]: Para esse horário temos opção na quarta as 14h, na modalidade individual com desconto 12%… R$ 633,60\n\nOu caso queira fazer aula em dupla teríamos que verificar disponibilidade para acharmos uma dupla para realizar a aula com você",
+      "[CLIENTE]: Fico no aguardo da dupla",
+      "[SISTEMA]: Atendimento | Montreal Tênis Clube: adicionou matchmaker"
+    ]
+  },
+  {
+    "cid": 5620,
+    "contact": "~Vinicius",
+    "labels": [
+      "interessado",
+      "recebeu_formulário",
+      "matchmaker",
+      "aluno"
+    ],
+    "length": 20,
+    "transcript": [
+      "[SISTEMA]: Atribuído a João Assunção | Montreal Tênis Clube: por Atendimento | Montreal Tênis Clube:",
+      "[SECRETARIA]: Legal, Vinicius!\n\nPor gentileza, consegue fazer o registro no app?, isso facilitará sua inclusão nos grupos.",
+      "[SECRETARIA]: Segue link para baixar nosso app e fazer cadastro, isso facilitará sua inclusão nos grupos e será através dele que o aluno irá fazer toda a gestão de sua aula, locação - se puder baixar: \\\n \\\nAndroid: <https://play.google.com/store/apps/details?id=es.tpc.matchpoint.appclient.montrealtenisclube>\n\nIOS: <https://apps.apple.com/us/app/montreal-tenis-clube/id6764062641>",
+      "[CLIENTE]: Fiz aqui ja",
+      "[SECRETARIA]: Vamos abrir uma equipe na quarta as 19h, podemos dar sequencia?",
+      "[SISTEMA]: Conversa desatribuída por João Assunção | Montreal Tênis Clube:",
+      "[SECRETARIA]: verificar com ele  se podemos adicionar, abrir uma turma com prof. Leandro na quarta as 19h inicio coloca no dia 14/09 quadra vai está disponível so dia 16/09\n\ntreino equipe",
+      "[SECRETARIA]: Ok",
+      "[CLIENTE]: Pode ser",
+      "[SECRETARIA]: Podemos iniciar seus treinos a partir do dia 16/09?",
+      "[CLIENTE]: Podemos",
+      "[SECRETARIA]: Segue link para baixar nosso app e fazer cadastro, isso facilitará sua inclusão nos grupos e será através dele que o aluno irá fazer toda a gestão de sua aula, locação - se puder baixar: \\\n \\\nAndroid: <https://play.google.com/store/apps/details?id=es.tpc.matchpoint.appclient.montrealtenisclube>\n\nIOS: <https://apps.apple.com/us/app/montreal-tenis-clube/id6764062641>",
+      "[SECRETARIA]: conseguiu fazer o cadastro em nosso aplicativo?",
+      "[CLIENTE]: Aham",
+      "[CLIENTE]: Fiz já tem uns dias",
+      "[CLIENTE]: Número 809 acho",
+      "[SECRETARIA]: Achei aqui!\n\nFiz sua matrícula a partir do dia 16/09 as 19h",
+      "[CLIENTE]: 👍 [ reação ]",
+      "[SISTEMA]: João Assunção | Montreal Tênis Clube: adicionou aluno",
+      "[SISTEMA]: Conversa foi marcada como resolvida por Atendimento || Montreal Tênis Clube:"
+    ]
+  },
+  {
+    "cid": 5914,
+    "contact": "~Isa",
+    "labels": [
+      "matchmaker",
+      "recebeu_formulário"
+    ],
+    "length": 4,
+    "transcript": [
+      "[CLIENTE]: Olá!! Até a reserva de quadras a noite?",
+      "[SISTEMA]: Atendimento || Montreal Tênis Clube: adicionou matchmaker, recebeu_formulário",
+      "[SECRETARIA]: Olá, isso.\n\nInfelizmente devido a chuva forte e ventania, tivemos imprevistos dentro das quadras!",
+      "[SISTEMA]: Conversa foi marcada como resolvida por Atendimento | Montreal Tênis Clube:"
+    ]
+  },
+  {
+    "cid": 5615,
+    "contact": "~Vitória Gil",
+    "labels": [
+      "interessado",
+      "recebeu_formulário",
+      "matchmaker"
+    ],
+    "length": 20,
+    "transcript": [
+      "[SECRETARIA]: São 04 quadras totalmente cobertas!",
+      "[SECRETARIA]: Quais dias e horários vocês tem disponibilidade de treino em grupo?",
+      "[CLIENTE]: tem alguma turma que seja entre 12-13h? ou então na quinta-feira das 14:30 em diante?",
+      "[CLIENTE]: ❤️ [ reação ]",
+      "[SECRETARIA]: Para entendermos melhor o seu nível de jogo e conseguirmos te encaixar nas aulas, treinos e grupos ideais, poderia nos responder algumas perguntas rápidas?\n\n• Você já é tenista?\\\n• Há quanto tempo joga tênis?\\\n• Já participou de algum torneio de federação ou torneio interno?\\\n• Qual classe/categoria costuma jogar?\\\n• Em torneios internos, qual categoria já disputou?\\\n• Costuma jogar simples, dupla ou ambos?\\\n• Atualmente joga com frequência? Quantas vezes por semana?\n\nObrigado! 😊",
+      "[SISTEMA]: Atendimento | Montreal Tênis Clube: adicionou recebeu_formulário",
+      "[CLIENTE]: Eu joguei por 1 ano durante a adolescência, retornei ao tênis adulta e joguei mais 7 meses porém me considero iniciante. Nunca participei de torneios ou federação. Costumava jogar em dupla! faz mais de um ano que não pratico",
+      "[SECRETARIA]: Esta mensagem foi excluída",
+      "[SISTEMA]: Atendimento | Montreal Tênis Clube: adicionou interessado",
+      "[SISTEMA]: Atendimento | Montreal Tênis Clube: adicionou matchmaker",
+      "[CLIENTE]: > Montreal Tênis Clube\n> *Atendimento | Montreal Tênis Clube:*\n> Quinta-feira as 15h, poderia abrir um grupo, possível?\n\n---\n\n**Reply:**\npossivel!",
+      "[SECRETARIA]: Boa tarde, Vitoria! Tudo bem? Por gentileza, consegue fazer o registro no app?",
+      "[SECRETARIA]: Segue link para baixar nosso app e fazer cadastro, isso facilitará sua inclusão nos grupos e será através dele que o aluno irá fazer toda a gestão de sua aula, locação - se puder baixar: \\\n \\\nAndroid: <https://play.google.com/store/apps/details?id=es.tpc.matchpoint.appclient.montrealtenisclube>\n\nIOS: <https://apps.apple.com/us/app/montreal-tenis-clube/id6764062641>",
+      "[SECRETARIA]: Bom dia Vitória, tudo bem? \n\nNão conseguimos fechar o grupo de quinta-feira no momento.\n\nNa segunda-feira as 13h não seria possível né?",
+      "[CLIENTE]: oii tudo bem? ah que pena!",
+      "[CLIENTE]: na quinta tem algum horário antes das 15h?",
+      "[SECRETARIA]: Vou ter só as 10h",
+      "[SECRETARIA]: Bom dia, Vitória!\n\nPodemos dar sequência?",
+      "[CLIENTE]: bom dia!! tudo bem? vou só confirmar aqui se posso na quinta 10h ja te dou um retorno",
+      "[SECRETARIA]: Ok"
+    ]
+  },
+  {
+    "cid": 6009,
+    "contact": "~Matheus",
+    "labels": [
+      "matchmaker",
+      "interessado"
+    ],
+    "length": 5,
+    "transcript": [
+      "[CLIENTE]: Professora conseguiu aqui pra segunda feira as 17h com outro aluno dela",
+      "[SISTEMA]: Atendimento || Montreal Tênis Clube: adicionou matchmaker, interessado",
+      "[SECRETARIA]: beleza, vou esperar ela me passar o nome do outro aluno para colocar vocês nesse horário",
+      "[CLIENTE]: 👍 [ reação ]",
+      "[SISTEMA]: Conversa foi marcada como resolvida por Atendimento | Montreal Tênis Clube:"
+    ]
+  },
+  {
+    "cid": 5909,
+    "contact": "~Thiago Catanio",
+    "labels": [
+      "recebeu_formulário",
+      "matchmaker",
+      "aluno"
+    ],
+    "length": 6,
+    "transcript": [
+      "[CLIENTE]: Olá, boa tarde. A aula será reagendada para quando?",
+      "[SISTEMA]: Atendimento || Montreal Tênis Clube: adicionou recebeu_formulário, matchmaker, aluno",
+      "[SECRETARIA]: Qual dia ficaria bom pra você?",
+      "[CLIENTE]: Por acaso seria possível amanhã ou quinta? As 18?",
+      "[SECRETARIA]: Olá Thiago, vai vir repor hoje né?",
+      "[SISTEMA]: Conversa foi marcada como resolvida por Atendimento | Montreal Tênis Clube:"
+    ]
+  },
+  {
+    "cid": 6014,
+    "contact": "~Ani",
+    "labels": [
+      "aluno",
+      "matchmaker"
+    ],
+    "length": 9,
+    "transcript": [
+      "[CLIENTE]: Eu que agradeço!",
+      "[SISTEMA]: Atendimento || Montreal Tênis Clube: adicionou aluno, matchmaker",
+      "[CLIENTE]: Os pagamentos devem ser feitos no começo do mês?",
+      "[SECRETARIA]: Pedimos até o dia 10 de cada mês",
+      "[CLIENTE]: Ah ok, show",
+      "[CLIENTE]: Muito obrigada!",
+      "[CLIENTE]: Tenha uma ótima semana",
+      "[SECRETARIA]: Eu que agradeço!!\n\nPara você também!!",
+      "[SISTEMA]: Conversa foi marcada como resolvida por Atendimento | Montreal Tênis Clube:"
+    ]
+  },
+  {
+    "cid": 5904,
+    "contact": "Guilherme Machado",
+    "labels": [],
+    "length": 19,
+    "transcript": [
+      "[CLIENTE]: Boa tardr",
+      "[CLIENTE]: Boa tarde\n\n✏️ [Mensagem editada]",
+      "[CLIENTE]: Quadra coberta",
+      "[SECRETARIA]: Olá, Guilherme",
+      "[CLIENTE]: Aula cancelada",
+      "[CLIENTE]: ?",
+      "[SECRETARIA]: Isso, por conta das fortes chuvas e visando a segurança de todos, as aulas de hoje estão canceladas.",
+      "[CLIENTE]: Ok",
+      "[CLIENTE]: Teremos reposiçao?",
+      "[SECRETARIA]: Sim sim, Guilherme! Agendamos sua aula de reposição logo logo",
+      "[CLIENTE]: Blz",
+      "[CLIENTE]: Outra coisa",
+      "[CLIENTE]: Nao aparece opçao de pagamento",
+      "[CLIENTE]: Isso so ocorre quando vira o mes?",
+      "[SECRETARIA]: O valor aparecerá em débitos, a partir de amanhã",
+      "[CLIENTE]: 👍 [ reação ]",
+      "[SISTEMA]: Conversa foi marcada como resolvida por Atendimento | Montreal Tênis Clube:",
+      "[SECRETARIA]: Olá, Guilherme! Boa tarde! Tudo bem? \r\n\r\nHoje você teria disponibilidade para fazer a aula de reposição na referente a Segunda? Ás 20h?",
+      "[SECRETARIA]: Aguardo seu retorno."
+    ]
+  },
+  {
+    "cid": 6060,
+    "contact": "TENIS BARD",
+    "labels": [],
+    "length": 13,
+    "transcript": [
+      "[CLIENTE]: Olá, boa tarde",
+      "[CLIENTE]: Tudo bem?",
+      "[CLIENTE]: [audio]",
+      "[CLIENTE]: [image]",
+      "[SECRETARIA]: Olá, ja vejo aqui com o João",
+      "[SECRETARIA]: Ok !! vamos verificar com ela.",
+      "[CLIENTE]: [audio]",
+      "[SECRETARIA]: Anderson , td bem ? \nEssa raquetes, os alunos não conhecem a corda. O que foi passado vc iriam entrar contato, até mesmo para a cobrança, correto ? \nNão está especificado o modelo e a tensão, aluno não conhece de corda.",
+      "[CLIENTE]: Sim, eu fico responsável pela cobrança",
+      "[CLIENTE]: Nenhum deles conhecem a corda?",
+      "[CLIENTE]: Eu já estou entrando em contato um por um para verificar",
+      "[CLIENTE]: [document]",
+      "[CLIENTE]: Segue um catálogo das cordas"
+    ]
+  },
+  {
+    "cid": 6070,
+    "contact": "~Paloma",
+    "labels": [],
+    "length": 2,
+    "transcript": [
+      "[CLIENTE]: Olá, gostaria de reservar uma quadra para segunda às 10 horas da manhã",
+      "[SECRETARIA]: Olá, Paloma! Tudo bem? \n\nSeria para essa Segunda?"
+    ]
+  },
+  {
+    "cid": 6069,
+    "contact": "~Mercado Livre",
+    "labels": [],
+    "length": 2,
+    "transcript": [
+      "[CLIENTE]: Prepare-se MONTREAL TENIS CLUBE LTDA MONTREAL TENIS CLUBE LTDA,  estamos chegando! Chegará *antes das* *15h05,* \n\n📦 Kit Quadro Torneios...\n\nVocê pode *acompanhar seu envio em tempo real e gerenciá-lo* pelo status da sua compra.\nEsta mensagem é automática e não precisa ser respondida.",
+      "[CLIENTE]: Oi, MONTREAL TENIS CLUBE LTDA MONTREAL TENIS CLUBE LTDA, cheguei! *Estamos na porta* 🏠\n\n📦 Kit Quadro Torneios....\nEsta mensagem é automática e não precisa ser respondida."
+    ]
+  },
+  {
+    "cid": 6065,
+    "contact": "~Robinson",
+    "labels": [],
+    "length": 1,
+    "transcript": [
+      "[CLIENTE]: Podemos chamar um profissessor de fora para mantermos a tarde então?"
+    ]
+  },
+  {
+    "cid": 6064,
+    "contact": "Cynthia",
+    "labels": [],
+    "length": 2,
+    "transcript": [
+      "[CLIENTE]: João, da pendência de hoje ficou a Edna Bitecur. Pelo que verifiquei na conversa, ela fazia aula em trio, mas o trio acabou se desencontrando de horário, certo? A gente ofereceu a possibilidade de encaixar em uma nova turma ou fazer aula individual às quartas, às 14h, mas ela prefere continuar em dupla ou trio. Então ficou pendente verificar com quem conseguimos montar uma dupla pra ela.\n\nO Robson disse que queria verificar a disponibilidade com você. Eu atribuí a conversa lá pra você, caso queira dar uma olhada.",
+      "[SISTEMA]: Conversa foi marcada como resolvida por Atendimento | Montreal Tênis Clube:"
+    ]
+  },
+  {
+    "cid": 5601,
+    "contact": "~Robinson",
+    "labels": [],
+    "length": 20,
+    "transcript": [
+      "[CLIENTE]: isso, correções táticas pra dupla",
+      "[SECRETARIA]: Ok, vamos verificar com os Prof. disponibilidade e comunico",
+      "[CLIENTE]: beleza, obrigado, se for o caso de eles poderem apenas no sábado de manhã, poderiamos tentar movimentar 1x por mês as 2 horas pra parte da manhã",
+      "[CLIENTE]: se o clube aceitar",
+      "[CLIENTE]: mas acho que o ideal era manter o horário",
+      "[CLIENTE]: boa tarde",
+      "[SECRETARIA]: Olá, Robinson! Tudo bem? \n\nComo posso ajudar?",
+      "[CLIENTE]: estava no aguardo",
+      "[CLIENTE]: de um retorno do João",
+      "[SECRETARIA]: João? 👀",
+      "[SECRETARIA]: Boa tarde, estamos buscando disponibilidade para aulas da tarde, quando tivermos comunicamos você.",
+      "[CLIENTE]: obrigado",
+      "[SECRETARIA]: nao achamos nada disponivel pra ele?",
+      "[SECRETARIA]: Bom dia, Robinson! Tudo bem?",
+      "[CLIENTE]: Bom dia",
+      "[SECRETARIA]: Já passamos para o prof João te dá um retorno, assim que tivermos uma resposta te comunico por aqui",
+      "[CLIENTE]: beleza",
+      "[SISTEMA]: Atribuído a João Assunção | Montreal Tênis Clube: por Atendimento | Montreal Tênis Clube:",
+      "[SECRETARIA]: Robson um retorno sobre treino avulso, direcionado para dupla. \n\nNo sábado à tarde, estamos sem professor disponível. \n\nEstão em Qdra das 7h às 14h no sabado. \nTem possibilidades de fazer pela manhã como mencionou, mas não temos quadra disponível, surgindo Qdra, te comunico. \nAbs",
+      "[SISTEMA]: Conversa foi marcada como resolvida por João Assunção | Montreal Tênis Clube:"
+    ]
+  }
+]

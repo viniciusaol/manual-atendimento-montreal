@@ -1,0 +1,626 @@
+{
+  "keyword_counts": {
+    "aula": 90,
+    "horário": 34,
+    "kids": 2,
+    "nível": 13,
+    "torneio": 10,
+    "iniciante": 4,
+    "professor": 18,
+    "raquete": 2,
+    "valor": 20,
+    "quadra": 29,
+    "locação": 15,
+    "chuva": 6,
+    "cancelar": 6,
+    "matchpoint": 9,
+    "pagamento": 7,
+    "reposição": 10,
+    "mensalidade": 4,
+    "turma": 10,
+    "planos": 1
+  },
+  "client_questions_sample": [
+    {
+      "contact": "Kaique Ambrosio Guerios",
+      "labels": [
+        "pré-inscrito",
+        "aluno"
+      ],
+      "question": "O granado tbm?"
+    },
+    {
+      "contact": "~Breno",
+      "labels": [
+        "interessado",
+        "recebeu_formulário"
+      ],
+      "question": "em grupo eu teria que achar as pessoas ou ja tem grupo que eu possa participar?"
+    },
+    {
+      "contact": "~Breno",
+      "labels": [
+        "interessado",
+        "recebeu_formulário"
+      ],
+      "question": "cara qualquer um"
+    },
+    {
+      "contact": "~Breno",
+      "labels": [
+        "interessado",
+        "recebeu_formulário"
+      ],
+      "question": "queria ver de fazer pelomenos 2 vezes na semana"
+    },
+    {
+      "contact": "~Breno",
+      "labels": [
+        "interessado",
+        "recebeu_formulário"
+      ],
+      "question": "Bacana, e caso eu me desenvolva rapido por ex voces trocam de grupo por conta , como que funciona?"
+    },
+    {
+      "contact": "~Breno",
+      "labels": [
+        "interessado",
+        "recebeu_formulário"
+      ],
+      "question": "No caso material eu teria que comprar, a raquete pelomenos ? como funciona?"
+    },
+    {
+      "contact": "~Breno",
+      "labels": [
+        "interessado",
+        "recebeu_formulário"
+      ],
+      "question": "tem os valores certinho?"
+    },
+    {
+      "contact": "Marcelo Woich",
+      "labels": [
+        "pré-inscrito",
+        "interessado"
+      ],
+      "question": "Tem quadra para locação no próximo sábado às 14h?"
+    },
+    {
+      "contact": "Marcelo Woich",
+      "labels": [
+        "pré-inscrito",
+        "interessado"
+      ],
+      "question": "Dessa veznposso reservar por aqui?"
+    },
+    {
+      "contact": "Marcelo Woich",
+      "labels": [
+        "pré-inscrito",
+        "interessado"
+      ],
+      "question": "Dessa vez posso reservar por aqui?\n\n✏️ [Mensagem editada]"
+    },
+    {
+      "contact": "Marcelo Woich",
+      "labels": [
+        "pré-inscrito",
+        "interessado"
+      ],
+      "question": "Qual o valor da hora?"
+    },
+    {
+      "contact": "~Jade Oliveira",
+      "labels": [
+        "interessado"
+      ],
+      "question": "Pode ser na segunda que vem."
+    },
+    {
+      "contact": "~Jade Oliveira",
+      "labels": [
+        "interessado"
+      ],
+      "question": "Pode cancelar"
+    },
+    {
+      "contact": "~Lucas",
+      "labels": [
+        "recebeu_formulário",
+        "interessado"
+      ],
+      "question": "Boa tarde, tudo bem e você?"
+    },
+    {
+      "contact": "~Lucas",
+      "labels": [
+        "recebeu_formulário",
+        "interessado"
+      ],
+      "question": "Tem na sexta 17:00 ou 18:00"
+    },
+    {
+      "contact": "~Lucas",
+      "labels": [
+        "recebeu_formulário",
+        "interessado"
+      ],
+      "question": "?"
+    },
+    {
+      "contact": "~Lucas",
+      "labels": [
+        "recebeu_formulário",
+        "interessado"
+      ],
+      "question": "Pode ser, eu tinha perguntando sobre um estorno do valor, mas como ele disse que não é possível eu queria ver um novo horário que desse certo"
+    },
+    {
+      "contact": "~Lucas",
+      "labels": [
+        "recebeu_formulário",
+        "interessado"
+      ],
+      "question": "Bom dia, tudo bem e você?"
+    },
+    {
+      "contact": "~Lucas",
+      "labels": [
+        "recebeu_formulário",
+        "interessado"
+      ],
+      "question": "Podemos sim"
+    },
+    {
+      "contact": "rafael  berger",
+      "labels": [
+        "recebeu_formulário"
+      ],
+      "question": "Procuro por trios ou duplas.\nSegunda: 17:00 ou 18:00\nQuarta:18:00\nQuinta: qualquer horário da tarde acima das 15:00\nSexta: qualquer horário da tarde acima das 15:00"
+    },
+    {
+      "contact": "rafael  berger",
+      "labels": [
+        "recebeu_formulário"
+      ],
+      "question": "Tudo bem, seria possível fazer alguma aula experimental?"
+    },
+    {
+      "contact": "rafael  berger",
+      "labels": [
+        "recebeu_formulário"
+      ],
+      "question": "Qual o valor?"
+    },
+    {
+      "contact": "rafael  berger",
+      "labels": [
+        "recebeu_formulário"
+      ],
+      "question": "Qual o valor da aula avulsa?"
+    },
+    {
+      "contact": "rafael  berger",
+      "labels": [
+        "recebeu_formulário"
+      ],
+      "question": "Ok, mas os horários que eu passei tem disponibilidade?"
+    },
+    {
+      "contact": "~Roberto Borges",
+      "labels": [
+        "interessado"
+      ],
+      "question": "Sim, queria saber os valores"
+    },
+    {
+      "contact": "~Araldo",
+      "labels": [
+        "recebeu_formulário"
+      ],
+      "question": "Bom dia \nEssa aula experimental tem valor? Como funciona? \nFicou um pouco vaga a informação"
+    },
+    {
+      "contact": "~Araldo",
+      "labels": [
+        "recebeu_formulário"
+      ],
+      "question": "compro ela pelo app?"
+    },
+    {
+      "contact": "~OMAR DARWICHE",
+      "labels": [
+        "interessado"
+      ],
+      "question": "Esse valor individual de 720 é uma aula semanal ?"
+    },
+    {
+      "contact": "~OMAR DARWICHE",
+      "labels": [
+        "interessado"
+      ],
+      "question": "e tem o desconto dos 12% para os horários da 10 as 15 ?"
+    },
+    {
+      "contact": "~OMAR DARWICHE",
+      "labels": [
+        "interessado"
+      ],
+      "question": "Quais os horários teria ?"
+    },
+    {
+      "contact": "Roberto Belloti",
+      "labels": [
+        "recebeu_formulário"
+      ],
+      "question": "Como faço.para.locar horário? Por gentileza"
+    },
+    {
+      "contact": "~Thiago Fonseca",
+      "labels": [
+        "recebeu_formulário",
+        "aluno"
+      ],
+      "question": "Bom dia, tudo bem?\nOk, tenho aula hoje 17/h com a Leciane e vou um pouco antes para poder pagar ok"
+    },
+    {
+      "contact": "~Felipe Amorim",
+      "labels": [
+        "interessado"
+      ],
+      "question": "Tem quadra para locação para esse sábado as 7:00?"
+    },
+    {
+      "contact": "~Leana Ganassin",
+      "labels": [
+        "mensalista",
+        "pré-inscrito",
+        "aluno"
+      ],
+      "question": "Pode voltar a quadra pra gente.\nTenho uma amiga que vai."
+    },
+    {
+      "contact": "~Leana Ganassin",
+      "labels": [
+        "mensalista",
+        "pré-inscrito",
+        "aluno"
+      ],
+      "question": "Você não está entendendo.\nNós temos quadra fixa no domingo.\nE acabei de receber um email dizendo que vocês cancelaram a minha reserva.\nEstou apenas pedindo para retornar a quadra pra gente."
+    },
+    {
+      "contact": "~Leana Ganassin",
+      "labels": [
+        "mensalista",
+        "pré-inscrito",
+        "aluno"
+      ],
+      "question": "Aparece o valor de 200 reais, esse valor será isento né?!"
+    },
+    {
+      "contact": "Thatiabe",
+      "labels": [
+        "aluno"
+      ],
+      "question": "Oii, tudo bem?\nQueria saber como funciona quando tem feriado no dia da aula, a gente conseguem remarcar?"
+    },
+    {
+      "contact": "~felipe bordignon",
+      "labels": [
+        "aluno"
+      ],
+      "question": "queria ver se tem horario livre hoje pra antecipar a aula de sexta"
+    },
+    {
+      "contact": "Matheus  Paranhos",
+      "labels": [
+        "aluno"
+      ],
+      "question": "Tudo bem?"
+    },
+    {
+      "contact": "Matheus  Paranhos",
+      "labels": [
+        "aluno"
+      ],
+      "question": "Consigo levar uma pessoa para fazer aula experimental hoje 19:00?"
+    }
+  ],
+  "attendant_scripts_sample": [
+    {
+      "contact": "Kaique Ambrosio Guerios",
+      "labels": [
+        "pré-inscrito",
+        "aluno"
+      ],
+      "text": "Parceiro de segunda, o Gabriel… \nSobre o de terça, não nos comunicou"
+    },
+    {
+      "contact": "Kaique Ambrosio Guerios",
+      "labels": [
+        "pré-inscrito",
+        "aluno"
+      ],
+      "text": "Certo o André, não passou nada.\n\nGranado estará mês em viajem..."
+    },
+    {
+      "contact": "~Breno",
+      "labels": [
+        "interessado",
+        "recebeu_formulário"
+      ],
+      "text": "Seu interesse seria na aulas? Conte um pouco mais…\\\nEstou a disposição!"
+    },
+    {
+      "contact": "~Breno",
+      "labels": [
+        "interessado",
+        "recebeu_formulário"
+      ],
+      "text": "Como posso lhe ajudar? Você esta procurando por treinos individuais, duplas, trio, equipe, kids ou reserva mensal? \n\nQuais são os seus dias e horários preferidos?"
+    },
+    {
+      "contact": "~Breno",
+      "labels": [
+        "interessado",
+        "recebeu_formulário"
+      ],
+      "text": "Olá Breno, tudo bem? \\\nTem interesse em dar continuidade nas aulas de tênis? \\\n \\\nFico a disposição para poder lhe ajudar com qualquer dúvida. \\\n \\\nAbs!!"
+    },
+    {
+      "contact": "~Breno",
+      "labels": [
+        "interessado",
+        "recebeu_formulário"
+      ],
+      "text": "Para entendermos melhor o seu nível de jogo e conseguirmos te encaixar nas aulas, treinos e grupos ideais, poderia nos responder algumas perguntas rápidas?\n\n• Você já é tenista?\\\n• Há quanto tempo joga tênis?\\\n• Já participou de algum torneio de federação ou torneio interno?\\\n• Qual classe/categoria costuma jogar?\\\n• Em torneios internos, qual categoria já disputou?\\\n• Costuma jogar simples, dupla ou ambos?\\\n• Atualmente joga com frequência? Quantas vezes por semana?\n\nObrigado! 😊"
+    },
+    {
+      "contact": "Kaique Ambrosio Guerios",
+      "labels": [
+        "aluno",
+        "pré-inscrito"
+      ],
+      "text": "Olá, Kaique! 🎾✨\n\nEsperamos que tenha feito uma ótima partida na sua locação hoje na Montreal Tênis! 🏆\n\nComo foi sua experiência em nossas quadras? Sua opinião é fundamental para continuarmos melhorando. Deixe seu comentário no Google, leva menos de 1 minuto! 👇\n\n🔗 https://alertas.montrealtenis.com.br/review.html\n\nTe esperamos em breve para o próximo jogo! 🚀"
+    },
+    {
+      "contact": "Kaique Ambrosio Guerios",
+      "labels": [
+        "aluno",
+        "pré-inscrito"
+      ],
+      "text": "Olá! Devido às fortes chuvas e às condições estruturais, precisaremos cancelar todas as aulas de hoje, pensando na segurança e no bem-estar de todos.\r\n\r\nPedimos desculpas pelo imprevisto e agradecemos a compreensão de vocês. Amanhã, retornaremos com as atividades normalmente. 🙏"
+    },
+    {
+      "contact": "Kaique Ambrosio Guerios",
+      "labels": [
+        "aluno",
+        "pré-inscrito"
+      ],
+      "text": "Olá!\r\n\r\nSeu parceiro de treino da segunda feira, deu uma pausa nos treinos este mês.\r\n\r\nPassamos para plano individual de segunda, ate encontrar uma dupla, pode ser?"
+    },
+    {
+      "contact": "Marcelo Woich",
+      "labels": [
+        "pré-inscrito",
+        "interessado"
+      ],
+      "text": "Segue link para baixar nosso app e fazer cadastro, isso facilitará sua inclusão nos grupos e será através dele que o aluno irá fazer toda a gestão de sua aula, locação - se puder baixar: \\\n \\\nAndroid: <https://play.google.com/store/apps/details?id=es.tpc.matchpoint.appclient.montrealtenisclube>\n\nIOS: <https://apps.apple.com/us/app/montreal-tenis-clube/id6764062641>"
+    },
+    {
+      "contact": "Marcelo Woich",
+      "labels": [
+        "pré-inscrito",
+        "interessado"
+      ],
+      "text": "Marcelo, para reservas de quadra seria mediante a pagamento diretamente pelo app. \n\nCaso esteja com dificuldades para acessar o app me informe que já verifico o que podemos fazer."
+    },
+    {
+      "contact": "Marcelo Woich",
+      "labels": [
+        "pré-inscrito",
+        "interessado"
+      ],
+      "text": "Locação - Aluno **R$ 90,00 /h**\n\nLocação - Não Aluno **R$ 100,00 /h**"
+    },
+    {
+      "contact": "~Karina",
+      "labels": [
+        "interessado"
+      ],
+      "text": "Como ela acertou pelo app, não apareceu aqui pra mim, foi automático"
+    },
+    {
+      "contact": "~Jade Oliveira",
+      "labels": [
+        "interessado"
+      ],
+      "text": "Vou cancelar aqui.\n\nGostaria de agendar sua aula de reposição?"
+    },
+    {
+      "contact": "~Jade Oliveira",
+      "labels": [
+        "interessado"
+      ],
+      "text": "Vou verificar disponibilidade com o professor Leandro e te comunico"
+    },
+    {
+      "contact": "~Jade Oliveira",
+      "labels": [
+        "interessado"
+      ],
+      "text": "Que pena, Jade! Desejamos que você fique bem e tenha uma boa recuperação. \n\nQualquer coisa estamos a disposição."
+    },
+    {
+      "contact": "~Lucas",
+      "labels": [
+        "recebeu_formulário",
+        "interessado"
+      ],
+      "text": "Lucas a sua busca é  para alterar o horário do seu treino, correto?"
+    },
+    {
+      "contact": "~Lucas",
+      "labels": [
+        "recebeu_formulário",
+        "interessado"
+      ],
+      "text": "Ok! vamos ajustar a sua disponibilidade , teria por enquanto na sexta as 17 ou 18h, correto?"
+    },
+    {
+      "contact": "~Lucas",
+      "labels": [
+        "recebeu_formulário",
+        "interessado"
+      ],
+      "text": "Entramos em contato com a prof Leciane para verificar disponibilidade de uma aula de reposição pra você. Assim que ela passar o dia eu entro em contato com você."
+    },
+    {
+      "contact": "rafael  berger",
+      "labels": [
+        "recebeu_formulário"
+      ],
+      "text": "Para você conhecer é possível comprar uma aula avulsa.\n\nCaso você goste da aula, da nossa estrutura, e decida continuar, descontamos esse valor pago da aula avulsa da 1 mensalidade e continua para os meses seguintes o valor da mensalidade normal.\n\nSe você decidir não continuar, fica somente o valor dessa aula avulsa."
+    },
+    {
+      "contact": "rafael  berger",
+      "labels": [
+        "recebeu_formulário"
+      ],
+      "text": "Para você conhecer é possível comprar uma aula avulsa.\n\nCaso você goste da aula, da nossa estrutura, e decida continuar, descontamos esse valor pago da aula avulsa da 1 mensalidade e continua para os meses seguintes o valor da mensalidade normal.\n\nSe você decidir não continuar, fica somente o valor dessa aula avulsa."
+    },
+    {
+      "contact": "rafael  berger",
+      "labels": [
+        "recebeu_formulário"
+      ],
+      "text": "Para entendermos melhor o seu nível de jogo e conseguirmos te encaixar nas aulas, treinos e grupos ideais, poderia nos responder algumas perguntas rápidas?\n\n• Você já é tenista?\\\n• Há quanto tempo joga tênis?\\\n• Já participou de algum torneio de federação ou torneio interno?\\\n• Qual classe/categoria costuma jogar?\\\n• Em torneios internos, qual categoria já disputou?\\\n• Costuma jogar simples, dupla ou ambos?\\\n• Atualmente joga com frequência? Quantas vezes por semana?\n\nObrigado! 😊"
+    },
+    {
+      "contact": "rafael  berger",
+      "labels": [
+        "recebeu_formulário"
+      ],
+      "text": "Segue link para baixar nosso app e fazer cadastro, isso facilitará sua inclusão nos grupos e será através dele que o aluno irá fazer toda a gestão de sua aula, locação - se puder baixar: \\\n \\\nAndroid: <https://play.google.com/store/apps/details?id=es.tpc.matchpoint.appclient.montrealtenisclube>\n\nIOS: <https://apps.apple.com/us/app/montreal-tenis-clube/id6764062641>"
+    },
+    {
+      "contact": "rafael  berger",
+      "labels": [
+        "recebeu_formulário"
+      ],
+      "text": "Acredito que tenha sim, Rafael! Só vamos verificar disponibilidade de turmas para te encaixar e entramos em contato."
+    },
+    {
+      "contact": "rafael  berger",
+      "labels": [
+        "recebeu_formulário"
+      ],
+      "text": "Bom dia, Vinicius. \n\nEstava aguardando com os profs alguma turma para encaixar ele."
+    },
+    {
+      "contact": "~Roberto Borges",
+      "labels": [
+        "interessado"
+      ],
+      "text": "Olá, tudo bem?\\\nObrigado pelo interesse!\\\n\\\nA Montreal é um complexo de tênis que oferece locações, aulas com professores e reservas mensais para jogar com seus amigos!\n\n\\\n**São 04 quadras de saibro totalmente cobertas.**\\\n\\\nVou lhe mandar nossa tabela de valores."
+    },
+    {
+      "contact": "~Roberto Borges",
+      "labels": [
+        "interessado"
+      ],
+      "text": "Seu interesse seria na aulas? Conte um pouco mais…\\\nEstou a disposição!"
+    },
+    {
+      "contact": "~Roberto Borges",
+      "labels": [
+        "interessado"
+      ],
+      "text": "Como posso lhe ajudar? Você esta procurando por treinos individuais, duplas, trio, equipe, kids ou reserva mensal? \n\nQuais são os seus dias e horários preferidos?"
+    },
+    {
+      "contact": "~Roberto Borges",
+      "labels": [
+        "interessado"
+      ],
+      "text": "Vc tem mais alguma duvida sobre as aulas de tênis? \\\nGostaria de iniciar?"
+    },
+    {
+      "contact": "~Araldo",
+      "labels": [
+        "recebeu_formulário"
+      ],
+      "text": "Araldo, fazendo um breve resumo. Seria aula para você e sua esposa em dupla ou grupo nível iniciante. Correto? Em qualquer dia da semana após 18h15 2x na semana?"
+    },
+    {
+      "contact": "~Araldo",
+      "labels": [
+        "recebeu_formulário"
+      ],
+      "text": "Vou verificar disponibilidade de grupos e te comunico, Araldo."
+    },
+    {
+      "contact": "~Araldo",
+      "labels": [
+        "recebeu_formulário"
+      ],
+      "text": "Segue link para baixar nosso app e fazer cadastro, isso facilitará sua inclusão nos grupos e será através dele que o aluno irá fazer toda a gestão de sua aula, locação - se puder baixar: \\\n \\\nAndroid: <https://play.google.com/store/apps/details?id=es.tpc.matchpoint.appclient.montrealtenisclube>\n\nIOS: <https://apps.apple.com/us/app/montreal-tenis-clube/id6764062641>"
+    },
+    {
+      "contact": "~Araldo",
+      "labels": [
+        "recebeu_formulário"
+      ],
+      "text": "Bom dia, Araldo! Tudo bem? \n\nConseguiu fazer seu registro no app?"
+    },
+    {
+      "contact": "~Araldo",
+      "labels": [
+        "recebeu_formulário"
+      ],
+      "text": "Para você conhecer é possível comprar uma aula avulsa.\n\nCaso você goste da aula, da nossa estrutura, e decida continuar, descontamos esse valor pago da aula avulsa da 1 mensalidade e continua para os meses seguintes o valor da mensalidade normal.\n\nSe você decidir não continuar, fica somente o valor dessa aula avulsa."
+    },
+    {
+      "contact": "~Araldo",
+      "labels": [
+        "recebeu_formulário"
+      ],
+      "text": "Sim sim, assim que você realizar seu cadastro já estará disponível no nosso app."
+    },
+    {
+      "contact": "~Araldo",
+      "labels": [
+        "recebeu_formulário"
+      ],
+      "text": "Segue link para baixar nosso app e fazer cadastro, isso facilitará sua inclusão nos grupos e será através dele que o aluno irá fazer toda a gestão de sua aula, locação - se puder baixar: \\\n \\\nAndroid: <https://play.google.com/store/apps/details?id=es.tpc.matchpoint.appclient.montrealtenisclube>\n\nIOS: <https://apps.apple.com/us/app/montreal-tenis-clube/id6764062641>"
+    },
+    {
+      "contact": "~OMAR DARWICHE",
+      "labels": [
+        "interessado"
+      ],
+      "text": "Seu interesse seria na aulas? Conte um pouco mais…\\\nEstou a disposição!"
+    },
+    {
+      "contact": "~OMAR DARWICHE",
+      "labels": [
+        "interessado"
+      ],
+      "text": "Olá Omar, tudo bem? \\\nGostaria de iniciar seu treino individual? \\\n \\\nQualquer duvida só me chamar por aqui. \\\nAbs!"
+    },
+    {
+      "contact": "~OMAR DARWICHE",
+      "labels": [
+        "interessado"
+      ],
+      "text": "Nao teria interesse nas aulas em grupo? \\\nElas são em 4 pessoas no total. \\\n \\\nTem um valor mais em conta dai. \\\nSão bem dinâmicas, com jogos entre os alunos, situação de jogo. \\\n \\\nE a gente colocar participantes de um mesmo nivel. \\\n \\\nOq acha?"
+    },
+    {
+      "contact": "~OMAR DARWICHE",
+      "labels": [
+        "interessado"
+      ],
+      "text": "a gente tenta montar o grupo a partir da sua disponibilidade. \\\nVc quer manter o horario entre 10 e 15hrs?"
+    }
+  ]
+}

@@ -1,0 +1,1575 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manual Operacional & Atendimento | Montreal Tênis Clube</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="theme-dark">
+
+  <!-- TOP NAVIGATION BAR -->
+  <header class="topbar">
+    <div class="topbar-left">
+      <div class="brand-badge">
+        <span class="brand-ball">🎾</span>
+        <div class="brand-info">
+          <span class="brand-title">MONTREAL TÊNIS CLUBE</span>
+          <span class="brand-subtitle">Manual Interno & Guia da Secretaria</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="topbar-search">
+      <div class="search-input-wrapper">
+        <span class="search-icon">🔍</span>
+        <input type="text" id="globalSearchInput" placeholder="Buscar qualquer regra, script ou procedimento... (Ctrl + K)" autocomplete="off">
+        <kbd class="search-kbd">Ctrl K</kbd>
+        <button id="clearSearchBtn" class="clear-search-btn" title="Limpar busca" style="display:none;">✕</button>
+      </div>
+      <!-- Quick Results Dropdown -->
+      <div id="searchResultsDropdown" class="search-dropdown" style="display: none;"></div>
+    </div>
+
+    <div class="topbar-actions">
+      <button id="themeToggleBtn" class="action-btn" title="Alternar Modo Escuro / Claro">
+        <span id="themeIcon">🌙</span>
+      </button>
+      <div class="status-pill online">
+        <span class="pulse-dot"></span>
+        <span>Guia Oficial Ativo</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- MAIN APPLICATION LAYOUT -->
+  <div class="app-layout">
+    
+    <!-- SIDEBAR NAVIGATION -->
+    <aside class="sidebar">
+      <div class="sidebar-section">
+        <span class="sidebar-label">TRILHAS OPERACIONAIS</span>
+        <nav class="nav-list">
+          <a href="#atendimento" class="nav-item active" data-tab="atendimento">
+            <span class="nav-icon">💬</span>
+            <div class="nav-text">
+              <strong>Atendimento Chatwoot</strong>
+              <small>Scripts, SLA e Regras de Ouro</small>
+            </div>
+          </a>
+
+          <a href="#simulador" class="nav-item" data-tab="simulador">
+            <span class="nav-icon">🧮</span>
+            <div class="nav-text">
+              <strong>Simulador de Mensalidades</strong>
+              <small>Calculadora & 1ª Mensalidade</small>
+            </div>
+            <span class="nav-tag new">Novo</span>
+          </a>
+
+          <a href="#matchpoint" class="nav-item" data-tab="matchpoint">
+            <span class="nav-icon">💻</span>
+            <div class="nav-text">
+              <strong>Sistema Matchpoint</strong>
+              <small>Locações, App & Vídeos</small>
+            </div>
+          </a>
+
+          <a href="#turmas" class="nav-item" data-tab="turmas">
+            <span class="nav-icon">👥</span>
+            <div class="nav-text">
+              <strong>Aulas, Turmas & Nível</strong>
+              <small>Encaixes, Duplas e Espera</small>
+            </div>
+          </a>
+
+          <a href="#professores" class="nav-item" data-tab="professores">
+            <span class="nav-icon">🎾</span>
+            <div class="nav-text">
+              <strong>Professores & Clima</strong>
+              <small>Chuva, Feriados e Reposição</small>
+            </div>
+          </a>
+
+          <a href="#limpeza" class="nav-item" data-tab="limpeza">
+            <span class="nav-icon">📋</span>
+            <div class="nav-text">
+              <strong>Rotinas & Checklists</strong>
+              <small>Abertura, Quadras e Fechamento</small>
+            </div>
+          </a>
+
+          <a href="#relatorios" class="nav-item" data-tab="relatorios">
+            <span class="nav-icon">📊</span>
+            <div class="nav-text">
+              <strong>Relatórios & SLA de Atendimento</strong>
+              <small>Meta 5 min, FRT e Performance</small>
+            </div>
+            <span class="nav-tag live">Ao Vivo</span>
+          </a>
+        </nav>
+      </div>
+
+      <div class="sidebar-footer">
+        <div class="support-card">
+          <span class="support-icon">💡</span>
+          <p><strong>Dica de Agilidade:</strong> Clique no botão de cópia dos scripts para colar com formatação no Chatwoot.</p>
+        </div>
+      </div>
+    </aside>
+
+    <!-- CONTENT AREA -->
+    <main class="main-content">
+
+      <!-- ============================================== -->
+      <!-- TAB 1: ATENDIMENTO CHATWOOT -->
+      <!-- ============================================== -->
+      <section id="tab-atendimento" class="tab-pane active">
+        <div class="section-header">
+          <div class="section-title-wrap">
+            <span class="section-badge badge-chat">Pilar 1</span>
+            <h2>Atendimento Chatwoot & Comunicação Oficial</h2>
+            <p>Padrões de resposta rápida, etiqueta do clube e roteiros validados para conversão e acolhimento.</p>
+          </div>
+          <div class="quick-stats">
+            <div class="stat-box">
+              <span class="stat-num">5 min</span>
+              <span class="stat-label">SLA 1ª Resposta</span>
+            </div>
+            <div class="stat-box highlight">
+              <span class="stat-num">100%</span>
+              <span class="stat-label">Uso de Nota Privada</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- ALERTA CRÍTICO: NOTAS PRIVADAS -->
+        <div class="alert-banner alert-danger">
+          <div class="alert-icon">⚠️</div>
+          <div class="alert-body">
+            <h3>REGRA DE OURO DA SECRETARIA: CUIDADO COM NOTAS PRIVADAS!</h3>
+            <p><strong>NUNCA digite perguntas internas ou dúvidas sobre o aluno no chat público.</strong> O Chatwoot possui a aba amarela <em>"Nota Privada"</em> (Private Note) para comunicação interna entre a equipe. Mensagens como <em>"Isso aqui já acertou?"</em>, <em>"Como fico para arrumar aula para ele?"</em> ou recados para a gerência jamais devem chegar aos olhos do cliente!</p>
+          </div>
+        </div>
+
+        <!-- SCRIPTS CARDS GRID -->
+        <div class="cards-filter-bar">
+          <span class="filter-label">Filtrar Scripts por Situação:</span>
+          <button class="filter-chip active" data-filter="all">Todos</button>
+          <button class="filter-chip" data-filter="leads">Novos Interessados</button>
+          <button class="filter-chip" data-filter="precos">Valores & Aulas</button>
+          <button class="filter-chip" data-filter="locacao">Locação & PIX</button>
+          <button class="filter-chip" data-filter="fup">Follow-ups</button>
+          <button class="filter-chip" data-filter="regras">Regras & Imprevistos</button>
+        </div>
+
+        <div class="scripts-grid">
+          
+          <!-- SCRIPT 1: BOAS VINDAS GERAL -->
+          <article class="script-card" data-category="leads" data-keywords="boas vindas apresentação complexo quadras cobertas saibro">
+            <div class="script-card-header">
+              <div class="script-meta">
+                <span class="script-tag tag-lead">Novo Lead</span>
+                <span class="macro-code">#boas-vindas</span>
+              </div>
+              <button class="btn-copy" data-target="script-boas-vindas">
+                <span class="copy-icon">📋</span> Copiar Script
+              </button>
+            </div>
+            <h4>Boas-Vindas Geral & Apresentação da Montreal</h4>
+            <p class="script-context"><strong>Quando usar:</strong> Primeiro contato de quem chamou no WhatsApp sem especificar se quer aula ou aluguel de quadra.</p>
+            <div class="script-box" id="script-boas-vindas">Olá, tudo bem? Seja muito bem-vindo(a) à Montreal Tênis Clube! 🎾✨
+
+Somos um complexo completo dedicado ao tênis, com 04 quadras de saibro 100% cobertas, estrutura com vestiários, estacionamento e uma equipe de professores capacitados para todas as idades e níveis (do zero ao avançado).
+
+Você procura por aulas com professor ou locação de quadras avulsas para jogar com amigos?</div>
+          </article>
+
+          <!-- SCRIPT 2: DÚVIDAS DE INICIANTE (RAQUETE & GRUPO) -->
+          <article class="script-card" data-category="leads" data-keywords="iniciante nunca joguei raquete comprar emprestada grupo achar parceiro">
+            <div class="script-card-header">
+              <div class="script-meta">
+                <span class="script-tag tag-lead">Iniciante</span>
+                <span class="macro-code">#iniciante-duvidas</span>
+              </div>
+              <button class="btn-copy" data-target="script-iniciante">
+                <span class="copy-icon">📋</span> Copiar Script
+              </button>
+            </div>
+            <h4>Iniciante: Raquete Emprestada & Montagem de Grupo</h4>
+            <p class="script-context"><strong>Quando usar:</strong> Quando o cliente tem receio de não ter parceiro para a turma ou medo de ter que comprar raquete cara logo de início.</p>
+            <div class="script-box" id="script-iniciante">Não se preocupe com nada disso! 😉
+
+1. Sobre o grupo: Você não precisa trazer ninguém! Nós temos turmas ativas e montamos os grupos com alunos que estão no mesmo nível técnico que você.
+2. Sobre a raquete: Para suas primeiras aulas, a Montreal empresta a raquete gratuitamente aqui na secretaria. Você só precisa vir de tênis e roupa confortável para praticar esporte!
+
+Você nunca praticou antes ou já bateu uma bolinha alguma vez?</div>
+          </article>
+
+          <!-- SCRIPT 3: QUESTIONÁRIO DE NIVELAMENTO -->
+          <article class="script-card" data-category="leads" data-keywords="nivelamento perguntas classe categoria experiencia tempo">
+            <div class="script-card-header">
+              <div class="script-meta">
+                <span class="script-tag tag-lead">Nivelamento</span>
+                <span class="macro-code">#nivelamento</span>
+              </div>
+              <button class="btn-copy" data-target="script-nivelamento">
+                <span class="copy-icon">📋</span> Copiar Script
+              </button>
+            </div>
+            <h4>Questionário Humanizado de Nivelamento</h4>
+            <p class="script-context"><strong>Quando usar:</strong> Para entender a rotina e o nível do praticante antes de alocar turma com o professor.</p>
+            <div class="script-box" id="script-nivelamento">Perfeito! Para conseguirmos te indicar a melhor turma e o professor ideal, me conte rapidinho:
+
+1️⃣ Você já joga tênis ou seria seu primeiro contato? (Se já joga, há quanto tempo?)
+2️⃣ Já disputou algum torneio interno/federação ou joga apenas por lazer?
+3️⃣ Quais dias da semana e horários ficam melhores na sua rotina? (Manhã, tarde ou noite?)
+4️⃣ Você tem preferência por treinos individuais, em dupla ou em grupo (até 4 alunos)?
+
+Com essas respostas já verifico as turmas e vagas abertas para você! 🚀</div>
+          </article>
+
+          <!-- SCRIPT 4: AULA AVULSA COM VALORES TRANSPARENTES -->
+          <article class="script-card" data-category="precos" data-keywords="aula avulsa experimental valor preco 110 130 220 abatimento primeira mensalidade">
+            <div class="script-card-header">
+              <div class="script-meta">
+                <span class="script-tag tag-price">Aulas & Valores</span>
+                <span class="macro-code">#aula-avulsa</span>
+              </div>
+              <button class="btn-copy" data-target="script-avulsa">
+                <span class="copy-icon">📋</span> Copiar Script
+              </button>
+            </div>
+            <h4>Aula Avulsa / Experimental (Com Abatimento na Matrícula)</h4>
+            <p class="script-context"><strong>Quando usar:</strong> Quando o cliente pergunta o valor da aula experimental ou quer testar a academia antes de fechar plano mensal.</p>
+            <div class="script-box" id="script-avulsa">Para você conhecer nossa estrutura, a metodologia e o professor, você pode agendar uma Aula Avulsa! 🎾
+
+💡 Como funciona o benefício:
+Se após a aula você decidir se matricular, o valor pago nessa aula avulsa é 100% abatido da sua 1ª mensalidade! Se preferir não continuar, você pagou apenas a aula que fez.
+
+Valores da Aula Avulsa:
+• Grupo (até 4 pessoas): R$ 110,00
+• Dupla: R$ 130,00
+• Individual: R$ 220,00
+
+(Lembrando que para a aula avulsa nós emprestamos a raquete gratuitamente).
+
+Qual dia e período (manhã, tarde ou noite) fica melhor na sua rotina para agendarmos?</div>
+          </article>
+
+          <!-- SCRIPT 5: DESCONTOS DE TREINAMENTO -->
+          <article class="script-card" data-category="precos" data-keywords="descontos promocao nao nobre 12 frequencia 5 7 familia 2x semana">
+            <div class="script-card-header">
+              <div class="script-meta">
+                <span class="script-tag tag-price">Descontos</span>
+                <span class="macro-code">#descontos</span>
+              </div>
+              <button class="btn-copy" data-target="script-descontos">
+                <span class="copy-icon">📋</span> Copiar Script
+              </button>
+            </div>
+            <h4>Política Oficial de Descontos nos Treinamentos</h4>
+            <p class="script-context"><strong>Quando usar:</strong> Quando o aluno quer treinar mais dias, treinar à tarde ou trazer parentes/cônjuge.</p>
+            <div class="script-box" id="script-descontos">Nós temos políticas de desconto excelentes para incentivar seu treino e sua família! 🎾🔥
+
+⏰ 12% OFF - Horário Não Nobre:
+Para treinos realizados entre 10h e 15h (não cumulativo com outras promoções de horário).
+
+🏃 Desconto por Frequência:
+• 2x na semana: 5% de desconto
+• 3x ou mais na semana: 7% de desconto
+
+👨‍👩‍👧 Plano Família:
+• 2 membros da família: 5% de desconto
+• 3 ou mais membros: 7% de desconto
+
+💡 O melhor: o Desconto de Frequência e o Plano Família são cumulativos entre si!
+
+Quantas vezes por semana você gostaria de treinar? Me informe que já calculo a simulação do seu plano!</div>
+          </article>
+
+          <!-- SCRIPT 6: PRIMEIRA MENSALIDADE PROPORCIONAL -->
+          <article class="script-card" data-category="precos" data-keywords="primeira mensalidade proporcional abatimento inicio meio do mes entrada">
+            <div class="script-card-header">
+              <div class="script-meta">
+                <span class="script-tag tag-price">Mensalidade</span>
+                <span class="macro-code">#primeira-mensalidade</span>
+              </div>
+              <button class="btn-copy" data-target="script-prop">
+                <span class="copy-icon">📋</span> Copiar Script
+              </button>
+            </div>
+            <h4>1ª Mensalidade Proporcional & Entrada Justa</h4>
+            <p class="script-context"><strong>Quando usar:</strong> Quando o aluno vai iniciar no meio do mês e tem dúvida sobre como será cobrado.</p>
+            <div class="script-box" id="script-prop">Sua entrada aqui na Montreal é 100% justa! 🤝
+
+A sua 1ª mensalidade é calculada de forma proporcional à quantidade de aulas restantes que você irá fazer no mês de início. Ou seja, você não paga pelo mês cheio se começar no meio dele!
+
+E se você realizou a aula avulsa antes de fechar, nós ainda abatemos o valor pago na avulsa dessa sua primeira mensalidade.
+
+A partir do segundo mês, passa a vigorar o valor normal da sua mensalidade fixa.</div>
+          </article>
+
+          <!-- SCRIPT 7: FOLLOW-UP COM VAGA DO PROFESSOR -->
+          <article class="script-card" data-category="fup" data-keywords="follow up retorno professor vaga horario disponibilidade sequencia">
+            <div class="script-card-header">
+              <div class="script-meta">
+                <span class="script-tag tag-fup">Follow-Up</span>
+                <span class="macro-code">#fup-vaga</span>
+              </div>
+              <button class="btn-copy" data-target="script-fup-vaga">
+                <span class="copy-icon">📋</span> Copiar Script
+              </button>
+            </div>
+            <h4>Follow-up com Retorno de Vaga do Professor</h4>
+            <p class="script-context"><strong>Quando usar:</strong> Substitui o frio "Podemos dar sequência?". Deve ser usado quando o professor liberar vaga.</p>
+            <div class="script-box" id="script-fup-vaga">Olá, [Nome]! Tudo bem? Passando com ótimas notícias! 🎾
+
+Conversei com o professor [Nome do Professor] e conseguimos uma vaga excelente para o seu perfil e horário:
+🗓️ Dia: [Ex: Quinta-feira]
+⏰ Horário: [Ex: 18:00]
+👥 Formato: [Ex: Dupla / Grupo Iniciante]
+
+Podemos confirmar seu agendamento para essa semana? Fico no seu aguardo para garantir sua vaga!</div>
+          </article>
+
+          <!-- SCRIPT 8: FOLLOW-UP 24H SEM RESPOSTA -->
+          <article class="script-card" data-category="fup" data-keywords="lembrete sumiu 24h sem resposta lead frio">
+            <div class="script-card-header">
+              <div class="script-meta">
+                <span class="script-tag tag-fup">Follow-Up</span>
+                <span class="macro-code">#fup-lembrete</span>
+              </div>
+              <button class="btn-copy" data-target="script-fup-lembrete">
+                <span class="copy-icon">📋</span> Copiar Script
+              </button>
+            </div>
+            <h4>Lembrete Amigável de 24h (Sem Parecer Cobrança)</h4>
+            <p class="script-context"><strong>Quando usar:</strong> Quando o lead visualizou a tabela ou o formulário e não respondeu há mais de 24 horas.</p>
+            <div class="script-box" id="script-fup-lembrete">Olá, [Nome]! Tudo bem por aí?
+
+Passando só para saber se você ficou com alguma dúvida sobre as aulas e valores ou se prefere que eu veja opções em outros dias da semana.
+
+Estou à disposição para te ajudar a começar a treinar com a gente! 😊</div>
+          </article>
+
+          <!-- SCRIPT 9: EVOLUÇÃO DE NÍVEL E TROCA DE TURMA -->
+          <article class="script-card" data-category="regras" data-keywords="troca de turma evolucao nivel subir avancar professor">
+            <div class="script-card-header">
+              <div class="script-meta">
+                <span class="script-tag tag-rule">Regras</span>
+                <span class="macro-code">#evolucao-turma</span>
+              </div>
+              <button class="btn-copy" data-target="script-evolucao">
+                <span class="copy-icon">📋</span> Copiar Script
+              </button>
+            </div>
+            <h4>Progressão de Nível do Aluno</h4>
+            <p class="script-context"><strong>Quando usar:</strong> Quando o aluno teme ficar preso em turma abaixo do seu rendimento.</p>
+            <div class="script-box" id="script-evolucao">Com certeza! Nossos professores acompanham o desenvolvimento técnico de cada aluno semanalmente.
+
+Assim que o professor identificar que você evoluiu e está pronto para o próximo nível, a secretaria faz a transição do seu horário para um grupo mais avançado, garantindo que seu treino continue sempre desafiador e dinâmico. 👊</div>
+          </article>
+
+          <!-- SCRIPT 10: PARCEIRO DE DUPLA QUE TRANCOU/VIAJOU -->
+          <article class="script-card" data-category="regras" data-keywords="parceiro desistiu trancou viajou dupla sozinho sem parceiro">
+            <div class="script-card-header">
+              <div class="script-meta">
+                <span class="script-tag tag-rule">Retenção</span>
+                <span class="macro-code">#parceiro-ausente</span>
+              </div>
+              <button class="btn-copy" data-target="script-parceiro">
+                <span class="copy-icon">📋</span> Copiar Script
+              </button>
+            </div>
+            <h4>Parceiro de Treino Ausente (Sem Perder o Aluno Remanescente)</h4>
+            <p class="script-context"><strong>Quando usar:</strong> Quando um aluno da dupla cancela ou viaja. Não empurre plano individual caro de imediato!</p>
+            <div class="script-box" id="script-parceiro">Olá, [Nome]! Tudo bem?
+
+Te mandando essa mensagem para alinhar seu treino: seu parceiro de treino ([Nome]) precisou fazer uma pausa temporária neste mês.
+
+🎾 Como vamos fazer para você não ficar desassistido:
+Já estamos com nosso banco de alunos ativo buscando uma nova dupla no mesmo nível técnico que você para os próximos treinos. Enquanto isso, temos duas opções práticas:
+1. Você pode fazer um treino focado com o professor no mesmo horário; ou
+2. Te encaixamos temporariamente em outro grupo nos mesmos dias/horários para você não perder o ritmo.
+
+Qual dessas opções fica melhor para você?</div>
+          </article>
+
+          <!-- SCRIPT 11: LOCAÇÃO DE QUADRAS (DISPONIBILIDADE, APP OU PIX) -->
+          <article class="script-card" data-category="locacao" data-keywords="locacao quadra aluguel horario disponibilidade app matchpoint pix cnpj reserva">
+            <div class="script-card-header">
+              <div class="script-meta">
+                <span class="script-tag tag-lead">Locação</span>
+                <span class="macro-code">#locacao-quadra</span>
+              </div>
+              <button class="btn-copy" data-target="script-locacao-quadra">
+                <span class="copy-icon">📋</span> Copiar Script
+              </button>
+            </div>
+            <h4>Locação de Quadra: Disponibilidade, App & PIX Direto</h4>
+            <p class="script-context"><strong>Quando usar:</strong> O cliente pergunta se tem horário disponível em determinado dia. Verifique no Matchpoint e envie a resposta com opção de autoatendimento no App ou fechamento imediato via PIX.</p>
+            <div class="script-box" id="script-locacao-quadra">Temos disponibilidade sim! 🎾
+
+Valores da Locação (1 hora):
+• Aluno Montreal: R$ 90,00
+• Não Aluno: R$ 100,00
+
+Você tem duas formas super práticas para garantir seu horário:
+
+1️⃣ Pelo nosso Aplicativo Oficial (você vê toda a grade em tempo real, escolhe a quadra e paga direto com total comodidade):
+📱 Baixe no seu celular:
+• Android: https://play.google.com/store/apps/details?id=es.tpc.matchpoint.appclient.montrealtenisclube
+• iPhone (iOS): https://apps.apple.com/us/app/montreal-tenis-clube/id6764062641
+
+2️⃣ Ou se preferir fechamos por aqui agora mesmo via PIX:
+O valor pode ser pago via aplicativo ou pelo PIX.
+• Chave CNPJ: 63.999.199/0001-23
+• Favorecido: MONTREAL TÊNIS CLUBE
+
+Caso faça via PIX, por gentileza enviar o comprovante por aqui para confirmarmos sua reserva de imediato! 🚀</div>
+          </article>
+
+          <!-- SCRIPT 12: DADOS OFICIAIS DE PAGAMENTO / PIX MONTREAL -->
+          <article class="script-card" data-category="precos" data-keywords="pix dados pagamento cnpj comprovante pagar transferencia">
+            <div class="script-card-header">
+              <div class="script-meta">
+                <span class="script-tag tag-price">Pagamento</span>
+                <span class="macro-code">#dados-pix</span>
+              </div>
+              <button class="btn-copy" data-target="script-dados-pix">
+                <span class="copy-icon">📋</span> Copiar Script
+              </button>
+            </div>
+            <h4>Dados Oficiais de Pagamento (Chave PIX CNPJ)</h4>
+            <p class="script-context"><strong>Quando usar:</strong> Quando o cliente solicitar os dados de pagamento / chave PIX para locação, aula avulsa, matrícula ou mensalidade.</p>
+            <div class="script-box" id="script-dados-pix">O valor pode ser pago via aplicativo ou pelo PIX.
+
+Segue a chave PIX oficial da academia:
+📌 Chave CNPJ: 63.999.199/0001-23
+🏢 Favorecido: MONTREAL TÊNIS CLUBE
+
+Caso faça via PIX, por gentileza enviar o comprovante por aqui para darmos baixa no sistema! 🎾</div>
+          </article>
+
+        </div>
+      </section>
+
+      <!-- ============================================== -->
+      <!-- TAB 2: SIMULADOR DE MENSALIDADES -->
+      <!-- ============================================== -->
+      <section id="tab-simulador" class="tab-pane">
+        <div class="section-header">
+          <div class="section-title-wrap">
+            <span class="section-badge badge-sim">Ferramenta</span>
+            <h2>Calculadora & Simulador de Mensalidades</h2>
+            <p>Selecione as opções do aluno para calcular na hora o valor final com descontos cumulativos e gerar o texto para o WhatsApp.</p>
+          </div>
+        </div>
+
+        <div class="simulator-wrapper">
+          <div class="sim-card sim-inputs">
+            <h3>1. Dados do Treinamento</h3>
+            
+            <!-- GRADE DINÂMICA DE TREINOS DO ALUNO -->
+            <div class="workout-summary-badge" id="workoutSummaryBadge">
+              <div>
+                <strong style="color:var(--text-primary);">Grade do Aluno:</strong>
+                <span id="txtGradeTotalTreinos" style="color:var(--clay-primary); font-weight:700; margin-left:4px;">1 treino por semana</span>
+              </div>
+              <span id="badgeBeneficioFreq" class="badge-pill bg-blue">Tabela Base (1x)</span>
+            </div>
+
+            <!-- CONTAINER ONDE OS TREINOS SÃO RENDERIZADOS DINAMICAMENTE -->
+            <div id="workoutsList" class="workouts-list">
+              <!-- Os treinos serão renderizados via JavaScript (1º, 2º, 3º, 4º, etc.) -->
+            </div>
+
+            <button type="button" id="btnAddWorkout" class="btn-add-workout">
+              <span>➕</span> Adicionar Outro Treino (2º, 3º, 4º ou mais na semana)
+            </button>
+
+            <!-- OPÇÕES GLOBAIS DA MATRÍCULA -->
+            <div class="form-group" id="groupFamilia" style="margin-top:16px;">
+              <label>Plano Família (Desconto sobre a Grade):</label>
+              <select id="selectFamilia" class="form-select">
+                <option value="0">Sem Plano Família (1 membro ativo)</option>
+                <option value="5">2 membros ativos (5% OFF)</option>
+                <option value="7">3 ou mais membros ativos (7% OFF)</option>
+              </select>
+              <small style="display:block; color:var(--text-muted); font-size:0.72rem; margin-top:4px;">
+                💡 <em>Frequência + Família acumulam com teto máximo oficial de 12,0%.</em>
+              </small>
+            </div>
+
+            <div class="form-group">
+              <label>Abatimento de Aula Avulsa Prévia:</label>
+              <div class="inline-check">
+                <input type="checkbox" id="checkAbaterAvulsa">
+                <label for="checkAbaterAvulsa">Abater valor da aula avulsa experimental na 1ª mensalidade?</label>
+              </div>
+              <input type="number" id="inputValorAvulsa" placeholder="Valor pago na avulsa (ex: 110, 130 ou 220)" class="form-input" style="display:none; margin-top:8px;" value="110">
+            </div>
+          </div>
+
+          <div class="sim-card sim-results">
+            <h3>2. Resumo do Cálculo Oficial</h3>
+            
+            <div class="calc-breakdown">
+              <div class="calc-row">
+                <span>Valor Base Mensal (1x/semana):</span>
+                <span id="resValorBruto">R$ 335,00</span>
+              </div>
+              <div class="calc-row" id="rowSubtotalFreq" style="display:none;">
+                <span>Subtotal Frequência (<span id="txtFreqQtd">1x</span>):</span>
+                <span id="resSubtotalFreq">R$ 335,00</span>
+              </div>
+              <div class="calc-row discount" id="rowDescNobre" style="display:none;">
+                <span>Desconto Horário 10h–15h (12%):</span>
+                <span id="resDescNobre">- R$ 0,00</span>
+              </div>
+              <div class="calc-row discount" id="rowDescFreq" style="display:none;">
+                <span>Desconto Frequência (<span id="txtDescFreq">0%</span>):</span>
+                <span id="resDescFreq">- R$ 0,00</span>
+              </div>
+              <div class="calc-row discount" id="rowDescFam" style="display:none;">
+                <span>Plano Família (<span id="txtDescFam">0%</span>):</span>
+                <span id="resDescFam">- R$ 0,00</span>
+              </div>
+              <div class="calc-row discount" id="rowTetoAviso" style="display:none; font-size:0.75rem; color:#f59e0b;">
+                <span>⚠️ Teto máximo atingido:</span>
+                <span>Limitado a 12,0%</span>
+              </div>
+              <div class="calc-divider"></div>
+              <div class="calc-row total">
+                <span>Mensalidade Regular (após descontos):</span>
+                <span id="resValorFinal" class="highlight-val">R$ 335,00 /mês</span>
+              </div>
+
+              <!-- DETALHAMENTO PROPORCIONAL -->
+              <div class="calc-row sub" id="rowProporcional" style="margin-top: 10px; background: rgba(59, 130, 246, 0.1); border: 1px solid rgba(59, 130, 246, 0.25);">
+                <div>
+                  <span style="display:block; font-size:0.78rem; color:#93c5fd;">Proporção 1ª Matrícula (<span id="txtProporcao">4 treinos / 100%</span>):</span>
+                  <strong id="resValorProporcional" style="color:#60a5fa; font-size:1.05rem;">R$ 335,00</strong>
+                </div>
+              </div>
+
+              <div class="calc-row sub" id="rowAbatimento" style="display:none; background: rgba(16, 185, 129, 0.1); border: 1px solid rgba(16, 185, 129, 0.25);">
+                <div>
+                  <span style="display:block; font-size:0.78rem; color:#6ee7b7;">Total Final a Pagar (com Abatimento da Avulsa):</span>
+                  <strong id="resPrimeiraMensalidade" class="highlight-green" style="font-size:1.15rem;">R$ 225,00</strong>
+                </div>
+              </div>
+            </div>
+
+            <div class="sim-script-box">
+              <label><strong>Mensagem Pronta para Enviar ao Cliente:</strong></label>
+              <textarea id="simScriptOutput" readonly></textarea>
+              <button id="btnCopySim" class="btn-copy-full">
+                <span>📋</span> Copiar Simulação para o WhatsApp
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- TABELA MATRIZ DE CONSULTA RÁPIDA DA PLANILHA OFICIAL -->
+        <div class="card-box" style="margin-top: 28px;">
+          <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:14px; flex-wrap:wrap; gap:10px;">
+            <div>
+              <h3 style="margin-bottom:2px;">📊 Tabela de Referência Oficial (1ª Matrícula Proporcional)</h3>
+              <p style="font-size:0.78rem; color:var(--text-muted);">Conforme planilha oficial: use a coluna correspondente ao número de treinos que o aluno ainda fará no mês de entrada.</p>
+            </div>
+            <div class="pill-selector" id="matrixTabSelector" style="max-width:420px;">
+              <button type="button" class="pill-btn active" data-matrix="grupo">Grupo (R$ 335)</button>
+              <button type="button" class="pill-btn" data-matrix="trio">Trio (R$ 395)</button>
+              <button type="button" class="pill-btn" data-matrix="dupla">Dupla (R$ 430)</button>
+              <button type="button" class="pill-btn" data-matrix="individual">Individual (R$ 720)</button>
+            </div>
+          </div>
+
+          <div class="table-responsive">
+            <table class="data-table" id="tableMatrixRef">
+              <thead>
+                <tr>
+                  <th>Situação / Desconto</th>
+                  <th>Desconto %</th>
+                  <th>1 Treino (25%)</th>
+                  <th>2 Treinos (50%)</th>
+                  <th>3 Treinos (75%)</th>
+                  <th>4 Treinos (Cheio 100%)</th>
+                </tr>
+              </thead>
+              <tbody id="matrixTableBody">
+                <!-- Preenchido dinamicamente pelo JavaScript com os dados exatos da planilha -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================================== -->
+      <!-- TAB 3: SISTEMA MATCHPOINT & VÍDEOS -->
+      <!-- ============================================== -->
+      <section id="tab-matchpoint" class="tab-pane">
+        <div class="section-header">
+          <div class="section-title-wrap">
+            <span class="section-badge badge-sys">Pilar 2</span>
+            <h2>Sistema Matchpoint & Gestão de Quadras</h2>
+            <p>Procedimentos operacionais, links do aplicativo, orientações de reserva e vídeos demonstrativos.</p>
+          </div>
+        </div>
+
+        <!-- REGRAS DE LOCAÇÃO -->
+        <div class="info-banner">
+          <div class="info-grid">
+            <div class="info-item">
+              <span class="info-title">Valor Aluno Montreal</span>
+              <span class="info-val">R$ 90,00 /hora</span>
+            </div>
+            <div class="info-item">
+              <span class="info-title">Valor Não Aluno</span>
+              <span class="info-val">R$ 100,00 /hora</span>
+            </div>
+            <div class="info-item">
+              <span class="info-title">Regra Mandatória</span>
+              <span class="info-val highlight">Pagamento Prévio no App</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="sys-columns">
+          <div class="sys-instructions">
+            <h3>Procedimento Operacional: Locação de Quadras</h3>
+            <ol class="step-list">
+              <li>
+                <strong>1. Verifique a Disponibilidade no Matchpoint:</strong> Consulte o mapa de quadras no sistema para o dia e horário solicitado pelo cliente antes de responder.
+              </li>
+              <li>
+                <strong>2. Responda no Chatwoot com o Script Oficial:</strong> Utilize a macro <code>#locacao-quadra</code>. O script informa os valores (R$ 90 aluno / R$ 100 não-aluno), oferece os links do App para autoatendimento e dá abertura para pagamento imediato via PIX.
+              </li>
+              <li>
+                <strong>3. Formas de Baixa e Confirmação:</strong>
+                <ul style="margin-top:6px; padding-left:18px; font-size:0.82rem; color:var(--text-secondary); line-height:1.5;">
+                  <li><strong>Pelo App Oficial:</strong> A baixa no Matchpoint é 100% automática e a quadra fica bloqueada na hora.</li>
+                  <li><strong>Via PIX Direto:</strong> A secretária confere o comprovante com a chave CNPJ <code>63.999.199/0001-23</code> (Montreal Tênis Clube) e faz o bloqueio manual da quadra no mapa do Matchpoint.</li>
+                </ul>
+              </li>
+            </ol>
+
+            <div style="margin-top: 18px; padding: 14px; background: rgba(59, 130, 246, 0.08); border: 1px solid rgba(59, 130, 246, 0.25); border-radius: var(--radius-md);">
+              <small style="color: #93c5fd; display: block; font-weight: 700; margin-bottom: 4px;">💬 Scripts de Atendimento & Chave PIX:</small>
+              <p style="font-size: 0.8rem; color: var(--text-secondary); margin: 0; line-height: 1.4;">
+                As respostas prontas de locação e os dados bancários estão centralizados na aba <a href="#atendimento" style="color: var(--clay-primary); font-weight: 700; text-decoration: underline;">1. Atendimento Chatwoot</a> nas macros <code>#locacao-quadra</code> e <code>#dados-pix</code>.
+              </p>
+            </div>
+          </div>
+
+          <!-- AREA DE VIDEOS MATCHPOINT -->
+          <div class="video-tutorials-wrapper">
+            <h3>🎥 Vídeos Demonstrativos do Matchpoint</h3>
+            <p class="sub-text">Assista aos tutoriais gravados de como operar cada função no sistema:</p>
+
+            <div class="video-cards-list">
+              
+              <!-- VIDEO 1 -->
+              <div class="video-card">
+                <div class="video-preview-box">
+                  <div class="video-placeholder">
+                    <span class="play-btn-circle">▶</span>
+                    <span class="video-time">0:45 min</span>
+                  </div>
+                  <!-- Tag de vídeo real para ser preenchida com Loom/MP4 -->
+                  <div class="video-real-container" style="display:none;">
+                    <iframe src="" frameborder="0" allowfullscreen></iframe>
+                  </div>
+                </div>
+                <div class="video-details">
+                  <h4>1. Como Aprovar Cadastro & Vincular Aluno</h4>
+                  <p>Passo a passo de como localizar o novo usuário no Matchpoint e confirmar o vínculo com a Montreal.</p>
+                  <button class="btn-outline-sm" onclick="toggleVideo(this, 'https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ')">
+                    Assistir Demonstração
+                  </button>
+                </div>
+              </div>
+
+              <!-- VIDEO 2 -->
+              <div class="video-card">
+                <div class="video-preview-box">
+                  <div class="video-placeholder">
+                    <span class="play-btn-circle">▶</span>
+                    <span class="video-time">1:15 min</span>
+                  </div>
+                </div>
+                <div class="video-details">
+                  <h4>2. Como Lançar Reserva Avulsa e Conferir Pagamento</h4>
+                  <p>Como verificar o status da quadra no mapa, checar o comprovante e emitir o acesso.</p>
+                  <button class="btn-outline-sm" onclick="toggleVideo(this, '')">
+                    Assistir Demonstração
+                  </button>
+                </div>
+              </div>
+
+              <!-- VIDEO 3 -->
+              <div class="video-card">
+                <div class="video-preview-box">
+                  <div class="video-placeholder">
+                    <span class="play-btn-circle">▶</span>
+                    <span class="video-time">0:50 min</span>
+                  </div>
+                </div>
+                <div class="video-details">
+                  <h4>3. Como Lançar Abatimento de Aula Avulsa na Mensalidade</h4>
+                  <p>Procedimento no faturamento para aplicar o desconto da aula experimental paga na 1ª mensalidade.</p>
+                  <button class="btn-outline-sm" onclick="toggleVideo(this, '')">
+                    Assistir Demonstração
+                  </button>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================================== -->
+      <!-- TAB 4: AULAS, FORMAÇÃO DE TURMAS E GRUPOS -->
+      <!-- ============================================== -->
+      <section id="tab-turmas" class="tab-pane">
+        <div class="section-header">
+          <div class="section-title-wrap">
+            <span class="section-badge badge-turma">Pilar 3</span>
+            <h2>Formação de Aulas, Turmas & Nivelamento</h2>
+            <p>Critérios técnicos para encaixe de novos tenistas, limites de alunos por quadra e gestão de listas de espera.</p>
+          </div>
+        </div>
+
+        <div class="grid-2-cols">
+          <!-- MATRIZ DE NIVELAMENTO -->
+          <div class="card-box">
+            <h3>Matriz de Nivelamento Técnico</h3>
+            <div class="table-responsive">
+              <table class="data-table">
+                <thead>
+                  <tr>
+                    <th>Nível</th>
+                    <th>Perfil Técnico</th>
+                    <th>Encaixe Recomendado</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="badge-pill bg-green">Iniciante Zero</span></td>
+                    <td>Nunca jogou ou jogou poucas vezes. Não tem controle de fundo nem saque.</td>
+                    <td>Grupos de Iniciação (máx. 4) ou Duplas. Raquete emprestada pela Montreal.</td>
+                  </tr>
+                  <tr>
+                    <td><span class="badge-pill bg-blue">Iniciante / Básico</span></td>
+                    <td>Joga há 6m - 1 ano. Mantém bola em jogo, mas sem consistência de efeito/saque.</td>
+                    <td>Grupos de Desenvolvimento técnico.</td>
+                  </tr>
+                  <tr>
+                    <td><span class="badge-pill bg-yellow">Intermediário</span></td>
+                    <td>Joga torneios internos (5ª / 4ª classe). Bom controle de bola e posicionamento.</td>
+                    <td>Treinos dinâmicos, situações de jogo em duplas ou individuais.</td>
+                  </tr>
+                  <tr>
+                    <td><span class="badge-pill bg-red">Avançado</span></td>
+                    <td>3ª classe acima / tenistas federados. Treinos de alto ritmo e intensidade.</td>
+                    <td>Equipes de treinamento ou treinos individuais focados.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <!-- REGRAS DE FORMAÇÃO -->
+          <div class="card-box">
+            <h3>Regras de Lotação das Turmas</h3>
+            <ul class="bullet-list">
+              <li>
+                <strong>Capacidade Máxima por Turma em Grupo:</strong> Rigorosamente <strong>4 alunos por quadra</strong>. Nunca adicionar o 5º aluno sem autorização expressa da coordenação técnica.
+              </li>
+              <li>
+                <strong>Etiqueta de Dinâmica:</strong> Aulas em grupo têm foco em situações de jogo entre os alunos, rodízio dinâmico e jogos orientados pelo professor.
+              </li>
+              <li>
+                <strong>Gestão da Tag <code>pendente_formação</code> no Chatwoot:</strong> Alunos que responderam a disponibilidade e aguardam parceiro devem receber a etiqueta <em>pendente_formação</em> para revisão diária da secretaria às 11h e 17h.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================================== -->
+      <!-- TAB 5: PROFESSORES, CLIMA & REPOSIÇÕES -->
+      <!-- ============================================== -->
+      <section id="tab-professores" class="tab-pane">
+        <div class="section-header">
+          <div class="section-title-wrap">
+            <span class="section-badge badge-prof">Pilar 4</span>
+            <h2>Comunicação com Professores, Clima & Reposições</h2>
+            <p>Protocolos de cancelamento por chuva, compensação de feriados e aviso prévio de ausências.</p>
+          </div>
+        </div>
+
+        <div class="scripts-grid">
+          
+          <!-- SCRIPT CHUVA -->
+          <article class="script-card" data-category="professores">
+            <div class="script-card-header">
+              <div class="script-meta">
+                <span class="script-tag tag-urgent">Urgente</span>
+                <span class="macro-code">#aviso-chuva</span>
+              </div>
+              <button class="btn-copy" data-target="script-chuva">
+                <span class="copy-icon">📋</span> Copiar Comunicado
+              </button>
+            </div>
+            <h4>Cancelamento por Fortes Chuvas ou Risco Estrutural</h4>
+            <p class="script-context"><strong>Quando usar:</strong> Disparo para turmas do dia quando houver alagamento no entorno, goteiras ou risco elétrico.</p>
+            <div class="script-box" id="script-chuva">⚠️ COMUNICADO IMPORTANTE - MONTREAL TÊNIS CLUBE ⚠️
+
+Devido às fortes chuvas e para garantir a total segurança de alunos e professores, as atividades e aulas de hoje ([Data]) estão suspensas a partir das [Horário].
+
+🗓️ Sobre sua aula de hoje: Fique tranquilo(a)! Essa aula será devidamente reposta. A nossa secretaria entrará em contato para agendar o melhor dia de reposição com o seu professor.
+
+Agradecemos a compreensão de todos. Havendo dúvidas, estamos à disposição! 🙏🌧️</div>
+          </article>
+
+          <!-- SCRIPT FERIADOS (COMPENSAÇÃO CORRETA) -->
+          <article class="script-card" data-category="professores">
+            <div class="script-card-header">
+              <div class="script-meta">
+                <span class="script-tag tag-rule">Regra Oficial</span>
+                <span class="macro-code">#regra-feriado</span>
+              </div>
+              <button class="btn-copy" data-target="script-feriado">
+                <span class="copy-icon">📋</span> Copiar Script
+              </button>
+            </div>
+            <h4>Feriados Oficiais (Compensação pelos Meses de 5 Aulas)</h4>
+            <p class="script-context"><strong>Quando usar:</strong> Quando o aluno pergunta se haverá aula no feriado ou se terá reposição.</p>
+            <div class="script-box" id="script-feriado">Olá, [Nome]! Nos feriados oficiais nosso complexo opera em horário especial e não temos aulas regulares de treinamento.
+
+🎾 Sobre a aula do feriado:
+No tênis adotamos o sistema padrão de compensação de calendário: ao longo do ano, vários meses possuem 5 semanas de treino e você faz 5 aulas pagando o valor fixo de 4 (sem nenhuma cobrança adicional). Por conta dessa gratuidade nos meses de 5 aulas, os feriados oficiais já estão devidamente compensados na grade anual.
+
+Caso queira jogar no feriado de forma recreativa com amigos, as quadras ficam disponíveis para locação avulsa com desconto especial para alunos! 🏆</div>
+          </article>
+
+          <!-- SCRIPT REPOSIÇÃO ALUNO -->
+          <article class="script-card" data-category="professores">
+            <div class="script-card-header">
+              <div class="script-meta">
+                <span class="script-tag tag-rule">Regra Oficial</span>
+                <span class="macro-code">#regra-reposicao</span>
+              </div>
+              <button class="btn-copy" data-target="script-reposicao">
+                <span class="copy-icon">📋</span> Copiar Script
+              </button>
+            </div>
+            <h4>Regra de Reposição por Falta do Aluno (Aviso Prévio 24h)</h4>
+            <p class="script-context"><strong>Quando usar:</strong> Aluno avisa com antecedência que não poderá comparecer à aula.</p>
+            <div class="script-box" id="script-reposicao">Olá, [Nome]! Obrigado por nos avisar com antecedência. 🙏
+
+Já registrei sua ausência aqui no sistema e avisei o professor [Nome].
+
+📌 Como funciona a reposição:
+Como você nos avisou com antecedência (mínimo de 24h), você tem direito a agendar uma aula de reposição dentro do prazo de 30 dias.
+
+Você prefere fazer essa reposição em qual dia da próxima semana? Já verifico uma turma compatível para você!</div>
+          </article>
+
+        </div>
+      </section>
+
+      <!-- ============================================== -->
+      <!-- ============================================== -->
+      <!-- TAB 6: ROTINAS INTERNAS & CHECKLISTS POR TURNO -->
+      <!-- ============================================== -->
+      <section id="tab-limpeza" class="tab-pane">
+        <div class="section-header">
+          <div class="section-title-wrap">
+            <span class="section-badge badge-check">Pilar 5</span>
+            <h2>Checklist Diário & Rotinas da Secretaria</h2>
+            <p>Conferência oficial por turno (Manhã, Tarde e Noite) com horários e responsáveis da equipe.</p>
+          </div>
+          <div class="checklist-top-actions">
+            <button id="btnEditTeam" class="btn-manage-team" title="Alterar nomes da equipe">
+              <span>👥</span> Gerenciar Equipe
+            </button>
+            <button id="btnResetChecklists" class="btn-outline-sm" title="Desmarcar todos os itens para um novo dia">
+              <span>🔄</span> Reiniciar Dia
+            </button>
+          </div>
+        </div>
+
+        <!-- BANNER DE AUDITORIA & CHECKPOINTS DIÁRIOS -->
+        <div class="checklist-audit-banner">
+          <div class="audit-banner-top">
+            <div class="audit-date-badge">
+              <span>📅</span>
+              <span id="auditTodayDateLabel">Rotina de Hoje: Carregando...</span>
+            </div>
+            <div class="audit-sync-status" id="auditSyncStatus">
+              <span class="sync-dot">🟢</span> Sincronizado com Auditoria n8n & Supabase
+            </div>
+          </div>
+          <div class="audit-checkpoints-row">
+            <span class="checkpoint-label-title">⏰ 4 Checkpoints Automáticos (Seg a Sex):</span>
+            <div class="checkpoint-pill" title="Valida rotinas da manhã até 12h00"><strong>12:00</strong> Fim da Manhã</div>
+            <div class="checkpoint-pill" title="Valida rotinas até 15h45"><strong>15:45</strong> Meio da Tarde</div>
+            <div class="checkpoint-pill" title="Valida rotinas da tarde até 18h25"><strong>18:25</strong> Fim da Tarde</div>
+            <div class="checkpoint-pill" title="Valida fechamento e quadras até 22h50"><strong>22:50</strong> Fechamento Noite</div>
+          </div>
+        </div>
+
+        <!-- BARRA DE FILTRO POR COLABORADOR -->
+        <div class="filter-colab-bar">
+          <span class="filter-colab-label">Filtrar por Colaborador:</span>
+          <div class="colab-chips-list" id="colabChipsContainer">
+            <button class="colab-chip active" data-colab="all">👥 Todos os Colaboradores</button>
+            <button class="colab-chip" data-colab="Cynthia" id="chipColab1">🌅 Cynthia (Manhã)</button>
+            <button class="colab-chip" data-colab="Lucas" id="chipColab2">☀️ Lucas (Tarde/Noite)</button>
+            <button class="colab-chip" data-colab="Alex" id="chipColab3">🌙 Alex (Tarde/Noite)</button>
+          </div>
+        </div>
+
+        <!-- GRID DOS 3 TURNOS -->
+        <div class="checklists-grid">
+          
+          <!-- ========================================= -->
+          <!-- TURNO 1: MANHÃ (07h00 - 13h00) -->
+          <!-- ========================================= -->
+          <div class="checklist-card" id="cardTurnoManha">
+            <div class="checklist-header">
+              <div class="header-left">
+                <span class="check-badge morning">🌅 Manhã</span>
+                <h3>Turno da Manhã (07h00 — 13h00)</h3>
+              </div>
+              <span class="shift-progress-badge" id="progressManhaBadge">0/9 feitos</span>
+            </div>
+            
+            <div class="shift-progress-bar">
+              <div class="shift-progress-fill morning" id="progressManhaBar" style="width: 0%;"></div>
+            </div>
+
+            <ul class="checklist-items" id="checkListManha">
+              
+              <li class="check-row-item" data-colab="Cynthia" data-day="all">
+                <label class="check-item-rich">
+                  <input type="checkbox" data-id="m_1">
+                  <div class="check-content">
+                    <div class="check-meta-row">
+                      <span class="time-pill">⏰ 07:00</span>
+                      <span class="colab-badge cynthia" data-colab-key="colab1">👤 Cynthia</span>
+                      <span class="day-tag daily">Diário</span>
+                    </div>
+                    <span class="task-desc">Conferir no sistema quais quadras serão utilizadas e acender as luzes</span>
+                  </div>
+                </label>
+              </li>
+
+              <li class="check-row-item" data-colab="Cynthia" data-day="all">
+                <label class="check-item-rich">
+                  <input type="checkbox" data-id="m_2">
+                  <div class="check-content">
+                    <div class="check-meta-row">
+                      <span class="time-pill">⏰ 07:20</span>
+                      <span class="colab-badge cynthia" data-colab-key="colab1">👤 Cynthia</span>
+                      <span class="day-tag daily">Diário</span>
+                    </div>
+                    <span class="task-desc">Coletar o lixo do estacionamento e colocar para fora</span>
+                  </div>
+                </label>
+              </li>
+
+              <li class="check-row-item" data-colab="Cynthia" data-day="all">
+                <label class="check-item-rich">
+                  <input type="checkbox" data-id="m_3">
+                  <div class="check-content">
+                    <div class="check-meta-row">
+                      <span class="time-pill">⏰ 07:30</span>
+                      <span class="colab-badge cynthia" data-colab-key="colab1">👤 Cynthia</span>
+                      <span class="day-tag daily">Diário</span>
+                    </div>
+                    <span class="task-desc">Conferir os banheiros e repor papel-toalha e papel higiênico</span>
+                  </div>
+                </label>
+              </li>
+
+              <li class="check-row-item" data-colab="Cynthia" data-day="all">
+                <label class="check-item-rich">
+                  <input type="checkbox" data-id="m_4">
+                  <div class="check-content">
+                    <div class="check-meta-row">
+                      <span class="time-pill">⏰ 07:40</span>
+                      <span class="colab-badge cynthia" data-colab-key="colab1">👤 Cynthia</span>
+                      <span class="day-tag daily">Diário</span>
+                    </div>
+                    <span class="task-desc">Passar pano seco na mesa da recepção e nas mesas das quadras</span>
+                  </div>
+                </label>
+              </li>
+
+              <li class="check-row-item" data-colab="Cynthia" data-day="all">
+                <label class="check-item-rich">
+                  <input type="checkbox" data-id="m_5">
+                  <div class="check-content">
+                    <div class="check-meta-row">
+                      <span class="time-pill">⏰ 07:50</span>
+                      <span class="colab-badge cynthia" data-colab-key="colab1">👤 Cynthia</span>
+                      <span class="day-tag daily">Diário</span>
+                    </div>
+                    <span class="task-desc">Conferir mensagens pendentes e dar sequência às matrículas dos alunos</span>
+                  </div>
+                </label>
+              </li>
+
+              <li class="check-row-item" data-colab="Cynthia" data-day="all">
+                <label class="check-item-rich">
+                  <input type="checkbox" data-id="m_6">
+                  <div class="check-content">
+                    <div class="check-meta-row">
+                      <span class="time-pill">⏰ 09:00</span>
+                      <span class="colab-badge cynthia" data-colab-key="colab1">👤 Cynthia</span>
+                      <span class="day-tag daily">Diário</span>
+                    </div>
+                    <span class="task-desc">Conferir com os professores a necessidade de iluminação conforme for clareando</span>
+                  </div>
+                </label>
+              </li>
+
+              <li class="check-row-item" data-colab="Cynthia" data-day="all">
+                <label class="check-item-rich">
+                  <input type="checkbox" data-id="m_7">
+                  <div class="check-content">
+                    <div class="check-meta-row">
+                      <span class="time-pill">⏰ 09:20</span>
+                      <span class="colab-badge cynthia" data-colab-key="colab1">👤 Cynthia</span>
+                      <span class="day-tag daily">Diário</span>
+                    </div>
+                    <span class="task-desc">Passar vassoura na escada, corredor e área de convivência</span>
+                  </div>
+                </label>
+              </li>
+
+              <li class="check-row-item" data-colab="Cynthia" data-day="seg_qua_sex">
+                <label class="check-item-rich">
+                  <input type="checkbox" data-id="m_8">
+                  <div class="check-content">
+                    <div class="check-meta-row">
+                      <span class="time-pill">⏰ 11:00</span>
+                      <span class="colab-badge cynthia" data-colab-key="colab1">👤 Cynthia</span>
+                      <span class="day-tag special">📅 Seg., Qua. e Sex.</span>
+                    </div>
+                    <span class="task-desc">Passar pano úmido na área de convivência e nos banheiros</span>
+                  </div>
+                </label>
+              </li>
+
+              <li class="check-row-item" data-colab="Cynthia" data-day="all">
+                <label class="check-item-rich">
+                  <input type="checkbox" data-id="m_9">
+                  <div class="check-content">
+                    <div class="check-meta-row">
+                      <span class="time-pill">⏰ 13:00</span>
+                      <span class="colab-badge cynthia" data-colab-key="colab1">👤 Cynthia</span>
+                      <span class="day-tag daily">Diário</span>
+                    </div>
+                    <span class="task-desc">Conferir se todas as quadras estão feitas e prontas para uso</span>
+                  </div>
+                </label>
+              </li>
+
+            </ul>
+          </div>
+
+          <!-- ========================================= -->
+          <!-- TURNO 2: TARDE (15h00 - 18h20) -->
+          <!-- ========================================= -->
+          <div class="checklist-card" id="cardTurnoTarde">
+            <div class="checklist-header">
+              <div class="header-left">
+                <span class="check-badge afternoon">☀️ Tarde</span>
+                <h3>Turno da Tarde (15h00 — 18h20)</h3>
+              </div>
+              <span class="shift-progress-badge" id="progressTardeBadge">0/6 feitos</span>
+            </div>
+
+            <div class="shift-progress-bar">
+              <div class="shift-progress-fill afternoon" id="progressTardeBar" style="width: 0%;"></div>
+            </div>
+
+            <ul class="checklist-items" id="checkListTarde">
+              
+              <li class="check-row-item" data-colab="Lucas" data-day="all">
+                <label class="check-item-rich">
+                  <input type="checkbox" data-id="t_1">
+                  <div class="check-content">
+                    <div class="check-meta-row">
+                      <span class="time-pill">⏰ 15:00</span>
+                      <span class="colab-badge lucas" data-colab-key="colab2">👤 Lucas</span>
+                      <span class="day-tag daily">Diário</span>
+                    </div>
+                    <span class="task-desc">Conferir mensagens e dar sequência às pendências</span>
+                  </div>
+                </label>
+              </li>
+
+              <li class="check-row-item" data-colab="Lucas" data-day="all">
+                <label class="check-item-rich">
+                  <input type="checkbox" data-id="t_2">
+                  <div class="check-content">
+                    <div class="check-meta-row">
+                      <span class="time-pill">⏰ 15:40</span>
+                      <span class="colab-badge lucas" data-colab-key="colab2">👤 Lucas</span>
+                      <span class="day-tag daily">Diário</span>
+                    </div>
+                    <span class="task-desc">Passar vassoura na área de convivência e banheiros</span>
+                  </div>
+                </label>
+              </li>
+
+              <li class="check-row-item" data-colab="Alex" data-day="all">
+                <label class="check-item-rich">
+                  <input type="checkbox" data-id="t_3">
+                  <div class="check-content">
+                    <div class="check-meta-row">
+                      <span class="time-pill">⏰ 17:00</span>
+                      <span class="colab-badge alex" data-colab-key="colab3">👤 Alex</span>
+                      <span class="day-tag daily">Diário</span>
+                    </div>
+                    <span class="task-desc">Conferir e repor os papéis dos banheiros</span>
+                  </div>
+                </label>
+              </li>
+
+              <li class="check-row-item" data-colab="Alex" data-day="all">
+                <label class="check-item-rich">
+                  <input type="checkbox" data-id="t_4">
+                  <div class="check-content">
+                    <div class="check-meta-row">
+                      <span class="time-pill">⏰ 17:30</span>
+                      <span class="colab-badge alex" data-colab-key="colab3">👤 Alex</span>
+                      <span class="day-tag daily">Diário</span>
+                    </div>
+                    <span class="task-desc">Circular pelo clube e conferir se está tudo em ordem</span>
+                  </div>
+                </label>
+              </li>
+
+              <li class="check-row-item" data-colab="Alex" data-day="all">
+                <label class="check-item-rich">
+                  <input type="checkbox" data-id="t_5">
+                  <div class="check-content">
+                    <div class="check-meta-row">
+                      <span class="time-pill">⏰ 17:30</span>
+                      <span class="colab-badge alex" data-colab-key="colab3">👤 Alex</span>
+                      <span class="day-tag daily">Diário</span>
+                    </div>
+                    <span class="task-desc">Conferir se a agenda está de acordo com as quadras utilizadas</span>
+                  </div>
+                </label>
+              </li>
+
+              <li class="check-row-item" data-colab="Lucas,Alex" data-day="ter_qui">
+                <label class="check-item-rich">
+                  <input type="checkbox" data-id="t_6">
+                  <div class="check-content">
+                    <div class="check-meta-row">
+                      <span class="time-pill">⏰ 18:20</span>
+                      <span class="colab-badge dual" data-colab-key="colab2_3">👥 Lucas e Alex</span>
+                      <span class="day-tag special">📅 Terça e quinta</span>
+                    </div>
+                    <span class="task-desc">Varrer corredor e escada</span>
+                  </div>
+                </label>
+              </li>
+
+            </ul>
+          </div>
+
+          <!-- ========================================= -->
+          <!-- TURNO 3: NOITE (19h00 - 23h00) -->
+          <!-- ========================================= -->
+          <div class="checklist-card" id="cardTurnoNoite">
+            <div class="checklist-header">
+              <div class="header-left">
+                <span class="check-badge night">🌙 Noite</span>
+                <h3>Turno da Noite (19h00 — 23h00)</h3>
+              </div>
+              <span class="shift-progress-badge" id="progressNoiteBadge">0/7 feitos</span>
+            </div>
+
+            <div class="shift-progress-bar">
+              <div class="shift-progress-fill night" id="progressNoiteBar" style="width: 0%;"></div>
+            </div>
+
+            <ul class="checklist-items" id="checkListNoite">
+              
+              <li class="check-row-item" data-colab="Alex" data-day="all">
+                <label class="check-item-rich">
+                  <input type="checkbox" data-id="n_1">
+                  <div class="check-content">
+                    <div class="check-meta-row">
+                      <span class="time-pill">⏰ 19:00</span>
+                      <span class="colab-badge alex" data-colab-key="colab3">👤 Alex</span>
+                      <span class="day-tag daily">Diário</span>
+                    </div>
+                    <span class="task-desc">Conferir se a agenda está de acordo com as quadras utilizadas</span>
+                  </div>
+                </label>
+              </li>
+
+              <li class="check-row-item" data-colab="Lucas,Alex" data-day="all">
+                <label class="check-item-rich">
+                  <input type="checkbox" data-id="n_2">
+                  <div class="check-content">
+                    <div class="check-meta-row">
+                      <span class="time-pill">⏰ 20:00</span>
+                      <span class="colab-badge dual" data-colab-key="colab2_3">👥 Lucas e Alex</span>
+                      <span class="day-tag daily">Diário</span>
+                    </div>
+                    <span class="task-desc">Deixar o balcão organizado</span>
+                  </div>
+                </label>
+              </li>
+
+              <li class="check-row-item" data-colab="Lucas" data-day="all">
+                <label class="check-item-rich">
+                  <input type="checkbox" data-id="n_3">
+                  <div class="check-content">
+                    <div class="check-meta-row">
+                      <span class="time-pill">⏰ 21:30</span>
+                      <span class="colab-badge lucas" data-colab-key="colab2">👤 Lucas</span>
+                      <span class="day-tag daily">Diário</span>
+                    </div>
+                    <span class="task-desc">Varrer toda a área de convivência</span>
+                  </div>
+                </label>
+              </li>
+
+              <li class="check-row-item" data-colab="Alex" data-day="all">
+                <label class="check-item-rich">
+                  <input type="checkbox" data-id="n_4">
+                  <div class="check-content">
+                    <div class="check-meta-row">
+                      <span class="time-pill">⏰ 21:30</span>
+                      <span class="colab-badge alex" data-colab-key="colab3">👤 Alex</span>
+                      <span class="day-tag daily">Diário</span>
+                    </div>
+                    <span class="task-desc">Retirar todo o lixo e colocar no estacionamento para coleta</span>
+                  </div>
+                </label>
+              </li>
+
+              <li class="check-row-item" data-colab="Lucas,Alex" data-day="all">
+                <label class="check-item-rich">
+                  <input type="checkbox" data-id="n_5">
+                  <div class="check-content">
+                    <div class="check-meta-row">
+                      <span class="time-pill">⏰ 22:00</span>
+                      <span class="colab-badge dual" data-colab-key="colab2_3">👥 Lucas e Alex</span>
+                      <span class="day-tag daily">Diário</span>
+                    </div>
+                    <span class="task-desc">Preparar as quadras: molhar e deixar em condições de uso</span>
+                  </div>
+                </label>
+              </li>
+
+              <li class="check-row-item" data-colab="Lucas,Alex" data-day="all">
+                <label class="check-item-rich">
+                  <input type="checkbox" data-id="n_6">
+                  <div class="check-content">
+                    <div class="check-meta-row">
+                      <span class="time-pill">⏰ 22:30</span>
+                      <span class="colab-badge dual" data-colab-key="colab2_3">👥 Lucas e Alex</span>
+                      <span class="day-tag daily">Diário</span>
+                    </div>
+                    <span class="task-desc">Conferir se o botão da bomba de água está desligado</span>
+                  </div>
+                </label>
+              </li>
+
+              <li class="check-row-item" data-colab="Lucas,Alex" data-day="all">
+                <label class="check-item-rich">
+                  <input type="checkbox" data-id="n_7">
+                  <div class="check-content">
+                    <div class="check-meta-row">
+                      <span class="time-pill">⏰ 23:00</span>
+                      <span class="colab-badge dual" data-colab-key="colab2_3">👥 Lucas e Alex</span>
+                      <span class="day-tag daily">Diário</span>
+                    </div>
+                    <span class="task-desc">Conferir se as portas de baixo estão trancadas</span>
+                  </div>
+                </label>
+              </li>
+
+            </ul>
+          </div>
+
+        </div>
+
+        <!-- MODAL DE GERENCIAMENTO DE NOMES DA EQUIPE -->
+        <div id="modalTeamConfig" class="modal-overlay" style="display:none;">
+          <div class="modal-dialog">
+            <div class="modal-header">
+              <div class="modal-title-wrap">
+                <span class="modal-icon">👥</span>
+                <h3>Gerenciar Nomes da Equipe</h3>
+              </div>
+              <button class="modal-close" id="btnCloseTeamModal">&times;</button>
+            </div>
+            <div class="modal-body">
+              <p class="modal-desc">Altere os nomes dos colaboradores quando houver mudanças na equipe. Os checklists, tags e filtros atualizarão automaticamente.</p>
+              
+              <div class="team-input-group">
+                <label for="inputColab1">🌅 Colaborador 1 (Turno Manhã):</label>
+                <div class="input-with-avatar">
+                  <span class="avatar-icon cynthia">👩</span>
+                  <input type="text" id="inputColab1" value="Cynthia" placeholder="Nome do colaborador da Manhã">
+                </div>
+              </div>
+
+              <div class="team-input-group">
+                <label for="inputColab2">☀️ Colaborador 2 (Turno Tarde/Noite):</label>
+                <div class="input-with-avatar">
+                  <span class="avatar-icon lucas">👨</span>
+                  <input type="text" id="inputColab2" value="Lucas" placeholder="Nome do colaborador da Tarde">
+                </div>
+              </div>
+
+              <div class="team-input-group">
+                <label for="inputColab3">🌙 Colaborador 3 (Turno Tarde/Noite):</label>
+                <div class="input-with-avatar">
+                  <span class="avatar-icon alex">👨</span>
+                  <input type="text" id="inputColab3" value="Alex" placeholder="Nome do colaborador da Noite">
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button id="btnResetTeamDefault" class="btn-secondary-modal">Restaurar Padrão</button>
+              <button id="btnSaveTeamNames" class="btn-primary-modal">Salvar Nomes da Equipe</button>
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+      <!-- ============================================== -->
+      <!-- TAB 7: RELATÓRIOS & SLA DE ATENDIMENTO -->
+      <!-- ============================================== -->
+      <section id="tab-relatorios" class="tab-pane">
+        <div class="section-header">
+          <div class="section-title-wrap">
+            <span class="section-badge badge-sla">Métricas & Gestão</span>
+            <h2>Relatórios & SLA de Atendimento Chatwoot</h2>
+            <p>Acompanhamento em tempo real da meta de 5 minutos, tempo de primeira resposta (FRT), horários de pico e ranking de atendentes.</p>
+          </div>
+          <div class="report-actions-bar">
+            <div class="period-select-wrap">
+              <label for="selectPeriodoSla">Período de Análise:</label>
+              <select id="selectPeriodoSla" class="custom-select-period" onchange="window.renderSlaDashboard(this.value)">
+                <option value="mes_atual" selected>📅 Mês Atual (Setembro/2026)</option>
+                <option value="ultimos_7d">⚡ Últimos 7 Dias</option>
+                <option value="ultimos_30d">🗓️ Últimos 30 Dias</option>
+                <option value="mes_anterior">⏮️ Mês Anterior (Agosto/2026)</option>
+              </select>
+            </div>
+            <button id="btnRefreshSla" class="btn-refresh-report" title="Recarregar Dados">
+              <span>🔄</span> Atualizar Dados
+            </button>
+          </div>
+        </div>
+
+        <!-- KPI CARDS GRID -->
+        <div class="kpi-grid">
+          
+          <!-- KPI 1: META 5 MIN -->
+          <div class="kpi-card highlight-target">
+            <div class="kpi-header">
+              <span class="kpi-icon">🎯</span>
+              <span class="kpi-badge" id="kpiBadgeStatus">Excelente</span>
+            </div>
+            <span class="kpi-title">Cumprimento da Meta (5 min)</span>
+            <div class="kpi-value-row">
+              <span class="kpi-main-val" id="kpiMeta5m">83.5%</span>
+            </div>
+            <p class="kpi-subtext" id="kpiMeta5mSub"><strong>579 de 693</strong> conversas respondidas em até 5 min</p>
+            <div class="progress-bar-bg">
+              <div class="progress-bar-fill green" id="kpiProgressMeta" style="width: 83.5%;"></div>
+            </div>
+          </div>
+
+          <!-- KPI 2: TEMPO MÉDIO FRT -->
+          <div class="kpi-card">
+            <div class="kpi-header">
+              <span class="kpi-icon">⏱️</span>
+              <span class="kpi-tag-info">FRT Médio</span>
+            </div>
+            <span class="kpi-title">Tempo Médio de 1ª Resposta</span>
+            <div class="kpi-value-row">
+              <span class="kpi-main-val" id="kpiTempoMedio">14.2 <small>min</small></span>
+            </div>
+            <p class="kpi-subtext" id="kpiTempoMedioSub">Média geral desde o primeiro contato do cliente</p>
+          </div>
+
+          <!-- KPI 3: TEMPO MEDIANO -->
+          <div class="kpi-card">
+            <div class="kpi-header">
+              <span class="kpi-icon">📊</span>
+              <span class="kpi-tag-info">Mediana Real</span>
+            </div>
+            <span class="kpi-title">Tempo Mediano de Resposta</span>
+            <div class="kpi-value-row">
+              <span class="kpi-main-val" id="kpiTempoMediano">0.1 <small>min</small></span>
+            </div>
+            <p class="kpi-subtext" id="kpiTempoMedianoSub">50% dos clientes são atendidos quase instantaneamente</p>
+          </div>
+
+          <!-- KPI 4: VOLUME & RESOLUÇÃO -->
+          <div class="kpi-card">
+            <div class="kpi-header">
+              <span class="kpi-icon">💬</span>
+              <span class="kpi-tag-info">Volume Total</span>
+            </div>
+            <span class="kpi-title">Total de Atendimentos</span>
+            <div class="kpi-value-row">
+              <span class="kpi-main-val" id="kpiTotalConvs">734</span>
+            </div>
+            <p class="kpi-subtext" id="kpiTaxaResolucaoSub"><strong>94.4%</strong> resolvidas (693 conversas)</p>
+          </div>
+
+        </div>
+
+        <!-- DETAILED ANALYTICS GRID -->
+        <div class="analytics-split-grid">
+          
+          <!-- COLUNA 1: DISTRIBUIÇÃO DE VELOCIDADE DE RESPOSTA -->
+          <div class="analytics-card">
+            <div class="card-title-row">
+              <h3>⚡ Distribuição da Velocidade de Resposta</h3>
+              <span class="card-legend">Tempo até a 1ª mensagem</span>
+            </div>
+            <p class="analytics-desc">Divisão das conversas respondidas por faixas de velocidade:</p>
+            
+            <div class="speed-tier-list">
+              <div class="speed-tier-item">
+                <div class="tier-info">
+                  <span class="tier-dot ultra"></span>
+                  <strong>⚡ Super Rápido (&lt; 2 min)</strong>
+                  <span class="tier-count" id="tierSuperRapido">201 conversas (85.5%)</span>
+                </div>
+                <div class="tier-bar-bg">
+                  <div class="tier-bar-fill ultra" id="tierBarSuperRapido" style="width: 85.5%;"></div>
+                </div>
+              </div>
+
+              <div class="speed-tier-item">
+                <div class="tier-info">
+                  <span class="tier-dot ok"></span>
+                  <strong>✅ Dentro da Meta (2 a 5 min)</strong>
+                  <span class="tier-count" id="tierMeta">8 conversas (3.4%)</span>
+                </div>
+                <div class="tier-bar-bg">
+                  <div class="tier-bar-fill ok" id="tierBarMeta" style="width: 3.4%;"></div>
+                </div>
+              </div>
+
+              <div class="speed-tier-item">
+                <div class="tier-info">
+                  <span class="tier-dot warn"></span>
+                  <strong>⚠️ Atraso Leve (5 a 30 min)</strong>
+                  <span class="tier-count" id="tierAtraso">15 conversas (6.4%)</span>
+                </div>
+                <div class="tier-bar-bg">
+                  <div class="tier-bar-fill warn" id="tierBarAtraso" style="width: 6.4%;"></div>
+                </div>
+              </div>
+
+              <div class="speed-tier-item">
+                <div class="tier-info">
+                  <span class="tier-dot danger"></span>
+                  <strong>🚨 Gargalo Crítico (&gt; 30 min)</strong>
+                  <span class="tier-count" id="tierCritico">11 conversas (4.7%)</span>
+                </div>
+                <div class="tier-bar-bg">
+                  <div class="tier-bar-fill danger" id="tierBarCritico" style="width: 4.7%;"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- COLUNA 2: HORÁRIOS DE MAIOR PICO -->
+          <div class="analytics-card">
+            <div class="card-title-row">
+              <h3>⏰ Horários de Pico de Mensagens (08h às 22h)</h3>
+              <span class="card-legend">Entrada de novos leads/clientes</span>
+            </div>
+            <p class="analytics-desc">Concentração de entrada de conversas por faixa horária no complexo:</p>
+            
+            <div class="hourly-chart-container" id="hourlyChartContainer">
+              <!-- Renderizado dinamicamente pelo JS -->
+            </div>
+          </div>
+
+        </div>
+
+        <!-- TOP ETIQUETAS & MOTIVOS DE CONTATO -->
+        <div class="analytics-card full-width">
+          <div class="card-title-row">
+            <h3>🏷️ Distribuição por Categoria & Tipo de Cliente</h3>
+            <span class="card-legend">Etiquetas mais frequentes no Chatwoot</span>
+          </div>
+          <div class="tags-distribution-grid" id="tagsDistributionGrid">
+            <!-- Renderizado dinamicamente pelo JS -->
+          </div>
+        </div>
+
+        <!-- TABELA DE PERFORMANCE POR ATENDENTE -->
+        <div class="analytics-card full-width">
+          <div class="card-title-row">
+            <h3>👤 Performance & SLA Individual por Atendente</h3>
+            <span class="card-legend">Auditoria e ranking da equipe</span>
+          </div>
+          
+          <div class="table-responsive-wrapper">
+            <table class="sla-agent-table">
+              <thead>
+                <tr>
+                  <th>Atendente</th>
+                  <th>Total de Conversas</th>
+                  <th>Respondidas</th>
+                  <th>% Meta 5 min</th>
+                  <th>Tempo Médio</th>
+                  <th>Tempo Mediano</th>
+                  <th>Resolvidas</th>
+                  <th>Taxa de Resolução</th>
+                </tr>
+              </thead>
+              <tbody id="agentTableBody">
+                <!-- Linhas preenchidas via JS -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+      </section>
+
+    </main>
+  </div>
+
+  <!-- TOAST NOTIFICATION -->
+  <div id="toastNotification" class="toast-popup" style="display:none;">
+    <span class="toast-icon">✅</span>
+    <span id="toastMessage">Texto copiado para a área de transferência!</span>
+  </div>
+
+  <!-- JAVASCRIPT LOGIC -->
+  <script src="app.js?v=20260914_checklists_v2"></script>
+</body>
+</html>

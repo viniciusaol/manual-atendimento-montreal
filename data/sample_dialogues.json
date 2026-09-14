@@ -1,0 +1,5719 @@
+[
+  {
+    "conversation_id": 6068,
+    "contact_name": "Kaique Ambrosio Guerios",
+    "labels": [
+      "pré-inscrito",
+      "aluno"
+    ],
+    "dialogue": [
+      {
+        "id": 52425,
+        "created_at": 1788368128,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "Kaique Ambrosio Guerios",
+        "content": "Salve, sim fiquei sabendo hj de manhã \nNão vou ficar individual, vou aproveitar e deixar a terça livre."
+      },
+      {
+        "id": 52426,
+        "created_at": 1788368129,
+        "message_type": 2,
+        "sender_type": null,
+        "sender_name": "Sistema",
+        "content": "Atendimento || Montreal Tênis Clube: adicionou pré-inscrito, aluno"
+      },
+      {
+        "id": 52427,
+        "created_at": 1788368146,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "Kaique Ambrosio Guerios",
+        "content": "O parceiro é da terça feira né"
+      },
+      {
+        "id": 52428,
+        "created_at": 1788368149,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "Kaique Ambrosio Guerios",
+        "content": "Não da segunda"
+      },
+      {
+        "id": 52429,
+        "created_at": 1788368253,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "João Assunção | Montreal Tênis Clube:",
+        "content": "Parceiro de segunda, o Gabriel… \nSobre o de terça, não nos comunicou"
+      },
+      {
+        "id": 52430,
+        "created_at": 1788368452,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "Kaique Ambrosio Guerios",
+        "content": "O André me comunicou hj que vai sair"
+      },
+      {
+        "id": 52431,
+        "created_at": 1788368456,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "Kaique Ambrosio Guerios",
+        "content": "O granado tbm?"
+      },
+      {
+        "id": 52435,
+        "created_at": 1788368746,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "João Assunção | Montreal Tênis Clube:",
+        "content": "Certo o André, não passou nada.\n\nGranado estará mês em viajem..."
+      },
+      {
+        "id": 52436,
+        "created_at": 1788368800,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "Kaique Ambrosio Guerios",
+        "content": "Vou verificar, já informo aí"
+      },
+      {
+        "id": 52443,
+        "created_at": 1788369552,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "João Assunção | Montreal Tênis Clube:",
+        "content": "OK!"
+      }
+    ]
+  },
+  {
+    "conversation_id": 5859,
+    "contact_name": "~Breno",
+    "labels": [
+      "interessado",
+      "recebeu_formulário"
+    ],
+    "dialogue": [
+      {
+        "id": 50494,
+        "created_at": 1788133301,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Sistema",
+        "content": "Seu interesse seria na aulas? Conte um pouco mais…\\\nEstou a disposição!"
+      },
+      {
+        "id": 50495,
+        "created_at": 1788133302,
+        "message_type": 2,
+        "sender_type": null,
+        "sender_name": "Sistema",
+        "content": "Atribuído a Atendimento | Montreal Tênis Clube: por Sistema de Automação"
+      },
+      {
+        "id": 50498,
+        "created_at": 1788133946,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "João Assunção | Montreal Tênis Clube:",
+        "content": "Como posso lhe ajudar? Você esta procurando por treinos individuais, duplas, trio, equipe, kids ou reserva mensal? \n\nQuais são os seus dias e horários preferidos?"
+      },
+      {
+        "id": 52239,
+        "created_at": 1788355973,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento || Montreal Tênis Clube:",
+        "content": "Olá Breno, tudo bem? \\\nTem interesse em dar continuidade nas aulas de tênis? \\\n \\\nFico a disposição para poder lhe ajudar com qualquer dúvida. \\\n \\\nAbs!!"
+      },
+      {
+        "id": 52311,
+        "created_at": 1788358036,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Breno",
+        "content": "Sim"
+      },
+      {
+        "id": 52312,
+        "created_at": 1788358041,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Breno",
+        "content": "gostaria de fazer aula"
+      },
+      {
+        "id": 52314,
+        "created_at": 1788358057,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Breno",
+        "content": "em grupo eu teria que achar as pessoas ou ja tem grupo que eu possa participar?"
+      },
+      {
+        "id": 52315,
+        "created_at": 1788358066,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Olá, Breno! Tudo bem?"
+      },
+      {
+        "id": 52316,
+        "created_at": 1788358069,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Para entendermos melhor o seu nível de jogo e conseguirmos te encaixar nas aulas, treinos e grupos ideais, poderia nos responder algumas perguntas rápidas?\n\n• Você já é tenista?\\\n• Há quanto tempo joga tênis?\\\n• Já participou de algum torneio de federação ou torneio interno?\\\n• Qual classe/categoria costuma jogar?\\\n• Em torneios internos, qual categoria já disputou?\\\n• Costuma jogar simples, dupla ou ambos?\\\n• Atualmente joga com frequência? Quantas vezes por semana?\n\nObrigado! 😊"
+      },
+      {
+        "id": 52317,
+        "created_at": 1788358069,
+        "message_type": 2,
+        "sender_type": null,
+        "sender_name": "Sistema",
+        "content": "Atendimento | Montreal Tênis Clube: adicionou recebeu_formulário"
+      },
+      {
+        "id": 52319,
+        "created_at": 1788358092,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Breno",
+        "content": "totalmente iniciante"
+      },
+      {
+        "id": 52321,
+        "created_at": 1788358160,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Quais são os seus dias e horários preferidos?"
+      },
+      {
+        "id": 52339,
+        "created_at": 1788359732,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento || Montreal Tênis Clube:",
+        "content": "nós ajudamos a montar teu grupo, com mesmo nivel"
+      },
+      {
+        "id": 52413,
+        "created_at": 1788367443,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Breno",
+        "content": "cara qualquer um"
+      },
+      {
+        "id": 52414,
+        "created_at": 1788367449,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Breno",
+        "content": "queria ver de fazer pelomenos 2 vezes na semana"
+      },
+      {
+        "id": 52415,
+        "created_at": 1788367476,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Breno",
+        "content": "Bacana, e caso eu me desenvolva rapido por ex voces trocam de grupo por conta , como que funciona?"
+      },
+      {
+        "id": 52418,
+        "created_at": 1788367862,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "João Assunção | Montreal Tênis Clube:",
+        "content": "Sim, o professor faz está avaliação."
+      },
+      {
+        "id": 52419,
+        "created_at": 1788367902,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Breno",
+        "content": "Top"
+      },
+      {
+        "id": 52420,
+        "created_at": 1788367914,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Breno",
+        "content": "No caso material eu teria que comprar, a raquete pelomenos ? como funciona?"
+      },
+      {
+        "id": 52421,
+        "created_at": 1788367924,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Breno",
+        "content": "tem os valores certinho?"
+      }
+    ]
+  },
+  {
+    "conversation_id": 5351,
+    "contact_name": "Kaique Ambrosio Guerios",
+    "labels": [
+      "aluno",
+      "pré-inscrito"
+    ],
+    "dialogue": [
+      {
+        "id": 46083,
+        "created_at": 1787338815,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento || Montreal Tênis Clube:",
+        "content": "Olá, Kaique! 🎾✨\n\nEsperamos que tenha feito uma ótima partida na sua locação hoje na Montreal Tênis! 🏆\n\nComo foi sua experiência em nossas quadras? Sua opinião é fundamental para continuarmos melhorando. Deixe seu comentário no Google, leva menos de 1 minuto! 👇\n\n🔗 https://alertas.montrealtenis.com.br/review.html\n\nTe esperamos em breve para o próximo jogo! 🚀"
+      },
+      {
+        "id": 46084,
+        "created_at": 1787338816,
+        "message_type": 2,
+        "sender_type": null,
+        "sender_name": "Sistema",
+        "content": "Conversa foi marcada como resolvida por Atendimento || Montreal Tênis Clube:"
+      },
+      {
+        "id": 46085,
+        "created_at": 1787338817,
+        "message_type": 2,
+        "sender_type": null,
+        "sender_name": "Sistema",
+        "content": "Atendimento || Montreal Tênis Clube: adicionou aluno, pré-inscrito"
+      },
+      {
+        "id": 50858,
+        "created_at": 1788196279,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Olá! Devido às fortes chuvas e às condições estruturais, precisaremos cancelar todas as aulas de hoje, pensando na segurança e no bem-estar de todos.\r\n\r\nPedimos desculpas pelo imprevisto e agradecemos a compreensão de vocês. Amanhã, retornaremos com as atividades normalmente. 🙏"
+      },
+      {
+        "id": 52416,
+        "created_at": 1788367695,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "João Assunção | Montreal Tênis Clube:",
+        "content": "Olá!\r\n\r\nSeu parceiro de treino da segunda feira, deu uma pausa nos treinos este mês.\r\n\r\nPassamos para plano individual de segunda, ate encontrar uma dupla, pode ser?"
+      }
+    ]
+  },
+  {
+    "conversation_id": 6063,
+    "contact_name": "Marcelo Woich",
+    "labels": [
+      "pré-inscrito",
+      "interessado"
+    ],
+    "dialogue": [
+      {
+        "id": 52386,
+        "created_at": 1788365471,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "Marcelo Woich",
+        "content": "Boa tarde"
+      },
+      {
+        "id": 52387,
+        "created_at": 1788365472,
+        "message_type": 2,
+        "sender_type": null,
+        "sender_name": "Sistema",
+        "content": "Atendimento || Montreal Tênis Clube: adicionou pré-inscrito, interessado"
+      },
+      {
+        "id": 52388,
+        "created_at": 1788365499,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "Marcelo Woich",
+        "content": "Tem quadra para locação no próximo sábado às 14h?"
+      },
+      {
+        "id": 52389,
+        "created_at": 1788365702,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Olá, tudo bem?"
+      },
+      {
+        "id": 52390,
+        "created_at": 1788365720,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Temos simm!!"
+      },
+      {
+        "id": 52391,
+        "created_at": 1788365731,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Segue link para baixar nosso app e fazer cadastro, isso facilitará sua inclusão nos grupos e será através dele que o aluno irá fazer toda a gestão de sua aula, locação - se puder baixar: \\\n \\\nAndroid: <https://play.google.com/store/apps/details?id=es.tpc.matchpoint.appclient.montrealtenisclube>\n\nIOS: <https://apps.apple.com/us/app/montreal-tenis-clube/id6764062641>"
+      },
+      {
+        "id": 52392,
+        "created_at": 1788365763,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "Marcelo Woich",
+        "content": "Dessa veznposso reservar por aqui?"
+      },
+      {
+        "id": 52393,
+        "created_at": 1788365772,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "Marcelo Woich",
+        "content": "Dessa vez posso reservar por aqui?\n\n✏️ [Mensagem editada]"
+      },
+      {
+        "id": 52394,
+        "created_at": 1788365933,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Marcelo, para reservas de quadra seria mediante a pagamento diretamente pelo app. \n\nCaso esteja com dificuldades para acessar o app me informe que já verifico o que podemos fazer."
+      },
+      {
+        "id": 52395,
+        "created_at": 1788366122,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "Marcelo Woich",
+        "content": "Ok"
+      },
+      {
+        "id": 52410,
+        "created_at": 1788367200,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "Marcelo Woich",
+        "content": "Qual o valor da hora?"
+      },
+      {
+        "id": 52411,
+        "created_at": 1788367256,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Locação - Aluno **R$ 90,00 /h**\n\nLocação - Não Aluno **R$ 100,00 /h**"
+      },
+      {
+        "id": 52412,
+        "created_at": 1788367281,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Conseguiu cadastrar no app? \n\n\\\n\\"
+      }
+    ]
+  },
+  {
+    "conversation_id": 6059,
+    "contact_name": "~Karina",
+    "labels": [
+      "interessado"
+    ],
+    "dialogue": [
+      {
+        "id": 52340,
+        "created_at": 1788361781,
+        "message_type": 2,
+        "sender_type": null,
+        "sender_name": "Sistema",
+        "content": "Atendimento || Montreal Tênis Clube: adicionou interessado"
+      },
+      {
+        "id": 52341,
+        "created_at": 1788361786,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Karina",
+        "content": "[image]"
+      },
+      {
+        "id": 52342,
+        "created_at": 1788361787,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Karina",
+        "content": "🗑️ [ Mensagem deletada ]"
+      },
+      {
+        "id": 52343,
+        "created_at": 1788361792,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Karina",
+        "content": "[image]"
+      },
+      {
+        "id": 52344,
+        "created_at": 1788361854,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Olá, Karina! \n\nMuito obrigado!!"
+      },
+      {
+        "id": 52401,
+        "created_at": 1788366355,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "João Assunção | Montreal Tênis Clube:",
+        "content": "Deu baixa, aqui no aluno ?"
+      },
+      {
+        "id": 52403,
+        "created_at": 1788366427,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Como ela acertou pelo app, não apareceu aqui pra mim, foi automático"
+      }
+    ]
+  },
+  {
+    "conversation_id": 5450,
+    "contact_name": "~Jade Oliveira",
+    "labels": [
+      "interessado"
+    ],
+    "dialogue": [
+      {
+        "id": 47031,
+        "created_at": 1787572302,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Bom dia, Jade! Tudo bem?"
+      },
+      {
+        "id": 47036,
+        "created_at": 1787572469,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Vou cancelar aqui.\n\nGostaria de agendar sua aula de reposição?"
+      },
+      {
+        "id": 47039,
+        "created_at": 1787572668,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Jade Oliveira",
+        "content": "Pode ser na segunda que vem."
+      },
+      {
+        "id": 47079,
+        "created_at": 1787573499,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Vou verificar disponibilidade com o professor Leandro e te comunico"
+      },
+      {
+        "id": 47080,
+        "created_at": 1787573511,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Jade Oliveira",
+        "content": "Ok"
+      },
+      {
+        "id": 48708,
+        "created_at": 1787766303,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento || Montreal Tênis Clube:",
+        "content": "Isso aqui ja acertou?"
+      },
+      {
+        "id": 49385,
+        "created_at": 1787882337,
+        "message_type": 2,
+        "sender_type": null,
+        "sender_name": "Sistema",
+        "content": "Conversa foi marcada como resolvida por João Assunção | Montreal Tênis Clube:"
+      },
+      {
+        "id": 49386,
+        "created_at": 1787882338,
+        "message_type": 2,
+        "sender_type": null,
+        "sender_name": "Sistema",
+        "content": "Conversa foi reaberta por João Assunção | Montreal Tênis Clube:"
+      },
+      {
+        "id": 49392,
+        "created_at": 1787912079,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Bom dia! Já foi enviado para o Leandro, aguardo retorno."
+      },
+      {
+        "id": 52224,
+        "created_at": 1788355551,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento || Montreal Tênis Clube:",
+        "content": "essa aula de reposição foi marcada?"
+      },
+      {
+        "id": 52351,
+        "created_at": 1788363218,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Olá, Jade! Podemos dar sequência?"
+      },
+      {
+        "id": 52352,
+        "created_at": 1788363233,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Jade Oliveira",
+        "content": "Oi"
+      },
+      {
+        "id": 52353,
+        "created_at": 1788363238,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Jade Oliveira",
+        "content": "Pode cancelar"
+      },
+      {
+        "id": 52354,
+        "created_at": 1788363249,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Jade Oliveira",
+        "content": "[image]"
+      },
+      {
+        "id": 52355,
+        "created_at": 1788363251,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Jade Oliveira",
+        "content": "Cai e rompi ligamentos do pé"
+      },
+      {
+        "id": 52362,
+        "created_at": 1788363560,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Que pena, Jade! Desejamos que você fique bem e tenha uma boa recuperação. \n\nQualquer coisa estamos a disposição."
+      },
+      {
+        "id": 52363,
+        "created_at": 1788363572,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Jade Oliveira",
+        "content": "Obrigada"
+      },
+      {
+        "id": 52375,
+        "created_at": 1788364299,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "João Assunção | Montreal Tênis Clube:",
+        "content": "Esta mensagem foi excluída"
+      },
+      {
+        "id": 52378,
+        "created_at": 1788364632,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Esta mensagem foi excluída"
+      },
+      {
+        "id": 52379,
+        "created_at": 1788364653,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Tá bem, já avisei o Leandro"
+      }
+    ]
+  },
+  {
+    "conversation_id": 5051,
+    "contact_name": "~Lucas",
+    "labels": [
+      "recebeu_formulário",
+      "interessado"
+    ],
+    "dialogue": [
+      {
+        "id": 43943,
+        "created_at": 1787068075,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Lucas",
+        "content": "Boa tarde, tudo bem e você?"
+      },
+      {
+        "id": 43951,
+        "created_at": 1787069982,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Tudo bemm"
+      },
+      {
+        "id": 43952,
+        "created_at": 1787070000,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Para qual dia gostaria de reservar seu horário?"
+      },
+      {
+        "id": 43955,
+        "created_at": 1787070042,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Lucas",
+        "content": "Tem na sexta 17:00 ou 18:00"
+      },
+      {
+        "id": 43956,
+        "created_at": 1787070043,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Lucas",
+        "content": "?"
+      },
+      {
+        "id": 43966,
+        "created_at": 1787070274,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "João Assunção | Montreal Tênis Clube:",
+        "content": "Lucas a sua busca é  para alterar o horário do seu treino, correto?"
+      },
+      {
+        "id": 43985,
+        "created_at": 1787071030,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Lucas",
+        "content": "Pode ser, eu tinha perguntando sobre um estorno do valor, mas como ele disse que não é possível eu queria ver um novo horário que desse certo"
+      },
+      {
+        "id": 44033,
+        "created_at": 1787072615,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "João Assunção | Montreal Tênis Clube:",
+        "content": "Ok! vamos ajustar a sua disponibilidade , teria por enquanto na sexta as 17 ou 18h, correto?"
+      },
+      {
+        "id": 44035,
+        "created_at": 1787072645,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Lucas",
+        "content": "Ou quinta 17:00-18:00 também"
+      },
+      {
+        "id": 44084,
+        "created_at": 1787075026,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Na quinta ás 18h ficaria bom pra você?"
+      },
+      {
+        "id": 44266,
+        "created_at": 1787091867,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Lucas",
+        "content": "Fica sim"
+      },
+      {
+        "id": 48706,
+        "created_at": 1787766279,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento || Montreal Tênis Clube:",
+        "content": "como fico pra arrumar aula pra ele?"
+      },
+      {
+        "id": 48984,
+        "created_at": 1787836220,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Bom dia, Lucas! Tudo bem? \n\nPodemos dar sequência?"
+      },
+      {
+        "id": 49028,
+        "created_at": 1787837717,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Lucas",
+        "content": "Bom dia, tudo bem e você?"
+      },
+      {
+        "id": 49029,
+        "created_at": 1787837723,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Lucas",
+        "content": "Podemos sim"
+      },
+      {
+        "id": 49031,
+        "created_at": 1787838085,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Entramos em contato com a prof Leciane para verificar disponibilidade de uma aula de reposição pra você. Assim que ela passar o dia eu entro em contato com você."
+      },
+      {
+        "id": 49034,
+        "created_at": 1787839492,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Lucas",
+        "content": "Beleza"
+      },
+      {
+        "id": 49231,
+        "created_at": 1787857054,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Oii, tudo bem? \n\nLucas na quarta as 19h, seria possível?"
+      },
+      {
+        "id": 52222,
+        "created_at": 1788355525,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento || Montreal Tênis Clube:",
+        "content": "essa aula de reposição foi marcada com ele?"
+      },
+      {
+        "id": 52307,
+        "created_at": 1788357925,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Olá, Lucas! Podemos dar sequência?"
+      }
+    ]
+  },
+  {
+    "conversation_id": 5857,
+    "contact_name": "rafael  berger",
+    "labels": [
+      "recebeu_formulário"
+    ],
+    "dialogue": [
+      {
+        "id": 50663,
+        "created_at": 1788182271,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "rafael  berger",
+        "content": "Procuro por trios ou duplas.\nSegunda: 17:00 ou 18:00\nQuarta:18:00\nQuinta: qualquer horário da tarde acima das 15:00\nSexta: qualquer horário da tarde acima das 15:00"
+      },
+      {
+        "id": 50664,
+        "created_at": 1788182278,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "rafael  berger",
+        "content": "Procuro fazer duas vezes na semana"
+      },
+      {
+        "id": 50665,
+        "created_at": 1788182334,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "rafael  berger",
+        "content": "Tudo bem, seria possível fazer alguma aula experimental?"
+      },
+      {
+        "id": 50672,
+        "created_at": 1788182651,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Para você conhecer é possível comprar uma aula avulsa.\n\nCaso você goste da aula, da nossa estrutura, e decida continuar, descontamos esse valor pago da aula avulsa da 1 mensalidade e continua para os meses seguintes o valor da mensalidade normal.\n\nSe você decidir não continuar, fica somente o valor dessa aula avulsa."
+      },
+      {
+        "id": 50673,
+        "created_at": 1788182682,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "rafael  berger",
+        "content": "Qual o valor?"
+      },
+      {
+        "id": 50674,
+        "created_at": 1788182724,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Para você conhecer é possível comprar uma aula avulsa.\n\nCaso você goste da aula, da nossa estrutura, e decida continuar, descontamos esse valor pago da aula avulsa da 1 mensalidade e continua para os meses seguintes o valor da mensalidade normal.\n\nSe você decidir não continuar, fica somente o valor dessa aula avulsa."
+      },
+      {
+        "id": 50675,
+        "created_at": 1788182752,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "rafael  berger",
+        "content": "Qual o valor da aula avulsa?"
+      },
+      {
+        "id": 50695,
+        "created_at": 1788183891,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "rafael  berger",
+        "content": "Se tiver algum horário hoje pra fazer essa aula, eu consigo"
+      },
+      {
+        "id": 50705,
+        "created_at": 1788185009,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Olá! Seria aula em dupla ou trio?"
+      },
+      {
+        "id": 50746,
+        "created_at": 1788189577,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "rafael  berger",
+        "content": "O que tiver no horário das 17:00 ou 18:00"
+      },
+      {
+        "id": 50763,
+        "created_at": 1788190325,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Para entendermos melhor o seu nível de jogo e conseguirmos te encaixar nas aulas, treinos e grupos ideais, poderia nos responder algumas perguntas rápidas?\n\n• Você já é tenista?\\\n• Há quanto tempo joga tênis?\\\n• Já participou de algum torneio de federação ou torneio interno?\\\n• Qual classe/categoria costuma jogar?\\\n• Em torneios internos, qual categoria já disputou?\\\n• Costuma jogar simples, dupla ou ambos?\\\n• Atualmente joga com frequência? Quantas vezes por semana?\n\nObrigado! 😊"
+      },
+      {
+        "id": 50764,
+        "created_at": 1788190326,
+        "message_type": 2,
+        "sender_type": null,
+        "sender_name": "Sistema",
+        "content": "Atendimento | Montreal Tênis Clube: adicionou recebeu_formulário"
+      },
+      {
+        "id": 50772,
+        "created_at": 1788192505,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "rafael  berger",
+        "content": "Já jogo Tennis faz 1 ano e 3 meses\nNão participei de torneios\nJogo simples\n2 vezes na semana"
+      },
+      {
+        "id": 50784,
+        "created_at": 1788193240,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Legal, Rafael! Para aula em dupla avulsa ficaria a R$ 130,00"
+      },
+      {
+        "id": 50785,
+        "created_at": 1788193242,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Segue link para baixar nosso app e fazer cadastro, isso facilitará sua inclusão nos grupos e será através dele que o aluno irá fazer toda a gestão de sua aula, locação - se puder baixar: \\\n \\\nAndroid: <https://play.google.com/store/apps/details?id=es.tpc.matchpoint.appclient.montrealtenisclube>\n\nIOS: <https://apps.apple.com/us/app/montreal-tenis-clube/id6764062641>"
+      },
+      {
+        "id": 50818,
+        "created_at": 1788194453,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "rafael  berger",
+        "content": "Ok, mas os horários que eu passei tem disponibilidade?"
+      },
+      {
+        "id": 50835,
+        "created_at": 1788194950,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Acredito que tenha sim, Rafael! Só vamos verificar disponibilidade de turmas para te encaixar e entramos em contato."
+      },
+      {
+        "id": 52255,
+        "created_at": 1788356226,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento || Montreal Tênis Clube:",
+        "content": "isso já foi acertado com ele?"
+      },
+      {
+        "id": 52302,
+        "created_at": 1788357774,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Bom dia, Vinicius. \n\nEstava aguardando com os profs alguma turma para encaixar ele."
+      },
+      {
+        "id": 52304,
+        "created_at": 1788357802,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Bom dia, Rafael! Tudo bem?"
+      }
+    ]
+  },
+  {
+    "conversation_id": 5760,
+    "contact_name": "~Roberto Borges",
+    "labels": [
+      "interessado"
+    ],
+    "dialogue": [
+      {
+        "id": 49624,
+        "created_at": 1787939092,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Roberto Borges",
+        "content": "Olá, achei o site da Montreal Tênis tenho interesse em saber mais detalhes"
+      },
+      {
+        "id": 49625,
+        "created_at": 1787939093,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Sistema",
+        "content": "Olá, tudo bem?\\\nObrigado pelo interesse!\\\n\\\nA Montreal é um complexo de tênis que oferece locações, aulas com professores e reservas mensais para jogar com seus amigos!\n\n\\\n**São 04 quadras de saibro totalmente cobertas.**\\\n\\\nVou lhe mandar nossa tabela de valores."
+      },
+      {
+        "id": 49626,
+        "created_at": 1787939093,
+        "message_type": 2,
+        "sender_type": null,
+        "sender_name": "Sistema",
+        "content": "Sistema de Automação adicionou interessado"
+      },
+      {
+        "id": 49628,
+        "created_at": 1787939093,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Sistema",
+        "content": "Seu interesse seria na aulas? Conte um pouco mais…\\\nEstou a disposição!"
+      },
+      {
+        "id": 49629,
+        "created_at": 1787939094,
+        "message_type": 2,
+        "sender_type": null,
+        "sender_name": "Sistema",
+        "content": "Atribuído a Atendimento | Montreal Tênis Clube: por Sistema de Automação"
+      },
+      {
+        "id": 49634,
+        "created_at": 1787939386,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Roberto Borges",
+        "content": "Sim, queria saber os valores"
+      },
+      {
+        "id": 49635,
+        "created_at": 1787939399,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Roberto Borges",
+        "content": "Já vi na tabela ali acima"
+      },
+      {
+        "id": 49641,
+        "created_at": 1787939503,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Olá, Roberto! Tudo bem?"
+      },
+      {
+        "id": 49642,
+        "created_at": 1787939505,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Como posso lhe ajudar? Você esta procurando por treinos individuais, duplas, trio, equipe, kids ou reserva mensal? \n\nQuais são os seus dias e horários preferidos?"
+      },
+      {
+        "id": 52112,
+        "created_at": 1788345513,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Bom dia, Roberto\n\n!\n\nPodemos dar sequência?"
+      },
+      {
+        "id": 52297,
+        "created_at": 1788357524,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Roberto Borges",
+        "content": "Bom dia. Não entendi."
+      },
+      {
+        "id": 52300,
+        "created_at": 1788357596,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento || Montreal Tênis Clube:",
+        "content": "Vc tem mais alguma duvida sobre as aulas de tênis? \\\nGostaria de iniciar?"
+      },
+      {
+        "id": 52303,
+        "created_at": 1788357801,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Roberto Borges",
+        "content": "Já tirei minhas dúvidas. Quando decidir farei contato. Obrigado!"
+      }
+    ]
+  },
+  {
+    "conversation_id": 5634,
+    "contact_name": "~Araldo",
+    "labels": [
+      "recebeu_formulário"
+    ],
+    "dialogue": [
+      {
+        "id": 48566,
+        "created_at": 1787749579,
+        "message_type": 2,
+        "sender_type": null,
+        "sender_name": "Sistema",
+        "content": "Atendimento | Montreal Tênis Clube: adicionou recebeu_formulário"
+      },
+      {
+        "id": 48567,
+        "created_at": 1787749728,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Araldo",
+        "content": "Não, sou iniciante\n“Jogo” há cerca de 8 meses\nNunca participei de torneios ou campeonatos \nIniciante\nSempre joguei simples\nJogo entre 2-3x na semana, com baixo nível de intensidade e normalmente com minha noiva"
+      },
+      {
+        "id": 48575,
+        "created_at": 1787750153,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Araldo, fazendo um breve resumo. Seria aula para você e sua esposa em dupla ou grupo nível iniciante. Correto? Em qualquer dia da semana após 18h15 2x na semana?"
+      },
+      {
+        "id": 48586,
+        "created_at": 1787752120,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Araldo",
+        "content": "Correto \n1 ou 2x na semana"
+      },
+      {
+        "id": 48618,
+        "created_at": 1787753714,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Vou verificar disponibilidade de grupos e te comunico, Araldo."
+      },
+      {
+        "id": 48620,
+        "created_at": 1787753740,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Por gentileza, consegue fazer o registro no app?"
+      },
+      {
+        "id": 48621,
+        "created_at": 1787753743,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Segue link para baixar nosso app e fazer cadastro, isso facilitará sua inclusão nos grupos e será através dele que o aluno irá fazer toda a gestão de sua aula, locação - se puder baixar: \\\n \\\nAndroid: <https://play.google.com/store/apps/details?id=es.tpc.matchpoint.appclient.montrealtenisclube>\n\nIOS: <https://apps.apple.com/us/app/montreal-tenis-clube/id6764062641>"
+      },
+      {
+        "id": 48993,
+        "created_at": 1787836350,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Bom dia, Araldo! Tudo bem? \n\nConseguiu fazer seu registro no app?"
+      },
+      {
+        "id": 50486,
+        "created_at": 1788131813,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Araldo",
+        "content": "Buenas \nNão vi a msg antes!"
+      },
+      {
+        "id": 50487,
+        "created_at": 1788131816,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Araldo",
+        "content": "Cadastro feito"
+      },
+      {
+        "id": 50496,
+        "created_at": 1788133790,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "João Assunção | Montreal Tênis Clube:",
+        "content": "Olá! Terça as 20h, possível?"
+      },
+      {
+        "id": 50521,
+        "created_at": 1788173653,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Araldo",
+        "content": "Bom dia \nEssa aula experimental tem valor? Como funciona? \nFicou um pouco vaga a informação"
+      },
+      {
+        "id": 50522,
+        "created_at": 1788173726,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Bom dia, Araldo! Tudo bem?"
+      },
+      {
+        "id": 50523,
+        "created_at": 1788173728,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Para você conhecer é possível comprar uma aula avulsa.\n\nCaso você goste da aula, da nossa estrutura, e decida continuar, descontamos esse valor pago da aula avulsa da 1 mensalidade e continua para os meses seguintes o valor da mensalidade normal.\n\nSe você decidir não continuar, fica somente o valor dessa aula avulsa."
+      },
+      {
+        "id": 50635,
+        "created_at": 1788178702,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Araldo",
+        "content": "compro ela pelo app?"
+      },
+      {
+        "id": 50638,
+        "created_at": 1788179379,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Sim sim, assim que você realizar seu cadastro já estará disponível no nosso app."
+      },
+      {
+        "id": 50639,
+        "created_at": 1788179380,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Segue link para baixar nosso app e fazer cadastro, isso facilitará sua inclusão nos grupos e será através dele que o aluno irá fazer toda a gestão de sua aula, locação - se puder baixar: \\\n \\\nAndroid: <https://play.google.com/store/apps/details?id=es.tpc.matchpoint.appclient.montrealtenisclube>\n\nIOS: <https://apps.apple.com/us/app/montreal-tenis-clube/id6764062641>"
+      },
+      {
+        "id": 52252,
+        "created_at": 1788356194,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento || Montreal Tênis Clube:",
+        "content": "essa aula foi agendada?"
+      },
+      {
+        "id": 52298,
+        "created_at": 1788357570,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Bom dia, Araldo! Tudo bem? Podemos dar sequência?"
+      },
+      {
+        "id": 52299,
+        "created_at": 1788357579,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Conseguiu cadastrar no nosso app?"
+      }
+    ]
+  },
+  {
+    "conversation_id": 6029,
+    "contact_name": "~OMAR DARWICHE",
+    "labels": [
+      "interessado"
+    ],
+    "dialogue": [
+      {
+        "id": 51937,
+        "created_at": 1788301765,
+        "message_type": 2,
+        "sender_type": null,
+        "sender_name": "Sistema",
+        "content": "Sistema de Automação adicionou interessado"
+      },
+      {
+        "id": 51939,
+        "created_at": 1788301765,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Sistema",
+        "content": "Seu interesse seria na aulas? Conte um pouco mais…\\\nEstou a disposição!"
+      },
+      {
+        "id": 51940,
+        "created_at": 1788301766,
+        "message_type": 2,
+        "sender_type": null,
+        "sender_name": "Sistema",
+        "content": "Atribuído a Atendimento | Montreal Tênis Clube: por Sistema de Automação"
+      },
+      {
+        "id": 51941,
+        "created_at": 1788301767,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~OMAR DARWICHE",
+        "content": "Boa noite"
+      },
+      {
+        "id": 51945,
+        "created_at": 1788301807,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~OMAR DARWICHE",
+        "content": "Gostaria de fazer aula"
+      },
+      {
+        "id": 51946,
+        "created_at": 1788301814,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Olá, boa noite! Tudo bem?"
+      },
+      {
+        "id": 51948,
+        "created_at": 1788301822,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~OMAR DARWICHE",
+        "content": "Esse valor individual de 720 é uma aula semanal ?"
+      },
+      {
+        "id": 51950,
+        "created_at": 1788301953,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Isso, 1x por semana."
+      },
+      {
+        "id": 51951,
+        "created_at": 1788302024,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~OMAR DARWICHE",
+        "content": "e tem o desconto dos 12% para os horários da 10 as 15 ?"
+      },
+      {
+        "id": 51952,
+        "created_at": 1788302060,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Isso mesmo, Omar"
+      },
+      {
+        "id": 52069,
+        "created_at": 1788317487,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "João Assunção | Montreal Tênis Clube:",
+        "content": "Podemos dar sequencia?"
+      },
+      {
+        "id": 52271,
+        "created_at": 1788356637,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento || Montreal Tênis Clube:",
+        "content": "Olá Omar, tudo bem? \\\nGostaria de iniciar seu treino individual? \\\n \\\nQualquer duvida só me chamar por aqui. \\\nAbs!"
+      },
+      {
+        "id": 52285,
+        "created_at": 1788357124,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~OMAR DARWICHE",
+        "content": "Bom dia"
+      },
+      {
+        "id": 52286,
+        "created_at": 1788357130,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~OMAR DARWICHE",
+        "content": "Fica um pouco caro pra mim no momento"
+      },
+      {
+        "id": 52287,
+        "created_at": 1788357133,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~OMAR DARWICHE",
+        "content": "Mas agradeço"
+      },
+      {
+        "id": 52288,
+        "created_at": 1788357242,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento || Montreal Tênis Clube:",
+        "content": "Nao teria interesse nas aulas em grupo? \\\nElas são em 4 pessoas no total. \\\n \\\nTem um valor mais em conta dai. \\\nSão bem dinâmicas, com jogos entre os alunos, situação de jogo. \\\n \\\nE a gente colocar participantes de um mesmo nivel. \\\n \\\nOq acha?"
+      },
+      {
+        "id": 52289,
+        "created_at": 1788357309,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~OMAR DARWICHE",
+        "content": "Nunca fiz aula em grupo"
+      },
+      {
+        "id": 52290,
+        "created_at": 1788357314,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~OMAR DARWICHE",
+        "content": "Quais os horários teria ?"
+      },
+      {
+        "id": 52296,
+        "created_at": 1788357487,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento || Montreal Tênis Clube:",
+        "content": "a gente tenta montar o grupo a partir da sua disponibilidade. \\\nVc quer manter o horario entre 10 e 15hrs?"
+      }
+    ]
+  },
+  {
+    "conversation_id": 5917,
+    "contact_name": "Roberto Belloti",
+    "labels": [
+      "recebeu_formulário"
+    ],
+    "dialogue": [
+      {
+        "id": 51014,
+        "created_at": 1788205146,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Boa tarde, tudo bem? \r\n\r\nSomos da Montreal Tênis Clube e recebemos seu interesse nas aulas conosco!\r\n\r\nQual seria a dúvida?"
+      },
+      {
+        "id": 51015,
+        "created_at": 1788205146,
+        "message_type": 2,
+        "sender_type": null,
+        "sender_name": "Sistema",
+        "content": "Atendimento | Montreal Tênis Clube: atribuiu a si mesmo essa conversa"
+      },
+      {
+        "id": 51018,
+        "created_at": 1788205219,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "Roberto Belloti",
+        "content": "Gostaria de informações sobre turmas às quintas e também disponibilidade para locação de horário fixo ( por exemplo quintas às 19:00)"
+      },
+      {
+        "id": 51019,
+        "created_at": 1788205269,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Locações mensalistas conseguimos deixar nas sextas, sábados e domingos no momento!"
+      },
+      {
+        "id": 51020,
+        "created_at": 1788205271,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Para entendermos melhor o seu nível de jogo e conseguirmos te encaixar nas aulas, treinos e grupos ideais, poderia nos responder algumas perguntas rápidas?\n\n• Você já é tenista?\\\n• Há quanto tempo joga tênis?\\\n• Já participou de algum torneio de federação ou torneio interno?\\\n• Qual classe/categoria costuma jogar?\\\n• Em torneios internos, qual categoria já disputou?\\\n• Costuma jogar simples, dupla ou ambos?\\\n• Atualmente joga com frequência? Quantas vezes por semana?\n\nObrigado! 😊"
+      },
+      {
+        "id": 51021,
+        "created_at": 1788205271,
+        "message_type": 2,
+        "sender_type": null,
+        "sender_name": "Sistema",
+        "content": "Atendimento | Montreal Tênis Clube: adicionou recebeu_formulário"
+      },
+      {
+        "id": 51022,
+        "created_at": 1788205398,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "Roberto Belloti",
+        "content": "Sim jogo a 10 anos, tenho 55 anos\nParticipei de torneios internos de clubes\nCategoria C e B\nSomente simples \nJogo de duas a três vezes por semana"
+      },
+      {
+        "id": 51083,
+        "created_at": 1788209479,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "OK, estou verificando os grupos e vendo em qual conseguimos encaixar no seu nível"
+      },
+      {
+        "id": 51331,
+        "created_at": 1788226435,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "João Assunção | Montreal Tênis Clube:",
+        "content": "Vamos ter uma vaga na quinta as 20h, possivel?"
+      },
+      {
+        "id": 52263,
+        "created_at": 1788356376,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento || Montreal Tênis Clube:",
+        "content": "Olá Roberto, tudo bem? \\\nAinda tem interesse nas aulas de tênis? \\\n \\\nFicamos a disposição caso tenha qualquer dúvida. \\\nAbs!!"
+      },
+      {
+        "id": 52264,
+        "created_at": 1788356447,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "Roberto Belloti",
+        "content": "Bom dia, desculpe não responder. Pretendo no sábado dar uma passada para ver e na sequência decidir. Obrigado"
+      },
+      {
+        "id": 52265,
+        "created_at": 1788356475,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "Roberto Belloti",
+        "content": "Como faço.para.locar horário? Por gentileza"
+      },
+      {
+        "id": 52282,
+        "created_at": 1788356989,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "temos no app, por lá consegue verificar a disponibilidade de horário e efetuar a reserva."
+      },
+      {
+        "id": 52283,
+        "created_at": 1788356991,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Segue link para baixar nosso app e fazer cadastro, isso facilitará sua inclusão nos grupos e será através dele que o aluno irá fazer toda a gestão de sua aula, locação - se puder baixar: \\\n \\\nAndroid: <https://play.google.com/store/apps/details?id=es.tpc.matchpoint.appclient.montrealtenisclube>\n\nIOS: <https://apps.apple.com/us/app/montreal-tenis-clube/id6764062641>"
+      },
+      {
+        "id": 52291,
+        "created_at": 1788357321,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "Roberto Belloti",
+        "content": "Feito. Obrigado"
+      },
+      {
+        "id": 52292,
+        "created_at": 1788357336,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento || Montreal Tênis Clube:",
+        "content": "Te esperamos por aqui!! \\\nAbs!"
+      },
+      {
+        "id": 52293,
+        "created_at": 1788357350,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "Roberto Belloti",
+        "content": "👍 [ reação ]"
+      },
+      {
+        "id": 52295,
+        "created_at": 1788357383,
+        "message_type": 2,
+        "sender_type": null,
+        "sender_name": "Sistema",
+        "content": "Conversa foi marcada como resolvida por Atendimento | Montreal Tênis Clube:"
+      }
+    ]
+  },
+  {
+    "conversation_id": 6057,
+    "contact_name": "~Thiago Fonseca",
+    "labels": [
+      "recebeu_formulário",
+      "aluno"
+    ],
+    "dialogue": [
+      {
+        "id": 52243,
+        "created_at": 1788356031,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Thiago Fonseca",
+        "content": "Bom dia, tudo bem?\nOk, tenho aula hoje 17/h com a Leciane e vou um pouco antes para poder pagar ok"
+      },
+      {
+        "id": 52244,
+        "created_at": 1788356031,
+        "message_type": 2,
+        "sender_type": null,
+        "sender_name": "Sistema",
+        "content": "Atendimento || Montreal Tênis Clube: adicionou recebeu_formulário, aluno"
+      },
+      {
+        "id": 52245,
+        "created_at": 1788356045,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Fechouu, muito obrigada!"
+      },
+      {
+        "id": 52284,
+        "created_at": 1788357053,
+        "message_type": 2,
+        "sender_type": null,
+        "sender_name": "Sistema",
+        "content": "Conversa foi marcada como resolvida por Atendimento || Montreal Tênis Clube:"
+      }
+    ]
+  },
+  {
+    "conversation_id": 6050,
+    "contact_name": "~Felipe Amorim",
+    "labels": [
+      "interessado"
+    ],
+    "dialogue": [
+      {
+        "id": 52186,
+        "created_at": 1788352428,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Felipe Amorim",
+        "content": "Olá, achei o site da Montreal Tênis tenho interesse em saber mais detalhes"
+      },
+      {
+        "id": 52187,
+        "created_at": 1788352429,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Sistema",
+        "content": "Olá, tudo bem?\\\nObrigado pelo interesse!\\\n\\\nA Montreal é um complexo de tênis que oferece locações, aulas com professores e reservas mensais para jogar com seus amigos!\n\n\\\n**São 04 quadras de saibro totalmente cobertas.**\\\n\\\nVou lhe mandar nossa tabela de valores."
+      },
+      {
+        "id": 52188,
+        "created_at": 1788352429,
+        "message_type": 2,
+        "sender_type": null,
+        "sender_name": "Sistema",
+        "content": "Sistema de Automação adicionou interessado"
+      },
+      {
+        "id": 52190,
+        "created_at": 1788352429,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Sistema",
+        "content": "Seu interesse seria na aulas? Conte um pouco mais…\\\nEstou a disposição!"
+      },
+      {
+        "id": 52191,
+        "created_at": 1788352430,
+        "message_type": 2,
+        "sender_type": null,
+        "sender_name": "Sistema",
+        "content": "Atribuído a Atendimento | Montreal Tênis Clube: por Sistema de Automação"
+      },
+      {
+        "id": 52192,
+        "created_at": 1788352457,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Felipe Amorim",
+        "content": "Tem quadra para locação para esse sábado as 7:00?"
+      },
+      {
+        "id": 52200,
+        "created_at": 1788353426,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Olá, tudo bem? Temos ás 10h, pode ser?"
+      },
+      {
+        "id": 52203,
+        "created_at": 1788353488,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Felipe Amorim",
+        "content": "Oi, acabei de agendar pelo site de voces as 7 mesmo. Peguei a quadra 4, se puder confirmar que meu agendamento deu certo. \n\nObrigado."
+      },
+      {
+        "id": 52204,
+        "created_at": 1788353686,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Tá certinho sim, Felipe! \n\nMuito obrigado!"
+      },
+      {
+        "id": 52205,
+        "created_at": 1788353700,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Felipe Amorim",
+        "content": "👍🏻 [ reação ]"
+      },
+      {
+        "id": 52279,
+        "created_at": 1788356895,
+        "message_type": 2,
+        "sender_type": null,
+        "sender_name": "Sistema",
+        "content": "Conversa foi marcada como resolvida por Atendimento || Montreal Tênis Clube:"
+      }
+    ]
+  },
+  {
+    "conversation_id": 6038,
+    "contact_name": "~Leana Ganassin",
+    "labels": [
+      "mensalista",
+      "pré-inscrito",
+      "aluno"
+    ],
+    "dialogue": [
+      {
+        "id": 52132,
+        "created_at": 1788349330,
+        "message_type": 2,
+        "sender_type": null,
+        "sender_name": "Sistema",
+        "content": "Atendimento || Montreal Tênis Clube: adicionou mensalista, pré-inscrito, aluno"
+      },
+      {
+        "id": 52133,
+        "created_at": 1788349358,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Leana Ganassin",
+        "content": "Eu só perguntei"
+      },
+      {
+        "id": 52134,
+        "created_at": 1788349376,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Leana Ganassin",
+        "content": "Aliás, eu cheguei até a apagar a msg"
+      },
+      {
+        "id": 52135,
+        "created_at": 1788349464,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Leana Ganassin",
+        "content": "Pode voltar a quadra pra gente.\nTenho uma amiga que vai."
+      },
+      {
+        "id": 52139,
+        "created_at": 1788349667,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Leana, me confirma qual seria o horário no dia 06 por gentileza?"
+      },
+      {
+        "id": 52140,
+        "created_at": 1788349683,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Leana Ganassin",
+        "content": "Nosso horário é das 10h às 12h"
+      },
+      {
+        "id": 52141,
+        "created_at": 1788349848,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Temos esse horário disponível na quadra 1 no domingo. Para reservas é mediante a pagamento direto pelo app. Consegue reservar diretamente pelo app?"
+      },
+      {
+        "id": 52142,
+        "created_at": 1788349909,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Leana Ganassin",
+        "content": "Você não está entendendo.\nNós temos quadra fixa no domingo.\nE acabei de receber um email dizendo que vocês cancelaram a minha reserva.\nEstou apenas pedindo para retornar a quadra pra gente."
+      },
+      {
+        "id": 52143,
+        "created_at": 1788349971,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Leana Ganassin",
+        "content": "[image]"
+      },
+      {
+        "id": 52144,
+        "created_at": 1788350267,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Leana Ganassin",
+        "content": "Aparece o valor de 200 reais, esse valor será isento né?!"
+      },
+      {
+        "id": 52174,
+        "created_at": 1788350914,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Leana Ganassin",
+        "content": "Cancelada novamente"
+      },
+      {
+        "id": 52175,
+        "created_at": 1788350934,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Já ajustei pra você, consegue dar uma olhadinha?"
+      },
+      {
+        "id": 52176,
+        "created_at": 1788350953,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Agora não está cobrando"
+      },
+      {
+        "id": 52177,
+        "created_at": 1788350976,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Leana Ganassin",
+        "content": "Deu certo!!"
+      },
+      {
+        "id": 52179,
+        "created_at": 1788351040,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Leana Ganassin",
+        "content": "Mas agora está dizendo que não foi renovado"
+      },
+      {
+        "id": 52180,
+        "created_at": 1788351047,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Leana Ganassin",
+        "content": "[image]"
+      },
+      {
+        "id": 52183,
+        "created_at": 1788351785,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Mas tá certinho, Leana! Verifiquei que as quadras estão fixas nos próximos domingos, caso queira confirmar."
+      },
+      {
+        "id": 52184,
+        "created_at": 1788351880,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Leana Ganassin",
+        "content": "[audio]"
+      },
+      {
+        "id": 52185,
+        "created_at": 1788351915,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Fechou haha, imagina!"
+      },
+      {
+        "id": 52277,
+        "created_at": 1788356867,
+        "message_type": 2,
+        "sender_type": null,
+        "sender_name": "Sistema",
+        "content": "Conversa foi marcada como resolvida por Atendimento || Montreal Tênis Clube:"
+      }
+    ]
+  },
+  {
+    "conversation_id": 6067,
+    "contact_name": "Thatiabe",
+    "labels": [
+      "aluno"
+    ],
+    "dialogue": [
+      {
+        "id": 52422,
+        "created_at": 1788368035,
+        "message_type": 2,
+        "sender_type": null,
+        "sender_name": "Sistema",
+        "content": "Atendimento || Montreal Tênis Clube: adicionou aluno"
+      },
+      {
+        "id": 52423,
+        "created_at": 1788368035,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "Thatiabe",
+        "content": "> Montreal Tênis Clube\n> *Atendimento | Montreal Tênis Clube:*\n> Olá! Devido às fortes chuvas e às condições estruturais, precisaremos cancelar todas as aulas de hoje, pensando na segurança e no bem-estar de todos.\n>\n> Pedimos desculpas pelo imprevisto e agradecemos a compreensão de vocês. Amanhã, retornaremos com as atividades normalmente. 🙏\n\n---\n\n**Reply:**\n👍 Reagiu a uma mensagem"
+      },
+      {
+        "id": 52424,
+        "created_at": 1788368053,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "Thatiabe",
+        "content": "Oii, tudo bem?\nQueria saber como funciona quando tem feriado no dia da aula, a gente conseguem remarcar?"
+      },
+      {
+        "id": 52432,
+        "created_at": 1788368484,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "João Assunção | Montreal Tênis Clube:",
+        "content": "Olá!\nNo feriado, não temos reposição… \nSeria compensação pelos meses que tem 5 treinos, mas sao efetuado pagamento de 4"
+      },
+      {
+        "id": 52452,
+        "created_at": 1788371208,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "Thatiabe",
+        "content": "Entendi a lógica, e para esse mês entendo que seria pela aula a mais do mês passado, mas em Outubro a gente só teria 3 aulas e nos outros meses 4 aulas"
+      }
+    ]
+  },
+  {
+    "conversation_id": 6062,
+    "contact_name": "~felipe bordignon",
+    "labels": [
+      "aluno"
+    ],
+    "dialogue": [
+      {
+        "id": 52368,
+        "created_at": 1788364243,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~felipe bordignon",
+        "content": "boa tarde"
+      },
+      {
+        "id": 52369,
+        "created_at": 1788364244,
+        "message_type": 2,
+        "sender_type": null,
+        "sender_name": "Sistema",
+        "content": "Atendimento || Montreal Tênis Clube: adicionou aluno"
+      },
+      {
+        "id": 52370,
+        "created_at": 1788364264,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Olá, Felipe! Tudo bem? \n\nComo posso ajudar?"
+      },
+      {
+        "id": 52373,
+        "created_at": 1788364288,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~felipe bordignon",
+        "content": "queria ver se tem horario livre hoje pra antecipar a aula de sexta"
+      },
+      {
+        "id": 52376,
+        "created_at": 1788364572,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Vou verificar com o Leandro e já te falo, tudo bem?"
+      },
+      {
+        "id": 52406,
+        "created_at": 1788366988,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~felipe bordignon",
+        "content": "ta bom obg"
+      },
+      {
+        "id": 52438,
+        "created_at": 1788368961,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "João Assunção | Montreal Tênis Clube:",
+        "content": "Passa msg para Leandro entra em contato com ele.\n\ne avisa que passou para Leandro.\n\n\\\nlembre que não travamos a quadra para reposição  a partir das 18h, reposição somente dentro de grupo existente."
+      },
+      {
+        "id": 52439,
+        "created_at": 1788369279,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Felipe, hoje não temos quadra disponível, amanhã ás 21h você consegue?"
+      }
+    ]
+  },
+  {
+    "conversation_id": 6051,
+    "contact_name": "~Carlos Herlander",
+    "labels": [
+      "aluno"
+    ],
+    "dialogue": [
+      {
+        "id": 52193,
+        "created_at": 1788352737,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Carlos Herlander",
+        "content": "Bom dia, obg"
+      },
+      {
+        "id": 52194,
+        "created_at": 1788352737,
+        "message_type": 2,
+        "sender_type": null,
+        "sender_name": "Sistema",
+        "content": "Atendimento || Montreal Tênis Clube: adicionou aluno"
+      },
+      {
+        "id": 52278,
+        "created_at": 1788356879,
+        "message_type": 2,
+        "sender_type": null,
+        "sender_name": "Sistema",
+        "content": "Conversa foi marcada como resolvida por Atendimento || Montreal Tênis Clube:"
+      }
+    ]
+  },
+  {
+    "conversation_id": 6025,
+    "contact_name": "Matheus  Paranhos",
+    "labels": [
+      "aluno"
+    ],
+    "dialogue": [
+      {
+        "id": 51900,
+        "created_at": 1788292971,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "Matheus  Paranhos",
+        "content": "Boa tarde"
+      },
+      {
+        "id": 51901,
+        "created_at": 1788292972,
+        "message_type": 2,
+        "sender_type": null,
+        "sender_name": "Sistema",
+        "content": "Atendimento || Montreal Tênis Clube: adicionou aluno"
+      },
+      {
+        "id": 51902,
+        "created_at": 1788292973,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "Matheus  Paranhos",
+        "content": "Tudo bem?"
+      },
+      {
+        "id": 51903,
+        "created_at": 1788292996,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "Matheus  Paranhos",
+        "content": "Consigo levar uma pessoa para fazer aula experimental hoje 19:00?"
+      },
+      {
+        "id": 51904,
+        "created_at": 1788293061,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "Matheus  Paranhos",
+        "content": "Sou aluno do Leandro bonete"
+      },
+      {
+        "id": 51905,
+        "created_at": 1788293190,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Olá, Matheus! Tudo bem?"
+      },
+      {
+        "id": 51906,
+        "created_at": 1788293193,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Para você conhecer é possível comprar uma aula avulsa.\n\nCaso você goste da aula, da nossa estrutura, e decida continuar, descontamos esse valor pago da aula avulsa da 1 mensalidade e continua para os meses seguintes o valor da mensalidade normal.\n\nSe você decidir não continuar, fica somente o valor dessa aula avulsa."
+      },
+      {
+        "id": 52268,
+        "created_at": 1788356599,
+        "message_type": 2,
+        "sender_type": null,
+        "sender_name": "Sistema",
+        "content": "Conversa foi marcada como resolvida por Atendimento || Montreal Tênis Clube:"
+      }
+    ]
+  },
+  {
+    "conversation_id": 6049,
+    "contact_name": "~Leo Donoso",
+    "labels": [
+      "aluno"
+    ],
+    "dialogue": [
+      {
+        "id": 52168,
+        "created_at": 1788350436,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento || Montreal Tênis Clube:",
+        "content": "[Aviso Automático] 🤖\n\nOlá, Leonardo! Encontramos quadras livres compatíveis com suas preferências:\n\n📅 *Sexta-feira (04/09)*:\n🎾 *07:00 - 08:00*: Quadra 02\n\n\nQuer garantir o seu jogo? Reserve agora mesmo pelo app da Montreal! 📲\n\n_(Caso não queira mais receber estes avisos, responda SAIR)_"
+      },
+      {
+        "id": 52169,
+        "created_at": 1788350436,
+        "message_type": 2,
+        "sender_type": null,
+        "sender_name": "Sistema",
+        "content": "Conversa foi marcada como resolvida por Atendimento || Montreal Tênis Clube:"
+      },
+      {
+        "id": 52170,
+        "created_at": 1788350437,
+        "message_type": 2,
+        "sender_type": null,
+        "sender_name": "Sistema",
+        "content": "Atendimento || Montreal Tênis Clube: adicionou aluno"
+      }
+    ]
+  },
+  {
+    "conversation_id": 6047,
+    "contact_name": "~Enzo Guerra",
+    "labels": [
+      "aluno"
+    ],
+    "dialogue": [
+      {
+        "id": 52162,
+        "created_at": 1788350428,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento || Montreal Tênis Clube:",
+        "content": "[Aviso Automático] 🤖\n\nOlá, Enzo! Encontramos quadras livres compatíveis com suas preferências:\n\n📅 *Sexta-feira (04/09)*:\n🎾 *07:00 - 08:00*: Quadra 02\n\n\nQuer garantir o seu jogo? Reserve agora mesmo pelo app da Montreal! 📲\n\n_(Caso não queira mais receber estes avisos, responda SAIR)_"
+      },
+      {
+        "id": 52163,
+        "created_at": 1788350429,
+        "message_type": 2,
+        "sender_type": null,
+        "sender_name": "Sistema",
+        "content": "Conversa foi marcada como resolvida por Atendimento || Montreal Tênis Clube:"
+      },
+      {
+        "id": 52164,
+        "created_at": 1788350430,
+        "message_type": 2,
+        "sender_type": null,
+        "sender_name": "Sistema",
+        "content": "Atendimento || Montreal Tênis Clube: adicionou aluno"
+      }
+    ]
+  },
+  {
+    "conversation_id": 5882,
+    "contact_name": "~Haimon Andraus",
+    "labels": [
+      "aluno"
+    ],
+    "dialogue": [
+      {
+        "id": 50631,
+        "created_at": 1788178546,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Haimon Andraus",
+        "content": "É da grande. 8 ne?"
+      },
+      {
+        "id": 50632,
+        "created_at": 1788178546,
+        "message_type": 2,
+        "sender_type": null,
+        "sender_name": "Sistema",
+        "content": "Atendimento || Montreal Tênis Clube: adicionou aluno"
+      },
+      {
+        "id": 50634,
+        "created_at": 1788178618,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Haimon Andraus",
+        "content": "[image]"
+      },
+      {
+        "id": 50640,
+        "created_at": 1788179400,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Isso, obrigadaa!"
+      },
+      {
+        "id": 52084,
+        "created_at": 1788318269,
+        "message_type": 2,
+        "sender_type": null,
+        "sender_name": "Sistema",
+        "content": "Conversa foi marcada como resolvida por João Assunção | Montreal Tênis Clube:"
+      }
+    ]
+  },
+  {
+    "conversation_id": 5974,
+    "contact_name": "~Carlos Herlander",
+    "labels": [
+      "aluno"
+    ],
+    "dialogue": [
+      {
+        "id": 51348,
+        "created_at": 1788262951,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Carlos Herlander",
+        "content": "Bom dia, lembrando que hj não consigo fazer aula."
+      },
+      {
+        "id": 51349,
+        "created_at": 1788262952,
+        "message_type": 2,
+        "sender_type": null,
+        "sender_name": "Sistema",
+        "content": "Atendimento || Montreal Tênis Clube: adicionou aluno"
+      },
+      {
+        "id": 51350,
+        "created_at": 1788262971,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Carlos Herlander",
+        "content": "Consegue ver se consigo repor na quinta por favor"
+      },
+      {
+        "id": 51351,
+        "created_at": 1788262975,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Bom dia, tudo bem! Aviso o prof. João"
+      },
+      {
+        "id": 52079,
+        "created_at": 1788318037,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "João Assunção | Montreal Tênis Clube:",
+        "content": "Carlos, por enquanto a equipe de quinta esta completa, surgindo desistência te comunico."
+      },
+      {
+        "id": 52080,
+        "created_at": 1788318042,
+        "message_type": 2,
+        "sender_type": null,
+        "sender_name": "Sistema",
+        "content": "Conversa foi marcada como resolvida por João Assunção | Montreal Tênis Clube:"
+      }
+    ]
+  },
+  {
+    "conversation_id": 5881,
+    "contact_name": "~felipe bordignon",
+    "labels": [
+      "aluno"
+    ],
+    "dialogue": [
+      {
+        "id": 50623,
+        "created_at": 1788178343,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~felipe bordignon",
+        "content": "esqueci de encaminhar na sexta"
+      },
+      {
+        "id": 50624,
+        "created_at": 1788178360,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~felipe bordignon",
+        "content": "queria ver contigo se tem algum horário disponível pra remarcar a aula de sexta dessa semana"
+      },
+      {
+        "id": 50625,
+        "created_at": 1788178368,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~felipe bordignon",
+        "content": "pq vou viajar e não é vou estar aí"
+      },
+      {
+        "id": 50626,
+        "created_at": 1788178390,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~felipe bordignon",
+        "content": "do trio no caso, algum horário depois das 18 de preferência"
+      },
+      {
+        "id": 50627,
+        "created_at": 1788178431,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Olá, bom dia!\n\nMuito obrigado!!"
+      },
+      {
+        "id": 50629,
+        "created_at": 1788178457,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Vou verificar com o Prof Leandro e te comunico"
+      },
+      {
+        "id": 50636,
+        "created_at": 1788179056,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~felipe bordignon",
+        "content": "beleza obrigado"
+      },
+      {
+        "id": 50747,
+        "created_at": 1788189874,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Hoje você consegue ás 20h?"
+      },
+      {
+        "id": 50767,
+        "created_at": 1788190738,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~felipe bordignon",
+        "content": "tem horário amanhã?"
+      },
+      {
+        "id": 50768,
+        "created_at": 1788190770,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~felipe bordignon",
+        "content": "hoje não consigo"
+      },
+      {
+        "id": 50771,
+        "created_at": 1788191844,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Já verifico com o Prof"
+      },
+      {
+        "id": 51355,
+        "created_at": 1788263862,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~felipe bordignon",
+        "content": "bom dia"
+      },
+      {
+        "id": 51356,
+        "created_at": 1788263883,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Bom dia, tudo bem?"
+      },
+      {
+        "id": 51357,
+        "created_at": 1788263893,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Como posso ajudar?"
+      },
+      {
+        "id": 51358,
+        "created_at": 1788263914,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~felipe bordignon",
+        "content": "teria horário hoje pra trocar a aula?"
+      },
+      {
+        "id": 51359,
+        "created_at": 1788263967,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Devido ao clima de ontem, tivemos imprevisto na quadra, consigo te informar até umas 10h se conseguiremos fazer a troca da aula hoje"
+      },
+      {
+        "id": 51360,
+        "created_at": 1788263984,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~felipe bordignon",
+        "content": "ta bom"
+      },
+      {
+        "id": 51455,
+        "created_at": 1788270582,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Você quer antecipar a aula de sexta agora, isso?"
+      },
+      {
+        "id": 51456,
+        "created_at": 1788270620,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~felipe bordignon",
+        "content": "isso"
+      },
+      {
+        "id": 52078,
+        "created_at": 1788317865,
+        "message_type": 2,
+        "sender_type": null,
+        "sender_name": "Sistema",
+        "content": "Conversa foi marcada como resolvida por João Assunção | Montreal Tênis Clube:"
+      }
+    ]
+  },
+  {
+    "conversation_id": 6035,
+    "contact_name": "~Lucca",
+    "labels": [
+      "aluno"
+    ],
+    "dialogue": [
+      {
+        "id": 52050,
+        "created_at": 1788314808,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Lucca",
+        "content": "Opa perdão"
+      },
+      {
+        "id": 52051,
+        "created_at": 1788314809,
+        "message_type": 2,
+        "sender_type": null,
+        "sender_name": "Sistema",
+        "content": "Atendimento || Montreal Tênis Clube: adicionou aluno"
+      },
+      {
+        "id": 52052,
+        "created_at": 1788314818,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Lucca",
+        "content": "> Montreal Tênis Clube\n> *Atendimento | Montreal Tênis Clube:*\n> Lucca, vamos manter o horário das 19h, ok?\n\n---\n\n**Reply:**\nTudo bem"
+      },
+      {
+        "id": 52057,
+        "created_at": 1788316172,
+        "message_type": 2,
+        "sender_type": null,
+        "sender_name": "Sistema",
+        "content": "Conversa foi marcada como resolvida por João Assunção | Montreal Tênis Clube:"
+      }
+    ]
+  },
+  {
+    "conversation_id": 6031,
+    "contact_name": "~Carlos Herlander",
+    "labels": [
+      "aluno"
+    ],
+    "dialogue": [
+      {
+        "id": 51978,
+        "created_at": 1788303610,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento || Montreal Tênis Clube:",
+        "content": "Olá, Carlos! 🎾✨\n\nEsperamos que esteja curtindo bastante suas aulas na Montreal Tênis! 🏆\n\nA sua evolução e satisfação são muito importantes para nós. Poderia dedicar 1 minutinho para nos avaliar no Google? Sua opinião ajuda muito o clube e os nossos professores! 💛\n\n🔗 https://alertas.montrealtenis.com.br/review.html\n\nMuito obrigado e bons treinos! 🚀"
+      },
+      {
+        "id": 51979,
+        "created_at": 1788303610,
+        "message_type": 2,
+        "sender_type": null,
+        "sender_name": "Sistema",
+        "content": "Conversa foi marcada como resolvida por Atendimento || Montreal Tênis Clube:"
+      },
+      {
+        "id": 51980,
+        "created_at": 1788303611,
+        "message_type": 2,
+        "sender_type": null,
+        "sender_name": "Sistema",
+        "content": "Atendimento || Montreal Tênis Clube: adicionou aluno"
+      }
+    ]
+  },
+  {
+    "conversation_id": 6022,
+    "contact_name": "Eluir  Runt",
+    "labels": [
+      "aluno"
+    ],
+    "dialogue": [
+      {
+        "id": 51875,
+        "created_at": 1788290297,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "Eluir  Runt",
+        "content": "Olá boa tarde, tudo bem?\nQueria ver contigo certinho ali, pois não vou fazer mais a aula...vou dar uma segurada, assim que conseguir retorno!"
+      },
+      {
+        "id": 51876,
+        "created_at": 1788290298,
+        "message_type": 2,
+        "sender_type": null,
+        "sender_name": "Sistema",
+        "content": "Atendimento || Montreal Tênis Clube: adicionou aluno"
+      },
+      {
+        "id": 51877,
+        "created_at": 1788290304,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "Eluir  Runt",
+        "content": "Como que fazemos?"
+      },
+      {
+        "id": 51882,
+        "created_at": 1788291121,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Olá, Eluir! Tudo bem e você? \n\nSeria o cancelamento permanente?"
+      },
+      {
+        "id": 51888,
+        "created_at": 1788291867,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "Eluir  Runt",
+        "content": "Por hora sim! Quando eu conseguir vejo se temos outra turma"
+      },
+      {
+        "id": 51916,
+        "created_at": 1788296176,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Olá, Eluir! \n\nJá realizamos o cancelamento aqui, qualquer dúvida estamos a disposição!"
+      },
+      {
+        "id": 51944,
+        "created_at": 1788301802,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "Eluir  Runt",
+        "content": "Obrigado"
+      },
+      {
+        "id": 51947,
+        "created_at": 1788301819,
+        "message_type": 2,
+        "sender_type": null,
+        "sender_name": "Sistema",
+        "content": "Conversa foi marcada como resolvida por Atendimento | Montreal Tênis Clube:"
+      }
+    ]
+  },
+  {
+    "conversation_id": 5902,
+    "contact_name": "~Ani",
+    "labels": [
+      "aluno"
+    ],
+    "dialogue": [
+      {
+        "id": 50860,
+        "created_at": 1788196296,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Ani",
+        "content": "Cintia, saí meio correndo que eu sou muuuuito medrosa com chuva"
+      },
+      {
+        "id": 50861,
+        "created_at": 1788196296,
+        "message_type": 2,
+        "sender_type": null,
+        "sender_name": "Sistema",
+        "content": "Atendimento || Montreal Tênis Clube: adicionou matchmaker, interessado"
+      },
+      {
+        "id": 50862,
+        "created_at": 1788196345,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Ani",
+        "content": "Inclusive poderia passar uma mensagem para o professor Leandro? Ele deve ter achado que eu sou meio doida KKK"
+      },
+      {
+        "id": 50866,
+        "created_at": 1788196428,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Ani",
+        "content": "Comprovante da aula de hoje 🙏☺️"
+      },
+      {
+        "id": 50895,
+        "created_at": 1788197518,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Oi, Ani! \n\nHahaha relaxa, ficamos assustados com essa chuva repentina também. KKKKK"
+      },
+      {
+        "id": 50899,
+        "created_at": 1788197530,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Mando simm, o que achou da aula?"
+      },
+      {
+        "id": 50919,
+        "created_at": 1788197776,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Ani",
+        "content": "KKKKKK e alerta da Defesa Civil ainda, a gente já fica 👀"
+      },
+      {
+        "id": 50921,
+        "created_at": 1788197779,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Ani",
+        "content": "Obrigada por compreender"
+      },
+      {
+        "id": 50924,
+        "created_at": 1788197961,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Ani",
+        "content": "Muito boa! Gostei bastante da forma do professor de explicar o movimento, as correções, os exercícios, muito didático \n\nE da paciência do professor, inclusive com as bolas que iam nele coitado KKK"
+      },
+      {
+        "id": 50944,
+        "created_at": 1788198375,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Exato! KKKKK"
+      },
+      {
+        "id": 50945,
+        "created_at": 1788198419,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Kkkkkk mas é assim mesmo no começo. Kkkk\n\nE você pretende continuar conosco na Segunda mesmo horário?"
+      },
+      {
+        "id": 50951,
+        "created_at": 1788198641,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Ani",
+        "content": "Sim, pretendo sim!"
+      },
+      {
+        "id": 51729,
+        "created_at": 1788281027,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Boa tarde Ani, tudo bem? \n\nJá fizemos sua matrícula para suas aulas na segunda-feira das 13h as 14h"
+      },
+      {
+        "id": 51730,
+        "created_at": 1788281029,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Segue nosso termo de adesão para seu conhecimento e registro de aceite: \\\n \\\nLink: https://webhooks.vxautomation.com.br/webhook/termo-adesao-montreal"
+      },
+      {
+        "id": 51731,
+        "created_at": 1788281033,
+        "message_type": 2,
+        "sender_type": null,
+        "sender_name": "Sistema",
+        "content": "Atendimento | Montreal Tênis Clube: removeu interessado"
+      },
+      {
+        "id": 51732,
+        "created_at": 1788281034,
+        "message_type": 2,
+        "sender_type": null,
+        "sender_name": "Sistema",
+        "content": "Atendimento | Montreal Tênis Clube: removeu matchmaker"
+      },
+      {
+        "id": 51733,
+        "created_at": 1788281036,
+        "message_type": 2,
+        "sender_type": null,
+        "sender_name": "Sistema",
+        "content": "Atendimento | Montreal Tênis Clube: adicionou aluno"
+      },
+      {
+        "id": 51789,
+        "created_at": 1788282650,
+        "message_type": 2,
+        "sender_type": null,
+        "sender_name": "Sistema",
+        "content": "Conversa foi marcada como resolvida por Atendimento | Montreal Tênis Clube:"
+      }
+    ]
+  },
+  {
+    "conversation_id": 3550,
+    "contact_name": "~Lucca",
+    "labels": [
+      "aluno"
+    ],
+    "dialogue": [
+      {
+        "id": 31661,
+        "created_at": 1785170077,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Lucca",
+        "content": "Olá tudo bem"
+      },
+      {
+        "id": 31662,
+        "created_at": 1785170078,
+        "message_type": 2,
+        "sender_type": null,
+        "sender_name": "Sistema",
+        "content": "Atendimento || Montreal Tênis Clube: adicionou aluno"
+      },
+      {
+        "id": 31663,
+        "created_at": 1785170098,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Lucca",
+        "content": "Poderia me passar o número da leciane"
+      },
+      {
+        "id": 31665,
+        "created_at": 1785170115,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Olá, tudo sim e com você ?"
+      },
+      {
+        "id": 31667,
+        "created_at": 1785170181,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "4185367580"
+      },
+      {
+        "id": 31672,
+        "created_at": 1785171579,
+        "message_type": 2,
+        "sender_type": null,
+        "sender_name": "Sistema",
+        "content": "Conversa foi marcada como resolvida por Atendimento | Montreal Tênis Clube:"
+      },
+      {
+        "id": 51400,
+        "created_at": 1788268497,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Esta mensagem foi excluída"
+      },
+      {
+        "id": 51605,
+        "created_at": 1788277935,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Lucca, vamos manter o horário das 19h, ok?"
+      }
+    ]
+  },
+  {
+    "conversation_id": 5979,
+    "contact_name": "~Juliana  Palone",
+    "labels": [
+      "aluno"
+    ],
+    "dialogue": [
+      {
+        "id": 51378,
+        "created_at": 1788266766,
+        "message_type": 2,
+        "sender_type": null,
+        "sender_name": "Sistema",
+        "content": "Atendimento || Montreal Tênis Clube: adicionou aluno"
+      },
+      {
+        "id": 51379,
+        "created_at": 1788266770,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Juliana  Palone",
+        "content": "[image]"
+      },
+      {
+        "id": 51380,
+        "created_at": 1788266809,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Juliana  Palone",
+        "content": "Bom dia! Segue o comprovante de pagamento referente às aulas da Vivian Palone ☝🏼"
+      },
+      {
+        "id": 51383,
+        "created_at": 1788266883,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Bom dia, muito obrigado!"
+      },
+      {
+        "id": 51384,
+        "created_at": 1788266885,
+        "message_type": 2,
+        "sender_type": null,
+        "sender_name": "Sistema",
+        "content": "Conversa foi marcada como resolvida por Atendimento | Montreal Tênis Clube:"
+      },
+      {
+        "id": 51391,
+        "created_at": 1788267887,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Juliana  Palone",
+        "content": "❤️ [ reação ]"
+      },
+      {
+        "id": 51392,
+        "created_at": 1788267887,
+        "message_type": 2,
+        "sender_type": null,
+        "sender_name": "Sistema",
+        "content": "O sistema reabriu a conversa devido a uma nova mensagem recebida."
+      },
+      {
+        "id": 51398,
+        "created_at": 1788268404,
+        "message_type": 2,
+        "sender_type": null,
+        "sender_name": "Sistema",
+        "content": "Conversa foi marcada como resolvida por Atendimento | Montreal Tênis Clube:"
+      }
+    ]
+  },
+  {
+    "conversation_id": 3262,
+    "contact_name": "Angela Machado",
+    "labels": [
+      "pré-inscrito",
+      "aluno",
+      "pendente_formação"
+    ],
+    "dialogue": [
+      {
+        "id": 29974,
+        "created_at": 1784847621,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento || Montreal Tênis Clube:",
+        "content": "Olá, Ângela! 🎾✨\n\nEsperamos que esteja curtindo bastante suas aulas na Montreal Tênis! 🏆\n\nA sua evolução e satisfação são muito importantes para nós. Poderia dedicar 1 minutinho para nos avaliar no Google? Sua opinião ajuda muito o clube e os nossos professores! 💛\n\n🔗 https://alertas.montrealtenis.com.br/review.html\n\nMuito obrigado e bons treinos! 🚀"
+      },
+      {
+        "id": 29975,
+        "created_at": 1784847622,
+        "message_type": 2,
+        "sender_type": null,
+        "sender_name": "Sistema",
+        "content": "Conversa foi marcada como resolvida por Atendimento || Montreal Tênis Clube:"
+      },
+      {
+        "id": 29976,
+        "created_at": 1784847623,
+        "message_type": 2,
+        "sender_type": null,
+        "sender_name": "Sistema",
+        "content": "Atendimento || Montreal Tênis Clube: adicionou pré-inscrito, aluno, pendente_formação"
+      },
+      {
+        "id": 52257,
+        "created_at": 1788356241,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Bom Dia \r\n\r\nTreino confirmado, amanha as 14h."
+      }
+    ]
+  },
+  {
+    "conversation_id": 5898,
+    "contact_name": "Oriana C Zardo",
+    "labels": [
+      "pendente_formação",
+      "aluno",
+      "recebeu_formulário",
+      "pré-inscrito"
+    ],
+    "dialogue": [
+      {
+        "id": 50793,
+        "created_at": 1788193602,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "Oriana C Zardo",
+        "content": "Ola, essa semana nao vou conseguir ir nas aulas, hoje e amanhã ok..obrigada"
+      },
+      {
+        "id": 50794,
+        "created_at": 1788193602,
+        "message_type": 2,
+        "sender_type": null,
+        "sender_name": "Sistema",
+        "content": "Atendimento || Montreal Tênis Clube: adicionou pendente_formação, aluno, recebeu_formulário, pré-inscrito"
+      },
+      {
+        "id": 50803,
+        "created_at": 1788194005,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Olá, obrigada por avisar."
+      },
+      {
+        "id": 50810,
+        "created_at": 1788194224,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "Oriana C Zardo",
+        "content": "Amanhã também ok"
+      },
+      {
+        "id": 50825,
+        "created_at": 1788194714,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Ok, obrigada por avisar"
+      },
+      {
+        "id": 52254,
+        "created_at": 1788356205,
+        "message_type": 2,
+        "sender_type": null,
+        "sender_name": "Sistema",
+        "content": "Conversa foi marcada como resolvida por Atendimento || Montreal Tênis Clube:"
+      }
+    ]
+  },
+  {
+    "conversation_id": 6043,
+    "contact_name": "Ramon Grenteski Ouais Santos",
+    "labels": [
+      "pré-inscrito",
+      "aluno",
+      "pendente_formação"
+    ],
+    "dialogue": [
+      {
+        "id": 52152,
+        "created_at": 1788350417,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento || Montreal Tênis Clube:",
+        "content": "[Aviso Automático] 🤖\n\nOlá, Ramon! Encontramos quadras livres compatíveis com suas preferências:\n\n📅 *Sexta-feira (04/09)*:\n🎾 *17:00 - 18:00*: Quadra 04\n🎾 *18:00 - 19:00*: Quadra 01, Quadra 02, Quadra 03 e Quadra 04\n\n\nQuer garantir o seu jogo? Reserve agora mesmo pelo app da Montreal! 📲\n\n_(Caso não queira mais receber estes avisos, responda SAIR)_"
+      },
+      {
+        "id": 52153,
+        "created_at": 1788350418,
+        "message_type": 2,
+        "sender_type": null,
+        "sender_name": "Sistema",
+        "content": "Conversa foi marcada como resolvida por Atendimento || Montreal Tênis Clube:"
+      },
+      {
+        "id": 52154,
+        "created_at": 1788350418,
+        "message_type": 2,
+        "sender_type": null,
+        "sender_name": "Sistema",
+        "content": "Atendimento || Montreal Tênis Clube: adicionou pré-inscrito, aluno, pendente_formação"
+      }
+    ]
+  },
+  {
+    "conversation_id": 6020,
+    "contact_name": "Renata Bueno",
+    "labels": [
+      "pré-inscrito",
+      "aluno",
+      "pendente_formação"
+    ],
+    "dialogue": [
+      {
+        "id": 51871,
+        "created_at": 1788290235,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "Renata Bueno",
+        "content": "Hoje a aula ta confirmada né?"
+      },
+      {
+        "id": 51872,
+        "created_at": 1788290236,
+        "message_type": 2,
+        "sender_type": null,
+        "sender_name": "Sistema",
+        "content": "Atendimento || Montreal Tênis Clube: adicionou pré-inscrito, aluno, pendente_formação"
+      },
+      {
+        "id": 51878,
+        "created_at": 1788290818,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Oi, Renata! Tudo bem? \n\nEstá sim, ás 18h na quadra 1."
+      },
+      {
+        "id": 51879,
+        "created_at": 1788290832,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "Renata Bueno",
+        "content": "Show"
+      },
+      {
+        "id": 51912,
+        "created_at": 1788295382,
+        "message_type": 2,
+        "sender_type": null,
+        "sender_name": "Sistema",
+        "content": "Conversa foi marcada como resolvida por Atendimento | Montreal Tênis Clube:"
+      }
+    ]
+  },
+  {
+    "conversation_id": 5992,
+    "contact_name": "Amália Pasetto Baki",
+    "labels": [
+      "pré-inscrito",
+      "aluno",
+      "pendente_formação"
+    ],
+    "dialogue": [
+      {
+        "id": 51536,
+        "created_at": 1788274829,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento || Montreal Tênis Clube:",
+        "content": "[Aviso Automático] 🤖\n\nOlá, Amália! Encontramos quadras livres compatíveis com suas preferências:\n\n📅 *Quarta-feira (02/09)*:\n🎾 *20:00 - 21:00*: Quadra 02\n\n\nQuer garantir o seu jogo? Reserve agora mesmo pelo app da Montreal! 📲\n\n_(Caso não queira mais receber estes avisos, responda SAIR)_"
+      },
+      {
+        "id": 51537,
+        "created_at": 1788274830,
+        "message_type": 2,
+        "sender_type": null,
+        "sender_name": "Sistema",
+        "content": "Conversa foi marcada como resolvida por Atendimento || Montreal Tênis Clube:"
+      },
+      {
+        "id": 51538,
+        "created_at": 1788274831,
+        "message_type": 2,
+        "sender_type": null,
+        "sender_name": "Sistema",
+        "content": "Atendimento || Montreal Tênis Clube: adicionou pré-inscrito, aluno, pendente_formação"
+      }
+    ]
+  },
+  {
+    "conversation_id": 5990,
+    "contact_name": "~Eduardo Fontoura",
+    "labels": [
+      "interessado",
+      "pendente_formação"
+    ],
+    "dialogue": [
+      {
+        "id": 51530,
+        "created_at": 1788274821,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento || Montreal Tênis Clube:",
+        "content": "[Aviso Automático] 🤖\n\nOlá, Eduardo! Encontramos quadras livres compatíveis com suas preferências:\n\n📅 *Quarta-feira (02/09)*:\n🎾 *20:00 - 21:00*: Quadra 02\n\n\nQuer garantir o seu jogo? Reserve agora mesmo pelo app da Montreal! 📲\n\n_(Caso não queira mais receber estes avisos, responda SAIR)_"
+      },
+      {
+        "id": 51531,
+        "created_at": 1788274822,
+        "message_type": 2,
+        "sender_type": null,
+        "sender_name": "Sistema",
+        "content": "Conversa foi marcada como resolvida por Atendimento || Montreal Tênis Clube:"
+      },
+      {
+        "id": 51532,
+        "created_at": 1788274823,
+        "message_type": 2,
+        "sender_type": null,
+        "sender_name": "Sistema",
+        "content": "Atendimento || Montreal Tênis Clube: adicionou interessado, pendente_formação"
+      }
+    ]
+  },
+  {
+    "conversation_id": 5988,
+    "contact_name": "Michele Tomimori",
+    "labels": [
+      "pendente_formação",
+      "pré-inscrito",
+      "aluno"
+    ],
+    "dialogue": [
+      {
+        "id": 51524,
+        "created_at": 1788274813,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento || Montreal Tênis Clube:",
+        "content": "[Aviso Automático] 🤖\n\nOlá, Michele! Encontramos quadras livres compatíveis com suas preferências:\n\n📅 *Quarta-feira (02/09)*:\n🎾 *20:00 - 21:00*: Quadra 02\n\n\nQuer garantir o seu jogo? Reserve agora mesmo pelo app da Montreal! 📲\n\n_(Caso não queira mais receber estes avisos, responda SAIR)_"
+      },
+      {
+        "id": 51525,
+        "created_at": 1788274814,
+        "message_type": 2,
+        "sender_type": null,
+        "sender_name": "Sistema",
+        "content": "Conversa foi marcada como resolvida por Atendimento || Montreal Tênis Clube:"
+      },
+      {
+        "id": 51526,
+        "created_at": 1788274814,
+        "message_type": 2,
+        "sender_type": null,
+        "sender_name": "Sistema",
+        "content": "Atendimento || Montreal Tênis Clube: adicionou pendente_formação, pré-inscrito, aluno"
+      }
+    ]
+  },
+  {
+    "conversation_id": 5925,
+    "contact_name": "~juniornovack",
+    "labels": [
+      "pendente_formação",
+      "aluno",
+      "recebeu_formulário"
+    ],
+    "dialogue": [
+      {
+        "id": 51089,
+        "created_at": 1788210324,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~juniornovack",
+        "content": "aula canceladas mesmo?"
+      },
+      {
+        "id": 51090,
+        "created_at": 1788210325,
+        "message_type": 2,
+        "sender_type": null,
+        "sender_name": "Sistema",
+        "content": "Atendimento || Montreal Tênis Clube: adicionou pendente_formação, aluno, recebeu_formulário"
+      },
+      {
+        "id": 51093,
+        "created_at": 1788210356,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Infelizmente sim!"
+      },
+      {
+        "id": 51329,
+        "created_at": 1788226320,
+        "message_type": 2,
+        "sender_type": null,
+        "sender_name": "Sistema",
+        "content": "Conversa foi marcada como resolvida por João Assunção | Montreal Tênis Clube:"
+      }
+    ]
+  },
+  {
+    "conversation_id": 5969,
+    "contact_name": "Ramon Grenteski Ouais Santos",
+    "labels": [
+      "pendente_formação",
+      "pré-inscrito",
+      "aluno"
+    ],
+    "dialogue": [
+      {
+        "id": 51298,
+        "created_at": 1788220567,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "Ramon Grenteski Ouais Santos",
+        "content": "👊🏽👊🏽"
+      },
+      {
+        "id": 51299,
+        "created_at": 1788220567,
+        "message_type": 2,
+        "sender_type": null,
+        "sender_name": "Sistema",
+        "content": "Atendimento || Montreal Tênis Clube: adicionou pendente_formação, pré-inscrito, aluno"
+      },
+      {
+        "id": 51314,
+        "created_at": 1788221615,
+        "message_type": 2,
+        "sender_type": null,
+        "sender_name": "Sistema",
+        "content": "Conversa foi marcada como resolvida por Atendimento | Montreal Tênis Clube:"
+      }
+    ]
+  },
+  {
+    "conversation_id": 5966,
+    "contact_name": "Jana Grenteski Ouais Santos",
+    "labels": [
+      "pendente_formação",
+      "pré-inscrito",
+      "aluno"
+    ],
+    "dialogue": [
+      {
+        "id": 51272,
+        "created_at": 1788220215,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "Jana Grenteski Ouais Santos",
+        "content": "Claro gente… sem problemas, fiquem tranquilos… espero que esteja tudo bem por aí…"
+      },
+      {
+        "id": 51273,
+        "created_at": 1788220216,
+        "message_type": 2,
+        "sender_type": null,
+        "sender_name": "Sistema",
+        "content": "Atendimento || Montreal Tênis Clube: adicionou pendente_formação, pré-inscrito, aluno"
+      },
+      {
+        "id": 51286,
+        "created_at": 1788220373,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Obrigado Janaa"
+      },
+      {
+        "id": 51292,
+        "created_at": 1788220404,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "Jana Grenteski Ouais Santos",
+        "content": "❤️ [ reação ]"
+      },
+      {
+        "id": 51293,
+        "created_at": 1788220407,
+        "message_type": 2,
+        "sender_type": null,
+        "sender_name": "Sistema",
+        "content": "Conversa foi marcada como resolvida por Atendimento | Montreal Tênis Clube:"
+      }
+    ]
+  },
+  {
+    "conversation_id": 6036,
+    "contact_name": "~Joao Assunção",
+    "labels": [
+      "sócio",
+      "recebeu_formulário",
+      "professor"
+    ],
+    "dialogue": [
+      {
+        "id": 52136,
+        "created_at": 1788349501,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Ok, já alterei"
+      },
+      {
+        "id": 52171,
+        "created_at": 1788350604,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "João, sabe a Leana? Ela disse que não era pra cancelar a reserva de domingo"
+      },
+      {
+        "id": 52172,
+        "created_at": 1788350702,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Joao Assunção",
+        "content": "[audio]"
+      },
+      {
+        "id": 52173,
+        "created_at": 1788350715,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Joao Assunção",
+        "content": "[audio]"
+      },
+      {
+        "id": 52182,
+        "created_at": 1788351617,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Joao Assunção",
+        "content": "[audio]"
+      },
+      {
+        "id": 52201,
+        "created_at": 1788353444,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Joao Assunção",
+        "content": "Deu certo o casal ?"
+      },
+      {
+        "id": 52202,
+        "created_at": 1788353484,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Sim, já pagaram e incluí ele nas aulas de quarta ás 08h"
+      },
+      {
+        "id": 52209,
+        "created_at": 1788354259,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Joao Assunção",
+        "content": "[audio]"
+      },
+      {
+        "id": 52345,
+        "created_at": 1788361907,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "32734646000199 - CNJ \r\n\r\nR$ 134,00"
+      },
+      {
+        "id": 52346,
+        "created_at": 1788362837,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Joao Assunção",
+        "content": "O que é esta ?"
+      },
+      {
+        "id": 52347,
+        "created_at": 1788362868,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "A chave do papel que chegou ontemm"
+      },
+      {
+        "id": 52348,
+        "created_at": 1788362879,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "chave pix kk"
+      },
+      {
+        "id": 52349,
+        "created_at": 1788363070,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Joao Assunção",
+        "content": "Ok"
+      },
+      {
+        "id": 52350,
+        "created_at": 1788363218,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Joao Assunção",
+        "content": "[image]"
+      },
+      {
+        "id": 52400,
+        "created_at": 1788366342,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "João, da pendência de hoje ficou a **Edna Bittencourt**. Pelo que verifiquei na conversa, ela fazia aula em trio, mas o trio acabou se desencontrando de horário, certo? A gente ofereceu a possibilidade de encaixar em uma nova turma ou fazer aula individual às quartas, às 14h, mas ela prefere continuar em dupla ou trio. Então ficou pendente verificar com quem conseguimos montar uma dupla pra ela.\n\nO Robson disse que queria verificar a disponibilidade com você. Eu atribuí a conversa lá pra você, caso queira dar uma olhada."
+      },
+      {
+        "id": 52404,
+        "created_at": 1788366434,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Joao Assunção",
+        "content": "Ok!! Edna faz um resumo, e coloca etiqueta Make \n\nRobson já falei com ele"
+      },
+      {
+        "id": 52453,
+        "created_at": 1788371254,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Joao Assunção",
+        "content": "[audio]"
+      },
+      {
+        "id": 52454,
+        "created_at": 1788371287,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Oii, mando sim"
+      },
+      {
+        "id": 52455,
+        "created_at": 1788371326,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Guilherme machado?"
+      },
+      {
+        "id": 52458,
+        "created_at": 1788371731,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Joao Assunção",
+        "content": "Aluno das 20h na segunda"
+      }
+    ]
+  },
+  {
+    "conversation_id": 6066,
+    "contact_name": "Rodrigo Assunção",
+    "labels": [
+      "recebeu_formulário",
+      "professor",
+      "interessado"
+    ],
+    "dialogue": [
+      {
+        "id": 52408,
+        "created_at": 1788367087,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "Rodrigo Assunção",
+        "content": "A blz muito obrigado"
+      },
+      {
+        "id": 52409,
+        "created_at": 1788367088,
+        "message_type": 2,
+        "sender_type": null,
+        "sender_name": "Sistema",
+        "content": "Atendimento || Montreal Tênis Clube: adicionou recebeu_formulário, professor, interessado"
+      },
+      {
+        "id": 52417,
+        "created_at": 1788367807,
+        "message_type": 2,
+        "sender_type": null,
+        "sender_name": "Sistema",
+        "content": "Conversa foi marcada como resolvida por João Assunção | Montreal Tênis Clube:"
+      }
+    ]
+  },
+  {
+    "conversation_id": 6019,
+    "contact_name": "Rodrigo Assunção",
+    "labels": [
+      "interessado",
+      "recebeu_formulário",
+      "professor"
+    ],
+    "dialogue": [
+      {
+        "id": 51865,
+        "created_at": 1788290174,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "Rodrigo Assunção",
+        "content": "Isso essa mesmo"
+      },
+      {
+        "id": 51866,
+        "created_at": 1788290175,
+        "message_type": 2,
+        "sender_type": null,
+        "sender_name": "Sistema",
+        "content": "Atendimento || Montreal Tênis Clube: adicionou interessado, recebeu_formulário, professor"
+      },
+      {
+        "id": 51867,
+        "created_at": 1788290175,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "Rodrigo Assunção",
+        "content": "As 16"
+      },
+      {
+        "id": 51869,
+        "created_at": 1788290218,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Eu avisei o João que ela não vinha hoje. :c \n\nAchei que fosse aluna só dele, me desculpe."
+      },
+      {
+        "id": 51870,
+        "created_at": 1788290231,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Ela não vai vir hoje, ela avisou mesmo ontem"
+      },
+      {
+        "id": 52074,
+        "created_at": 1788317587,
+        "message_type": 2,
+        "sender_type": null,
+        "sender_name": "Sistema",
+        "content": "Conversa foi marcada como resolvida por João Assunção | Montreal Tênis Clube:"
+      },
+      {
+        "id": 52407,
+        "created_at": 1788367067,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Oii, chegou encomenda pra você"
+      }
+    ]
+  },
+  {
+    "conversation_id": 6058,
+    "contact_name": "~Tati Araujo",
+    "labels": [
+      "professor"
+    ],
+    "dialogue": [
+      {
+        "id": 52326,
+        "created_at": 1788359225,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Tati Araujo",
+        "content": "Oi, \nQual a porcentagem de desconto pra familiares?"
+      },
+      {
+        "id": 52327,
+        "created_at": 1788359225,
+        "message_type": 2,
+        "sender_type": null,
+        "sender_name": "Sistema",
+        "content": "Atendimento || Montreal Tênis Clube: adicionou professor"
+      },
+      {
+        "id": 52328,
+        "created_at": 1788359249,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Plano Família\n\n2 membros: 5% | + de 2 membros: 7%"
+      },
+      {
+        "id": 52330,
+        "created_at": 1788359267,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Tati Araujo",
+        "content": "Ok"
+      },
+      {
+        "id": 52331,
+        "created_at": 1788359275,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Tati Araujo",
+        "content": "E o valor da aula em grupo?"
+      },
+      {
+        "id": 52333,
+        "created_at": 1788359283,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Tati Araujo",
+        "content": "🗑️ [ Mensagem deletada ]"
+      },
+      {
+        "id": 52334,
+        "created_at": 1788359284,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Tati Araujo",
+        "content": "Beleza"
+      },
+      {
+        "id": 52335,
+        "created_at": 1788359286,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Tati Araujo",
+        "content": "Obrigada"
+      },
+      {
+        "id": 52336,
+        "created_at": 1788359295,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Grupo (4 alunos)**R$ 335,00**"
+      },
+      {
+        "id": 52337,
+        "created_at": 1788359305,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Por nada"
+      },
+      {
+        "id": 52381,
+        "created_at": 1788364915,
+        "message_type": 2,
+        "sender_type": null,
+        "sender_name": "Sistema",
+        "content": "Conversa foi marcada como resolvida por Atendimento | Montreal Tênis Clube:"
+      }
+    ]
+  },
+  {
+    "conversation_id": 6061,
+    "contact_name": "~Leandro Bonete",
+    "labels": [
+      "professor"
+    ],
+    "dialogue": [
+      {
+        "id": 52359,
+        "created_at": 1788363469,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Leandro Bonete",
+        "content": "Não vou verificar"
+      },
+      {
+        "id": 52360,
+        "created_at": 1788363469,
+        "message_type": 2,
+        "sender_type": null,
+        "sender_name": "Sistema",
+        "content": "Atendimento || Montreal Tênis Clube: adicionou professor"
+      },
+      {
+        "id": 52377,
+        "created_at": 1788364619,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Oiii kk\n\nFelipe Bordignon quer saber se consegue antecipar a aula para hoje, é possível?"
+      }
+    ]
+  },
+  {
+    "conversation_id": 6026,
+    "contact_name": "~Leandro Bonete",
+    "labels": [
+      "professor"
+    ],
+    "dialogue": [
+      {
+        "id": 51918,
+        "created_at": 1788300382,
+        "message_type": 2,
+        "sender_type": null,
+        "sender_name": "Sistema",
+        "content": "Atendimento || Montreal Tênis Clube: adicionou professor"
+      },
+      {
+        "id": 51919,
+        "created_at": 1788300390,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Leandro Bonete",
+        "content": "[audio]"
+      },
+      {
+        "id": 51920,
+        "created_at": 1788300952,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Oii"
+      },
+      {
+        "id": 51921,
+        "created_at": 1788300953,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Segue link para baixar nosso app e fazer cadastro, isso facilitará sua inclusão nos grupos e será através dele que o aluno irá fazer toda a gestão de sua aula, locação - se puder baixar: \\\n \\\nAndroid: <https://play.google.com/store/apps/details?id=es.tpc.matchpoint.appclient.montrealtenisclube>\n\nIOS: <https://apps.apple.com/us/app/montreal-tenis-clube/id6764062641>"
+      },
+      {
+        "id": 51922,
+        "created_at": 1788300957,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Segue nossa tabela base de valores de aula, mensalista e locação:"
+      },
+      {
+        "id": 51924,
+        "created_at": 1788300958,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "**Descontos: **\n\n* Teremos valores diferenciados para aulas entre os horários das 10hrs as 15hrs\n\n* Descontos se por frequência maior\n\n* Descontos caso tenham mais membros diretos da família (mesmo responsável financeiro) fazendo aula conosco"
+      },
+      {
+        "id": 51925,
+        "created_at": 1788300958,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "São 04 quadras totalmente cobertas!"
+      },
+      {
+        "id": 51998,
+        "created_at": 1788304422,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Leandro, esse Matheus você consegue dar aula quando pra ele?"
+      },
+      {
+        "id": 52067,
+        "created_at": 1788317394,
+        "message_type": 2,
+        "sender_type": null,
+        "sender_name": "Sistema",
+        "content": "Conversa foi marcada como resolvida por João Assunção | Montreal Tênis Clube:"
+      },
+      {
+        "id": 52294,
+        "created_at": 1788357373,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Oi, Leandro. \r\n\r\nLembra da Jade? Ela quer fazer uma aula de reposição, consegue enviar uma mensagem pra ela para vocês marcarem? Obrigada!"
+      }
+    ]
+  },
+  {
+    "conversation_id": 6016,
+    "contact_name": "~Tati Araujo",
+    "labels": [
+      "professor"
+    ],
+    "dialogue": [
+      {
+        "id": 51851,
+        "created_at": 1788287570,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Tati Araujo",
+        "content": "Amanhã"
+      },
+      {
+        "id": 51852,
+        "created_at": 1788287571,
+        "message_type": 2,
+        "sender_type": null,
+        "sender_name": "Sistema",
+        "content": "Atendimento || Montreal Tênis Clube: adicionou professor"
+      },
+      {
+        "id": 51853,
+        "created_at": 1788287573,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Tati Araujo",
+        "content": "Maria as 9h"
+      },
+      {
+        "id": 51854,
+        "created_at": 1788287775,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "aula de reposição?"
+      },
+      {
+        "id": 51855,
+        "created_at": 1788287797,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Tati Araujo",
+        "content": "Não, vai antecipar a que tem as 10h"
+      },
+      {
+        "id": 51856,
+        "created_at": 1788287804,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Tati Araujo",
+        "content": "Ou 11h 🤔"
+      },
+      {
+        "id": 51857,
+        "created_at": 1788287808,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Tati Araujo",
+        "content": "Vai vir antes só"
+      },
+      {
+        "id": 51858,
+        "created_at": 1788287843,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Ah simmm, ajustei aqui"
+      },
+      {
+        "id": 52075,
+        "created_at": 1788317606,
+        "message_type": 2,
+        "sender_type": null,
+        "sender_name": "Sistema",
+        "content": "Conversa foi marcada como resolvida por João Assunção | Montreal Tênis Clube:"
+      }
+    ]
+  },
+  {
+    "conversation_id": 6034,
+    "contact_name": "Leciane Silva",
+    "labels": [
+      "professor"
+    ],
+    "dialogue": [
+      {
+        "id": 52019,
+        "created_at": 1788307686,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "Leciane Silva",
+        "content": "Oieee acho que sim, ele confirmou?"
+      },
+      {
+        "id": 52020,
+        "created_at": 1788307686,
+        "message_type": 2,
+        "sender_type": null,
+        "sender_name": "Sistema",
+        "content": "Atendimento || Montreal Tênis Clube: adicionou professor"
+      },
+      {
+        "id": 52021,
+        "created_at": 1788307697,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "Leciane Silva",
+        "content": "> Montreal Tênis Clube\n> *Atendimento | Montreal Tênis Clube:*\n> vinicius vem as 18h\n\n---\n\n**Reply:**\nÉ isso né? 😅"
+      },
+      {
+        "id": 52044,
+        "created_at": 1788313541,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "João Assunção | Montreal Tênis Clube:",
+        "content": "Ola !\nProf e Thiago vai fazer as 17h, isso?"
+      },
+      {
+        "id": 52045,
+        "created_at": 1788313579,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "Leciane Silva",
+        "content": "Isso"
+      },
+      {
+        "id": 52046,
+        "created_at": 1788313582,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "Leciane Silva",
+        "content": "Com a Ana também"
+      },
+      {
+        "id": 52047,
+        "created_at": 1788313588,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "Leciane Silva",
+        "content": "Ele pediu para antecipar pq tem evento"
+      },
+      {
+        "id": 52048,
+        "created_at": 1788314749,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "João Assunção | Montreal Tênis Clube:",
+        "content": "Ok"
+      },
+      {
+        "id": 52049,
+        "created_at": 1788314780,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "Leciane Silva",
+        "content": "😃 [ reação ]"
+      },
+      {
+        "id": 52060,
+        "created_at": 1788316673,
+        "message_type": 2,
+        "sender_type": null,
+        "sender_name": "Sistema",
+        "content": "Conversa foi marcada como resolvida por João Assunção | Montreal Tênis Clube:"
+      }
+    ]
+  },
+  {
+    "conversation_id": 6017,
+    "contact_name": "~Joao Assunção",
+    "labels": [
+      "recebeu_formulário",
+      "sócio",
+      "professor"
+    ],
+    "dialogue": [
+      {
+        "id": 51988,
+        "created_at": 1788304101,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Joao Assunção",
+        "content": "[audio]"
+      },
+      {
+        "id": 51989,
+        "created_at": 1788304125,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Joao Assunção",
+        "content": "[audio]"
+      },
+      {
+        "id": 51992,
+        "created_at": 1788304181,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Ás 18h lotado também, temos ás 21h"
+      },
+      {
+        "id": 51993,
+        "created_at": 1788304310,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "João, o aluno do Leandro pediu para fazer registro e pagamento diretamente pelo app. Já enviei aqui pra ele"
+      },
+      {
+        "id": 51996,
+        "created_at": 1788304361,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Estavam com pressa"
+      },
+      {
+        "id": 51999,
+        "created_at": 1788304480,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Ele vai fechar mesmo, só pediu pra eu verificar os horários"
+      },
+      {
+        "id": 52000,
+        "created_at": 1788304640,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Na sexta temos ás 18h, João"
+      },
+      {
+        "id": 52001,
+        "created_at": 1788304828,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Joao Assunção",
+        "content": "[audio]"
+      },
+      {
+        "id": 52002,
+        "created_at": 1788304850,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Joao Assunção",
+        "content": "[audio]"
+      },
+      {
+        "id": 52003,
+        "created_at": 1788304915,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Tá bem, ela tá livre até as 16h, já travei aqui"
+      },
+      {
+        "id": 52004,
+        "created_at": 1788305011,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Joao Assunção",
+        "content": "[audio]"
+      },
+      {
+        "id": 52013,
+        "created_at": 1788305466,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Joao Assunção",
+        "content": "[audio]"
+      },
+      {
+        "id": 52014,
+        "created_at": 1788305496,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "vou apagarrr"
+      },
+      {
+        "id": 52015,
+        "created_at": 1788305505,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Joao Assunção",
+        "content": "Luz"
+      },
+      {
+        "id": 52022,
+        "created_at": 1788307923,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Joao Assunção",
+        "content": "[audio]"
+      },
+      {
+        "id": 52023,
+        "created_at": 1788309303,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Aqui tá 5%"
+      },
+      {
+        "id": 52025,
+        "created_at": 1788309503,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento || Montreal Tênis Clube:",
+        "content": "isso é 5% + adicional de 5%"
+      },
+      {
+        "id": 52054,
+        "created_at": 1788315035,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "João Assunção | Montreal Tênis Clube:",
+        "content": "Segue nosso termo de adesão para seu conhecimento e registro de aceite: \\\n\\\nLink: https://webhooks.vxautomation.com.br/webhook/termo-mensalista"
+      },
+      {
+        "id": 52059,
+        "created_at": 1788316667,
+        "message_type": 2,
+        "sender_type": null,
+        "sender_name": "Sistema",
+        "content": "Conversa foi marcada como resolvida por João Assunção | Montreal Tênis Clube:"
+      }
+    ]
+  },
+  {
+    "conversation_id": 5913,
+    "contact_name": "Leciane Silva",
+    "labels": [
+      "professor"
+    ],
+    "dialogue": [
+      {
+        "id": 51432,
+        "created_at": 1788269362,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Bele, to esperando a resposta deles"
+      },
+      {
+        "id": 51433,
+        "created_at": 1788269380,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "eu tambémmmm"
+      },
+      {
+        "id": 51434,
+        "created_at": 1788269420,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "Leciane Silva",
+        "content": "Beleee"
+      },
+      {
+        "id": 51435,
+        "created_at": 1788269423,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "Leciane Silva",
+        "content": "😂 [ reação ]"
+      },
+      {
+        "id": 51464,
+        "created_at": 1788271361,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Thomas ok"
+      },
+      {
+        "id": 51468,
+        "created_at": 1788271737,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Prof, então fica \n\nas 17h - thiago e ana \n\nas 18h - lucca, luisa (não confirmaram ainda) e thomas"
+      },
+      {
+        "id": 51573,
+        "created_at": 1788275275,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "Leciane Silva",
+        "content": "Beleza!!!"
+      },
+      {
+        "id": 51574,
+        "created_at": 1788275276,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "Leciane Silva",
+        "content": "Combinadooo"
+      },
+      {
+        "id": 51575,
+        "created_at": 1788275283,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "Leciane Silva",
+        "content": "Acabo mais cedo 😅"
+      },
+      {
+        "id": 51577,
+        "created_at": 1788275328,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "vai dar boaa 😅\n\nesperar os irmãos responderem"
+      },
+      {
+        "id": 51578,
+        "created_at": 1788275405,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "Leciane Silva",
+        "content": "Uhuuuu"
+      },
+      {
+        "id": 51606,
+        "created_at": 1788277952,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "proffff"
+      },
+      {
+        "id": 51607,
+        "created_at": 1788277957,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "mudança de planos kkkk"
+      },
+      {
+        "id": 51608,
+        "created_at": 1788277963,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "vinicius vem as 18h"
+      },
+      {
+        "id": 51610,
+        "created_at": 1788277968,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "mantem as 19h"
+      },
+      {
+        "id": 51611,
+        "created_at": 1788277972,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "o grupo"
+      },
+      {
+        "id": 51629,
+        "created_at": 1788278324,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "Leciane Silva",
+        "content": "Uhuuuu"
+      },
+      {
+        "id": 51631,
+        "created_at": 1788278345,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "Leciane Silva",
+        "content": "Beleza 🤣🤣"
+      },
+      {
+        "id": 51646,
+        "created_at": 1788278637,
+        "message_type": 2,
+        "sender_type": null,
+        "sender_name": "Sistema",
+        "content": "Conversa foi marcada como resolvida por Atendimento | Montreal Tênis Clube:"
+      },
+      {
+        "id": 52016,
+        "created_at": 1788306779,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Olá, Leciane! Tudo bem? Amanhã tá certinho a aula do Vinicius ás 18h?"
+      }
+    ]
+  },
+  {
+    "conversation_id": 5509,
+    "contact_name": "~Simão",
+    "labels": [
+      "interessado",
+      "recebeu_formulário",
+      "matchmaker"
+    ],
+    "dialogue": [
+      {
+        "id": 47738,
+        "created_at": 1787607102,
+        "message_type": 2,
+        "sender_type": null,
+        "sender_name": "Sistema",
+        "content": "Atendimento | Montreal Tênis Clube: adicionou recebeu_formulário"
+      },
+      {
+        "id": 47739,
+        "created_at": 1787607604,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Simão",
+        "content": "Sim, jogo a exatamente 1 ano, já participei e já venci categoria D, costumo joga simples, jogo 2 vezes por semana"
+      },
+      {
+        "id": 47740,
+        "created_at": 1787607693,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Podemos adicionar você numa dupla as 21h na segunda-feira.\n\nPossível?"
+      },
+      {
+        "id": 47743,
+        "created_at": 1787608001,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Simão",
+        "content": "tem que ser no máximo às 20"
+      },
+      {
+        "id": 47744,
+        "created_at": 1787608019,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Simão",
+        "content": "se não tiver turma 19 ou 20 acho que infelizmente não consigo"
+      },
+      {
+        "id": 47745,
+        "created_at": 1787608076,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Poderia ser em grupo?"
+      },
+      {
+        "id": 47746,
+        "created_at": 1787608154,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Simão",
+        "content": "trio no máximo"
+      },
+      {
+        "id": 47747,
+        "created_at": 1787608329,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Resumo: treino em dupla ou trio. na segunda, quarta ou sexta, das 19h as 20h."
+      },
+      {
+        "id": 47748,
+        "created_at": 1787608332,
+        "message_type": 2,
+        "sender_type": null,
+        "sender_name": "Sistema",
+        "content": "Atendimento | Montreal Tênis Clube: adicionou matchmaker"
+      },
+      {
+        "id": 48728,
+        "created_at": 1787766649,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento || Montreal Tênis Clube:",
+        "content": "nao como ficou isso"
+      },
+      {
+        "id": 49041,
+        "created_at": 1787840694,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Bom dia, Simão!\n\nPodemos dar sequência?"
+      },
+      {
+        "id": 52111,
+        "created_at": 1788345482,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Bom dia, Simão!\n\nPodemos dar sequência?"
+      },
+      {
+        "id": 52433,
+        "created_at": 1788368502,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Simão",
+        "content": "Bom dia, sim"
+      },
+      {
+        "id": 52434,
+        "created_at": 1788368727,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Fazendo um breve resumo, Simão\n\nSeria aula em dupla ou trio, preferencialmente na parte da noite, e já possui experiencia com o Tênis, certinho?"
+      },
+      {
+        "id": 52437,
+        "created_at": 1788368878,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Simão",
+        "content": "Exatamente"
+      },
+      {
+        "id": 52440,
+        "created_at": 1788369347,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "João, consegue encaixar ele em alguma turma? Ele já possui experiencia"
+      },
+      {
+        "id": 52441,
+        "created_at": 1788369354,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "João Assunção | Montreal Tênis Clube:",
+        "content": "Esta mensagem foi excluída"
+      },
+      {
+        "id": 52442,
+        "created_at": 1788369539,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "João Assunção | Montreal Tênis Clube:",
+        "content": "Simão de segunda a quinta as 19h, vamos ter grupo, treino bem dinamito, podemos dar sequencia?"
+      },
+      {
+        "id": 52444,
+        "created_at": 1788369602,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Simão",
+        "content": "isso é trio ou quarteto?"
+      },
+      {
+        "id": 52445,
+        "created_at": 1788369615,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Simão",
+        "content": "tem como fazer uma aula experimental pra conhecer a academia/professor?"
+      }
+    ]
+  },
+  {
+    "conversation_id": 5863,
+    "contact_name": "Edina Bitcur",
+    "labels": [
+      "aluno",
+      "recebeu_formulário",
+      "matchmaker"
+    ],
+    "dialogue": [
+      {
+        "id": 50524,
+        "created_at": 1788173857,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "Edina Bitcur",
+        "content": "Bom dia, tudo bem?\nTenho disponibilidade na quarta à tarde mesmo. Fico no aguardo"
+      },
+      {
+        "id": 50525,
+        "created_at": 1788173857,
+        "message_type": 2,
+        "sender_type": null,
+        "sender_name": "Sistema",
+        "content": "Atendimento || Montreal Tênis Clube: adicionou aluno, recebeu_formulário"
+      },
+      {
+        "id": 50526,
+        "created_at": 1788174049,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Bom dia, tudo bem e você?\n\nReformulando, você gostaria de agendar para quarta a sua aula?"
+      },
+      {
+        "id": 50529,
+        "created_at": 1788174890,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "Edina Bitcur",
+        "content": "Por enquanto não farei aula individual"
+      },
+      {
+        "id": 52242,
+        "created_at": 1788356025,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento || Montreal Tênis Clube:",
+        "content": "isso aqui é oq? nao entendi. Precisa agendar aula de resposição?"
+      },
+      {
+        "id": 52306,
+        "created_at": 1788357896,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Olá, Edina! Tudo bem?"
+      },
+      {
+        "id": 52308,
+        "created_at": 1788357952,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "Edina Bitcur",
+        "content": "Bom dia! Tudo bem e com você?"
+      },
+      {
+        "id": 52313,
+        "created_at": 1788358047,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Tudo bem também! Na quarta ás 14h ficaria bom para você?"
+      },
+      {
+        "id": 52318,
+        "created_at": 1788358079,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "Edina Bitcur",
+        "content": "Para individual ou terei dupla?"
+      },
+      {
+        "id": 52322,
+        "created_at": 1788358270,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Tudo bem também!"
+      },
+      {
+        "id": 52323,
+        "created_at": 1788358572,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Para esse horário temos opção na quarta as 14h, na modalidade individual com desconto 12%… R$ 633,60\n\nOu caso queira fazer aula em dupla teríamos que verificar disponibilidade para acharmos uma dupla para realizar a aula com você"
+      },
+      {
+        "id": 52338,
+        "created_at": 1788359671,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "Edina Bitcur",
+        "content": "Fico no aguardo da dupla"
+      },
+      {
+        "id": 52405,
+        "created_at": 1788366469,
+        "message_type": 2,
+        "sender_type": null,
+        "sender_name": "Sistema",
+        "content": "Atendimento | Montreal Tênis Clube: adicionou matchmaker"
+      }
+    ]
+  },
+  {
+    "conversation_id": 5620,
+    "contact_name": "~Vinicius",
+    "labels": [
+      "interessado",
+      "recebeu_formulário",
+      "matchmaker",
+      "aluno"
+    ],
+    "dialogue": [
+      {
+        "id": 49040,
+        "created_at": 1787840502,
+        "message_type": 2,
+        "sender_type": null,
+        "sender_name": "Sistema",
+        "content": "Atribuído a João Assunção | Montreal Tênis Clube: por Atendimento | Montreal Tênis Clube:"
+      },
+      {
+        "id": 49062,
+        "created_at": 1787842738,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Legal, Vinicius!\n\nPor gentileza, consegue fazer o registro no app?, isso facilitará sua inclusão nos grupos."
+      },
+      {
+        "id": 49063,
+        "created_at": 1787842740,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Segue link para baixar nosso app e fazer cadastro, isso facilitará sua inclusão nos grupos e será através dele que o aluno irá fazer toda a gestão de sua aula, locação - se puder baixar: \\\n \\\nAndroid: <https://play.google.com/store/apps/details?id=es.tpc.matchpoint.appclient.montrealtenisclube>\n\nIOS: <https://apps.apple.com/us/app/montreal-tenis-clube/id6764062641>"
+      },
+      {
+        "id": 49065,
+        "created_at": 1787843267,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Vinicius",
+        "content": "Fiz aqui ja"
+      },
+      {
+        "id": 49070,
+        "created_at": 1787844656,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "João Assunção | Montreal Tênis Clube:",
+        "content": "Vamos abrir uma equipe na quarta as 19h, podemos dar sequencia?"
+      },
+      {
+        "id": 49072,
+        "created_at": 1787844885,
+        "message_type": 2,
+        "sender_type": null,
+        "sender_name": "Sistema",
+        "content": "Conversa desatribuída por João Assunção | Montreal Tênis Clube:"
+      },
+      {
+        "id": 49118,
+        "created_at": 1787847645,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "João Assunção | Montreal Tênis Clube:",
+        "content": "verificar com ele  se podemos adicionar, abrir uma turma com prof. Leandro na quarta as 19h inicio coloca no dia 14/09 quadra vai está disponível so dia 16/09\n\ntreino equipe"
+      },
+      {
+        "id": 49122,
+        "created_at": 1787847864,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Ok"
+      },
+      {
+        "id": 49259,
+        "created_at": 1787860611,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Vinicius",
+        "content": "Pode ser"
+      },
+      {
+        "id": 49260,
+        "created_at": 1787860669,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Podemos iniciar seus treinos a partir do dia 16/09?"
+      },
+      {
+        "id": 49320,
+        "created_at": 1787871545,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Vinicius",
+        "content": "Podemos"
+      },
+      {
+        "id": 49321,
+        "created_at": 1787871560,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Segue link para baixar nosso app e fazer cadastro, isso facilitará sua inclusão nos grupos e será através dele que o aluno irá fazer toda a gestão de sua aula, locação - se puder baixar: \\\n \\\nAndroid: <https://play.google.com/store/apps/details?id=es.tpc.matchpoint.appclient.montrealtenisclube>\n\nIOS: <https://apps.apple.com/us/app/montreal-tenis-clube/id6764062641>"
+      },
+      {
+        "id": 49322,
+        "created_at": 1787871587,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "conseguiu fazer o cadastro em nosso aplicativo?"
+      },
+      {
+        "id": 49325,
+        "created_at": 1787871609,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Vinicius",
+        "content": "Aham"
+      },
+      {
+        "id": 49328,
+        "created_at": 1787871613,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Vinicius",
+        "content": "Fiz já tem uns dias"
+      },
+      {
+        "id": 49331,
+        "created_at": 1787871631,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Vinicius",
+        "content": "Número 809 acho"
+      },
+      {
+        "id": 49334,
+        "created_at": 1787871725,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Achei aqui!\n\nFiz sua matrícula a partir do dia 16/09 as 19h"
+      },
+      {
+        "id": 49335,
+        "created_at": 1787871746,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Vinicius",
+        "content": "👍 [ reação ]"
+      },
+      {
+        "id": 49379,
+        "created_at": 1787881654,
+        "message_type": 2,
+        "sender_type": null,
+        "sender_name": "Sistema",
+        "content": "João Assunção | Montreal Tênis Clube: adicionou aluno"
+      },
+      {
+        "id": 52223,
+        "created_at": 1788355533,
+        "message_type": 2,
+        "sender_type": null,
+        "sender_name": "Sistema",
+        "content": "Conversa foi marcada como resolvida por Atendimento || Montreal Tênis Clube:"
+      }
+    ]
+  },
+  {
+    "conversation_id": 5914,
+    "contact_name": "~Isa",
+    "labels": [
+      "matchmaker",
+      "recebeu_formulário"
+    ],
+    "dialogue": [
+      {
+        "id": 50976,
+        "created_at": 1788201416,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Isa",
+        "content": "Olá!! Até a reserva de quadras a noite?"
+      },
+      {
+        "id": 50977,
+        "created_at": 1788201417,
+        "message_type": 2,
+        "sender_type": null,
+        "sender_name": "Sistema",
+        "content": "Atendimento || Montreal Tênis Clube: adicionou matchmaker, recebeu_formulário"
+      },
+      {
+        "id": 50984,
+        "created_at": 1788202221,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Olá, isso.\n\nInfelizmente devido a chuva forte e ventania, tivemos imprevistos dentro das quadras!"
+      },
+      {
+        "id": 52105,
+        "created_at": 1788345375,
+        "message_type": 2,
+        "sender_type": null,
+        "sender_name": "Sistema",
+        "content": "Conversa foi marcada como resolvida por Atendimento | Montreal Tênis Clube:"
+      }
+    ]
+  },
+  {
+    "conversation_id": 5615,
+    "contact_name": "~Vitória Gil",
+    "labels": [
+      "interessado",
+      "recebeu_formulário",
+      "matchmaker"
+    ],
+    "dialogue": [
+      {
+        "id": 48388,
+        "created_at": 1787690467,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "São 04 quadras totalmente cobertas!"
+      },
+      {
+        "id": 48389,
+        "created_at": 1787690485,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Quais dias e horários vocês tem disponibilidade de treino em grupo?"
+      },
+      {
+        "id": 48391,
+        "created_at": 1787690863,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Vitória Gil",
+        "content": "tem alguma turma que seja entre 12-13h? ou então na quinta-feira das 14:30 em diante?"
+      },
+      {
+        "id": 48392,
+        "created_at": 1787690866,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Vitória Gil",
+        "content": "❤️ [ reação ]"
+      },
+      {
+        "id": 48394,
+        "created_at": 1787691156,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Para entendermos melhor o seu nível de jogo e conseguirmos te encaixar nas aulas, treinos e grupos ideais, poderia nos responder algumas perguntas rápidas?\n\n• Você já é tenista?\\\n• Há quanto tempo joga tênis?\\\n• Já participou de algum torneio de federação ou torneio interno?\\\n• Qual classe/categoria costuma jogar?\\\n• Em torneios internos, qual categoria já disputou?\\\n• Costuma jogar simples, dupla ou ambos?\\\n• Atualmente joga com frequência? Quantas vezes por semana?\n\nObrigado! 😊"
+      },
+      {
+        "id": 48395,
+        "created_at": 1787691157,
+        "message_type": 2,
+        "sender_type": null,
+        "sender_name": "Sistema",
+        "content": "Atendimento | Montreal Tênis Clube: adicionou recebeu_formulário"
+      },
+      {
+        "id": 48399,
+        "created_at": 1787691324,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Vitória Gil",
+        "content": "Eu joguei por 1 ano durante a adolescência, retornei ao tênis adulta e joguei mais 7 meses porém me considero iniciante. Nunca participei de torneios ou federação. Costumava jogar em dupla! faz mais de um ano que não pratico"
+      },
+      {
+        "id": 48412,
+        "created_at": 1787694143,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Esta mensagem foi excluída"
+      },
+      {
+        "id": 48414,
+        "created_at": 1787694676,
+        "message_type": 2,
+        "sender_type": null,
+        "sender_name": "Sistema",
+        "content": "Atendimento | Montreal Tênis Clube: adicionou interessado"
+      },
+      {
+        "id": 48415,
+        "created_at": 1787694676,
+        "message_type": 2,
+        "sender_type": null,
+        "sender_name": "Sistema",
+        "content": "Atendimento | Montreal Tênis Clube: adicionou matchmaker"
+      },
+      {
+        "id": 48682,
+        "created_at": 1787759475,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Vitória Gil",
+        "content": "> Montreal Tênis Clube\n> *Atendimento | Montreal Tênis Clube:*\n> Quinta-feira as 15h, poderia abrir um grupo, possível?\n\n---\n\n**Reply:**\npossivel!"
+      },
+      {
+        "id": 48683,
+        "created_at": 1787759622,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Boa tarde, Vitoria! Tudo bem? Por gentileza, consegue fazer o registro no app?"
+      },
+      {
+        "id": 48684,
+        "created_at": 1787759626,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Segue link para baixar nosso app e fazer cadastro, isso facilitará sua inclusão nos grupos e será através dele que o aluno irá fazer toda a gestão de sua aula, locação - se puder baixar: \\\n \\\nAndroid: <https://play.google.com/store/apps/details?id=es.tpc.matchpoint.appclient.montrealtenisclube>\n\nIOS: <https://apps.apple.com/us/app/montreal-tenis-clube/id6764062641>"
+      },
+      {
+        "id": 49188,
+        "created_at": 1787855946,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Bom dia Vitória, tudo bem? \n\nNão conseguimos fechar o grupo de quinta-feira no momento.\n\nNa segunda-feira as 13h não seria possível né?"
+      },
+      {
+        "id": 49189,
+        "created_at": 1787856065,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Vitória Gil",
+        "content": "oii tudo bem? ah que pena!"
+      },
+      {
+        "id": 49190,
+        "created_at": 1787856074,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Vitória Gil",
+        "content": "na quinta tem algum horário antes das 15h?"
+      },
+      {
+        "id": 49217,
+        "created_at": 1787856792,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Vou ter só as 10h"
+      },
+      {
+        "id": 50540,
+        "created_at": 1788176107,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Bom dia, Vitória!\n\nPodemos dar sequência?"
+      },
+      {
+        "id": 50718,
+        "created_at": 1788186295,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Vitória Gil",
+        "content": "bom dia!! tudo bem? vou só confirmar aqui se posso na quinta 10h ja te dou um retorno"
+      },
+      {
+        "id": 52083,
+        "created_at": 1788318117,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "João Assunção | Montreal Tênis Clube:",
+        "content": "Ok"
+      }
+    ]
+  },
+  {
+    "conversation_id": 6009,
+    "contact_name": "~Matheus",
+    "labels": [
+      "matchmaker",
+      "interessado"
+    ],
+    "dialogue": [
+      {
+        "id": 51759,
+        "created_at": 1788281854,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Matheus",
+        "content": "Professora conseguiu aqui pra segunda feira as 17h com outro aluno dela"
+      },
+      {
+        "id": 51760,
+        "created_at": 1788281855,
+        "message_type": 2,
+        "sender_type": null,
+        "sender_name": "Sistema",
+        "content": "Atendimento || Montreal Tênis Clube: adicionou matchmaker, interessado"
+      },
+      {
+        "id": 51764,
+        "created_at": 1788282255,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "beleza, vou esperar ela me passar o nome do outro aluno para colocar vocês nesse horário"
+      },
+      {
+        "id": 51765,
+        "created_at": 1788282277,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Matheus",
+        "content": "👍 [ reação ]"
+      },
+      {
+        "id": 51845,
+        "created_at": 1788284830,
+        "message_type": 2,
+        "sender_type": null,
+        "sender_name": "Sistema",
+        "content": "Conversa foi marcada como resolvida por Atendimento | Montreal Tênis Clube:"
+      }
+    ]
+  },
+  {
+    "conversation_id": 5909,
+    "contact_name": "~Thiago Catanio",
+    "labels": [
+      "recebeu_formulário",
+      "matchmaker",
+      "aluno"
+    ],
+    "dialogue": [
+      {
+        "id": 50940,
+        "created_at": 1788198213,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Thiago Catanio",
+        "content": "Olá, boa tarde. A aula será reagendada para quando?"
+      },
+      {
+        "id": 50941,
+        "created_at": 1788198213,
+        "message_type": 2,
+        "sender_type": null,
+        "sender_name": "Sistema",
+        "content": "Atendimento || Montreal Tênis Clube: adicionou recebeu_formulário, matchmaker, aluno"
+      },
+      {
+        "id": 50943,
+        "created_at": 1788198291,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Qual dia ficaria bom pra você?"
+      },
+      {
+        "id": 50959,
+        "created_at": 1788199387,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Thiago Catanio",
+        "content": "Por acaso seria possível amanhã ou quinta? As 18?"
+      },
+      {
+        "id": 51735,
+        "created_at": 1788281137,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Olá Thiago, vai vir repor hoje né?"
+      },
+      {
+        "id": 51813,
+        "created_at": 1788283234,
+        "message_type": 2,
+        "sender_type": null,
+        "sender_name": "Sistema",
+        "content": "Conversa foi marcada como resolvida por Atendimento | Montreal Tênis Clube:"
+      }
+    ]
+  },
+  {
+    "conversation_id": 6014,
+    "contact_name": "~Ani",
+    "labels": [
+      "aluno",
+      "matchmaker"
+    ],
+    "dialogue": [
+      {
+        "id": 51801,
+        "created_at": 1788282984,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Ani",
+        "content": "Eu que agradeço!"
+      },
+      {
+        "id": 51802,
+        "created_at": 1788282984,
+        "message_type": 2,
+        "sender_type": null,
+        "sender_name": "Sistema",
+        "content": "Atendimento || Montreal Tênis Clube: adicionou aluno, matchmaker"
+      },
+      {
+        "id": 51803,
+        "created_at": 1788282998,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Ani",
+        "content": "Os pagamentos devem ser feitos no começo do mês?"
+      },
+      {
+        "id": 51804,
+        "created_at": 1788283011,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Pedimos até o dia 10 de cada mês"
+      },
+      {
+        "id": 51807,
+        "created_at": 1788283153,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Ani",
+        "content": "Ah ok, show"
+      },
+      {
+        "id": 51808,
+        "created_at": 1788283159,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Ani",
+        "content": "Muito obrigada!"
+      },
+      {
+        "id": 51809,
+        "created_at": 1788283163,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Ani",
+        "content": "Tenha uma ótima semana"
+      },
+      {
+        "id": 51810,
+        "created_at": 1788283188,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Eu que agradeço!!\n\nPara você também!!"
+      },
+      {
+        "id": 51811,
+        "created_at": 1788283189,
+        "message_type": 2,
+        "sender_type": null,
+        "sender_name": "Sistema",
+        "content": "Conversa foi marcada como resolvida por Atendimento | Montreal Tênis Clube:"
+      }
+    ]
+  },
+  {
+    "conversation_id": 5904,
+    "contact_name": "Guilherme Machado",
+    "labels": [],
+    "dialogue": [
+      {
+        "id": 50881,
+        "created_at": 1788196709,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "Guilherme Machado",
+        "content": "Boa tardr"
+      },
+      {
+        "id": 50882,
+        "created_at": 1788196714,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "Guilherme Machado",
+        "content": "Boa tarde\n\n✏️ [Mensagem editada]"
+      },
+      {
+        "id": 50883,
+        "created_at": 1788196723,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "Guilherme Machado",
+        "content": "Quadra coberta"
+      },
+      {
+        "id": 50918,
+        "created_at": 1788197735,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Olá, Guilherme"
+      },
+      {
+        "id": 50930,
+        "created_at": 1788198068,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "Guilherme Machado",
+        "content": "Aula cancelada"
+      },
+      {
+        "id": 50931,
+        "created_at": 1788198070,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "Guilherme Machado",
+        "content": "?"
+      },
+      {
+        "id": 50946,
+        "created_at": 1788198457,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Isso, por conta das fortes chuvas e visando a segurança de todos, as aulas de hoje estão canceladas."
+      },
+      {
+        "id": 50947,
+        "created_at": 1788198484,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "Guilherme Machado",
+        "content": "Ok"
+      },
+      {
+        "id": 50948,
+        "created_at": 1788198493,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "Guilherme Machado",
+        "content": "Teremos reposiçao?"
+      },
+      {
+        "id": 50949,
+        "created_at": 1788198624,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Sim sim, Guilherme! Agendamos sua aula de reposição logo logo"
+      },
+      {
+        "id": 50950,
+        "created_at": 1788198639,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "Guilherme Machado",
+        "content": "Blz"
+      },
+      {
+        "id": 50953,
+        "created_at": 1788198643,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "Guilherme Machado",
+        "content": "Outra coisa"
+      },
+      {
+        "id": 50954,
+        "created_at": 1788198671,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "Guilherme Machado",
+        "content": "Nao aparece opçao de pagamento"
+      },
+      {
+        "id": 50955,
+        "created_at": 1788198685,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "Guilherme Machado",
+        "content": "Isso so ocorre quando vira o mes?"
+      },
+      {
+        "id": 50991,
+        "created_at": 1788202452,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "O valor aparecerá em débitos, a partir de amanhã"
+      },
+      {
+        "id": 51091,
+        "created_at": 1788210340,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "Guilherme Machado",
+        "content": "👍 [ reação ]"
+      },
+      {
+        "id": 51092,
+        "created_at": 1788210345,
+        "message_type": 2,
+        "sender_type": null,
+        "sender_name": "Sistema",
+        "content": "Conversa foi marcada como resolvida por Atendimento | Montreal Tênis Clube:"
+      },
+      {
+        "id": 52456,
+        "created_at": 1788371542,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Olá, Guilherme! Boa tarde! Tudo bem? \r\n\r\nHoje você teria disponibilidade para fazer a aula de reposição na referente a Segunda? Ás 20h?"
+      },
+      {
+        "id": 52457,
+        "created_at": 1788371579,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Aguardo seu retorno."
+      }
+    ]
+  },
+  {
+    "conversation_id": 6060,
+    "contact_name": "TENIS BARD",
+    "labels": [],
+    "dialogue": [
+      {
+        "id": 52356,
+        "created_at": 1788363313,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "TENIS BARD",
+        "content": "Olá, boa tarde"
+      },
+      {
+        "id": 52357,
+        "created_at": 1788363315,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "TENIS BARD",
+        "content": "Tudo bem?"
+      },
+      {
+        "id": 52358,
+        "created_at": 1788363446,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "TENIS BARD",
+        "content": "[audio]"
+      },
+      {
+        "id": 52361,
+        "created_at": 1788363487,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "TENIS BARD",
+        "content": "[image]"
+      },
+      {
+        "id": 52364,
+        "created_at": 1788363655,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Olá, ja vejo aqui com o João"
+      },
+      {
+        "id": 52365,
+        "created_at": 1788363946,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "João Assunção | Montreal Tênis Clube:",
+        "content": "Ok !! vamos verificar com ela."
+      },
+      {
+        "id": 52366,
+        "created_at": 1788364031,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "TENIS BARD",
+        "content": "[audio]"
+      },
+      {
+        "id": 52367,
+        "created_at": 1788364198,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "João Assunção | Montreal Tênis Clube:",
+        "content": "Anderson , td bem ? \nEssa raquetes, os alunos não conhecem a corda. O que foi passado vc iriam entrar contato, até mesmo para a cobrança, correto ? \nNão está especificado o modelo e a tensão, aluno não conhece de corda."
+      },
+      {
+        "id": 52371,
+        "created_at": 1788364268,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "TENIS BARD",
+        "content": "Sim, eu fico responsável pela cobrança"
+      },
+      {
+        "id": 52372,
+        "created_at": 1788364275,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "TENIS BARD",
+        "content": "Nenhum deles conhecem a corda?"
+      },
+      {
+        "id": 52374,
+        "created_at": 1788364291,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "TENIS BARD",
+        "content": "Eu já estou entrando em contato um por um para verificar"
+      },
+      {
+        "id": 52450,
+        "created_at": 1788371085,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "TENIS BARD",
+        "content": "[document]"
+      },
+      {
+        "id": 52451,
+        "created_at": 1788371085,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "TENIS BARD",
+        "content": "Segue um catálogo das cordas"
+      }
+    ]
+  },
+  {
+    "conversation_id": 6070,
+    "contact_name": "~Paloma",
+    "labels": [],
+    "dialogue": [
+      {
+        "id": 52448,
+        "created_at": 1788370210,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Paloma",
+        "content": "Olá, gostaria de reservar uma quadra para segunda às 10 horas da manhã"
+      },
+      {
+        "id": 52449,
+        "created_at": 1788370250,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Olá, Paloma! Tudo bem? \n\nSeria para essa Segunda?"
+      }
+    ]
+  },
+  {
+    "conversation_id": 6069,
+    "contact_name": "~Mercado Livre",
+    "labels": [],
+    "dialogue": [
+      {
+        "id": 52446,
+        "created_at": 1788369766,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Mercado Livre",
+        "content": "Prepare-se MONTREAL TENIS CLUBE LTDA MONTREAL TENIS CLUBE LTDA,  estamos chegando! Chegará *antes das* *15h05,* \n\n📦 Kit Quadro Torneios...\n\nVocê pode *acompanhar seu envio em tempo real e gerenciá-lo* pelo status da sua compra.\nEsta mensagem é automática e não precisa ser respondida."
+      },
+      {
+        "id": 52447,
+        "created_at": 1788369901,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Mercado Livre",
+        "content": "Oi, MONTREAL TENIS CLUBE LTDA MONTREAL TENIS CLUBE LTDA, cheguei! *Estamos na porta* 🏠\n\n📦 Kit Quadro Torneios....\nEsta mensagem é automática e não precisa ser respondida."
+      }
+    ]
+  },
+  {
+    "conversation_id": 6065,
+    "contact_name": "~Robinson",
+    "labels": [],
+    "dialogue": [
+      {
+        "id": 52402,
+        "created_at": 1788366368,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Robinson",
+        "content": "Podemos chamar um profissessor de fora para mantermos a tarde então?"
+      }
+    ]
+  },
+  {
+    "conversation_id": 6064,
+    "contact_name": "Cynthia",
+    "labels": [],
+    "dialogue": [
+      {
+        "id": 52398,
+        "created_at": 1788366297,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "Cynthia",
+        "content": "João, da pendência de hoje ficou a Edna Bitecur. Pelo que verifiquei na conversa, ela fazia aula em trio, mas o trio acabou se desencontrando de horário, certo? A gente ofereceu a possibilidade de encaixar em uma nova turma ou fazer aula individual às quartas, às 14h, mas ela prefere continuar em dupla ou trio. Então ficou pendente verificar com quem conseguimos montar uma dupla pra ela.\n\nO Robson disse que queria verificar a disponibilidade com você. Eu atribuí a conversa lá pra você, caso queira dar uma olhada."
+      },
+      {
+        "id": 52399,
+        "created_at": 1788366304,
+        "message_type": 2,
+        "sender_type": null,
+        "sender_name": "Sistema",
+        "content": "Conversa foi marcada como resolvida por Atendimento | Montreal Tênis Clube:"
+      }
+    ]
+  },
+  {
+    "conversation_id": 5601,
+    "contact_name": "~Robinson",
+    "labels": [],
+    "dialogue": [
+      {
+        "id": 48174,
+        "created_at": 1787676877,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Robinson",
+        "content": "isso, correções táticas pra dupla"
+      },
+      {
+        "id": 48193,
+        "created_at": 1787677706,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "João Assunção | Montreal Tênis Clube:",
+        "content": "Ok, vamos verificar com os Prof. disponibilidade e comunico"
+      },
+      {
+        "id": 48197,
+        "created_at": 1787677766,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Robinson",
+        "content": "beleza, obrigado, se for o caso de eles poderem apenas no sábado de manhã, poderiamos tentar movimentar 1x por mês as 2 horas pra parte da manhã"
+      },
+      {
+        "id": 48198,
+        "created_at": 1787677769,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Robinson",
+        "content": "se o clube aceitar"
+      },
+      {
+        "id": 48200,
+        "created_at": 1787677788,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Robinson",
+        "content": "mas acho que o ideal era manter o horário"
+      },
+      {
+        "id": 48693,
+        "created_at": 1787763447,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Robinson",
+        "content": "boa tarde"
+      },
+      {
+        "id": 48694,
+        "created_at": 1787763558,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Olá, Robinson! Tudo bem? \n\nComo posso ajudar?"
+      },
+      {
+        "id": 48700,
+        "created_at": 1787764228,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Robinson",
+        "content": "estava no aguardo"
+      },
+      {
+        "id": 48701,
+        "created_at": 1787764234,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Robinson",
+        "content": "de um retorno do João"
+      },
+      {
+        "id": 48702,
+        "created_at": 1787764264,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "João? 👀"
+      },
+      {
+        "id": 48739,
+        "created_at": 1787766961,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Boa tarde, estamos buscando disponibilidade para aulas da tarde, quando tivermos comunicamos você."
+      },
+      {
+        "id": 48742,
+        "created_at": 1787766999,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Robinson",
+        "content": "obrigado"
+      },
+      {
+        "id": 52219,
+        "created_at": 1788355455,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento || Montreal Tênis Clube:",
+        "content": "nao achamos nada disponivel pra ele?"
+      },
+      {
+        "id": 52309,
+        "created_at": 1788357959,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Bom dia, Robinson! Tudo bem?"
+      },
+      {
+        "id": 52310,
+        "created_at": 1788357969,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Robinson",
+        "content": "Bom dia"
+      },
+      {
+        "id": 52324,
+        "created_at": 1788358637,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "Atendimento | Montreal Tênis Clube:",
+        "content": "Já passamos para o prof João te dá um retorno, assim que tivermos uma resposta te comunico por aqui"
+      },
+      {
+        "id": 52325,
+        "created_at": 1788359096,
+        "message_type": 0,
+        "sender_type": null,
+        "sender_name": "~Robinson",
+        "content": "beleza"
+      },
+      {
+        "id": 52385,
+        "created_at": 1788365017,
+        "message_type": 2,
+        "sender_type": null,
+        "sender_name": "Sistema",
+        "content": "Atribuído a João Assunção | Montreal Tênis Clube: por Atendimento | Montreal Tênis Clube:"
+      },
+      {
+        "id": 52396,
+        "created_at": 1788366246,
+        "message_type": 1,
+        "sender_type": null,
+        "sender_name": "João Assunção | Montreal Tênis Clube:",
+        "content": "Robson um retorno sobre treino avulso, direcionado para dupla. \n\nNo sábado à tarde, estamos sem professor disponível. \n\nEstão em Qdra das 7h às 14h no sabado. \nTem possibilidades de fazer pela manhã como mencionou, mas não temos quadra disponível, surgindo Qdra, te comunico. \nAbs"
+      },
+      {
+        "id": 52397,
+        "created_at": 1788366257,
+        "message_type": 2,
+        "sender_type": null,
+        "sender_name": "Sistema",
+        "content": "Conversa foi marcada como resolvida por João Assunção | Montreal Tênis Clube:"
+      }
+    ]
+  }
+]

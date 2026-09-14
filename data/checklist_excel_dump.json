@@ -1,0 +1,246 @@
+{
+  "Manhã": [
+    [
+      "CHECKLIST DIÁRIO — MONTREAL TÊNIS CLUBE — MANHÃ",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Data:",
+      null,
+      null,
+      "Turno:",
+      "Manhã"
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "✓",
+      "Colab.",
+      "Atividade",
+      "Dia",
+      "Horário"
+    ],
+    [
+      "☐",
+      "Cynthia",
+      "Conferir no sistema quais quadras serão utilizadas e acender as luzes",
+      "—",
+      "7:00"
+    ],
+    [
+      "☐",
+      "Cynthia",
+      "Coletar o lixo do estacionamento e colocar para fora",
+      "—",
+      "7:20"
+    ],
+    [
+      "☐",
+      "Cynthia",
+      "Conferir os banheiros e repor papel-toalha e papel higiênico",
+      "—",
+      "7:30"
+    ],
+    [
+      "☐",
+      "Cynthia",
+      "Passar pano seco na mesa da recepção e nas mesas das quadras",
+      "—",
+      "7:40"
+    ],
+    [
+      "☐",
+      "Cynthia",
+      "Conferir mensagens pendentes e dar sequência às matrículas dos alunos",
+      "—",
+      "7:50"
+    ],
+    [
+      "☐",
+      "Cynthia",
+      "Conferir com os professores a necessidade de iluminação conforme for clareando",
+      "—",
+      "9:00"
+    ],
+    [
+      "☐",
+      "Cynthia",
+      "Passar vassoura na escada, corredor e área de convivência",
+      "—",
+      "9:20"
+    ],
+    [
+      "☐",
+      "Cynthia",
+      "Passar pano úmido na área de convivência e nos banheiros",
+      "Seg., Qua. e Sex.",
+      "11:00"
+    ],
+    [
+      "☐",
+      "Cynthia",
+      "Conferir se todas as quadras estão feitas e prontas para uso",
+      "—",
+      "13:00"
+    ]
+  ],
+  "Tarde": [
+    [
+      "CHECKLIST DIÁRIO — MONTREAL TÊNIS CLUBE — TARDE",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Data:",
+      null,
+      null,
+      "Turno:",
+      "Tarde"
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "✓",
+      "Colab.",
+      "Atividade",
+      "Dia",
+      "Horário"
+    ],
+    [
+      "☐",
+      "Lucas",
+      "Conferir mensagens e dar sequência às pendências",
+      "—",
+      "15:00"
+    ],
+    [
+      "☐",
+      "Lucas",
+      "Passar vassoura na área de convivência e banheiros",
+      "—",
+      "15:40"
+    ],
+    [
+      "☐",
+      "Alex",
+      "Conferir e repor os papéis dos banheiros",
+      "—",
+      "17:00"
+    ],
+    [
+      "☐",
+      "Alex",
+      "Circular pelo clube e conferir se está tudo em ordem",
+      "—",
+      "17:30"
+    ],
+    [
+      "☐",
+      "Alex",
+      "Conferir se a agenda está de acordo com as quadras utilizadas",
+      "—",
+      "17:30"
+    ],
+    [
+      "☐",
+      "Lucas e Alex",
+      "Varrer corredor e escada",
+      "Terça e quinta",
+      "18:20"
+    ]
+  ],
+  "Noite": [
+    [
+      "CHECKLIST DIÁRIO — MONTREAL TÊNIS CLUBE — NOITE",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Data:",
+      null,
+      null,
+      "Turno:",
+      "Noite"
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "✓",
+      "Colab.",
+      "Atividade",
+      "Dia",
+      "Horário"
+    ],
+    [
+      "☐",
+      "Alex",
+      "Conferir se a agenda está de acordo com as quadras utilizadas",
+      "—",
+      "19:00"
+    ],
+    [
+      "☐",
+      "Lucas e Alex",
+      "Deixar o balcão organizado",
+      "—",
+      "20:00"
+    ],
+    [
+      "☐",
+      "Lucas",
+      "Varrer toda a área de convivência",
+      "—",
+      "21:30"
+    ],
+    [
+      "☐",
+      "Alex",
+      "Retirar todo o lixo e colocar no estacionamento para coleta",
+      "—",
+      "21:30"
+    ],
+    [
+      "☐",
+      "Lucas e Alex",
+      "Preparar as quadras: molhar e deixar em condições de uso",
+      "—",
+      "22:00"
+    ],
+    [
+      "☐",
+      "Lucas e Alex",
+      "Conferir se o botão da bomba de água está desligado",
+      "—",
+      "22:30"
+    ],
+    [
+      "☐",
+      "Lucas e Alex",
+      "Conferir se as portas de baixo estão trancadas",
+      "—",
+      "23:00"
+    ]
+  ]
+}

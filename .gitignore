@@ -1,0 +1,9 @@
+# Ignore temporary and test files
+data/find_deploy.py
+data/check_avisos_conv.py
+data/search_all_brains.py
+data/search_other_brains.py
+data/read_bef0a3c6.py
+.tempmediaStorage/
+scratch/
+*.log

@@ -1,0 +1,269 @@
+{
+  "name": "Montreal Tênis - Auditoria Diária de Checklists (4 Checkpoints)",
+  "nodes": [
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "cronExpression",
+              "expression": "0 12 * * 1-5"
+            },
+            {
+              "field": "cronExpression",
+              "expression": "45 15 * * 1-5"
+            },
+            {
+              "field": "cronExpression",
+              "expression": "25 18 * * 1-5"
+            },
+            {
+              "field": "cronExpression",
+              "expression": "50 22 * * 1-5"
+            }
+          ]
+        }
+      },
+      "id": "e1a90c12-34bc-4678-9abc-0123456789ab",
+      "name": "4 Checkpoints Diários (12h, 15h45, 18h25, 22h50)",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        200,
+        300
+      ]
+    },
+    {
+      "parameters": {},
+      "id": "f8a70c12-34bc-4678-9abc-0123456789cd",
+      "name": "Testar Agora (Manual)",
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        200,
+        480
+      ]
+    },
+    {
+      "parameters": {
+        "url": "https://ehhjnwosqcrfwonqhfoz.supabase.co/rest/v1/mt_daily_checklist_logs",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "apikey",
+              "value": "sb_publishable_kYqGp1MgzhhD3DmW0WTfig_TQVODJ8r"
+            },
+            {
+              "name": "Authorization",
+              "value": "Bearer sb_publishable_kYqGp1MgzhhD3DmW0WTfig_TQVODJ8r"
+            }
+          ]
+        },
+        "sendQuery": true,
+        "queryParameters": {
+          "parameters": [
+            {
+              "name": "date_key",
+              "value": "=eq.{{ new Date().toLocaleDateString('sv-SE', { timeZone: 'America/Sao_Paulo' }) }}"
+            },
+            {
+              "name": "is_completed",
+              "value": "eq.true"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "c3b50c12-34bc-4678-9abc-0123456789ef",
+      "name": "Buscar Conclusões de Hoje no Supabase",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "alwaysOutputData": true,
+      "position": [
+        480,
+        380
+      ]
+    },
+    {
+      "parameters": {
+        "jsCode": "// =========================================================================\n// MONTREAL TÊNIS CLUBE — AUDITORIA DIÁRIA DE CHECKLISTS E ROTINAS (4 CHECKPOINTS)\n// =========================================================================\n\n// 1. CONFIGURAÇÃO DE DESTINATÁRIOS\n// Deixe 'true' para testar primeiro no seu número pessoal (ID 1511)\n// Mude para 'false' para enviar aos 2 números oficiais da diretoria/gestão (IDs 125 e 4)\nconst MODO_TESTE = true;\n\nconst DESTINATARIOS_TESTE = [\n  { contact_id: 1511, nome_dest: 'Vinicius (Teste)' }\n];\n\nconst DESTINATARIOS_PRODUCAO = [\n  { contact_id: 125, nome_dest: 'Montreal (+55 41 93618-3407)' },\n  { contact_id: 4, nome_dest: 'Gestão (+55 41 8809-7503)' }\n];\n\nconst DESTINATARIOS = MODO_TESTE ? DESTINATARIOS_TESTE : DESTINATARIOS_PRODUCAO;\n\n// 2. MATRIZ OFICIAL DAS 22 TAREFAS (Planilha Excel Montreal)\nconst TODAS_AS_TAREFAS = [\n  // --- TURNO DA MANHÃ ---\n  { id: 'm_1', time: '07:00', minutes: 7 * 60 + 0, colab: 'Cynthia', shift: 'Manhã', days: 'all', desc: 'Conferir no sistema quais quadras serão utilizadas e acender as luzes' },\n  { id: 'm_2', time: '07:20', minutes: 7 * 60 + 20, colab: 'Cynthia', shift: 'Manhã', days: 'all', desc: 'Coletar o lixo do estacionamento e colocar para fora' },\n  { id: 'm_3', time: '07:30', minutes: 7 * 60 + 30, colab: 'Cynthia', shift: 'Manhã', days: 'all', desc: 'Conferir os banheiros e repor papel-toalha e papel higiênico' },\n  { id: 'm_4', time: '07:40', minutes: 7 * 60 + 40, colab: 'Cynthia', shift: 'Manhã', days: 'all', desc: 'Passar pano seco na mesa da recepção e nas mesas das quadras' },\n  { id: 'm_5', time: '07:50', minutes: 7 * 60 + 50, colab: 'Cynthia', shift: 'Manhã', days: 'all', desc: 'Conferir mensagens pendentes e dar sequência às matrículas dos alunos' },\n  { id: 'm_6', time: '09:00', minutes: 9 * 60 + 0, colab: 'Cynthia', shift: 'Manhã', days: 'all', desc: 'Conferir com os professores a necessidade de iluminação conforme for clareando' },\n  { id: 'm_7', time: '09:20', minutes: 9 * 60 + 20, colab: 'Cynthia', shift: 'Manhã', days: 'all', desc: 'Passar vassoura na escada, corredor e área de convivência' },\n  { id: 'm_8', time: '11:00', minutes: 11 * 60 + 0, colab: 'Cynthia', shift: 'Manhã', days: 'seg_qua_sex', desc: 'Passar pano úmido na área de convivência e nos banheiros' },\n  { id: 'm_9', time: '13:00', minutes: 13 * 60 + 0, colab: 'Cynthia', shift: 'Manhã', days: 'all', desc: 'Conferir se todas as quadras estão feitas e prontas para uso' },\n\n  // --- TURNO DA TARDE ---\n  { id: 't_1', time: '15:00', minutes: 15 * 60 + 0, colab: 'Lucas', shift: 'Tarde', days: 'all', desc: 'Conferir mensagens e dar sequência às pendências' },\n  { id: 't_2', time: '15:40', minutes: 15 * 60 + 40, colab: 'Lucas', shift: 'Tarde', days: 'all', desc: 'Passar vassoura na área de convivência e banheiros' },\n  { id: 't_3', time: '17:00', minutes: 17 * 60 + 0, colab: 'Alex', shift: 'Tarde', days: 'all', desc: 'Conferir e repor os papéis dos banheiros' },\n  { id: 't_4', time: '17:30', minutes: 17 * 60 + 30, colab: 'Alex', shift: 'Tarde', days: 'all', desc: 'Circular pelo clube e conferir se está tudo em ordem' },\n  { id: 't_5', time: '17:30', minutes: 17 * 60 + 30, colab: 'Alex', shift: 'Tarde', days: 'all', desc: 'Conferir se a agenda está de acordo com as quadras utilizadas' },\n  { id: 't_6', time: '18:20', minutes: 18 * 60 + 20, colab: 'Lucas e Alex', shift: 'Tarde', days: 'ter_qui', desc: 'Varrer corredor e escada' },\n\n  // --- TURNO DA NOITE ---\n  { id: 'n_1', time: '19:00', minutes: 19 * 60 + 0, colab: 'Alex', shift: 'Noite', days: 'all', desc: 'Conferir se a agenda está de acordo com as quadras utilizadas' },\n  { id: 'n_2', time: '20:00', minutes: 20 * 60 + 0, colab: 'Lucas e Alex', shift: 'Noite', days: 'all', desc: 'Deixar o balcão organizado' },\n  { id: 'n_3', time: '21:30', minutes: 21 * 60 + 30, colab: 'Lucas', shift: 'Noite', days: 'all', desc: 'Varrer toda a área de convivência' },\n  { id: 'n_4', time: '21:30', minutes: 21 * 60 + 30, colab: 'Alex', shift: 'Noite', days: 'all', desc: 'Retirar todo o lixo e colocar no estacionamento para coleta' },\n  { id: 'n_5', time: '22:00', minutes: 22 * 60 + 0, colab: 'Lucas e Alex', shift: 'Noite', days: 'all', desc: 'Preparar as quadras: molhar e deixar em condições de uso' },\n  { id: 'n_6', time: '22:30', minutes: 22 * 60 + 30, colab: 'Lucas e Alex', shift: 'Noite', days: 'all', desc: 'Conferir se o botão da bomba de água está desligado' },\n  { id: 'n_7', time: '23:00', minutes: 23 * 60 + 0, colab: 'Lucas e Alex', shift: 'Noite', days: 'all', desc: 'Conferir se as portas de baixo estão trancadas' }\n];\n\n// 3. IDENTIFICAÇÃO DO MOMENTO ATUAL (Horário de Brasília)\nconst spNow = new Date();\nconst diaSemana = spNow.getDay(); // 0=Dom, 1=Seg, 2=Ter, 3=Qua, 4=Qui, 5=Sex, 6=Sáb\nconst horaStr = spNow.toLocaleTimeString('pt-BR', { timeZone: 'America/Sao_Paulo', hour: '2-digit', minute: '2-digit' });\nconst dataStr = spNow.toLocaleDateString('pt-BR', { timeZone: 'America/Sao_Paulo', weekday: 'long', day: '2-digit', month: '2-digit' });\n\n// Obter horas e minutos em São Paulo para comparação\nconst horaSP = parseInt(spNow.toLocaleTimeString('pt-BR', { timeZone: 'America/Sao_Paulo', hour: '2-digit', hour12: false }), 10);\nconst minSP = parseInt(spNow.toLocaleTimeString('pt-BR', { timeZone: 'America/Sao_Paulo', minute: '2-digit' }), 10);\nconst minutosAgora = horaSP * 60 + minSP;\n\n// Mapeamento dos 4 Checkpoints Oficiais\nlet checkpointNome = '';\nlet limiteMinutos = minutosAgora;\n\nif (minutosAgora >= (11 * 60 + 30) && minutosAgora <= (13 * 60 + 30)) {\n  checkpointNome = 'Conferência das 12:00 (Fim da Manhã)';\n  limiteMinutos = 12 * 60; // Tarefas da manhã até 12:00\n} else if (minutosAgora > (13 * 60 + 30) && minutosAgora <= (16 * 60 + 30)) {\n  checkpointNome = 'Conferência das 15:45 (Meio da Tarde)';\n  limiteMinutos = 15 * 60 + 45;\n} else if (minutosAgora > (16 * 60 + 30) && minutosAgora <= (19 * 60 + 30)) {\n  checkpointNome = 'Conferência das 18:25 (Fim da Tarde)';\n  limiteMinutos = 18 * 60 + 25;\n} else if (minutosAgora > (19 * 60 + 30) && minutosAgora <= (23 * 60 + 59)) {\n  checkpointNome = 'Conferência das 22:50 (Fechamento Noite)';\n  limiteMinutos = 22 * 60 + 50;\n} else {\n  checkpointNome = `Conferência Manual (${horaStr})`;\n  limiteMinutos = minutosAgora;\n}\n\n// 4. LEITURA DAS TAREFAS CONCLUÍDAS DO SUPABASE\nconst allInputs = $input.all();\nconst completedRows = [];\nfor (const item of allInputs) {\n  const j = item.json;\n  if (Array.isArray(j)) {\n    completedRows.push(...j);\n  } else if (j && j.task_id) {\n    completedRows.push(j);\n  } else if (j && j.data && Array.isArray(j.data)) {\n    completedRows.push(...j.data);\n  }\n}\nconst concluidasSet = new Set(completedRows.map(r => r.task_id).filter(Boolean));\n\n// 5. FILTRAGEM DE TAREFAS QUE DEVERIAM TER SIDO CONCLUÍDAS HOJE\nconst tarefasEsperadas = TODAS_AS_TAREFAS.filter(t => {\n  // 5.1 Deve estar dentro do horário limite do checkpoint\n  if (t.minutes > limiteMinutos) return false;\n\n  // 5.2 Validação de Dias Específicos:\n  if (t.days === 'seg_qua_sex') {\n    // Seg (1), Qua (3), Sex (5)\n    if (diaSemana !== 1 && diaSemana !== 3 && diaSemana !== 5) return false;\n  }\n  if (t.days === 'ter_qui') {\n    // Ter (2), Qui (4)\n    if (diaSemana !== 2 && diaSemana !== 4) return false;\n  }\n\n  return true;\n});\n\n// 6. IDENTIFICAÇÃO DAS PENDÊNCIAS\nconst tarefasPendentes = tarefasEsperadas.filter(t => !concluidasSet.has(t.id));\n\n// Se não houver pendências, não envia alerta de cobrança\nif (tarefasPendentes.length === 0) {\n  return [{\n    json: {\n      tem_pendencias: false,\n      checkpoint: checkpointNome,\n      total_esperadas: tarefasEsperadas.length,\n      total_concluidas: concluidasSet.size,\n      mensagem: `Parabéns! Todas as ${tarefasEsperadas.length} tarefas esperadas até às ${horaStr} foram concluídas.`,\n      contact_id: null\n    }\n  }];\n}\n\n// 7. MONTAGEM DA MENSAGEM NO PADRÃO MONTREAL\nlet msg = `🚨 *MONTREAL | Auditoria de Rotinas & Checklist Diário*\\n`;\nmsg += `⏰ *${checkpointNome}*\\n`;\nmsg += `📅 *${dataStr.charAt(0).toUpperCase() + dataStr.slice(1)}*\\n\\n`;\nmsg += `Identificamos *${tarefasPendentes.length} tarefa(s) pendente(s)* que deveriam ter sido realizadas e registradas no sistema até este horário:\\n`;\n\ntarefasPendentes.forEach((t, i) => {\n  const tagDia = t.days === 'seg_qua_sex' ? ' _(Seg/Qua/Sex)_' : (t.days === 'ter_qui' ? ' _(Ter/Qui)_' : '');\n  msg += `\\n${i + 1}️⃣ ⏰ *${t.time}* | 👤 *${t.colab}*${tagDia}\\n`;\n  msg += `📌 *${t.desc}*\\n`;\n});\n\nmsg += `\\n⚠️ *Ação necessária:* Por favor, realizem as rotinas pendentes e marquem a conclusão no portal interno:\\n`;\nmsg += `🔗 *https://portal.montrealtenis.com.br/#limpeza*`;\n\nreturn DESTINATARIOS.map(dest => ({\n  json: {\n    tem_pendencias: true,\n    contact_id: dest.contact_id,\n    nome_dest: dest.nome_dest,\n    checkpoint: checkpointNome,\n    total_pendentes: tarefasPendentes.length,\n    total_esperadas: tarefasEsperadas.length,\n    mensagem: msg\n  }\n}));"
+      },
+      "id": "b4a80c12-34bc-4678-9abc-0123456789aa",
+      "name": "Validar Pendências por Horário & Dia",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        740,
+        380
+      ]
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "a1b2c3d4-e5f6-47a8-b9c0-d1e2f3a4b5c6",
+              "leftValue": "={{ $json.tem_pendencias }}",
+              "rightValue": true,
+              "operator": {
+                "type": "boolean",
+                "operation": "equals"
+              }
+            }
+          ],
+          "combinator": "and"
+        }
+      },
+      "id": "a9b10c12-34bc-4678-9abc-0123456789bb",
+      "name": "Tem Tarefas Pendentes?",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [
+        980,
+        380
+      ]
+    },
+    {
+      "parameters": {
+        "operation": "create",
+        "accountId": {
+          "__rl": true,
+          "value": "1",
+          "mode": "list"
+        },
+        "inboxId": {
+          "__rl": true,
+          "value": "7",
+          "mode": "list"
+        },
+        "contactId": "={{ $json.contact_id }}"
+      },
+      "id": "d5e20c12-34bc-4678-9abc-0123456789cc",
+      "name": "Obter / Criar Conversa",
+      "type": "@fazer-ai/n8n-nodes-chatwoot.chatwoot",
+      "typeVersion": 1,
+      "position": [
+        1220,
+        380
+      ],
+      "credentials": {
+        "fazerAiChatwootApi": {
+          "id": "fB0aqKwNZZKGeE0W",
+          "name": "Chatwoot fazer.ai account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "operation": "sendMessage",
+        "accountId": {
+          "__rl": true,
+          "value": "1",
+          "mode": "list"
+        },
+        "inboxId": {
+          "__rl": true,
+          "value": "7",
+          "mode": "list"
+        },
+        "conversationId": "={{ $json.id }}",
+        "content": "={{ $('Validar Pendências por Horário & Dia').item.json.mensagem }}",
+        "additionalFields": {}
+      },
+      "id": "f7c30c12-34bc-4678-9abc-0123456789dd",
+      "name": "Disparar Alerta no WhatsApp",
+      "type": "@fazer-ai/n8n-nodes-chatwoot.chatwoot",
+      "typeVersion": 1,
+      "position": [
+        1460,
+        380
+      ],
+      "credentials": {
+        "fazerAiChatwootApi": {
+          "id": "fB0aqKwNZZKGeE0W",
+          "name": "Chatwoot fazer.ai account"
+        }
+      }
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "4 Checkpoints Diários (12h, 15h45, 18h25, 22h50)": {
+      "main": [
+        [
+          {
+            "node": "Buscar Conclusões de Hoje no Supabase",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Testar Agora (Manual)": {
+      "main": [
+        [
+          {
+            "node": "Buscar Conclusões de Hoje no Supabase",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Buscar Conclusões de Hoje no Supabase": {
+      "main": [
+        [
+          {
+            "node": "Validar Pendências por Horário & Dia",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Validar Pendências por Horário & Dia": {
+      "main": [
+        [
+          {
+            "node": "Tem Tarefas Pendentes?",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Tem Tarefas Pendentes?": {
+      "main": [
+        [
+          {
+            "node": "Obter / Criar Conversa",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Obter / Criar Conversa": {
+      "main": [
+        [
+          {
+            "node": "Disparar Alerta no WhatsApp",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1"
+  }
+}

@@ -1,0 +1,533 @@
+{
+  "agents": [
+    {
+      "id": 5,
+      "account_id": 1,
+      "availability_status": "offline",
+      "auto_offline": true,
+      "confirmed": true,
+      "email": "atendimento@montrealtenis.com.br",
+      "provider": "email",
+      "available_name": "Atendimento | Montreal Tênis Clube:",
+      "name": "Atendimento | Montreal Tênis Clube:",
+      "role": "agent",
+      "thumbnail": "",
+      "custom_role_id": null
+    },
+    {
+      "id": 1,
+      "account_id": 1,
+      "availability_status": "offline",
+      "auto_offline": true,
+      "confirmed": true,
+      "email": "vinicius.oliveira@montrealtenis.com.br",
+      "provider": "email",
+      "available_name": "Vinicius Oliveira",
+      "name": "Atendimento || Montreal Tênis Clube:",
+      "role": "administrator",
+      "thumbnail": "",
+      "custom_role_id": null
+    },
+    {
+      "id": 4,
+      "account_id": 1,
+      "availability_status": "offline",
+      "auto_offline": true,
+      "confirmed": true,
+      "email": "joao.assuncao@montrealtenis.com.br",
+      "provider": "email",
+      "available_name": "João Assunção | Montreal Tênis Clube:",
+      "name": "João Assunção | Montreal Tênis Clube:",
+      "role": "administrator",
+      "thumbnail": "",
+      "custom_role_id": null
+    }
+  ],
+  "teams": [
+    {
+      "id": 1,
+      "name": "sócios",
+      "description": "Perfis dos sócios da Montreal",
+      "allow_auto_assign": true,
+      "account_id": 1,
+      "is_member": true
+    },
+    {
+      "id": 3,
+      "name": "atendimento - montreal tênis clube",
+      "description": "Pessoal de atendimento - bancada",
+      "allow_auto_assign": true,
+      "account_id": 1,
+      "is_member": false
+    },
+    {
+      "id": 4,
+      "name": "professores - montreal tênis clube",
+      "description": "Contatos dos professores da Montreal Tênis Clube",
+      "allow_auto_assign": true,
+      "account_id": 1,
+      "is_member": false
+    }
+  ],
+  "labels": [
+    {
+      "id": 3,
+      "title": "aluno",
+      "description": "Pessoa é aluno ou aluna",
+      "color": "#1D8BD9",
+      "show_on_sidebar": true
+    },
+    {
+      "id": 5,
+      "title": "familia",
+      "description": "É o responsável - mas possui mais membros da família como aluno",
+      "color": "#1DE4E9",
+      "show_on_sidebar": true
+    },
+    {
+      "id": 7,
+      "title": "fornecedores",
+      "description": "Contato dos fornecedores da Montreal",
+      "color": "#EA00FF",
+      "show_on_sidebar": true
+    },
+    {
+      "id": 12,
+      "title": "fup_interessado",
+      "description": "Para fazer follow up em pessoas interessadas mais pra frente",
+      "color": "#F3DBB2",
+      "show_on_sidebar": true
+    },
+    {
+      "id": 15,
+      "title": "gympass",
+      "description": "Para quem demonstrar interesse nnisso",
+      "color": "#D6D9A7",
+      "show_on_sidebar": true
+    },
+    {
+      "id": 2,
+      "title": "interessado",
+      "description": "Demonstrou interesse em aulas/mensalista",
+      "color": "#F0FF10",
+      "show_on_sidebar": true
+    },
+    {
+      "id": 16,
+      "title": "matchmaker",
+      "description": "",
+      "color": "#E1E1E1",
+      "show_on_sidebar": true
+    },
+    {
+      "id": 4,
+      "title": "mensalista",
+      "description": "Pessoa é mensalista",
+      "color": "#FF9507",
+      "show_on_sidebar": true
+    },
+    {
+      "id": 8,
+      "title": "pendente_financeiro",
+      "description": "Se está com financeiro pendente",
+      "color": "#FF001A",
+      "show_on_sidebar": true
+    },
+    {
+      "id": 13,
+      "title": "pendente_formação",
+      "description": "Está pendente formar companheiro de aula",
+      "color": "#E9D6E4",
+      "show_on_sidebar": true
+    },
+    {
+      "id": 10,
+      "title": "professor",
+      "description": "se contato é professor",
+      "color": "#555955",
+      "show_on_sidebar": true
+    },
+    {
+      "id": 11,
+      "title": "recebeu_formulário",
+      "description": "Essa pessoa demonstrou interesse e recebeu questionamentos de entendimento do seu nivel einteresse",
+      "color": "#ABABAB",
+      "show_on_sidebar": true
+    },
+    {
+      "id": 14,
+      "title": "sem_interesse",
+      "description": "Finalizou sem interesse",
+      "color": "#FF0085",
+      "show_on_sidebar": true
+    },
+    {
+      "id": 6,
+      "title": "sócio",
+      "description": "São os sócios da Montreal",
+      "color": "#C0FE08",
+      "show_on_sidebar": true
+    },
+    {
+      "id": 9,
+      "title": "tem_kids",
+      "description": "Se contato de criança fazendo aula na Montreal",
+      "color": "#E2B3E4",
+      "show_on_sidebar": true
+    }
+  ],
+  "custom_attribute_definitions": [
+    {
+      "id": 1,
+      "attribute_display_name": "WhatsApp Chat ID",
+      "attribute_display_type": "text",
+      "attribute_description": "WhatsApp Chat ID",
+      "attribute_key": "waha_whatsapp_chat_id",
+      "regex_pattern": null,
+      "regex_cue": null,
+      "attribute_values": [],
+      "attribute_model": "contact_attribute",
+      "default_value": null,
+      "created_at": "2026-03-22T14:15:52.211Z",
+      "updated_at": "2026-03-22T14:15:52.211Z"
+    },
+    {
+      "id": 2,
+      "attribute_display_name": "WhatsApp JID",
+      "attribute_display_type": "text",
+      "attribute_description": "WhatsApp Phone Number ID",
+      "attribute_key": "waha_whatsapp_jid",
+      "regex_pattern": null,
+      "regex_cue": null,
+      "attribute_values": [],
+      "attribute_model": "contact_attribute",
+      "default_value": null,
+      "created_at": "2026-03-22T14:15:52.233Z",
+      "updated_at": "2026-03-22T14:15:52.233Z"
+    },
+    {
+      "id": 3,
+      "attribute_display_name": "WhatsApp LID",
+      "attribute_display_type": "text",
+      "attribute_description": "WhatsApp Linked ID (Anonymous ID)",
+      "attribute_key": "waha_whatsapp_lid",
+      "regex_pattern": null,
+      "regex_cue": null,
+      "attribute_values": [],
+      "attribute_model": "contact_attribute",
+      "default_value": null,
+      "created_at": "2026-03-22T14:15:52.252Z",
+      "updated_at": "2026-03-22T14:15:52.252Z"
+    },
+    {
+      "id": 4,
+      "attribute_display_name": "vinculo",
+      "attribute_display_type": "list",
+      "attribute_description": "Qual o vinculo do contato com a Montreal",
+      "attribute_key": "vinculo",
+      "regex_pattern": null,
+      "regex_cue": null,
+      "attribute_values": [
+        "lead",
+        "aluno",
+        "mensalista",
+        "aluno_e_mensalista",
+        "ex_aluno",
+        "horista"
+      ],
+      "attribute_model": "contact_attribute",
+      "default_value": null,
+      "created_at": "2026-03-24T15:29:20.849Z",
+      "updated_at": "2026-03-24T15:29:20.849Z"
+    },
+    {
+      "id": 5,
+      "attribute_display_name": "no_tpc",
+      "attribute_display_type": "checkbox",
+      "attribute_description": "Se já foi cadastrado no TPC ou não",
+      "attribute_key": "no_tpc",
+      "regex_pattern": null,
+      "regex_cue": null,
+      "attribute_values": [],
+      "attribute_model": "contact_attribute",
+      "default_value": null,
+      "created_at": "2026-03-24T15:33:27.104Z",
+      "updated_at": "2026-03-24T15:33:27.104Z"
+    },
+    {
+      "id": 6,
+      "attribute_display_name": "pré_inscrito",
+      "attribute_display_type": "checkbox",
+      "attribute_description": "Se contato fez a pré-inscrição ou não",
+      "attribute_key": "pr_inscrito",
+      "regex_pattern": null,
+      "regex_cue": null,
+      "attribute_values": [],
+      "attribute_model": "contact_attribute",
+      "default_value": null,
+      "created_at": "2026-03-24T15:43:22.265Z",
+      "updated_at": "2026-03-24T15:43:22.265Z"
+    },
+    {
+      "id": 7,
+      "attribute_display_name": "Data de Nascimento",
+      "attribute_display_type": "date",
+      "attribute_description": "Data de nascimento do contato principal",
+      "attribute_key": "data_de_nascimento",
+      "regex_pattern": null,
+      "regex_cue": null,
+      "attribute_values": [],
+      "attribute_model": "contact_attribute",
+      "default_value": null,
+      "created_at": "2026-03-24T15:44:52.442Z",
+      "updated_at": "2026-03-24T15:44:52.442Z"
+    },
+    {
+      "id": 8,
+      "attribute_display_name": "Gênero",
+      "attribute_display_type": "list",
+      "attribute_description": "Masculino ou Feminino",
+      "attribute_key": "gnero",
+      "regex_pattern": null,
+      "regex_cue": null,
+      "attribute_values": [
+        "Masculino",
+        "Feminino"
+      ],
+      "attribute_model": "contact_attribute",
+      "default_value": null,
+      "created_at": "2026-03-24T15:45:26.046Z",
+      "updated_at": "2026-03-24T15:45:26.046Z"
+    },
+    {
+      "id": 9,
+      "attribute_display_name": "Modalidade Treino de Interesse",
+      "attribute_display_type": "list",
+      "attribute_description": "Modalidade de treino que o lead tem interesse",
+      "attribute_key": "modalidade_treino_de_interesse",
+      "regex_pattern": null,
+      "regex_cue": null,
+      "attribute_values": [
+        "trio",
+        "grupo",
+        "individual",
+        "dupla",
+        "tanto_faz"
+      ],
+      "attribute_model": "contact_attribute",
+      "default_value": null,
+      "created_at": "2026-03-24T15:50:04.183Z",
+      "updated_at": "2026-03-24T15:50:04.183Z"
+    },
+    {
+      "id": 11,
+      "attribute_display_name": "Interesse em ser Mensalista",
+      "attribute_display_type": "checkbox",
+      "attribute_description": "Se há o interesse em ser mensalista",
+      "attribute_key": "mensalista",
+      "regex_pattern": null,
+      "regex_cue": null,
+      "attribute_values": [],
+      "attribute_model": "contact_attribute",
+      "default_value": null,
+      "created_at": "2026-03-24T15:54:13.768Z",
+      "updated_at": "2026-03-24T17:30:03.903Z"
+    },
+    {
+      "id": 13,
+      "attribute_display_name": "Dia de preferência mensalista",
+      "attribute_display_type": "text",
+      "attribute_description": "Incluir os dias de preferência (deixei campo aberto em texto caso a pessoa tenha mais de um dia de preferencia)",
+      "attribute_key": "dia_de_preferncia_mensalista",
+      "regex_pattern": null,
+      "regex_cue": null,
+      "attribute_values": [],
+      "attribute_model": "contact_attribute",
+      "default_value": null,
+      "created_at": "2026-03-24T16:01:48.081Z",
+      "updated_at": "2026-03-24T16:01:48.081Z"
+    },
+    {
+      "id": 14,
+      "attribute_display_name": "Dia de preferência para aulas",
+      "attribute_display_type": "text",
+      "attribute_description": "Dia de preferência para aulas (deixei campo aberto caso a pessoa escolha mais de um dia)",
+      "attribute_key": "dia_de_preferncia_para_aulas",
+      "regex_pattern": null,
+      "regex_cue": null,
+      "attribute_values": [],
+      "attribute_model": "contact_attribute",
+      "default_value": null,
+      "created_at": "2026-03-24T16:02:29.299Z",
+      "updated_at": "2026-03-24T16:02:29.299Z"
+    },
+    {
+      "id": 15,
+      "attribute_display_name": "Interesse em Kids",
+      "attribute_display_type": "checkbox",
+      "attribute_description": "Se contato tem interesse em aulas kids",
+      "attribute_key": "interesse_em_kids",
+      "regex_pattern": null,
+      "regex_cue": null,
+      "attribute_values": [],
+      "attribute_model": "contact_attribute",
+      "default_value": null,
+      "created_at": "2026-03-24T16:03:06.952Z",
+      "updated_at": "2026-03-24T16:03:06.952Z"
+    },
+    {
+      "id": 16,
+      "attribute_display_name": "Data de Nascimento Kids",
+      "attribute_display_type": "text",
+      "attribute_description": "Data de nascimento - pode incluir mais de uma",
+      "attribute_key": "data_de_nascimento_kids",
+      "regex_pattern": null,
+      "regex_cue": null,
+      "attribute_values": [],
+      "attribute_model": "contact_attribute",
+      "default_value": null,
+      "created_at": "2026-03-24T16:03:40.171Z",
+      "updated_at": "2026-03-24T16:03:40.171Z"
+    },
+    {
+      "id": 17,
+      "attribute_display_name": "Nome(s) Kids",
+      "attribute_display_type": "text",
+      "attribute_description": "Incluir o(s) nome(s) das crianças",
+      "attribute_key": "nomes_kids",
+      "regex_pattern": null,
+      "regex_cue": null,
+      "attribute_values": [],
+      "attribute_model": "contact_attribute",
+      "default_value": null,
+      "created_at": "2026-03-24T16:04:03.692Z",
+      "updated_at": "2026-03-24T16:04:03.692Z"
+    },
+    {
+      "id": 18,
+      "attribute_display_name": "Período Kids",
+      "attribute_display_type": "list",
+      "attribute_description": "Indicação de qual periodo as crianças teriam interesse",
+      "attribute_key": "perodo_kids",
+      "regex_pattern": null,
+      "regex_cue": null,
+      "attribute_values": [
+        "manhã",
+        "tarde",
+        "noite"
+      ],
+      "attribute_model": "contact_attribute",
+      "default_value": null,
+      "created_at": "2026-03-24T16:05:11.252Z",
+      "updated_at": "2026-03-24T16:05:11.252Z"
+    },
+    {
+      "id": 19,
+      "attribute_display_name": "Dias de interesse Kids",
+      "attribute_display_type": "text",
+      "attribute_description": "Quais seriam os dia de interesse (está aberto para poder escolher mais de um dia)",
+      "attribute_key": "dias_de_interesse_kids",
+      "regex_pattern": null,
+      "regex_cue": null,
+      "attribute_values": [],
+      "attribute_model": "contact_attribute",
+      "default_value": null,
+      "created_at": "2026-03-24T16:05:42.143Z",
+      "updated_at": "2026-03-24T16:05:42.143Z"
+    },
+    {
+      "id": 20,
+      "attribute_display_name": "Horário de Preferência para Aulas",
+      "attribute_display_type": "text",
+      "attribute_description": "Horário de preferencia para aulas (campo aberto para poder escolher mais de uma)",
+      "attribute_key": "horrio_de_preferncia_para_aulas",
+      "regex_pattern": null,
+      "regex_cue": null,
+      "attribute_values": [],
+      "attribute_model": "contact_attribute",
+      "default_value": null,
+      "created_at": "2026-03-24T17:09:57.683Z",
+      "updated_at": "2026-03-24T17:09:57.683Z"
+    },
+    {
+      "id": 21,
+      "attribute_display_name": "Nível",
+      "attribute_display_type": "list",
+      "attribute_description": "Qual classe FPT que o aluno se encaixa",
+      "attribute_key": "nvel",
+      "regex_pattern": null,
+      "regex_cue": null,
+      "attribute_values": [
+        "1ª Classe",
+        "2ª Classe",
+        "3ª Classe",
+        "4ª Classe",
+        "5ª Classe",
+        "6ª Classe",
+        "7ª Classe",
+        "Não sei",
+        "Iniciante"
+      ],
+      "attribute_model": "contact_attribute",
+      "default_value": null,
+      "created_at": "2026-03-24T17:13:40.881Z",
+      "updated_at": "2026-03-24T17:13:40.881Z"
+    },
+    {
+      "id": 22,
+      "attribute_display_name": "Horário de Preferência para Mensalista",
+      "attribute_display_type": "text",
+      "attribute_description": "Horário de preferência para mensalista (campo aberto para escolher mais de um)",
+      "attribute_key": "horrio_de_preferncia_para_mensalista",
+      "regex_pattern": null,
+      "regex_cue": null,
+      "attribute_values": [],
+      "attribute_model": "contact_attribute",
+      "default_value": null,
+      "created_at": "2026-03-24T17:14:20.997Z",
+      "updated_at": "2026-03-24T17:14:20.997Z"
+    },
+    {
+      "id": 25,
+      "attribute_display_name": "termo_adesao_montreal_status",
+      "attribute_display_type": "text",
+      "attribute_description": "Status de assinatura do termo de adesão",
+      "attribute_key": "termo_adesao_montreal_status",
+      "regex_pattern": null,
+      "regex_cue": null,
+      "attribute_values": [],
+      "attribute_model": "contact_attribute",
+      "default_value": null,
+      "created_at": "2026-05-20T23:23:46.331Z",
+      "updated_at": "2026-05-20T23:23:46.331Z"
+    },
+    {
+      "id": 26,
+      "attribute_display_name": "termo_adesao_montreal_data",
+      "attribute_display_type": "text",
+      "attribute_description": "Data de assinatura do termo de adesão",
+      "attribute_key": "termo_adesao_montreal_data",
+      "regex_pattern": null,
+      "regex_cue": null,
+      "attribute_values": [],
+      "attribute_model": "contact_attribute",
+      "default_value": null,
+      "created_at": "2026-05-20T23:24:02.987Z",
+      "updated_at": "2026-05-20T23:24:02.987Z"
+    },
+    {
+      "id": 27,
+      "attribute_display_name": "termo_adesao_montreal_assinatura",
+      "attribute_display_type": "text",
+      "attribute_description": "Nome assinado termo de adesão",
+      "attribute_key": "termo_adesao_montreal_assinatura",
+      "regex_pattern": null,
+      "regex_cue": null,
+      "attribute_values": [],
+      "attribute_model": "contact_attribute",
+      "default_value": null,
+      "created_at": "2026-05-20T23:24:18.065Z",
+      "updated_at": "2026-05-20T23:24:18.065Z"
+    }
+  ]
+}

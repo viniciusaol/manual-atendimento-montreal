@@ -1,0 +1,455 @@
+{
+  "generated_at": "14/09/2026 às 11:34",
+  "total_conversas_historico": 750,
+  "periods": {
+    "mes_atual": {
+      "period_name": "Mês Atual (Setembro/2026)",
+      "total_conversas": 734,
+      "pct_meta_5min": 83.5,
+      "tempo_medio_primeira_resposta_min": 14.2,
+      "tempo_mediano_primeira_resposta_min": 0.1,
+      "total_respondidas": 693,
+      "total_dentro_meta": 579,
+      "total_resolvidas": 693,
+      "pct_resolvidas": 94.4,
+      "total_sem_atribuicao": 683,
+      "pct_sem_atribuicao": 93.1,
+      "faixas_velocidade": {
+        "super_rapido_2m": 521,
+        "meta_2_5m": 58,
+        "atraso_5_30m": 73,
+        "critico_30m_plus": 41
+      },
+      "por_atendente": [
+        {
+          "name": "Não Atribuído",
+          "total": 683,
+          "respondidas": 644,
+          "pct_meta_5min": 85.7,
+          "tempo_medio_min": 8.6,
+          "tempo_mediano_min": 0.1,
+          "resolvidas": 656,
+          "pct_resolvidas": 96.0
+        },
+        {
+          "name": "Atendimento | Montreal Tênis Clube:",
+          "total": 48,
+          "respondidas": 46,
+          "pct_meta_5min": 54.3,
+          "tempo_medio_min": 92.5,
+          "tempo_mediano_min": 3.5,
+          "resolvidas": 34,
+          "pct_resolvidas": 70.8
+        },
+        {
+          "name": "Atendimento || Montreal Tênis Clube:",
+          "total": 2,
+          "respondidas": 2,
+          "pct_meta_5min": 50.0,
+          "tempo_medio_min": 17.8,
+          "tempo_mediano_min": 17.8,
+          "resolvidas": 2,
+          "pct_resolvidas": 100.0
+        },
+        {
+          "name": "Atendimento III | Montreal Tênis Clube:",
+          "total": 1,
+          "respondidas": 1,
+          "pct_meta_5min": 100.0,
+          "tempo_medio_min": 0.1,
+          "tempo_mediano_min": 0.1,
+          "resolvidas": 1,
+          "pct_resolvidas": 100.0
+        }
+      ],
+      "por_horario": {
+        "08": 46,
+        "09": 81,
+        "10": 68,
+        "11": 91,
+        "12": 37,
+        "13": 43,
+        "14": 47,
+        "15": 45,
+        "16": 48,
+        "17": 51,
+        "18": 38,
+        "19": 34,
+        "20": 52,
+        "21": 25,
+        "22": 13,
+        "outros": 15
+      },
+      "por_etiqueta": [
+        {
+          "tag": "Sem etiqueta",
+          "count": 276,
+          "pct": 37.6
+        },
+        {
+          "tag": "recebeu_formulário",
+          "count": 176,
+          "pct": 24.0
+        },
+        {
+          "tag": "professor",
+          "count": 129,
+          "pct": 17.6
+        },
+        {
+          "tag": "interessado",
+          "count": 124,
+          "pct": 16.9
+        },
+        {
+          "tag": "sócio",
+          "count": 102,
+          "pct": 13.9
+        },
+        {
+          "tag": "Caixa de Entrada - Montreal",
+          "count": 100,
+          "pct": 13.6
+        },
+        {
+          "tag": "aluno",
+          "count": 74,
+          "pct": 10.1
+        },
+        {
+          "tag": "pré-inscrito",
+          "count": 58,
+          "pct": 7.9
+        }
+      ]
+    },
+    "mes_anterior": {
+      "period_name": "Mês Anterior (Agosto/2026)",
+      "total_conversas": 12,
+      "pct_meta_5min": 66.7,
+      "tempo_medio_primeira_resposta_min": 10.2,
+      "tempo_mediano_primeira_resposta_min": 0.5,
+      "total_respondidas": 12,
+      "total_dentro_meta": 8,
+      "total_resolvidas": 11,
+      "pct_resolvidas": 91.7,
+      "total_sem_atribuicao": 7,
+      "pct_sem_atribuicao": 58.3,
+      "faixas_velocidade": {
+        "super_rapido_2m": 8,
+        "meta_2_5m": 0,
+        "atraso_5_30m": 3,
+        "critico_30m_plus": 1
+      },
+      "por_atendente": [
+        {
+          "name": "Não Atribuído",
+          "total": 7,
+          "respondidas": 7,
+          "pct_meta_5min": 85.7,
+          "tempo_medio_min": 11.7,
+          "tempo_mediano_min": 0.38,
+          "resolvidas": 7,
+          "pct_resolvidas": 100.0
+        },
+        {
+          "name": "Atendimento | Montreal Tênis Clube:",
+          "total": 5,
+          "respondidas": 5,
+          "pct_meta_5min": 40.0,
+          "tempo_medio_min": 8.1,
+          "tempo_mediano_min": 7.7,
+          "resolvidas": 4,
+          "pct_resolvidas": 80.0
+        }
+      ],
+      "por_horario": {
+        "08": 0,
+        "09": 0,
+        "10": 1,
+        "11": 1,
+        "12": 1,
+        "13": 0,
+        "14": 0,
+        "15": 1,
+        "16": 2,
+        "17": 2,
+        "18": 2,
+        "19": 0,
+        "20": 2,
+        "21": 0,
+        "22": 0,
+        "outros": 0
+      },
+      "por_etiqueta": [
+        {
+          "tag": "recebeu_formulário",
+          "count": 9,
+          "pct": 75.0
+        },
+        {
+          "tag": "interessado",
+          "count": 5,
+          "pct": 41.7
+        },
+        {
+          "tag": "matchmaker",
+          "count": 3,
+          "pct": 25.0
+        },
+        {
+          "tag": "Sem etiqueta",
+          "count": 2,
+          "pct": 16.7
+        },
+        {
+          "tag": "pendente_formação",
+          "count": 1,
+          "pct": 8.3
+        }
+      ]
+    },
+    "ultimos_30d": {
+      "period_name": "Últimos 30 Dias",
+      "total_conversas": 746,
+      "pct_meta_5min": 83.3,
+      "tempo_medio_primeira_resposta_min": 14.1,
+      "tempo_mediano_primeira_resposta_min": 0.1,
+      "total_respondidas": 705,
+      "total_dentro_meta": 587,
+      "total_resolvidas": 704,
+      "pct_resolvidas": 94.4,
+      "total_sem_atribuicao": 690,
+      "pct_sem_atribuicao": 92.5,
+      "faixas_velocidade": {
+        "super_rapido_2m": 529,
+        "meta_2_5m": 58,
+        "atraso_5_30m": 76,
+        "critico_30m_plus": 42
+      },
+      "por_atendente": [
+        {
+          "name": "Não Atribuído",
+          "total": 690,
+          "respondidas": 651,
+          "pct_meta_5min": 85.7,
+          "tempo_medio_min": 8.7,
+          "tempo_mediano_min": 0.1,
+          "resolvidas": 663,
+          "pct_resolvidas": 96.1
+        },
+        {
+          "name": "Atendimento | Montreal Tênis Clube:",
+          "total": 53,
+          "respondidas": 51,
+          "pct_meta_5min": 52.9,
+          "tempo_medio_min": 84.2,
+          "tempo_mediano_min": 3.55,
+          "resolvidas": 38,
+          "pct_resolvidas": 71.7
+        },
+        {
+          "name": "Atendimento || Montreal Tênis Clube:",
+          "total": 2,
+          "respondidas": 2,
+          "pct_meta_5min": 50.0,
+          "tempo_medio_min": 17.8,
+          "tempo_mediano_min": 17.8,
+          "resolvidas": 2,
+          "pct_resolvidas": 100.0
+        },
+        {
+          "name": "Atendimento III | Montreal Tênis Clube:",
+          "total": 1,
+          "respondidas": 1,
+          "pct_meta_5min": 100.0,
+          "tempo_medio_min": 0.1,
+          "tempo_mediano_min": 0.1,
+          "resolvidas": 1,
+          "pct_resolvidas": 100.0
+        }
+      ],
+      "por_horario": {
+        "08": 46,
+        "09": 81,
+        "10": 69,
+        "11": 92,
+        "12": 38,
+        "13": 43,
+        "14": 47,
+        "15": 46,
+        "16": 50,
+        "17": 53,
+        "18": 40,
+        "19": 34,
+        "20": 54,
+        "21": 25,
+        "22": 13,
+        "outros": 15
+      },
+      "por_etiqueta": [
+        {
+          "tag": "Sem etiqueta",
+          "count": 278,
+          "pct": 37.3
+        },
+        {
+          "tag": "recebeu_formulário",
+          "count": 185,
+          "pct": 24.8
+        },
+        {
+          "tag": "interessado",
+          "count": 129,
+          "pct": 17.3
+        },
+        {
+          "tag": "professor",
+          "count": 129,
+          "pct": 17.3
+        },
+        {
+          "tag": "sócio",
+          "count": 102,
+          "pct": 13.7
+        },
+        {
+          "tag": "Caixa de Entrada - Montreal",
+          "count": 100,
+          "pct": 13.4
+        },
+        {
+          "tag": "aluno",
+          "count": 74,
+          "pct": 9.9
+        },
+        {
+          "tag": "pré-inscrito",
+          "count": 58,
+          "pct": 7.8
+        }
+      ]
+    },
+    "ultimos_7d": {
+      "period_name": "Últimos 7 Dias",
+      "total_conversas": 629,
+      "pct_meta_5min": 84.2,
+      "tempo_medio_primeira_resposta_min": 13.9,
+      "tempo_mediano_primeira_resposta_min": 0.1,
+      "total_respondidas": 588,
+      "total_dentro_meta": 495,
+      "total_resolvidas": 589,
+      "pct_resolvidas": 93.6,
+      "total_sem_atribuicao": 589,
+      "pct_sem_atribuicao": 93.6,
+      "faixas_velocidade": {
+        "super_rapido_2m": 449,
+        "meta_2_5m": 46,
+        "atraso_5_30m": 60,
+        "critico_30m_plus": 33
+      },
+      "por_atendente": [
+        {
+          "name": "Não Atribuído",
+          "total": 589,
+          "respondidas": 550,
+          "pct_meta_5min": 86.4,
+          "tempo_medio_min": 7.7,
+          "tempo_mediano_min": 0.1,
+          "resolvidas": 562,
+          "pct_resolvidas": 95.4
+        },
+        {
+          "name": "Atendimento | Montreal Tênis Clube:",
+          "total": 37,
+          "respondidas": 35,
+          "pct_meta_5min": 51.4,
+          "tempo_medio_min": 110.8,
+          "tempo_mediano_min": 4.12,
+          "resolvidas": 24,
+          "pct_resolvidas": 64.9
+        },
+        {
+          "name": "Atendimento || Montreal Tênis Clube:",
+          "total": 2,
+          "respondidas": 2,
+          "pct_meta_5min": 50.0,
+          "tempo_medio_min": 17.8,
+          "tempo_mediano_min": 17.8,
+          "resolvidas": 2,
+          "pct_resolvidas": 100.0
+        },
+        {
+          "name": "Atendimento III | Montreal Tênis Clube:",
+          "total": 1,
+          "respondidas": 1,
+          "pct_meta_5min": 100.0,
+          "tempo_medio_min": 0.1,
+          "tempo_mediano_min": 0.1,
+          "resolvidas": 1,
+          "pct_resolvidas": 100.0
+        }
+      ],
+      "por_horario": {
+        "08": 39,
+        "09": 72,
+        "10": 59,
+        "11": 79,
+        "12": 33,
+        "13": 37,
+        "14": 37,
+        "15": 36,
+        "16": 34,
+        "17": 44,
+        "18": 31,
+        "19": 32,
+        "20": 50,
+        "21": 22,
+        "22": 11,
+        "outros": 13
+      },
+      "por_etiqueta": [
+        {
+          "tag": "Sem etiqueta",
+          "count": 246,
+          "pct": 39.1
+        },
+        {
+          "tag": "recebeu_formulário",
+          "count": 146,
+          "pct": 23.2
+        },
+        {
+          "tag": "professor",
+          "count": 109,
+          "pct": 17.3
+        },
+        {
+          "tag": "interessado",
+          "count": 105,
+          "pct": 16.7
+        },
+        {
+          "tag": "sócio",
+          "count": 84,
+          "pct": 13.4
+        },
+        {
+          "tag": "Caixa de Entrada - Montreal",
+          "count": 76,
+          "pct": 12.1
+        },
+        {
+          "tag": "aluno",
+          "count": 67,
+          "pct": 10.7
+        },
+        {
+          "tag": "pré-inscrito",
+          "count": 53,
+          "pct": 8.4
+        }
+      ]
+    }
+  }
+}

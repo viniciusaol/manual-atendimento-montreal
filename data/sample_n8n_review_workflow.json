@@ -1,0 +1,988 @@
+{
+  "name": "Montreal Tênis - Envio de Pedidos de Review no Google",
+  "nodes": [
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "cronExpression",
+              "expression": "0 10-21 * * 1-5"
+            },
+            {
+              "field": "cronExpression",
+              "expression": "0 10-19 * * 0,6"
+            }
+          ]
+        }
+      },
+      "id": "fb1ab662-044a-40c2-bcb8-5b8d3a79b5d5",
+      "name": "Trigger: Meio de Semana e Fim de Semana",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.1,
+      "position": [
+        -3104,
+        -704
+      ]
+    },
+    {
+      "parameters": {},
+      "id": "cac7330e-4b8d-4938-9864-1e3d81448b73",
+      "name": "When clicking \"Execute\"",
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        -3056,
+        -288
+      ]
+    },
+    {
+      "parameters": {
+        "url": "=https://ehhjnwosqcrfwonqhfoz.supabase.co/rest/v1/vw_mt_review_requests_pendentes?select=*&limit=25",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "apikey",
+              "value": "sb_publishable_kYqGp1MgzhhD3DmW0WTfig_TQVODJ8r"
+            },
+            {
+              "name": "Authorization",
+              "value": "Bearer sb_publishable_kYqGp1MgzhhD3DmW0WTfig_TQVODJ8r"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "6c745bd8-925b-4e88-94cc-272ef53a0193",
+      "name": "Buscar Clientes Pendentes (Supabase)",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.3,
+      "position": [
+        -2832,
+        -288
+      ]
+    },
+    {
+      "parameters": {
+        "jsCode": "/* ========================================== \n   CONFIGURAÇÃO DE REVIEW E MODO TESTE \n   ========================================== */\nconst REVIEW_URL = \"https://alertas.montrealtenis.com.br/review.html\";\nconst BANNER_URL = \"https://ehhjnwosqcrfwonqhfoz.supabase.co/storage/v1/object/public/public-assets/banner_review_montreal.png\";\nconst TEST_MODE = false; // DEFINA COMO 'true' PARA TESTES SEGUROS ANTES DE DISPARAR PARA A BASE REAL\nconst TEST_PHONE = \"41988731963\";\n\n// Data de início para a Mensagem 4 (Locação Recente pós-jogo de 2h) -> Daqui a 2 semanas (06/08/2026)\nconst LOCACAO_RECENTE_START_DATE = new Date(\"2026-08-06T00:00:00-03:00\");\n\nconst pendingClients = $input.all();\nlet listToSend = [];\n\nfunction getMessageText(primeName, tipoEnvio) {\n  switch (tipoEnvio) {\n    case 'aluno':\n      return `Olá, ${primeName}! 🎾✨\\n\\nEsperamos que esteja curtindo bastante suas aulas na Montreal Tênis! 🏆\\n\\nA sua evolução e satisfação são muito importantes para nós. Poderia dedicar 1 minutinho para nos avaliar no Google? Sua opinião ajuda muito o clube e os nossos professores! 💛\\n\\n🔗 ${REVIEW_URL}\\n\\nMuito obrigado e bons treinos! 🚀`;\n    case 'mensalista':\n      return `Olá, ${primeName}! 🎾✨\\n\\nPassando para agradecer pela parceria de ter a sua reserva mensal conosco na Montreal Tênis! 🏆\\n\\nQueremos garantir que você e seu grupo tenham sempre a melhor experiência na quadra. Você poderia nos deixar uma avaliação rapidinha no Google? Conta pra gente o que está achando! 🌟\\n\\n🔗 ${REVIEW_URL}\\n\\nAgradecemos demais e excelentes jogos! 🔥`;\n    case 'locacao_passada':\n      return `Olá, ${primeName}! 🎾✨\\n\\nEsperamos que esteja bem! 🏆\\n\\nVimos que você já jogou conosco em nossas quadras na Montreal Tênis. Queremos garantir que você tenha sempre a melhor experiência!\\n\\nVocê poderia nos dedicar 1 minutinho para nos avaliar no Google? Sua opinião é fundamental para nós! 👇\\n\\n🔗 ${REVIEW_URL}\\n\\nTe esperamos em breve para o próximo jogo! 🚀`;\n    case 'locacao_recente':\n    default:\n      return `Olá, ${primeName}! 🎾✨\\n\\nEsperamos que tenha feito uma ótima partida na sua locação hoje na Montreal Tênis! 🏆\\n\\nComo foi sua experiência em nossas quadras? Sua opinião é fundamental para continuarmos melhorando. Deixe seu comentário no Google, leva menos de 1 minuto! 👇\\n\\n🔗 ${REVIEW_URL}\\n\\nTe esperamos em breve para o próximo jogo! 🚀`;\n  }\n}\n\nif (TEST_MODE) {\n  if (pendingClients.length > 0) {\n    const client = pendingClients[0].json;\n    const nomeCliente = client.customer_name || \"Jogador Teste\";\n    const primeName = (nomeCliente && nomeCliente !== 'Jogador Teste') ? nomeCliente.trim().split(' ')[0] : 'tenista';\n    const tipo = client.tipo_envio || 'locacao_recente';\n    const msgTeste = `*MODO TESTE ATIVO*\\n\\n` + getMessageText(primeName, tipo);\n    listToSend.push({\n      json: {\n        customer_code: client.customer_code,\n        name: nomeCliente,\n        categoria: client.categoria,\n        sent_count: client.sent_count || 0,\n        tipo_envio: tipo,\n        phone: TEST_PHONE,\n        telefone_envio: TEST_PHONE,\n        mensagem: msgTeste,\n        banner_url: BANNER_URL\n      }\n    });\n  }\n} else {\n  const now = new Date();\n  listToSend = pendingClients\n    .filter(item => {\n      const client = item.json;\n      // Trava para Locação Recente (Pós-Jogo 2h): só dispara a partir de 06/08/2026 (daqui 2 semanas)\n      if (client.tipo_envio === 'locacao_recente' && now < LOCACAO_RECENTE_START_DATE) {\n        return false;\n      }\n      return true;\n    })\n    .map(item => {\n      const client = item.json;\n      const nomeCliente = client.customer_name;\n      const primeName = nomeCliente ? nomeCliente.trim().split(' ')[0] : 'tenista';\n      const celular = client.mobile_normalizado;\n      const tipo = client.tipo_envio;\n      const msgReal = getMessageText(primeName, tipo);\n      \n      return {\n        json: {\n          customer_code: client.customer_code,\n          name: nomeCliente || \"Jogador\",\n          categoria: client.categoria,\n          sent_count: client.sent_count || 0,\n          tipo_envio: tipo,\n          phone: celular,\n          telefone_envio: celular,\n          mensagem: msgReal,\n          banner_url: BANNER_URL\n        }\n      };\n    });\n}\n\nreturn listToSend;"
+      },
+      "id": "45bdbeb0-dac5-4b98-96f0-681ea16cefc6",
+      "name": "Processar e Definir Mensagem",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        -2608,
+        -288
+      ]
+    },
+    {
+      "parameters": {
+        "options": {}
+      },
+      "id": "6df07df2-4746-403b-a206-c394fc32e612",
+      "name": "Loop Over Items",
+      "type": "n8n-nodes-base.splitInBatches",
+      "typeVersion": 3,
+      "position": [
+        -2384,
+        -288
+      ]
+    },
+    {
+      "parameters": {
+        "resource": "contact",
+        "operation": "search",
+        "accountId": {
+          "__rl": true,
+          "value": "1",
+          "mode": "list"
+        },
+        "searchQuery": "={{ $json.telefone_envio }}"
+      },
+      "id": "2278ae67-0be9-42ad-a5d1-7645275992d3",
+      "name": "Search contacts",
+      "type": "@fazer-ai/n8n-nodes-chatwoot.chatwoot",
+      "typeVersion": 1,
+      "position": [
+        -2176,
+        -416
+      ],
+      "credentials": {
+        "fazerAiChatwootApi": {
+          "id": "fB0aqKwNZZKGeE0W",
+          "name": "Chatwoot fazer.ai account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "24854e76-b40f-4f8c-8899-681b0ff4fd04",
+              "leftValue": "={{ $json.payload }}",
+              "rightValue": "",
+              "operator": {
+                "type": "array",
+                "operation": "notEmpty",
+                "singleValue": true
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "id": "ad60846b-727b-4a3a-90a0-94c2f0b81707",
+      "name": "If Contact Exists",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [
+        -1952,
+        -416
+      ]
+    },
+    {
+      "parameters": {
+        "jsCode": "const originalData = $('Loop Over Items').item.json;\nconst originalPhone = originalData.telefone_envio || '';\n\nfunction formatWithout55With9(phone) {\n  let clean = phone.replace(/\\D/g, '');\n  let local = clean.startsWith('55') ? clean.slice(2) : clean;\n  \n  if (local.length === 10) {\n    return local.slice(0, 2) + '9' + local.slice(2);\n  }\n  return local;\n}\n\nconst newPhone = formatWithout55With9(originalPhone);\n\nreturn [\n  {\n    json: {\n      ...originalData,\n      telefone_envio: newPhone\n    }\n  }\n];"
+      },
+      "id": "22d876b7-a17f-472b-ab59-ac9ac5b0ce8b",
+      "name": "Tratar Telefone 2",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        -1952,
+        -192
+      ]
+    },
+    {
+      "parameters": {
+        "resource": "contact",
+        "operation": "search",
+        "accountId": {
+          "__rl": true,
+          "value": "1",
+          "mode": "list"
+        },
+        "searchQuery": "={{ $json.telefone_envio }}"
+      },
+      "id": "d2a7b17c-afed-42ca-b973-73b243ce9b7d",
+      "name": "Search contacts 2",
+      "type": "@fazer-ai/n8n-nodes-chatwoot.chatwoot",
+      "typeVersion": 1,
+      "position": [
+        -1728,
+        -192
+      ],
+      "credentials": {
+        "fazerAiChatwootApi": {
+          "id": "fB0aqKwNZZKGeE0W",
+          "name": "Chatwoot fazer.ai account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "check_payload_2",
+              "leftValue": "={{ $json.payload }}",
+              "rightValue": "",
+              "operator": {
+                "type": "array",
+                "operation": "notEmpty",
+                "singleValue": true
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "id": "6ba1af51-25d1-49fb-8242-4b2887603399",
+      "name": "If Contact Exists 2",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [
+        -1504,
+        -192
+      ]
+    },
+    {
+      "parameters": {
+        "jsCode": "const originalData = $('Loop Over Items').item.json;\nconst originalPhone = originalData.telefone_envio || '';\n\nfunction formatWithout55Without9(phone) {\n  let clean = phone.replace(/\\D/g, '');\n  let local = clean.startsWith('55') ? clean.slice(2) : clean;\n  \n  if (local.length === 11 && local[2] === '9') {\n    return local.slice(0, 2) + local.slice(3);\n  }\n  return local;\n}\n\nconst newPhone = formatWithout55Without9(originalPhone);\n\nreturn [\n  {\n    json: {\n      ...originalData,\n      telefone_envio: newPhone\n    }\n  }\n];"
+      },
+      "id": "aee79671-5370-4b5d-b59b-e3f2cc5f1301",
+      "name": "Tratar Telefone 3",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        -1648,
+        128
+      ]
+    },
+    {
+      "parameters": {
+        "resource": "contact",
+        "operation": "search",
+        "accountId": {
+          "__rl": true,
+          "value": "1",
+          "mode": "list"
+        },
+        "searchQuery": "={{ $json.telefone_envio }}"
+      },
+      "id": "af3d3d8c-707c-4361-9435-9a3cacb8908d",
+      "name": "Search contacts 3",
+      "type": "@fazer-ai/n8n-nodes-chatwoot.chatwoot",
+      "typeVersion": 1,
+      "position": [
+        -1296,
+        16
+      ],
+      "credentials": {
+        "fazerAiChatwootApi": {
+          "id": "fB0aqKwNZZKGeE0W",
+          "name": "Chatwoot fazer.ai account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "check_payload_3",
+              "leftValue": "={{ $json.payload }}",
+              "rightValue": "",
+              "operator": {
+                "type": "array",
+                "operation": "notEmpty",
+                "singleValue": true
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "id": "d1962e2f-75c9-4b66-b068-7e5c35db4d8b",
+      "name": "If Contact Exists 3",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [
+        -1072,
+        16
+      ]
+    },
+    {
+      "parameters": {
+        "resource": "contact",
+        "operation": "search",
+        "accountId": {
+          "__rl": true,
+          "value": "1",
+          "mode": "list"
+        },
+        "searchQuery": "={{ $('Loop Over Items').item.json.name }}"
+      },
+      "id": "586d1f84-3daa-4526-a881-f2a197eb99a4",
+      "name": "Search by Name",
+      "type": "@fazer-ai/n8n-nodes-chatwoot.chatwoot",
+      "typeVersion": 1,
+      "position": [
+        -1088,
+        352
+      ],
+      "credentials": {
+        "fazerAiChatwootApi": {
+          "id": "fB0aqKwNZZKGeE0W",
+          "name": "Chatwoot fazer.ai account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "check_payload_4",
+              "leftValue": "={{ $json.payload }}",
+              "rightValue": "",
+              "operator": {
+                "type": "array",
+                "operation": "notEmpty",
+                "singleValue": true
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "id": "cfbc8bd7-78a1-4f45-bfd9-0d2dacaa810a",
+      "name": "If Contact Exists 4",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [
+        -848,
+        208
+      ]
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "27f49c10-d51b-4a37-b6e2-63cdd2dcbfe8",
+              "name": "payload[0].name",
+              "value": "={{ $json.payload[0].name }}",
+              "type": "string"
+            },
+            {
+              "id": "361d93a2-23d9-4a2b-9ead-9fc8309a397f",
+              "name": "payload[0].id",
+              "value": "={{ $json.payload[0].id }}",
+              "type": "number"
+            },
+            {
+              "id": "de9f59f7-64c5-4aa1-a288-ee1654c9baa0",
+              "name": "payload[0].phone_number",
+              "value": "={{ $json.payload[0].phone_number }}",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "e98d9cbc-f0b3-40b6-a54f-c8e5d88991ea",
+      "name": "Edit Fields",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        -704,
+        -416
+      ]
+    },
+    {
+      "parameters": {
+        "fieldToSplitOut": "payload",
+        "options": {}
+      },
+      "id": "1a427fd8-be25-442c-afbc-267393623f7c",
+      "name": "Split Out",
+      "type": "n8n-nodes-base.splitOut",
+      "typeVersion": 1,
+      "position": [
+        -496,
+        -416
+      ]
+    },
+    {
+      "parameters": {
+        "operation": "create",
+        "accountId": {
+          "__rl": true,
+          "value": "1",
+          "mode": "list"
+        },
+        "inboxId": {
+          "__rl": true,
+          "value": "7",
+          "mode": "list"
+        },
+        "contactId": {
+          "__rl": true,
+          "value": "={{ $json.id }}",
+          "mode": "id"
+        }
+      },
+      "id": "c76033f4-2216-42ca-b4e2-f562a463595c",
+      "name": "Create conversation",
+      "type": "@fazer-ai/n8n-nodes-chatwoot.chatwoot",
+      "typeVersion": 1,
+      "position": [
+        -272,
+        -416
+      ],
+      "credentials": {
+        "fazerAiChatwootApi": {
+          "id": "fB0aqKwNZZKGeE0W",
+          "name": "Chatwoot fazer.ai account"
+        }
+      },
+      "onError": "continueErrorOutput"
+    },
+    {
+      "parameters": {
+        "operation": "sendMessage",
+        "accountId": {
+          "__rl": true,
+          "value": "1",
+          "mode": "list"
+        },
+        "inboxId": {
+          "__rl": true,
+          "value": "2",
+          "mode": "list"
+        },
+        "conversationId": {
+          "__rl": true,
+          "value": "={{ $json.id }}",
+          "mode": "id"
+        },
+        "content": "={{ $('Loop Over Items').item.json.mensagem }}",
+        "replyToMessageId": {
+          "__rl": true,
+          "mode": "list",
+          "value": ""
+        },
+        "additionalFields": {}
+      },
+      "id": "ab0d48b5-9725-47d6-9b21-0c4bdb4e6cc5",
+      "name": "Send text message in conversation",
+      "type": "@fazer-ai/n8n-nodes-chatwoot.chatwoot",
+      "typeVersion": 1,
+      "position": [
+        -48,
+        -416
+      ],
+      "credentials": {
+        "fazerAiChatwootApi": {
+          "id": "fB0aqKwNZZKGeE0W",
+          "name": "Chatwoot fazer.ai account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "operation": "toggleStatus",
+        "accountId": {
+          "__rl": true,
+          "value": "1",
+          "mode": "list"
+        },
+        "inboxId": {
+          "__rl": true,
+          "value": "7",
+          "mode": "list"
+        },
+        "conversationId": {
+          "__rl": true,
+          "value": "={{ $json.conversation_id }}",
+          "mode": "id"
+        }
+      },
+      "id": "bf936cb1-893d-4462-b11d-791dfd23311a",
+      "name": "Toggle conversation status",
+      "type": "@fazer-ai/n8n-nodes-chatwoot.chatwoot",
+      "typeVersion": 1,
+      "position": [
+        192,
+        -416
+      ],
+      "credentials": {
+        "fazerAiChatwootApi": {
+          "id": "fB0aqKwNZZKGeE0W",
+          "name": "Chatwoot fazer.ai account"
+        }
+      },
+      "onError": "continueErrorOutput"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://ehhjnwosqcrfwonqhfoz.supabase.co/rest/v1/mt_review_requests_control",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "apikey",
+              "value": "sb_publishable_kYqGp1MgzhhD3DmW0WTfig_TQVODJ8r"
+            },
+            {
+              "name": "Authorization",
+              "value": "Bearer sb_publishable_kYqGp1MgzhhD3DmW0WTfig_TQVODJ8r"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "name": "Prefer",
+              "value": "resolution=merge-duplicates"
+            }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={\n  \"mobile_normalizado\": \"{{ $('Loop Over Items').item.json.telefone_envio }}\",\n  \"customer_code\": \"{{ $('Loop Over Items').item.json.customer_code }}\",\n  \"categoria\": \"{{ $('Loop Over Items').item.json.categoria }}\",\n  \"sent_count\": {{ ($('Loop Over Items').item.json.sent_count || 0) + 1 }},\n  \"last_sent_at\": \"{{ $now.toISO() }}\",\n  \"updated_at\": \"{{ $now.toISO() }}\"\n}",
+        "options": {}
+      },
+      "id": "4b696218-29f7-45d5-b15b-dbf166351b8d",
+      "name": "Atualizar Controle no Supabase",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.3,
+      "position": [
+        416,
+        -416
+      ]
+    },
+    {
+      "parameters": {
+        "method": "PATCH",
+        "url": "=https://ehhjnwosqcrfwonqhfoz.supabase.co/rest/v1/mt_client_form_status?customer_code=eq.{{ $('Loop Over Items').item.json.customer_code }}",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "apikey",
+              "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImVoaGpud29zcWNyZndvbnFoZm96Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc2Mjg5Nzg2OSwiZXhwIjoyMDc4NDczODY5fQ.9NEyAQd203dXiyOyxC2wXvUZJ4Loo_Kn2_-EEmLvx3M"
+            },
+            {
+              "name": "Authorization",
+              "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImVoaGpud29zcWNyZndvbnFoZm96Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc2Mjg5Nzg2OSwiZXhwIjoyMDc4NDczODY5fQ.9NEyAQd203dXiyOyxC2wXvUZJ4Loo_Kn2_-EEmLvx3M"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={\n  \"delivery_status\": \"failed\"\n}",
+        "options": {}
+      },
+      "id": "f6f5c1f1-17a0-4a95-8e56-abe926692903",
+      "name": "Atualizar Falha no Supabase",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.3,
+      "position": [
+        -624,
+        208
+      ]
+    },
+    {
+      "parameters": {
+        "amount": 3
+      },
+      "id": "5f887afd-9dd8-4ca7-83d2-5fe3f9c01a60",
+      "name": "Wait 3s",
+      "type": "n8n-nodes-base.wait",
+      "typeVersion": 1.1,
+      "position": [
+        640,
+        -288
+      ],
+      "webhookId": "946fa745-4750-4f4b-b843-adae9d798187"
+    },
+    {
+      "parameters": {
+        "jsCode": "const item = $('Loop Over Items').item.json;\nreturn [{\n  json: {\n    name: item.name || \"Jogador\",\n    phone: item.telefone_envio,\n    customer_code: item.customer_code,\n    categoria: item.categoria,\n    sent_count: item.sent_count,\n    tipo_envio: item.tipo_envio,\n    mensagem: item.mensagem,\n    banner_url: item.banner_url\n  }\n}];"
+      },
+      "id": "8fec1945-778a-4904-a23c-314ff131cf76",
+      "name": "Preparar Dados do Novo Contato",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        -1024,
+        -208
+      ]
+    },
+    {
+      "parameters": {
+        "resource": "contact",
+        "accountId": {
+          "__rl": true,
+          "value": "1",
+          "mode": "list"
+        },
+        "name": "={{ $json.name }}",
+        "phoneNumber": "={{ $json.phone.startsWith('55') ? '+' + $json.phone : '+55' + $json.phone }}",
+        "additionalFields": {}
+      },
+      "id": "4602b5a5-a022-45d1-b2da-2490c2ceb7e1",
+      "name": "Create Contact in Chatwoot",
+      "type": "@fazer-ai/n8n-nodes-chatwoot.chatwoot",
+      "typeVersion": 1,
+      "position": [
+        -736,
+        -160
+      ],
+      "credentials": {
+        "fazerAiChatwootApi": {
+          "id": "fB0aqKwNZZKGeE0W",
+          "name": "Chatwoot fazer.ai account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "jsCode": "const input = $json;\nlet contactId = input.id || (input.payload && (input.payload.id || (input.payload.contact && input.payload.contact.id))) || input.source_id;\n\nif (!contactId && input.payload && Array.isArray(input.payload) && input.payload.length > 0) {\n  contactId = input.payload[0].id;\n}\n\nreturn [{\n  json: {\n    payload: [\n      {\n        id: contactId,\n        name: input.name || $('Loop Over Items').item.json.name,\n        phone_number: input.phone_number || $('Loop Over Items').item.json.telefone_envio\n      }\n    ]\n  }\n}];"
+      },
+      "id": "198979b2-4378-4ecf-86fc-4f5c4a1e529f",
+      "name": "Extrair ID do Novo Contato",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        -400,
+        -128
+      ]
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "When clicking \"Execute\"": {
+      "main": [
+        [
+          {
+            "node": "Buscar Clientes Pendentes (Supabase)",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Trigger: Meio de Semana e Fim de Semana": {
+      "main": [
+        [
+          {
+            "node": "Buscar Clientes Pendentes (Supabase)",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Buscar Clientes Pendentes (Supabase)": {
+      "main": [
+        [
+          {
+            "node": "Processar e Definir Mensagem",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Processar e Definir Mensagem": {
+      "main": [
+        [
+          {
+            "node": "Loop Over Items",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Loop Over Items": {
+      "main": [
+        [],
+        [
+          {
+            "node": "Search contacts",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Search contacts": {
+      "main": [
+        [
+          {
+            "node": "If Contact Exists",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "If Contact Exists": {
+      "main": [
+        [
+          {
+            "node": "Edit Fields",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Tratar Telefone 2",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Tratar Telefone 2": {
+      "main": [
+        [
+          {
+            "node": "Search contacts 2",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Search contacts 2": {
+      "main": [
+        [
+          {
+            "node": "If Contact Exists 2",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "If Contact Exists 2": {
+      "main": [
+        [
+          {
+            "node": "Edit Fields",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Tratar Telefone 3",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Tratar Telefone 3": {
+      "main": [
+        [
+          {
+            "node": "Search contacts 3",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Search contacts 3": {
+      "main": [
+        [
+          {
+            "node": "If Contact Exists 3",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "If Contact Exists 3": {
+      "main": [
+        [
+          {
+            "node": "Edit Fields",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Preparar Dados do Novo Contato",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Search by Name": {
+      "main": [
+        [
+          {
+            "node": "If Contact Exists 4",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "If Contact Exists 4": {
+      "main": [
+        [
+          {
+            "node": "Edit Fields",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Atualizar Falha no Supabase",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Edit Fields": {
+      "main": [
+        [
+          {
+            "node": "Split Out",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Split Out": {
+      "main": [
+        [
+          {
+            "node": "Create conversation",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Create conversation": {
+      "main": [
+        [
+          {
+            "node": "Send text message in conversation",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Send text message in conversation": {
+      "main": [
+        [
+          {
+            "node": "Toggle conversation status",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Toggle conversation status": {
+      "main": [
+        [
+          {
+            "node": "Atualizar Controle no Supabase",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Atualizar Controle no Supabase": {
+      "main": [
+        [
+          {
+            "node": "Wait 3s",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Atualizar Falha no Supabase": {
+      "main": [
+        [
+          {
+            "node": "Wait 3s",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Wait 3s": {
+      "main": [
+        [
+          {
+            "node": "Loop Over Items",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Preparar Dados do Novo Contato": {
+      "main": [
+        [
+          {
+            "node": "Create Contact in Chatwoot",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Create Contact in Chatwoot": {
+      "main": [
+        [
+          {
+            "node": "Extrair ID do Novo Contato",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Extrair ID do Novo Contato": {
+      "main": [
+        [
+          {
+            "node": "Split Out",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": true,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "versionId": "d96dbbe7-dcc4-42ad-98eb-a66ef718d4c9",
+  "meta": {
+    "instanceId": "33738330930e3881dd5571eca013f36ddf8aab20e4ea5c1f2ebaf4a2b4668ac6"
+  },
+  "id": "ElFlYf9VPzcV2oqC",
+  "tags": []
+}

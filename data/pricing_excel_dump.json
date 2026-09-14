@@ -1,0 +1,1158 @@
+{
+  "Resumo": [
+    [
+      "Montreal Tênis Clube - Política de Preços e Descontos",
+      ""
+    ],
+    [
+      "Resumo da política",
+      ""
+    ],
+    [
+      "• 1x por semana em horário normal usa a tabela base.",
+      ""
+    ],
+    [
+      "• 2x por semana: 5,0% de desconto.",
+      ""
+    ],
+    [
+      "• 3x por semana ou mais: 7,0% de desconto.",
+      ""
+    ],
+    [
+      "• Família com 2 membros ativos: 5,0% de desconto.",
+      ""
+    ],
+    [
+      "• Família com 3 ou mais membros ativos: 7,0% de desconto.",
+      ""
+    ],
+    [
+      "• Aulas fixas entre 10h e 15h: 12,0% de desconto.",
+      ""
+    ],
+    [
+      "• Acúmulo permitido: frequência + família.",
+      ""
+    ],
+    [
+      "• Teto máximo para frequência + família: 12,0%.",
+      ""
+    ],
+    [
+      "• Horário 10h–15h não acumula com outros descontos.",
+      ""
+    ],
+    [
+      "• Modalidades diferentes contam para frequência pelo total de aulas semanais.",
+      ""
+    ],
+    [
+      "Planilhas incluídas",
+      ""
+    ],
+    [
+      "Parametros",
+      "Percentuais, teto e observações operacionais"
+    ],
+    [
+      "Tabela_Base",
+      "Valores regulares 1x por semana"
+    ],
+    [
+      "Frequencia",
+      "Cálculos para 2x e 3x por semana"
+    ],
+    [
+      "Familia",
+      "Cálculos para 2 e 3+ membros da família"
+    ],
+    [
+      "Horario_10_15",
+      "Tarifa para horário intermediário"
+    ],
+    [
+      "Freq_Familia",
+      "Acúmulo de frequência + família com teto"
+    ],
+    [
+      "Modalidades_Dif",
+      "Exemplos de combinações entre modalidades"
+    ],
+    [
+      "Individual",
+      "1ª matrícula proporcional: preço cheio e descontos de 5%, 7%, 10% e 12%"
+    ],
+    [
+      "Dupla",
+      "1ª matrícula proporcional: preço cheio e descontos de 5%, 7%, 10% e 12%"
+    ],
+    [
+      "Trio",
+      "1ª matrícula proporcional: preço cheio e descontos de 5%, 7%, 10% e 12%"
+    ],
+    [
+      "Grupo",
+      "1ª matrícula proporcional: preço cheio e descontos de 5%, 7%, 10% e 12%"
+    ]
+  ],
+  "Parametros": [
+    [
+      "Parâmetros da Política",
+      "",
+      ""
+    ],
+    [
+      "Item",
+      "Valor",
+      "Observação"
+    ],
+    [
+      "Desconto frequência 2x",
+      "0.05",
+      "Aplica quando o aluno faz 2 aulas por semana no total"
+    ],
+    [
+      "Desconto frequência 3x+",
+      "0.07",
+      "Aplica quando o aluno faz 3 ou mais aulas por semana no total"
+    ],
+    [
+      "Desconto família 2 membros",
+      "0.05",
+      "Mesmo núcleo familiar e mesmo responsável financeiro"
+    ],
+    [
+      "Desconto família 3+ membros",
+      "0.07",
+      "Mesmo núcleo familiar e mesmo responsável financeiro"
+    ],
+    [
+      "Desconto horário 10h–15h",
+      "0.12",
+      "Tarifa própria; não acumula com frequência ou família"
+    ],
+    [
+      "Teto frequência + família",
+      "0.12",
+      "Limite máximo para descontos acumulados"
+    ]
+  ],
+  "Tabela_Base": [
+    [
+      "Tabela Base - 1x por semana",
+      "",
+      ""
+    ],
+    [
+      "Modalidade",
+      "Valor base mensal",
+      "Observação"
+    ],
+    [
+      "Treino Individual",
+      "720",
+      "Preço regular por aluno"
+    ],
+    [
+      "Treino em Dupla (por aluno)",
+      "430",
+      "Preço regular por aluno"
+    ],
+    [
+      "Treino em Trio (por aluno)",
+      "395",
+      "Preço regular por aluno"
+    ],
+    [
+      "Treino em Grupo / Equipe (por aluno)",
+      "335",
+      "Preço regular por aluno"
+    ]
+  ],
+  "Frequencia": [
+    [
+      "Frequência - mesma modalidade",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "Cenários: 2x e 3x por semana",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "Modalidade",
+      "Valor base 1x",
+      "Aulas/semana",
+      "Desconto %",
+      "Subtotal base",
+      "Valor do desconto",
+      "Valor final",
+      "",
+      "",
+      ""
+    ],
+    [
+      "Treino Individual",
+      "720",
+      "2",
+      "0.05",
+      "1440",
+      "72",
+      "1368",
+      "",
+      "",
+      ""
+    ],
+    [
+      "Treino em Dupla (por aluno)",
+      "430",
+      "2",
+      "0.05",
+      "860",
+      "43",
+      "817",
+      "",
+      "",
+      ""
+    ],
+    [
+      "Treino em Trio (por aluno)",
+      "395",
+      "2",
+      "0.05",
+      "790",
+      "39.5",
+      "750.5",
+      "",
+      "",
+      ""
+    ],
+    [
+      "Treino em Grupo / Equipe (por aluno)",
+      "335",
+      "2",
+      "0.05",
+      "670",
+      "33.5",
+      "636.5",
+      "",
+      "",
+      ""
+    ],
+    [
+      "Treino Individual",
+      "720",
+      "3",
+      "0.07",
+      "2160",
+      "151.20000000000002",
+      "2008.8",
+      "",
+      "",
+      ""
+    ],
+    [
+      "Treino em Dupla (por aluno)",
+      "430",
+      "3",
+      "0.07",
+      "1290",
+      "90.30000000000001",
+      "1199.7",
+      "",
+      "",
+      ""
+    ],
+    [
+      "Treino em Trio (por aluno)",
+      "395",
+      "3",
+      "0.07",
+      "1185",
+      "82.95",
+      "1102.05",
+      "",
+      "",
+      ""
+    ],
+    [
+      "Treino em Grupo / Equipe (por aluno)",
+      "335",
+      "3",
+      "0.07",
+      "1005",
+      "70.35000000000001",
+      "934.65",
+      "",
+      "",
+      ""
+    ]
+  ],
+  "Familia": [
+    [
+      "Família",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "Cenários: 2 membros e 3+ membros",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "Modalidade",
+      "Valor base 1x",
+      "Faixa familiar",
+      "Desconto %",
+      "Valor do desconto",
+      "Valor final"
+    ],
+    [
+      "Treino Individual",
+      "720",
+      "2 membros",
+      "0.05",
+      "36",
+      "684"
+    ],
+    [
+      "Treino em Dupla (por aluno)",
+      "430",
+      "2 membros",
+      "0.05",
+      "21.5",
+      "408.5"
+    ],
+    [
+      "Treino em Trio (por aluno)",
+      "395",
+      "2 membros",
+      "0.05",
+      "19.75",
+      "375.25"
+    ],
+    [
+      "Treino em Grupo / Equipe (por aluno)",
+      "335",
+      "2 membros",
+      "0.05",
+      "16.75",
+      "318.25"
+    ],
+    [
+      "Treino Individual",
+      "720",
+      "3+ membros",
+      "0.07",
+      "50.400000000000006",
+      "669.6"
+    ],
+    [
+      "Treino em Dupla (por aluno)",
+      "430",
+      "3+ membros",
+      "0.07",
+      "30.1",
+      "399.9"
+    ],
+    [
+      "Treino em Trio (por aluno)",
+      "395",
+      "3+ membros",
+      "0.07",
+      "27.650000000000002",
+      "367.35"
+    ],
+    [
+      "Treino em Grupo / Equipe (por aluno)",
+      "335",
+      "3+ membros",
+      "0.07",
+      "23.450000000000003",
+      "311.55"
+    ]
+  ],
+  "Horario_10_15": [
+    [
+      "Horário 11h–15h",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "Tarifa própria; não acumula com frequência ou família",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "Modalidade",
+      "Valor base 1x",
+      "Desconto %",
+      "Valor do desconto",
+      "Valor final"
+    ],
+    [
+      "Treino Individual",
+      "720",
+      "0.12",
+      "86.39999999999999",
+      "633.6"
+    ],
+    [
+      "Treino em Dupla (por aluno)",
+      "430",
+      "0.12",
+      "51.6",
+      "378.4"
+    ],
+    [
+      "Treino em Trio (por aluno)",
+      "395",
+      "0.12",
+      "47.4",
+      "347.6"
+    ],
+    [
+      "Treino em Grupo / Equipe (por aluno)",
+      "335",
+      "0.12",
+      "40.199999999999996",
+      "294.8"
+    ]
+  ],
+  "Freq_Familia": [
+    [
+      "Frequência + Família",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "Acúmulo permitido com teto máximo de 12,0%",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "Modalidade",
+      "Valor base 1x",
+      "Aulas/semana",
+      "Faixa familiar",
+      "Subtotal base",
+      "Freq %",
+      "Fam %",
+      "Desconto aplicado %",
+      "Valor do desconto",
+      "Valor final"
+    ],
+    [
+      "Treino Individual",
+      "720",
+      "2",
+      "2 membros",
+      "1440",
+      "0.05",
+      "0.05",
+      "0.1",
+      "144",
+      "1296"
+    ],
+    [
+      "Treino em Dupla (por aluno)",
+      "430",
+      "2",
+      "2 membros",
+      "860",
+      "0.05",
+      "0.05",
+      "0.1",
+      "86",
+      "774"
+    ],
+    [
+      "Treino em Trio (por aluno)",
+      "395",
+      "2",
+      "2 membros",
+      "790",
+      "0.05",
+      "0.05",
+      "0.1",
+      "79",
+      "711"
+    ],
+    [
+      "Treino em Grupo / Equipe (por aluno)",
+      "335",
+      "2",
+      "2 membros",
+      "670",
+      "0.05",
+      "0.05",
+      "0.1",
+      "67",
+      "603"
+    ],
+    [
+      "Treino Individual",
+      "720",
+      "2",
+      "3+ membros",
+      "1440",
+      "0.05",
+      "0.07",
+      "0.12",
+      "172.79999999999998",
+      "1267.2"
+    ],
+    [
+      "Treino em Dupla (por aluno)",
+      "430",
+      "2",
+      "3+ membros",
+      "860",
+      "0.05",
+      "0.07",
+      "0.12",
+      "103.2",
+      "756.8"
+    ],
+    [
+      "Treino em Trio (por aluno)",
+      "395",
+      "2",
+      "3+ membros",
+      "790",
+      "0.05",
+      "0.07",
+      "0.12",
+      "94.8",
+      "695.2"
+    ],
+    [
+      "Treino em Grupo / Equipe (por aluno)",
+      "335",
+      "2",
+      "3+ membros",
+      "670",
+      "0.05",
+      "0.07",
+      "0.12",
+      "80.39999999999999",
+      "589.6"
+    ],
+    [
+      "Treino Individual",
+      "720",
+      "3",
+      "2 membros",
+      "2160",
+      "0.07",
+      "0.05",
+      "0.12",
+      "259.2",
+      "1900.8"
+    ],
+    [
+      "Treino em Dupla (por aluno)",
+      "430",
+      "3",
+      "2 membros",
+      "1290",
+      "0.07",
+      "0.05",
+      "0.12",
+      "154.79999999999998",
+      "1135.2"
+    ],
+    [
+      "Treino em Trio (por aluno)",
+      "395",
+      "3",
+      "2 membros",
+      "1185",
+      "0.07",
+      "0.05",
+      "0.12",
+      "142.2",
+      "1042.8"
+    ],
+    [
+      "Treino em Grupo / Equipe (por aluno)",
+      "335",
+      "3",
+      "2 membros",
+      "1005",
+      "0.07",
+      "0.05",
+      "0.12",
+      "120.6",
+      "884.4"
+    ],
+    [
+      "Treino Individual",
+      "720",
+      "3",
+      "3+ membros",
+      "2160",
+      "0.07",
+      "0.07",
+      "0.12",
+      "259.2",
+      "1900.8"
+    ],
+    [
+      "Treino em Dupla (por aluno)",
+      "430",
+      "3",
+      "3+ membros",
+      "1290",
+      "0.07",
+      "0.07",
+      "0.12",
+      "154.79999999999998",
+      "1135.2"
+    ],
+    [
+      "Treino em Trio (por aluno)",
+      "395",
+      "3",
+      "3+ membros",
+      "1185",
+      "0.07",
+      "0.07",
+      "0.12",
+      "142.2",
+      "1042.8"
+    ],
+    [
+      "Treino em Grupo / Equipe (por aluno)",
+      "335",
+      "3",
+      "3+ membros",
+      "1005",
+      "0.07",
+      "0.07",
+      "0.12",
+      "120.6",
+      "884.4"
+    ]
+  ],
+  "Modalidades_Dif": [
+    [
+      "Modalidades diferentes",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "Combinações 1x + 1x. Conta como 2 aulas por semana; aplica desconto de frequência 2x.",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "Modalidade A",
+      "Valor A",
+      "Modalidade B",
+      "Valor B",
+      "Subtotal base",
+      "Freq %",
+      "Valor com frequência",
+      "Freq % + Família 2",
+      "Valor com freq + família 2",
+      "Freq % + Família 3+",
+      "Valor com freq + família 3+"
+    ],
+    [
+      "Treino Individual",
+      "720",
+      "Treino em Dupla (por aluno)",
+      "430",
+      "1150",
+      "0.05",
+      "1092.5",
+      "0.1",
+      "1035",
+      "0.12",
+      "1012"
+    ],
+    [
+      "Treino Individual",
+      "720",
+      "Treino em Trio (por aluno)",
+      "395",
+      "1115",
+      "0.05",
+      "1059.25",
+      "0.1",
+      "1003.5",
+      "0.12",
+      "981.2"
+    ],
+    [
+      "Treino Individual",
+      "720",
+      "Treino em Grupo / Equipe (por aluno)",
+      "335",
+      "1055",
+      "0.05",
+      "1002.25",
+      "0.1",
+      "949.5",
+      "0.12",
+      "928.4"
+    ],
+    [
+      "Treino em Dupla (por aluno)",
+      "430",
+      "Treino em Trio (por aluno)",
+      "395",
+      "825",
+      "0.05",
+      "783.75",
+      "0.1",
+      "742.5",
+      "0.12",
+      "726"
+    ],
+    [
+      "Treino em Dupla (por aluno)",
+      "430",
+      "Treino em Grupo / Equipe (por aluno)",
+      "335",
+      "765",
+      "0.05",
+      "726.75",
+      "0.1",
+      "688.5",
+      "0.12",
+      "673.2"
+    ],
+    [
+      "Treino em Trio (por aluno)",
+      "395",
+      "Treino em Grupo / Equipe (por aluno)",
+      "335",
+      "730",
+      "0.05",
+      "693.5",
+      "0.1",
+      "657",
+      "0.12",
+      "642.4"
+    ]
+  ],
+  "Individual": [
+    [
+      "1ª Matrícula Proporcional — Treino Individual",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "Use a coluna correspondente ao número de treinos que o aluno ainda fará no mês da primeira matrícula.",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "Valor base mensal",
+      "720",
+      "",
+      "Regra",
+      "Mensal após desconto × proporção do mês",
+      ""
+    ],
+    [
+      "Situação",
+      "Desconto",
+      "1 treino",
+      "2 treinos",
+      "3 treinos",
+      "4 treinos (cheio)"
+    ],
+    [
+      "Proporção do mês",
+      "",
+      "0.25",
+      "0.5",
+      "0.75",
+      "1"
+    ],
+    [
+      "Preço cheio",
+      "0",
+      "180",
+      "360",
+      "540",
+      "720"
+    ],
+    [
+      "Desconto 5%",
+      "0.05",
+      "171",
+      "342",
+      "513",
+      "684"
+    ],
+    [
+      "Desconto 7%",
+      "0.07",
+      "167.4",
+      "334.8",
+      "502.2",
+      "669.6"
+    ],
+    [
+      "Desconto 10%",
+      "0.1",
+      "162",
+      "324",
+      "486",
+      "648"
+    ],
+    [
+      "Desconto 12%",
+      "0.12",
+      "158.4",
+      "316.8",
+      "475.2",
+      "633.6"
+    ],
+    [
+      "Exemplo: se restarem 2 treinos no mês, cobrar 50% do valor mensal já considerando o desconto aplicável.",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  ],
+  "Dupla": [
+    [
+      "1ª Matrícula Proporcional — Treino em Dupla (por aluno)",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "Use a coluna correspondente ao número de treinos que o aluno ainda fará no mês da primeira matrícula.",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "Valor base mensal",
+      "430",
+      "",
+      "Regra",
+      "Mensal após desconto × proporção do mês",
+      ""
+    ],
+    [
+      "Situação",
+      "Desconto",
+      "1 treino",
+      "2 treinos",
+      "3 treinos",
+      "4 treinos (cheio)"
+    ],
+    [
+      "Proporção do mês",
+      "",
+      "0.25",
+      "0.5",
+      "0.75",
+      "1"
+    ],
+    [
+      "Preço cheio",
+      "0",
+      "107.5",
+      "215",
+      "322.5",
+      "430"
+    ],
+    [
+      "Desconto 5%",
+      "0.05",
+      "102.13",
+      "204.25",
+      "306.38",
+      "408.5"
+    ],
+    [
+      "Desconto 7%",
+      "0.07",
+      "99.98",
+      "199.95",
+      "299.92",
+      "399.9"
+    ],
+    [
+      "Desconto 10%",
+      "0.1",
+      "96.75",
+      "193.5",
+      "290.25",
+      "387"
+    ],
+    [
+      "Desconto 12%",
+      "0.12",
+      "94.6",
+      "189.2",
+      "283.8",
+      "378.4"
+    ],
+    [
+      "Exemplo: se restarem 2 treinos no mês, cobrar 50% do valor mensal já considerando o desconto aplicável.",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  ],
+  "Trio": [
+    [
+      "1ª Matrícula Proporcional — Treino em Trio (por aluno)",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "Use a coluna correspondente ao número de treinos que o aluno ainda fará no mês da primeira matrícula.",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "Valor base mensal",
+      "395",
+      "",
+      "Regra",
+      "Mensal após desconto × proporção do mês",
+      ""
+    ],
+    [
+      "Situação",
+      "Desconto",
+      "1 treino",
+      "2 treinos",
+      "3 treinos",
+      "4 treinos (cheio)"
+    ],
+    [
+      "Proporção do mês",
+      "",
+      "0.25",
+      "0.5",
+      "0.75",
+      "1"
+    ],
+    [
+      "Preço cheio",
+      "0",
+      "98.75",
+      "197.5",
+      "296.25",
+      "395"
+    ],
+    [
+      "Desconto 5%",
+      "0.05",
+      "93.81",
+      "187.63",
+      "281.44",
+      "375.25"
+    ],
+    [
+      "Desconto 7%",
+      "0.07",
+      "91.84",
+      "183.68",
+      "275.51",
+      "367.35"
+    ],
+    [
+      "Desconto 10%",
+      "0.1",
+      "88.88",
+      "177.75",
+      "266.63",
+      "355.5"
+    ],
+    [
+      "Desconto 12%",
+      "0.12",
+      "86.9",
+      "173.8",
+      "260.7",
+      "347.6"
+    ],
+    [
+      "Exemplo: se restarem 2 treinos no mês, cobrar 50% do valor mensal já considerando o desconto aplicável.",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  ],
+  "Grupo": [
+    [
+      "1ª Matrícula Proporcional — Treino em Grupo / Equipe (por aluno)",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "Use a coluna correspondente ao número de treinos que o aluno ainda fará no mês da primeira matrícula.",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "Valor base mensal",
+      "335",
+      "",
+      "Regra",
+      "Mensal após desconto × proporção do mês",
+      ""
+    ],
+    [
+      "Situação",
+      "Desconto",
+      "1 treino",
+      "2 treinos",
+      "3 treinos",
+      "4 treinos (cheio)"
+    ],
+    [
+      "Proporção do mês",
+      "",
+      "0.25",
+      "0.5",
+      "0.75",
+      "1"
+    ],
+    [
+      "Preço cheio",
+      "0",
+      "83.75",
+      "167.5",
+      "251.25",
+      "335"
+    ],
+    [
+      "Desconto 5%",
+      "0.05",
+      "79.56",
+      "159.13",
+      "238.69",
+      "318.25"
+    ],
+    [
+      "Desconto 7%",
+      "0.07",
+      "77.89",
+      "155.77",
+      "233.66",
+      "311.55"
+    ],
+    [
+      "Desconto 10%",
+      "0.1",
+      "75.38",
+      "150.75",
+      "226.13",
+      "301.5"
+    ],
+    [
+      "Desconto 12%",
+      "0.12",
+      "73.7",
+      "147.4",
+      "221.1",
+      "294.8"
+    ],
+    [
+      "Exemplo: se restarem 2 treinos no mês, cobrar 50% do valor mensal já considerando o desconto aplicável.",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  ]
+}

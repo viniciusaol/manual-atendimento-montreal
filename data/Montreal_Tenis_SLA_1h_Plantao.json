@@ -1,0 +1,259 @@
+{
+  "name": "Montreal Tênis - Alerta SLA 1h (Plantão de Resposta)",
+  "nodes": [
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "cronExpression",
+              "expression": "*/30 8-22 * * *"
+            }
+          ]
+        }
+      },
+      "id": "0b599c83-af34-4adc-bc6e-0066872a619a",
+      "name": "Verificação a cada 30 min (08h às 22h)",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        200,
+        300
+      ]
+    },
+    {
+      "parameters": {},
+      "id": "f9f0a35b-e130-4174-b570-83fa45f0f161",
+      "name": "Testar Agora (Manual)",
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        200,
+        480
+      ]
+    },
+    {
+      "parameters": {
+        "url": "https://chat.vxautomation.com.br/api/v1/accounts/1/conversations",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "api_access_token",
+              "value": "225uXmdyRZfcQ4HhGeYzMZwF"
+            }
+          ]
+        },
+        "sendQuery": true,
+        "queryParameters": {
+          "parameters": [
+            {
+              "name": "status",
+              "value": "open"
+            },
+            {
+              "name": "page",
+              "value": "1"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "17e4cbf3-1dbe-4b92-9210-b67c4f5cc9ec",
+      "name": "Buscar Conversas Abertas no Chatwoot",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        460,
+        380
+      ]
+    },
+    {
+      "parameters": {
+        "jsCode": "// ========================================================\n// CONFIGURAÇÕES DE DESTINO E REGRAS DE SLA (1 HORA)\n// ========================================================\n// Deixe 'true' para testar no seu número pessoal (ID 1511)\n// Mude para 'false' para enviar aos 2 números oficiais (IDs 125 e 4)\nconst MODO_TESTE = true;\n\nconst DESTINATARIOS_TESTE = [\n  { contact_id: 1511, nome_dest: 'Vinicius (Teste)' }\n];\n\nconst DESTINATARIOS_PRODUCAO = [\n  { contact_id: 125, nome_dest: 'Montreal (+55 41 93618-3407)' },\n  { contact_id: 4, nome_dest: 'Gestão (+55 41 8809-7503)' }\n];\n\nconst DESTINATARIOS = MODO_TESTE ? DESTINATARIOS_TESTE : DESTINATARIOS_PRODUCAO;\n\n// ========================================================\n// ETIQUETAS EXCLUSIVAS DE ESPERA (IGNORAM O ALERTA)\n// ========================================================\nconst ETIQUETAS_IGNORAR = [\n  'aguardando-professor', \n  'aguardando-aluno', \n  'turma-em-formacao',\n  'em-espera'\n];\n\nconst responseData = $input.first().json;\nconst payload = responseData.data?.payload || responseData.payload || [];\n\nconst nowSec = Math.floor(Date.now() / 1000);\nconst agoraFormatada = new Date().toLocaleTimeString('pt-BR', { timeZone: 'America/Sao_Paulo', hour: '2-digit', minute: '2-digit' });\n\nconst clientesSemResposta = [];\n\nfunction formatarTempoEspera(segundos) {\n  const min = Math.floor(segundos / 60);\n  if (min < 60) return `${min} min`;\n  const horas = Math.floor(min / 60);\n  const minRestantes = min % 60;\n  if (horas < 24) return `${horas}h ${minRestantes}m`;\n  const dias = Math.floor(horas / 24);\n  return `${dias}d ${horas % 24}h`;\n}\n\nfor (const conv of payload) {\n  if (conv.status !== 'open') continue;\n\n  const convId = conv.id;\n  const labels = (conv.labels || []).map(l => l.toLowerCase().trim());\n  const sender = conv.meta?.sender || {};\n  const clienteNome = sender.name || 'Cliente sem nome';\n  const clienteTelefone = sender.phone_number || 'Sem telefone';\n  const assignee = conv.meta?.assignee?.name || '⚠️ Não atribuído';\n  const chatwootLink = `https://chat.vxautomation.com.br/app/accounts/1/conversations/${convId}`;\n\n  const waitingSince = conv.waiting_since || 0;\n  const tempoEsperando = waitingSince > 0 ? (nowSec - waitingSince) : 0;\n  \n  // Ignora APENAS se tiver uma das 4 etiquetas oficiais de espera\n  const temEtiquetaIgnorar = labels.some(l => ETIQUETAS_IGNORAR.includes(l));\n\n  // REGRA: Cliente aguardando retorno há mais de 1 HORA (3600 segundos)\n  if (waitingSince > 0 && tempoEsperando >= (60 * 60) && !temEtiquetaIgnorar) {\n    clientesSemResposta.push({\n      id: convId,\n      nome: clienteNome,\n      telefone: clienteTelefone,\n      atendente: assignee,\n      tempoStr: formatarTempoEspera(tempoEsperando),\n      link: chatwootLink\n    });\n  }\n}\n\nif (clientesSemResposta.length === 0) {\n  return [{ json: { tem_pendencias: false, mensagem: 'Tudo em dia!', contact_id: null } }];\n}\n\nlet msg = `🚨 *MONTREAL | Plantão de Atendimento (>1 hora sem resposta)*\\n`;\nmsg += `⏰ *Verificação das ${agoraFormatada}*\\n\\n`;\nmsg += `Identificamos *${clientesSemResposta.length} cliente(s)* aguardando resposta da equipe há mais de 1 hora:\\n`;\n\nclientesSemResposta.forEach((c, i) => {\n  msg += `\\n${i + 1}️⃣ *${c.nome}* (${c.telefone})\\n`;\n  msg += `⏱️ Esperando há: *${c.tempoStr}*\\n`;\n  msg += `👤 Atendente: *${c.atendente}*\\n`;\n  msg += `🔗 ${c.link}\\n`;\n});\n\nmsg += `\\n⚠️ *Ação necessária:* Por favor, priorizem o retorno a essas conversas!`;\n\nreturn DESTINATARIOS.map(dest => ({\n  json: {\n    tem_pendencias: true,\n    contact_id: dest.contact_id,\n    nome_dest: dest.nome_dest,\n    mensagem: msg,\n    total_clientes: clientesSemResposta.length\n  }\n}));"
+      },
+      "id": "6fede38f-8ad0-4955-8fd0-a3d7db6f3eb2",
+      "name": "Filtrar Clientes sem Resposta >1h",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        700,
+        380
+      ]
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "b9b01a1a-7413-455e-9b43-d76300aa6e02",
+              "leftValue": "={{ $json.tem_pendencias }}",
+              "rightValue": true,
+              "operator": {
+                "type": "boolean",
+                "operation": "equals"
+              }
+            }
+          ],
+          "combinator": "and"
+        }
+      },
+      "id": "6e103c8c-b975-4a2a-b87b-83d82b8f1b20",
+      "name": "Tem Clientes Aguardando >1h?",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [
+        940,
+        380
+      ]
+    },
+    {
+      "parameters": {
+        "operation": "create",
+        "accountId": {
+          "__rl": true,
+          "value": "1",
+          "mode": "list"
+        },
+        "inboxId": {
+          "__rl": true,
+          "value": "7",
+          "mode": "list"
+        },
+        "contactId": "={{ $json.contact_id }}"
+      },
+      "id": "02b94a09-c201-436b-a299-cf382bc42995",
+      "name": "Obter / Criar Conversa",
+      "type": "@fazer-ai/n8n-nodes-chatwoot.chatwoot",
+      "typeVersion": 1,
+      "position": [
+        1180,
+        380
+      ],
+      "credentials": {
+        "fazerAiChatwootApi": {
+          "id": "fB0aqKwNZZKGeE0W",
+          "name": "Chatwoot fazer.ai account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "operation": "sendMessage",
+        "accountId": {
+          "__rl": true,
+          "value": "1",
+          "mode": "list"
+        },
+        "inboxId": {
+          "__rl": true,
+          "value": "7",
+          "mode": "list"
+        },
+        "conversationId": "={{ $json.id }}",
+        "content": "={{ $('Filtrar Clientes sem Resposta >1h').item.json.mensagem }}",
+        "additionalFields": {}
+      },
+      "id": "73cd5170-2e00-43b9-9593-1ed39bc4bef9",
+      "name": "Disparar Alerta no WhatsApp",
+      "type": "@fazer-ai/n8n-nodes-chatwoot.chatwoot",
+      "typeVersion": 1,
+      "position": [
+        1420,
+        380
+      ],
+      "credentials": {
+        "fazerAiChatwootApi": {
+          "id": "fB0aqKwNZZKGeE0W",
+          "name": "Chatwoot fazer.ai account"
+        }
+      }
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Verificação a cada 30 min (08h às 22h)": {
+      "main": [
+        [
+          {
+            "node": "Buscar Conversas Abertas no Chatwoot",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Testar Agora (Manual)": {
+      "main": [
+        [
+          {
+            "node": "Buscar Conversas Abertas no Chatwoot",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Buscar Conversas Abertas no Chatwoot": {
+      "main": [
+        [
+          {
+            "node": "Filtrar Clientes sem Resposta >1h",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Filtrar Clientes sem Resposta >1h": {
+      "main": [
+        [
+          {
+            "node": "Tem Clientes Aguardando >1h?",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Tem Clientes Aguardando >1h?": {
+      "main": [
+        [
+          {
+            "node": "Obter / Criar Conversa",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Obter / Criar Conversa": {
+      "main": [
+        [
+          {
+            "node": "Disparar Alerta no WhatsApp",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "versionId": "58d1098f-84af-4532-9e26-76eca274067a",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "33738330930e3881dd5571eca013f36ddf8aab20e4ea5c1f2ebaf4a2b4668ac6"
+  },
+  "id": "montreal-sla-1h",
+  "tags": []
+}

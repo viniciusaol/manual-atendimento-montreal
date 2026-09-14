@@ -1,0 +1,259 @@
+{
+  "name": "Montreal Tênis - Auditoria Diária de Conversas Abertas (>24h)",
+  "nodes": [
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "cronExpression",
+              "expression": "30 8 * * 1-6"
+            }
+          ]
+        }
+      },
+      "id": "6344e61e-3d5e-4f08-9aa6-fecef565c471",
+      "name": "Disparo Diário às 08h30 (Seg a Sáb)",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        200,
+        300
+      ]
+    },
+    {
+      "parameters": {},
+      "id": "6fc3f74f-c374-4f90-af83-33777916b786",
+      "name": "Testar Agora (Manual)",
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        200,
+        480
+      ]
+    },
+    {
+      "parameters": {
+        "url": "https://chat.vxautomation.com.br/api/v1/accounts/1/conversations",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "api_access_token",
+              "value": "225uXmdyRZfcQ4HhGeYzMZwF"
+            }
+          ]
+        },
+        "sendQuery": true,
+        "queryParameters": {
+          "parameters": [
+            {
+              "name": "status",
+              "value": "open"
+            },
+            {
+              "name": "page",
+              "value": "1"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "a330767b-b9e0-4faf-8277-b3fe962bceaf",
+      "name": "Buscar Conversas Abertas no Chatwoot",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        460,
+        380
+      ]
+    },
+    {
+      "parameters": {
+        "jsCode": "// ========================================================\n// AUDITORIA DIÁRIA: CONVERSAS ABERTAS HÁ MAIS DE 24H\n// ========================================================\n// Deixe 'true' para testar no seu número pessoal (ID 1511)\n// Mude para 'false' para enviar aos 2 números oficiais (IDs 125 e 4)\nconst MODO_TESTE = true;\n\nconst DESTINATARIOS_TESTE = [\n  { contact_id: 1511, nome_dest: 'Vinicius (Teste)' }\n];\n\nconst DESTINATARIOS_PRODUCAO = [\n  { contact_id: 125, nome_dest: 'Montreal (+55 41 93618-3407)' },\n  { contact_id: 4, nome_dest: 'Gestão (+55 41 8809-7503)' }\n];\n\nconst DESTINATARIOS = MODO_TESTE ? DESTINATARIOS_TESTE : DESTINATARIOS_PRODUCAO;\n\nconst responseData = $input.first().json;\nconst payload = responseData.data?.payload || responseData.payload || [];\n\nconst nowSec = Math.floor(Date.now() / 1000);\nconst hojeData = new Date().toLocaleDateString('pt-BR', { timeZone: 'America/Sao_Paulo', day: '2-digit', month: '2-digit' });\n\nconst conversasAbertas = [];\n\nfunction formatarTempoAberto(segundos) {\n  const dias = Math.floor(segundos / 86400);\n  const horas = Math.floor((segundos % 86400) / 3600);\n  if (dias > 0) return `${dias}d ${horas}h`;\n  return `${horas}h`;\n}\n\nfor (const conv of payload) {\n  if (conv.status !== 'open') continue;\n\n  const convId = conv.id;\n  const labels = conv.labels || [];\n  const sender = conv.meta?.sender || {};\n  const clienteNome = sender.name || 'Cliente sem nome';\n  const assignee = conv.meta?.assignee?.name || '⚠️ Não atribuído';\n  const chatwootLink = `https://chat.vxautomation.com.br/app/accounts/1/conversations/${convId}`;\n\n  const lastActivityAt = conv.last_activity_at || conv.created_at || nowSec;\n  const tempoAbertoTotal = nowSec - lastActivityAt;\n\n  // Abertas há mais de 24 horas (86400s)\n  if (tempoAbertoTotal >= (24 * 3600)) {\n    conversasAbertas.push({\n      id: convId,\n      nome: clienteNome,\n      atendente: assignee,\n      tempoStr: formatarTempoAberto(tempoAbertoTotal),\n      labelsStr: labels.length > 0 ? labels.map(l => `#${l}`).join(' ') : 'Sem etiqueta',\n      link: chatwootLink\n    });\n  }\n}\n\nif (conversasAbertas.length === 0) {\n  return [{ json: { tem_pendencias: false, mensagem: 'Nenhuma conversa estagnada >24h hoje!', contact_id: null } }];\n}\n\nlet msg = `📋 *MONTREAL | Auditoria Diária de Conversas (>24h)*\\n`;\nmsg += `📅 *Relatório de ${hojeData}*\\n\\n`;\nmsg += `Existem *${conversasAbertas.length} conversa(s)* abertas há mais de 1 dia:\\n\\n`;\n\nconst exibidas = conversasAbertas.slice(0, 10);\nexibidas.forEach((c, i) => {\n  msg += `${i + 1}. *${c.nome}* (${c.tempoStr})\\n`;\n  msg += `   👤 Resp: *${c.atendente}* | 🏷️ ${c.labelsStr}\\n`;\n  msg += `   🔗 ${c.link}\\n\\n`;\n});\n\nif (conversasAbertas.length > 10) {\n  msg += `_(e mais ${conversasAbertas.length - 10} conversas abertas no Chatwoot)_\\n\\n`;\n}\n\nmsg += `💡 *Ação da Secretaria:* Favor dar andamento, enviar follow-up ou marcar a conversa como 'Resolvida' no Chatwoot!`;\n\nreturn DESTINATARIOS.map(dest => ({\n  json: {\n    tem_pendencias: true,\n    contact_id: dest.contact_id,\n    nome_dest: dest.nome_dest,\n    mensagem: msg,\n    total_abertas: conversasAbertas.length\n  }\n}));"
+      },
+      "id": "2b6cec45-d67d-4e2e-aeb8-0cde2866d930",
+      "name": "Filtrar Conversas Abertas >24h",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        700,
+        380
+      ]
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "f39d4e2e-350e-4221-828f-3ab87c5ac25f",
+              "leftValue": "={{ $json.tem_pendencias }}",
+              "rightValue": true,
+              "operator": {
+                "type": "boolean",
+                "operation": "equals"
+              }
+            }
+          ],
+          "combinator": "and"
+        }
+      },
+      "id": "42f361b5-8126-4cc8-a078-2efca174d9c7",
+      "name": "Tem Conversas >24h?",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [
+        940,
+        380
+      ]
+    },
+    {
+      "parameters": {
+        "operation": "create",
+        "accountId": {
+          "__rl": true,
+          "value": "1",
+          "mode": "list"
+        },
+        "inboxId": {
+          "__rl": true,
+          "value": "7",
+          "mode": "list"
+        },
+        "contactId": "={{ $json.contact_id }}"
+      },
+      "id": "b37eb9b3-3eb2-42e7-a675-7d6d0f08829f",
+      "name": "Obter / Criar Conversa",
+      "type": "@fazer-ai/n8n-nodes-chatwoot.chatwoot",
+      "typeVersion": 1,
+      "position": [
+        1180,
+        380
+      ],
+      "credentials": {
+        "fazerAiChatwootApi": {
+          "id": "fB0aqKwNZZKGeE0W",
+          "name": "Chatwoot fazer.ai account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "operation": "sendMessage",
+        "accountId": {
+          "__rl": true,
+          "value": "1",
+          "mode": "list"
+        },
+        "inboxId": {
+          "__rl": true,
+          "value": "7",
+          "mode": "list"
+        },
+        "conversationId": "={{ $json.id }}",
+        "content": "={{ $('Filtrar Conversas Abertas >24h').item.json.mensagem }}",
+        "additionalFields": {}
+      },
+      "id": "6ec3639c-7a34-4989-9715-fac4f47675ee",
+      "name": "Disparar Alerta no WhatsApp",
+      "type": "@fazer-ai/n8n-nodes-chatwoot.chatwoot",
+      "typeVersion": 1,
+      "position": [
+        1420,
+        380
+      ],
+      "credentials": {
+        "fazerAiChatwootApi": {
+          "id": "fB0aqKwNZZKGeE0W",
+          "name": "Chatwoot fazer.ai account"
+        }
+      }
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Disparo Diário às 08h30 (Seg a Sáb)": {
+      "main": [
+        [
+          {
+            "node": "Buscar Conversas Abertas no Chatwoot",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Testar Agora (Manual)": {
+      "main": [
+        [
+          {
+            "node": "Buscar Conversas Abertas no Chatwoot",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Buscar Conversas Abertas no Chatwoot": {
+      "main": [
+        [
+          {
+            "node": "Filtrar Conversas Abertas >24h",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Filtrar Conversas Abertas >24h": {
+      "main": [
+        [
+          {
+            "node": "Tem Conversas >24h?",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Tem Conversas >24h?": {
+      "main": [
+        [
+          {
+            "node": "Obter / Criar Conversa",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Obter / Criar Conversa": {
+      "main": [
+        [
+          {
+            "node": "Disparar Alerta no WhatsApp",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "versionId": "f4ed9454-a04f-4739-b4fb-2a814a8f83aa",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "33738330930e3881dd5571eca013f36ddf8aab20e4ea5c1f2ebaf4a2b4668ac6"
+  },
+  "id": "montreal-auditoria-24h",
+  "tags": []
+}
