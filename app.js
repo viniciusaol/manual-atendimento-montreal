@@ -1158,7 +1158,7 @@ document.addEventListener('DOMContentLoaded', () => {
     };
 
     try {
-      await fetch(SUPABASE_REST_URL, {
+      await fetch(`${SUPABASE_REST_URL}?on_conflict=date_key,task_id`, {
         method: 'POST',
         headers: {
           'apikey': SUPABASE_ANON_KEY,
@@ -1184,7 +1184,7 @@ document.addEventListener('DOMContentLoaded', () => {
   async function loadRemoteChecklist() {
     const todayStr = getTodayKey();
     try {
-      const res = await fetch(`${SUPABASE_REST_URL}?date_key=eq.${todayStr}&select=*`, {
+      const res = await fetch(`${SUPABASE_REST_URL}?date_key=eq.${todayStr}&order=completed_at.asc&select=*`, {
         headers: {
           'apikey': SUPABASE_ANON_KEY,
           'Authorization': `Bearer ${SUPABASE_ANON_KEY}`
