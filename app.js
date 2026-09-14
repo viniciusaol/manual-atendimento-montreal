@@ -1176,8 +1176,9 @@ document.addEventListener('DOMContentLoaded', () => {
   function loadChecklistState() {
     updateDateLabel();
     const dailyKey = getDailyStorageKey();
-    const saved = localStorage.getItem(dailyKey) || localStorage.getItem(CHECKLIST_STORAGE_KEY);
+    const saved = localStorage.getItem(dailyKey);
     if (!saved) {
+      allCheckboxes.forEach(cb => cb.checked = false);
       updateShiftProgress();
       loadRemoteChecklist();
       return;
@@ -1204,7 +1205,6 @@ document.addEventListener('DOMContentLoaded', () => {
       if (id) states[id] = cb.checked;
     });
     localStorage.setItem(getDailyStorageKey(), JSON.stringify(states));
-    localStorage.setItem(CHECKLIST_STORAGE_KEY, JSON.stringify(states));
     updateShiftProgress();
   }
 
