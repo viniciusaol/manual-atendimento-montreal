@@ -152,6 +152,28 @@
           </div>
         </div>
 
+        <!-- PROCEDIMENTO OPERACIONAL: LOCAÇÃO DE QUADRAS -->
+        <div class="card-box" style="margin-bottom: 24px; background: var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--radius-lg); padding: 20px;">
+          <h3 style="margin-top: 0; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; color: var(--text-primary); font-size: 1.05rem;">
+            <span>📍</span> Procedimento Operacional: Locação de Quadras & Baixa no Matchpoint
+          </h3>
+          <ol class="step-list" style="margin: 0; padding-left: 20px; line-height: 1.6; color: var(--text-secondary); font-size: 0.86rem;">
+            <li style="margin-bottom: 8px;">
+              <strong>1. Verifique a Disponibilidade no Matchpoint:</strong> Consulte o mapa de quadras no sistema para o dia e horário solicitado pelo cliente antes de responder.
+            </li>
+            <li style="margin-bottom: 8px;">
+              <strong>2. Responda no Chatwoot com o Script Oficial:</strong> Utilize a macro <code style="background: rgba(255,255,255,0.08); padding: 2px 6px; border-radius: 4px; color: #60a5fa;">#locacao-quadra</code>. O script oferece os links do App para autoatendimento e dá abertura para pagamento imediato via PIX.
+            </li>
+            <li>
+              <strong>3. Formas de Baixa e Confirmação:</strong>
+              <ul style="margin-top: 6px; padding-left: 18px; font-size: 0.82rem; color: var(--text-muted); line-height: 1.5;">
+                <li><strong>Pelo App Oficial:</strong> A baixa no Matchpoint é 100% automática e a quadra fica bloqueada na hora.</li>
+                <li><strong>Via PIX Direto:</strong> A secretária confere o comprovante com a chave CNPJ <code style="background: rgba(255,255,255,0.08); padding: 2px 6px; border-radius: 4px; color: #60a5fa;">63.999.199/0001-23</code> (Montreal Tênis Clube) e faz o bloqueio manual da quadra no mapa do Matchpoint.</li>
+              </ul>
+            </li>
+          </ol>
+        </div>
+
         <!-- SCRIPTS CARDS GRID -->
         <div class="cards-filter-bar">
           <span class="filter-label">Filtrar Scripts por Situação:</span>
@@ -712,60 +734,15 @@ Você prefere fazer essa reposição em qual dia da próxima semana? Já verific
         <div class="section-header">
           <div class="section-title-wrap">
             <span class="section-badge badge-sys">Pilar 2</span>
-            <h2>Sistema Matchpoint & Gestão de Quadras</h2>
-            <p>Procedimentos operacionais, links do aplicativo, orientações de reserva e vídeos demonstrativos.</p>
+            <h2>Sistema Matchpoint & Tutoriais em Vídeo</h2>
+            <p>Vídeos demonstrativos, tutoriais de operação do sistema e guias práticos.</p>
           </div>
         </div>
 
-        <!-- REGRAS DE LOCAÇÃO -->
-        <div class="info-banner">
-          <div class="info-grid">
-            <div class="info-item">
-              <span class="info-title">Valor Aluno Montreal</span>
-              <span class="info-val">R$ 90,00 /hora</span>
-            </div>
-            <div class="info-item">
-              <span class="info-title">Valor Não Aluno</span>
-              <span class="info-val">R$ 100,00 /hora</span>
-            </div>
-            <div class="info-item">
-              <span class="info-title">Regra Mandatória</span>
-              <span class="info-val highlight">Pagamento Prévio no App</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="sys-columns">
-          <div class="sys-instructions">
-            <h3>Procedimento Operacional: Locação de Quadras</h3>
-            <ol class="step-list">
-              <li>
-                <strong>1. Verifique a Disponibilidade no Matchpoint:</strong> Consulte o mapa de quadras no sistema para o dia e horário solicitado pelo cliente antes de responder.
-              </li>
-              <li>
-                <strong>2. Responda no Chatwoot com o Script Oficial:</strong> Utilize a macro <code>#locacao-quadra</code>. O script informa os valores (R$ 90 aluno / R$ 100 não-aluno), oferece os links do App para autoatendimento e dá abertura para pagamento imediato via PIX.
-              </li>
-              <li>
-                <strong>3. Formas de Baixa e Confirmação:</strong>
-                <ul style="margin-top:6px; padding-left:18px; font-size:0.82rem; color:var(--text-secondary); line-height:1.5;">
-                  <li><strong>Pelo App Oficial:</strong> A baixa no Matchpoint é 100% automática e a quadra fica bloqueada na hora.</li>
-                  <li><strong>Via PIX Direto:</strong> A secretária confere o comprovante com a chave CNPJ <code>63.999.199/0001-23</code> (Montreal Tênis Clube) e faz o bloqueio manual da quadra no mapa do Matchpoint.</li>
-                </ul>
-              </li>
-            </ol>
-
-            <div style="margin-top: 18px; padding: 14px; background: rgba(59, 130, 246, 0.08); border: 1px solid rgba(59, 130, 246, 0.25); border-radius: var(--radius-md);">
-              <small style="color: #93c5fd; display: block; font-weight: 700; margin-bottom: 4px;">💬 Scripts de Atendimento & Chave PIX:</small>
-              <p style="font-size: 0.8rem; color: var(--text-secondary); margin: 0; line-height: 1.4;">
-                As respostas prontas de locação e os dados bancários estão centralizados na aba <a href="#atendimento" style="color: var(--clay-primary); font-weight: 700; text-decoration: underline;">1. Atendimento Chatwoot</a> nas macros <code>#locacao-quadra</code> e <code>#dados-pix</code>.
-              </p>
-            </div>
-          </div>
-
-          <!-- AREA DE VIDEOS MATCHPOINT -->
-          <div class="video-tutorials-wrapper">
-            <h3>🎥 Vídeos Demonstrativos do Matchpoint</h3>
-            <p class="sub-text">Assista aos tutoriais gravados de como operar cada função no sistema:</p>
+        <!-- AREA DE VIDEOS MATCHPOINT -->
+        <div class="card-box">
+          <h3 style="margin-top:0; margin-bottom:6px;">🎥 Vídeos Demonstrativos & Tutoriais do Matchpoint</h3>
+          <p class="sub-text" style="color:var(--text-muted); font-size:0.85rem; margin-bottom:20px;">Assista aos tutoriais gravados de como operar cada função no sistema:</p>
 
             <div class="video-cards-list">
               
@@ -826,7 +803,6 @@ Você prefere fazer essa reposição em qual dia da próxima semana? Já verific
 
             </div>
           </div>
-        </div>
       </section>
 
       <!-- ============================================== -->
