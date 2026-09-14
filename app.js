@@ -863,6 +863,7 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     }
 
+    scriptMsg += `\n📅 *Vencimento das Mensalidades:* Os valores dos próximos meses são devidos na virada do mês e pagos até o dia 10.\n`;
     scriptMsg += `\nPodemos confirmar seus horários e garantir suas vagas?`;
     if (simScriptOutput) simScriptOutput.value = scriptMsg;
   }
