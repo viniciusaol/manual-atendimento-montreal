@@ -2446,3 +2446,399 @@ code[data-macro]:hover, .clickable-macro:hover {
   border-color: #f59e0b !important;
 }
 
+/* =========================================================
+   RESPONSIVE MOBILE STYLES (MODO CELULAR & TABLET)
+   ========================================================= */
+
+@media (max-width: 768px) {
+  /* 1. Base Layout & Touch Settings */
+  html, body {
+    overflow-x: hidden;
+    width: 100%;
+  }
+
+  /* 2. Topbar Navigation */
+  .topbar {
+    height: auto;
+    min-height: 56px;
+    padding: 10px 12px;
+    flex-wrap: wrap;
+    gap: 8px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+
+  .topbar-left {
+    gap: 8px;
+  }
+
+  .brand-ball {
+    font-size: 1.35rem;
+  }
+
+  .brand-title {
+    font-size: 0.88rem;
+    letter-spacing: 0.02em;
+  }
+
+  .brand-subtitle {
+    display: none; /* Hide subtitle on mobile to save vertical space */
+  }
+
+  .topbar-search {
+    order: 3;
+    max-width: 100%;
+    width: 100%;
+    margin: 4px 0 0 0;
+  }
+
+  .search-input-wrapper input {
+    height: 38px;
+    font-size: 0.82rem;
+    padding-left: 36px;
+    padding-right: 36px;
+  }
+
+  .search-icon {
+    left: 10px;
+  }
+
+  .search-kbd {
+    display: none !important; /* Hide keyboard shortcut hints on touchscreens */
+  }
+
+  .clear-search-btn {
+    right: 10px;
+  }
+
+  .topbar-actions {
+    gap: 6px;
+  }
+
+  .status-pill {
+    padding: 4px 8px;
+    font-size: 0.7rem;
+  }
+  .status-pill span:not(.pulse-dot) {
+    display: none; /* Keep pulse dot indicator only on mobile header */
+  }
+
+  /* 3. App Layout & Mobile Sticky Tab Bar */
+  .app-layout {
+    flex-direction: column;
+    min-height: auto;
+  }
+
+  .sidebar {
+    width: 100%;
+    border-right: none;
+    border-bottom: 1px solid var(--border-color);
+    padding: 6px 10px;
+    position: sticky;
+    top: 56px; /* Right under topbar */
+    z-index: 95;
+    background-color: var(--bg-surface);
+    backdrop-filter: blur(12px);
+  }
+
+  .sidebar-section {
+    width: 100%;
+  }
+
+  .sidebar-label {
+    display: none; /* Hide uppercase sidebar label on mobile horizontal tabs */
+  }
+
+  .sidebar-footer {
+    display: none; /* Hide side tip box on mobile */
+  }
+
+  .nav-list {
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    padding: 2px 0 4px 0;
+  }
+
+  .nav-list::-webkit-scrollbar {
+    display: none;
+  }
+
+  .nav-item {
+    flex-shrink: 0;
+    padding: 8px 12px;
+    border-radius: var(--radius-full);
+    font-size: 0.8rem;
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    margin: 0;
+  }
+
+  .nav-item::before {
+    display: none !important; /* Remove desktop vertical indicator bar */
+  }
+
+  .nav-item.active {
+    background-color: var(--clay-primary);
+    color: #ffffff !important;
+    border-color: var(--clay-primary);
+    box-shadow: var(--shadow-sm);
+  }
+
+  .nav-item.active .nav-text strong {
+    color: #ffffff !important;
+  }
+
+  .nav-text small {
+    display: none; /* Hide subheadings on mobile tabs to keep items compact */
+  }
+
+  .nav-text strong {
+    font-size: 0.78rem;
+    font-weight: 700;
+    white-space: nowrap;
+  }
+
+  .nav-tag {
+    display: none;
+  }
+
+  /* 4. Main Content Area */
+  .main-content {
+    padding: 16px 10px;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  /* 5. Section Headers & Quick Stats */
+  .section-header {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+    margin-bottom: 16px;
+  }
+
+  .section-title-wrap h2 {
+    font-size: 1.2rem;
+    line-height: 1.25;
+  }
+
+  .section-title-wrap p {
+    font-size: 0.8rem;
+  }
+
+  .quick-stats {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+    width: 100%;
+  }
+
+  .stat-box {
+    padding: 8px 10px;
+    width: 100%;
+  }
+
+  .stat-num {
+    font-size: 1rem;
+  }
+
+  .stat-label {
+    font-size: 0.65rem;
+  }
+
+  /* 6. Filter Bar & Chips Horizontal Scroll */
+  .cards-filter-bar {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    padding-bottom: 6px;
+    margin-bottom: 14px;
+    gap: 6px;
+    scrollbar-width: none;
+  }
+  .cards-filter-bar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .filter-label {
+    display: none; /* Hide label to save horizontal space on mobile */
+  }
+
+  .filter-chip {
+    flex-shrink: 0;
+    padding: 6px 12px;
+    font-size: 0.75rem;
+    white-space: nowrap;
+  }
+
+  /* 7. Scripts Grid & Cards */
+  .scripts-grid {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+
+  .script-card {
+    padding: 14px 12px;
+  }
+
+  .script-card-header {
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .script-actions {
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  .btn-copy, .btn-edit {
+    min-height: 38px;
+    padding: 8px 14px;
+    font-size: 0.8rem;
+  }
+
+  .script-box {
+    padding: 12px;
+    font-size: 0.84rem;
+    line-height: 1.5;
+  }
+
+  /* 8. Override Inline Grid Columns for Procedures and Cards */
+  div[style*="grid-template-columns"] {
+    grid-template-columns: 1fr !important;
+  }
+
+  /* 9. Simulador de Mensalidades (Calculator) Mobile Layout */
+  .simulator-wrapper {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .sim-card {
+    padding: 16px 12px;
+  }
+
+  .sim-card h3 {
+    font-size: 1.05rem;
+    margin-bottom: 14px;
+  }
+
+  .pill-selector {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 6px;
+  }
+
+  .pill-btn {
+    padding: 10px 4px;
+    font-size: 0.75rem;
+  }
+
+  .form-select, .form-input {
+    height: 44px; /* Optimal touch target size */
+    font-size: 16px; /* Prevents auto-zoom on iOS Safari focus */
+  }
+
+  .radio-box, .checkbox-box {
+    padding: 12px;
+    min-height: 44px;
+  }
+
+  .calc-breakdown {
+    padding: 12px;
+  }
+
+  .calc-row {
+    font-size: 0.82rem;
+  }
+
+  .calc-row.total {
+    font-size: 1rem;
+  }
+
+  /* 10. Checklists & Tables Horizontal Scroll */
+  .table-responsive-wrapper, .table-container {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    width: 100%;
+  }
+
+  .checklist-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  .checklist-item {
+    padding: 12px 10px;
+  }
+
+  .checklist-item input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    flex-shrink: 0;
+  }
+
+  /* 11. Reports, Videos & Stats Grids */
+  .reports-grid, .video-grid, .tag-stats-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  /* 12. Modals & Overlay Dropdowns */
+  .search-dropdown {
+    position: fixed;
+    top: 110px;
+    left: 12px;
+    right: 12px;
+    max-height: 70vh;
+    width: auto;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.7);
+  }
+
+  .modal-content {
+    width: 94% !important;
+    max-width: 94% !important;
+    padding: 18px 14px !important;
+    max-height: 88vh;
+    overflow-y: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .brand-title {
+    font-size: 0.82rem;
+  }
+
+  .section-title-wrap h2 {
+    font-size: 1.1rem;
+  }
+
+  .quick-stats {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .btn-copy, .btn-edit {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .script-actions {
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .calc-actions {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .calc-actions button {
+    width: 100%;
+  }
+}
+
+
