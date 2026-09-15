@@ -2,7 +2,7 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests; block-all-mixed-content">
   <script>
     if (location.protocol === 'http:' && location.hostname !== 'localhost' && location.hostname !== '127.0.0.1') {
       location.replace('https://' + location.host + location.pathname + location.search + location.hash);
@@ -13,7 +13,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css?v=20260914_vencimento_v6">
+  <link rel="stylesheet" href="style.css?v=20260914_security_v7">
 </head>
 <body class="theme-dark">
 
@@ -824,7 +824,7 @@ Você prefere fazer essa reposição em qual dia da próxima semana? Já verific
                   </div>
                   <!-- Tag de vídeo real para ser preenchida com Loom/MP4 -->
                   <div class="video-real-container" style="display:none;">
-                    <iframe src="" frameborder="0" allowfullscreen></iframe>
+                    <iframe src="about:blank" frameborder="0" allowfullscreen></iframe>
                   </div>
                 </div>
                 <div class="video-details">
@@ -1626,6 +1626,6 @@ Você prefere fazer essa reposição em qual dia da próxima semana? Já verific
   </div>
 
   <!-- JAVASCRIPT LOGIC -->
-  <script src="app.js?v=20260914_vencimento_v6"></script>
+  <script src="app.js?v=20260914_security_v7"></script>
 </body>
 </html>
