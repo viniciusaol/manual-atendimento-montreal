@@ -2441,7 +2441,7 @@ code[data-macro]:hover, .clickable-macro:hover {
   100% { transform: scale(1); box-shadow: 0 0 0 0 rgba(245, 158, 11, 0); }
 }
 
-.script-card.highlight-pulse {
+.script-card.highlight-pulse, .card-box.highlight-pulse, .highlight-pulse {
   animation: macroPulse 1.2s ease-in-out 2;
   border-color: #f59e0b !important;
 }

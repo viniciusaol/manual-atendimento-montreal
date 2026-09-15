@@ -435,20 +435,35 @@ document.addEventListener('DOMContentLoaded', () => {
     searchDropdown.style.display = 'block';
 
     // Click handler on search items
-    searchDropdown.querySelectorAll('.search-result-item').forEach((el, index) => {
+    searchDropdown.querySelectorAll('.search-result-item').forEach((el) => {
       el.addEventListener('click', () => {
-        const item = matches[index];
+        const idx = parseInt(el.getAttribute('data-idx'));
+        const item = matches[idx];
+        if (!item) return;
+
         switchTab(item.tabId);
         searchDropdown.style.display = 'none';
         searchInput.value = '';
         clearSearchBtn.style.display = 'none';
 
-        // Scroll into card with glow
+        // Reset filter chips to 'all' to guarantee card visibility
+        const filterChips = document.querySelectorAll('.filter-chip');
+        filterChips.forEach(c => {
+          if (c.getAttribute('data-filter') === 'all') c.classList.add('active');
+          else c.classList.remove('active');
+        });
+        document.querySelectorAll('.script-card').forEach(c => c.style.display = 'flex');
+
+        // Scroll into card with golden pulse animation
         if (item.elem && item.elem.scrollIntoView) {
           setTimeout(() => {
             item.elem.scrollIntoView({ behavior: 'smooth', block: 'center' });
-            item.elem.style.boxShadow = '0 0 0 3px var(--clay-primary)';
-            setTimeout(() => { item.elem.style.boxShadow = ''; }, 2000);
+            item.elem.classList.remove('highlight-pulse');
+            void item.elem.offsetWidth; // trigger reflow
+            item.elem.classList.add('highlight-pulse');
+            setTimeout(() => {
+              item.elem.classList.remove('highlight-pulse');
+            }, 2500);
           }, 150);
         }
       });
