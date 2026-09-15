@@ -13,7 +13,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css?v=20260915_search_v10">
+  <link rel="stylesheet" href="style.css?v=20260915_reposicao_v9">
 </head>
 <body class="theme-dark">
 
@@ -219,7 +219,32 @@
               </ol>
             </div>
 
+            <!-- PROC 3: SOLICITAÇÃO & AGENDAMENTO DE REPOSIÇÕES -->
+            <div style="background: rgba(255, 255, 255, 0.02); border: 1px solid rgba(255, 255, 255, 0.06); border-radius: var(--radius-md); padding: 16px;">
+              <h4 style="margin-top: 0; margin-bottom: 12px; color: #10b981; font-size: 0.95rem; display: flex; align-items: center; gap: 6px;">
+                <span>🔄</span> 3. Solicitação & Agendamento de Reposições
+              </h4>
 
+              <ol class="step-list" style="margin: 0; padding-left: 18px; line-height: 1.55; color: var(--text-secondary); font-size: 0.83rem;">
+                <li style="margin-bottom: 8px;">
+                  <strong>1️⃣ Recebimento & Status da Matrícula:</strong> Receba a solicitação do aluno e verifique se a <strong>matrícula está ativa</strong> no sistema.
+                </li>
+                <li style="margin-bottom: 8px;">
+                  <strong>2️⃣ Alinhamento Interno com o Professor:</strong> Notifique o professor (via Nota Privada no Chatwoot) para consultar turmas que tenham <strong>vaga disponível e nível técnico compatível</strong>.
+                </li>
+                <li style="margin-bottom: 8px;">
+                  <strong>3️⃣ Comunicação das Regras Oficiais:</strong> Envie o script <code style="background: rgba(255,255,255,0.08); padding: 2px 5px; border-radius: 4px; color: #60a5fa;">#regra-reposicao</code> informando que o professor foi acionado e reforçando as regras:
+                  <ul style="margin-top: 4px; padding-left: 16px; font-size: 0.8rem; color: var(--text-muted); line-height: 1.4;">
+                    <li><strong>Formato:</strong> Sempre em <strong>Grupo (até 4 alunos)</strong> (independentemente do plano original ser individual, dupla ou grupo).</li>
+                    <li><strong>Condições:</strong> Sujeita à compatibilidade de nível técnico e disponibilidade de vaga.</li>
+                    <li><strong>Validade:</strong> Válida apenas <strong>enquanto a matrícula estiver ativa</strong> (cancelando a matrícula, as reposições pendentes não são realizadas).</li>
+                  </ul>
+                </li>
+                <li>
+                  <strong>4️⃣ Confirmação do Agendamento:</strong> Assim que o professor liberar o horário da vaga, envie a mensagem de confirmação para o aluno com <strong>Dia, Horário e Professor</strong>.
+                </li>
+              </ol>
+            </div>
 
           </div>
         </div>
@@ -435,8 +460,6 @@ A partir do segundo mês, passa a vigorar o valor normal da sua mensalidade fixa
 Caso precise de qualquer auxílio com chaves PIX ou faturas, nossa secretaria está sempre à disposição! 🎾</div>
           </article>
 
-          </article>
-
           <!-- SCRIPT 7: FOLLOW-UP COM VAGA DO PROFESSOR -->
           <article class="script-card" data-category="fup" data-keywords="follow up retorno professor vaga horario disponibilidade sequencia">
             <div class="script-card-header">
@@ -623,7 +646,7 @@ Caso queira jogar no feriado de forma recreativa com amigos, as quadras ficam di
           </article>
 
           <!-- SCRIPT 15: REPOSIÇÃO POR FALTA DO ALUNO -->
-          <article class="script-card" data-category="regras" data-keywords="reposicao falta aviso previo 24h ausencia remarcar">
+          <article class="script-card" data-category="regras" data-keywords="reposicao falta aviso previo 24h ausencia remarcar grupo matricula ativa">
             <div class="script-card-header">
               <div class="script-meta">
                 <span class="script-tag tag-rule">Regra Oficial</span>
@@ -635,14 +658,16 @@ Caso queira jogar no feriado de forma recreativa com amigos, as quadras ficam di
             </div>
             <h4>Regra de Reposição por Falta do Aluno (Aviso Prévio 24h)</h4>
             <p class="script-context"><strong>Quando usar:</strong> Aluno avisa com antecedência que não poderá comparecer à aula.</p>
-            <div class="script-box" id="script-reposicao">Olá, [Nome]! Obrigado por nos avisar com antecedência. 🙏
+            <div class="script-box" id="script-reposicao">Olá, [Nome]! Tudo bem? 🎾✨
 
-Já registrei sua ausência aqui no sistema e avisei o professor [Nome].
+Com certeza! Já registrei o seu pedido de reposição por aqui.
 
-📌 Como funciona a reposição:
-Como você nos avisou com antecedência (mínimo de 24h), você tem direito a agendar uma aula de reposição dentro do prazo de 30 dias.
+Como funcionam as nossas reposições na Montreal:
+1️⃣ As reposições são realizadas sempre em formato de Aula em Grupo, garantindo que você treine em uma turma com nível técnico compatível com o seu.
+2️⃣ Já comuniquei o professor! Ele vai verificar a grade e a disponibilidade de vagas nas turmas com o seu perfil. Assim que ele nos passar o horário liberado, te chamamos aqui para confirmar o seu agendamento. 😉
+3️⃣ As reposições são válidas e podem ser agendadas durante toda a vigência da sua matrícula ativa aqui no clube.
 
-Você prefere fazer essa reposição em qual dia da próxima semana? Já verifico uma turma compatível para você!</div>
+Qualquer dúvida ou preferência de turno (manhã, tarde ou noite), fico à disposição! 🚀</div>
           </article>
 
         </div>
@@ -1630,6 +1655,6 @@ Você prefere fazer essa reposição em qual dia da próxima semana? Já verific
   </div>
 
   <!-- JAVASCRIPT LOGIC -->
-  <script src="app.js?v=20260915_search_v10"></script>
+  <script src="app.js?v=20260915_reposicao_v9"></script>
 </body>
 </html>
