@@ -435,35 +435,20 @@ document.addEventListener('DOMContentLoaded', () => {
     searchDropdown.style.display = 'block';
 
     // Click handler on search items
-    searchDropdown.querySelectorAll('.search-result-item').forEach((el) => {
+    searchDropdown.querySelectorAll('.search-result-item').forEach((el, index) => {
       el.addEventListener('click', () => {
-        const idx = parseInt(el.getAttribute('data-idx'));
-        const item = matches[idx];
-        if (!item) return;
-
+        const item = matches[index];
         switchTab(item.tabId);
         searchDropdown.style.display = 'none';
         searchInput.value = '';
         clearSearchBtn.style.display = 'none';
 
-        // Reset filter chips to 'all' to guarantee card visibility
-        const filterChips = document.querySelectorAll('.filter-chip');
-        filterChips.forEach(c => {
-          if (c.getAttribute('data-filter') === 'all') c.classList.add('active');
-          else c.classList.remove('active');
-        });
-        document.querySelectorAll('.script-card').forEach(c => c.style.display = 'flex');
-
-        // Scroll into card with golden pulse animation
+        // Scroll into card with glow
         if (item.elem && item.elem.scrollIntoView) {
           setTimeout(() => {
             item.elem.scrollIntoView({ behavior: 'smooth', block: 'center' });
-            item.elem.classList.remove('highlight-pulse');
-            void item.elem.offsetWidth; // trigger reflow
-            item.elem.classList.add('highlight-pulse');
-            setTimeout(() => {
-              item.elem.classList.remove('highlight-pulse');
-            }, 2500);
+            item.elem.style.boxShadow = '0 0 0 3px var(--clay-primary)';
+            setTimeout(() => { item.elem.style.boxShadow = ''; }, 2000);
           }, 150);
         }
       });
@@ -618,6 +603,11 @@ document.addEventListener('DOMContentLoaded', () => {
             <option value="1.00" ${w.prop === 1.00 ? 'selected' : ''}>4 treinos restantes / Mês cheio (100%)</option>
           </select>
         </div>
+
+        <div class="workout-card-price-preview" style="margin-top:10px; padding:6px 10px; background:rgba(255,255,255,0.04); border-radius:6px; font-size:0.78rem; display:flex; justify-content:space-between; align-items:center;">
+          <span style="color:var(--text-muted);">Valor mensal deste treino:</span>
+          <strong class="workout-calculated-val" style="color:#60a5fa; font-weight:700;">R$ 0,00</strong>
+        </div>
       `;
 
       const selFormat = card.querySelector('.select-workout-format');
@@ -687,8 +677,12 @@ document.addEventListener('DOMContentLoaded', () => {
     if (txtGradeTotalTreinos) {
       txtGradeTotalTreinos.textContent = `${totalAulasSemanais} treino${totalAulasSemanais > 1 ? 's' : ''} por semana`;
     }
+    const temAlgumNaoNobre = studentWorkouts.some(w => w.isNaoNobre || BASE_PRICES[w.formatKey]?.onlyNonPeak);
     if (badgeBeneficioFreq) {
-      if (totalAulasSemanais === 1) {
+      if (temAlgumNaoNobre) {
+        badgeBeneficioFreq.className = 'badge-pill bg-purple';
+        badgeBeneficioFreq.textContent = '⏰ Horário 10h–15h: 12% OFF (Teto Máximo)';
+      } else if (totalAulasSemanais === 1) {
         badgeBeneficioFreq.className = 'badge-pill bg-blue';
         badgeBeneficioFreq.textContent = 'Tabela Base (1x)';
       } else if (totalAulasSemanais === 2) {
@@ -762,6 +756,16 @@ document.addEventListener('DOMContentLoaded', () => {
         propTxt,
         propVal: propValTreino
       });
+
+      // Atualiza o valor calculado no card visual do treino
+      const cardEl = workoutsList ? workoutsList.children[idx] : null;
+      if (cardEl) {
+        const valEl = cardEl.querySelector('.workout-calculated-val');
+        if (valEl) {
+          const temDesc = mensalTreino < basePrice;
+          valEl.textContent = temDesc ? `${formatBRL(mensalTreino)} /mês (com desc.)` : `${formatBRL(mensalTreino)} /mês`;
+        }
+      }
     });
 
     mensalidadeRegularTotal = Math.round(mensalidadeRegularTotal * 100) / 100;
@@ -783,13 +787,14 @@ document.addEventListener('DOMContentLoaded', () => {
     // Desconto Não Nobre
     if (temNaoNobre) {
       rowDescNobre.style.display = 'flex';
-      resDescNobre.textContent = '12% OFF nos treinos das 10h às 15h';
+      const econNobre = somaBaseTotal - mensalidadeRegularTotal;
+      resDescNobre.textContent = `Economia de ${formatBRL(econNobre)} (12% OFF)`;
     } else {
       rowDescNobre.style.display = 'none';
     }
 
-    // Desconto Frequência
-    if (pctFreq > 0) {
+    // Desconto Frequência (só exibe se não for tarifa 10h-15h, pois 10h-15h não acumula)
+    if (pctFreq > 0 && !temNaoNobre) {
       rowDescFreq.style.display = 'flex';
       txtDescFreq.textContent = `${(pctFreq * 100).toFixed(0)}%`;
       const econFreq = somaBaseTotal - mensalidadeRegularTotal;
@@ -852,13 +857,16 @@ document.addEventListener('DOMContentLoaded', () => {
     } else {
       scriptMsg += `📋 *Composição da sua Grade Semanal (${totalAulasSemanais} treinos/semana):*\n`;
       treinosDetalhes.forEach(t => {
-        scriptMsg += `• *Treino #${t.num}:* ${t.nome} (Base: ${formatBRL(t.base)}${t.isNaoNobre ? ' • 10h-15h 12% OFF' : ''})\n`;
+        const obsDesc = t.isNaoNobre 
+          ? ' (10h-15h 12% OFF)' 
+          : (t.descPct > 0 ? ` (${(t.descPct * 100).toFixed(0)}% OFF)` : '');
+        scriptMsg += `• *Treino #${t.num}:* ${t.nome} — *${formatBRL(t.mensalRegular)}/mês*${obsDesc}\n`;
       });
 
-      if (pctFreq > 0) {
+      if (pctFreq > 0 && !temNaoNobre) {
         scriptMsg += `\n🏃 *Desconto de Frequência (${totalAulasSemanais}x na semana):* ${(pctFreq * 100).toFixed(0)}% OFF sobre os treinos!\n`;
       }
-      if (pctFamilia > 0) {
+      if (pctFamilia > 0 && !temNaoNobre) {
         scriptMsg += `👨‍👩‍👧 *Plano Família:* ${(pctFamilia * 100).toFixed(0)}% OFF cumulativo\n`;
       }
       scriptMsg += `\n💰 *Valor da Mensalidade Regular da Grade:* ${formatBRL(mensalidadeRegularTotal)} /mês\n`;
