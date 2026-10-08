@@ -93,6 +93,8 @@ document.addEventListener('DOMContentLoaded', () => {
   // --------------------------------------------------------
   // 2.1 INLINE SCRIPT EDITING & DUAL PERSISTENCE (LOCAL + SUPABASE)
   // --------------------------------------------------------
+  const SUPABASE_REST_URL = 'https://ehhjnwosqcrfwonqhfoz.supabase.co/rest/v1/mt_daily_checklist_logs';
+  const SUPABASE_ANON_KEY = 'sb_publishable_kYqGp1MgzhhD3DmW0WTfig_TQVODJ8r';
   const SCRIPTS_STORAGE_KEY = 'montreal_custom_scripts_v1';
 
   function loadSavedCustomScripts() {
@@ -165,11 +167,12 @@ document.addEventListener('DOMContentLoaded', () => {
         }
       }
     } catch (e) {
-      // Fallback silencioso
+      console.warn('Erro ao carregar scripts da nuvem:', e);
     }
   }
 
   function applyAllCustomScripts(customScripts) {
+    let localChanged = false;
     document.querySelectorAll('.script-card').forEach(card => {
       const scriptBox = card.querySelector('.script-box');
       if (!scriptBox) return;
@@ -178,10 +181,12 @@ document.addEventListener('DOMContentLoaded', () => {
       if (!scriptBox.hasAttribute('data-default-text')) {
         scriptBox.setAttribute('data-default-text', scriptBox.innerText.trim());
       }
+      const defaultText = scriptBox.getAttribute('data-default-text');
 
       const scriptMeta = card.querySelector('.script-meta');
-      if (customScripts[scriptId]) {
-        scriptBox.innerText = customScripts[scriptId];
+      const customText = customScripts[scriptId];
+      if (customText && customText.trim() !== defaultText.trim()) {
+        scriptBox.innerText = customText;
         if (scriptMeta && !scriptMeta.querySelector('.tag-edited')) {
           const badge = document.createElement('span');
           badge.className = 'script-tag tag-edited';
@@ -189,12 +194,18 @@ document.addEventListener('DOMContentLoaded', () => {
           scriptMeta.appendChild(badge);
         }
       } else {
-        const defaultText = scriptBox.getAttribute('data-default-text');
         if (defaultText) scriptBox.innerText = defaultText;
         const badge = scriptMeta ? scriptMeta.querySelector('.tag-edited') : null;
         if (badge) badge.remove();
+        if (customText) {
+          delete customScripts[scriptId];
+          localChanged = true;
+        }
       }
     });
+    if (localChanged) {
+      saveCustomScripts(customScripts);
+    }
   }
 
   const customScripts = loadSavedCustomScripts();
@@ -1159,8 +1170,6 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   // 4. Progresso e Persistência dos Checklists (Diário + Supabase)
-  const SUPABASE_REST_URL = 'https://ehhjnwosqcrfwonqhfoz.supabase.co/rest/v1/mt_daily_checklist_logs';
-  const SUPABASE_ANON_KEY = 'sb_publishable_kYqGp1MgzhhD3DmW0WTfig_TQVODJ8r';
 
   function getTodayKey() {
     return new Date().toLocaleDateString('sv-SE', { timeZone: 'America/Sao_Paulo' }); // Formato: YYYY-MM-DD
